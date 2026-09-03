@@ -15,3 +15,15 @@
 
 ## Known gaps (open business inputs)
 - Akij procurement prices/volumes · cost components · formulations · time series · supplier records.
+
+## [0.2.0] — 2026-09-04 — Gap completion
+- Sample forecast (Naïve / MA(3) / Exponential Smoothing over 6 anchors + leave-one-out MAPE), labelled SAMPLE.
+- Landed cost COMPLETE using actual NBR import (CIF) unit value + implied logistics premium.
+- Savings ESTIMATE (landed − best origin × volume).
+- Feed-cost impact ESTIMATE using Bangladesh CPI 8.32% (Jul 2026, Bangladesh Bank / Trading Economics).
+- Scenario engine SIMULATION (index sensitivity to key-input shocks).
+- Supplier intelligence from NBR exporter names (403 suppliers).
+- Full country names (ISO-2 → name) across origins/suppliers.
+- Market Signals view fed by the feed-intelligence MCP (10 signals, WoW movers, trajectory, predictions).
+- Dynamic-color UI (teal/gold/blue/soft-red palette) + Supplier/Signals views.
+- QA extended to 18 tests.
