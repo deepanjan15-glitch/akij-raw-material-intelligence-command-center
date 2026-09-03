@@ -15,7 +15,7 @@
    "market": null,
    "specification": "Corn CIF Japan $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0018-monthly-avg",
@@ -31,7 +31,7 @@
    "market": null,
    "specification": "Corn CIF Japan $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0067-current",
@@ -47,7 +47,7 @@
    "market": null,
    "specification": "Corn FOB CVB €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0067-monthly-avg",
@@ -63,7 +63,7 @@
    "market": null,
    "specification": "Corn FOB CVB €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0066-current",
@@ -79,7 +79,7 @@
    "market": null,
    "specification": "Corn CPT Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0066-monthly-avg",
@@ -95,7 +95,7 @@
    "market": null,
    "specification": "Corn CPT Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0096-current",
@@ -111,7 +111,7 @@
    "market": "Toledo",
    "specification": "Corn, basis (premium or discount to CME), fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0096-monthly-avg",
@@ -127,7 +127,7 @@
    "market": "Toledo",
    "specification": "Corn, basis (premium or discount to CME), fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0092-current",
@@ -143,7 +143,7 @@
    "market": "Minneapolis",
    "specification": "Corn, basis (premium or discount to CME), fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0092-monthly-avg",
@@ -159,7 +159,7 @@
    "market": "Minneapolis",
    "specification": "Corn, basis (premium or discount to CME), fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0089-current",
@@ -175,7 +175,7 @@
    "market": "Decatur",
    "specification": "Corn, fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0089-monthly-avg",
@@ -191,7 +191,7 @@
    "market": "Decatur",
    "specification": "Corn, fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0130-current",
@@ -207,7 +207,7 @@
    "market": null,
    "specification": "Corn, fob Ponta Grossa, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0130-monthly-avg",
@@ -223,7 +223,7 @@
    "market": null,
    "specification": "Corn, fob Ponta Grossa, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0127-current",
@@ -239,7 +239,7 @@
    "market": null,
    "specification": "Corn, fas Santos, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0127-monthly-avg",
@@ -255,7 +255,7 @@
    "market": null,
    "specification": "Corn, fas Santos, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0132-current",
@@ -271,7 +271,7 @@
    "market": null,
    "specification": "Corn fob Brazil Northern Arc Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0132-monthly-avg",
@@ -287,7 +287,7 @@
    "market": null,
    "specification": "Corn fob Brazil Northern Arc Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0131-current",
@@ -303,7 +303,7 @@
    "market": null,
    "specification": "Corn fob Brazil Northern Arc $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0131-monthly-avg",
@@ -319,7 +319,7 @@
    "market": null,
    "specification": "Corn fob Brazil Northern Arc $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0074-current",
@@ -335,7 +335,7 @@
    "market": "Us Gulf",
    "specification": "Corn CIF US Gulf Barge Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0074-monthly-avg",
@@ -351,7 +351,7 @@
    "market": "Us Gulf",
    "specification": "Corn CIF US Gulf Barge Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0073-current",
@@ -367,7 +367,7 @@
    "market": "Us Gulf",
    "specification": "Corn CIF US Gulf Barge $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0073-monthly-avg",
@@ -383,7 +383,7 @@
    "market": "Us Gulf",
    "specification": "Corn CIF US Gulf Barge $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0071-current",
@@ -399,7 +399,7 @@
    "market": null,
    "specification": "Corn FOB Brazil $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0071-monthly-avg",
@@ -415,7 +415,7 @@
    "market": null,
    "specification": "Corn FOB Brazil $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0051-current",
@@ -431,7 +431,7 @@
    "market": null,
    "specification": "Corn CIF Vietnam Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0051-monthly-avg",
@@ -447,7 +447,7 @@
    "market": null,
    "specification": "Corn CIF Vietnam Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0042-current",
@@ -463,7 +463,7 @@
    "market": null,
    "specification": "Corn CIF China $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0042-monthly-avg",
@@ -479,7 +479,7 @@
    "market": null,
    "specification": "Corn CIF China $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0019-current",
@@ -495,7 +495,7 @@
    "market": null,
    "specification": "Corn CIF Japan Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0019-monthly-avg",
@@ -511,7 +511,7 @@
    "market": null,
    "specification": "Corn CIF Japan Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0079-current",
@@ -527,7 +527,7 @@
    "market": "Us Gulf",
    "specification": "DDGS CIF US Gulf Barge $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0079-monthly-avg",
@@ -543,7 +543,7 @@
    "market": "Us Gulf",
    "specification": "DDGS CIF US Gulf Barge $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0068-current",
@@ -559,7 +559,7 @@
    "market": null,
    "specification": "Corn CIF NW Europe $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0068-monthly-avg",
@@ -575,7 +575,7 @@
    "market": null,
    "specification": "Corn CIF NW Europe $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0091-current",
@@ -591,7 +591,7 @@
    "market": "Minneapolis",
    "specification": "Corn, fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0091-monthly-avg",
@@ -607,7 +607,7 @@
    "market": "Minneapolis",
    "specification": "Corn, fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0129-current",
@@ -623,7 +623,7 @@
    "market": null,
    "specification": "Corn, fob Sinop, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0129-monthly-avg",
@@ -639,7 +639,7 @@
    "market": null,
    "specification": "Corn, fob Sinop, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0124-current",
@@ -655,7 +655,7 @@
    "market": null,
    "specification": "Corn, cif Marmara, Turkey, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0124-monthly-avg",
@@ -671,7 +671,7 @@
    "market": null,
    "specification": "Corn, cif Marmara, Turkey, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0119-current",
@@ -687,7 +687,7 @@
    "market": null,
    "specification": "Corn FOB Danube Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0119-monthly-avg",
@@ -703,7 +703,7 @@
    "market": null,
    "specification": "Corn FOB Danube Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0126-current",
@@ -719,7 +719,7 @@
    "market": null,
    "specification": "Corn, fas Paranaguá, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0126-monthly-avg",
@@ -735,7 +735,7 @@
    "market": null,
    "specification": "Corn, fas Paranaguá, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0072-current",
@@ -751,7 +751,7 @@
    "market": null,
    "specification": "Corn FOB Brazil Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0072-monthly-avg",
@@ -767,7 +767,7 @@
    "market": null,
    "specification": "Corn FOB Brazil Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0070-current",
@@ -783,7 +783,7 @@
    "market": null,
    "specification": "Corn FOB Argentina Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0070-monthly-avg",
@@ -799,7 +799,7 @@
    "market": null,
    "specification": "Corn FOB Argentina Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0050-current",
@@ -815,7 +815,7 @@
    "market": null,
    "specification": "Corn CIF Vietnam $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0050-monthly-avg",
@@ -831,7 +831,7 @@
    "market": null,
    "specification": "Corn CIF Vietnam $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0043-current",
@@ -847,7 +847,7 @@
    "market": null,
    "specification": "Corn CIF China Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0043-monthly-avg",
@@ -863,7 +863,7 @@
    "market": null,
    "specification": "Corn CIF China Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0080-current",
@@ -879,7 +879,7 @@
    "market": "Us Gulf",
    "specification": "DDGS FOB US Gulf $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0080-monthly-avg",
@@ -895,7 +895,7 @@
    "market": "Us Gulf",
    "specification": "DDGS FOB US Gulf $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0093-current",
@@ -911,7 +911,7 @@
    "market": "Kansas City",
    "specification": "Corn, fob Kansas City, KS, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0093-monthly-avg",
@@ -927,7 +927,7 @@
    "market": "Kansas City",
    "specification": "Corn, fob Kansas City, KS, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0090-current",
@@ -943,7 +943,7 @@
    "market": "Decatur",
    "specification": "Corn, basis (premium or discount to CME), fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0090-monthly-avg",
@@ -959,7 +959,7 @@
    "market": "Decatur",
    "specification": "Corn, basis (premium or discount to CME), fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0094-current",
@@ -975,7 +975,7 @@
    "market": "Kansas City",
    "specification": "Corn, basis (premium or discount to CME), fob Kansas City, KS, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0094-monthly-avg",
@@ -991,7 +991,7 @@
    "market": "Kansas City",
    "specification": "Corn, basis (premium or discount to CME), fob Kansas City, KS, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0062-current",
@@ -1007,7 +1007,7 @@
    "market": null,
    "specification": "Corn FOB Ukraine HIPP $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0062-monthly-avg",
@@ -1023,7 +1023,7 @@
    "market": null,
    "specification": "Corn FOB Ukraine HIPP $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0063-current",
@@ -1039,7 +1039,7 @@
    "market": null,
    "specification": "Corn FOB Ukraine HIPP Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0063-monthly-avg",
@@ -1055,7 +1055,7 @@
    "market": null,
    "specification": "Corn FOB Ukraine HIPP Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0095-current",
@@ -1071,7 +1071,7 @@
    "market": "Toledo",
    "specification": "Corn, fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0095-monthly-avg",
@@ -1087,7 +1087,7 @@
    "market": "Toledo",
    "specification": "Corn, fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0128-current",
@@ -1103,7 +1103,7 @@
    "market": null,
    "specification": "Corn, cif North-Paraná Railway, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0128-monthly-avg",
@@ -1119,7 +1119,7 @@
    "market": null,
    "specification": "Corn, cif North-Paraná Railway, Real/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0078-current",
@@ -1135,7 +1135,7 @@
    "market": "Pnw",
    "specification": "Corn FOB US PNW Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0078-monthly-avg",
@@ -1151,7 +1151,7 @@
    "market": "Pnw",
    "specification": "Corn FOB US PNW Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0077-current",
@@ -1167,7 +1167,7 @@
    "market": "Pnw",
    "specification": "Corn FOB US PNW $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0077-monthly-avg",
@@ -1183,7 +1183,7 @@
    "market": "Pnw",
    "specification": "Corn FOB US PNW $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0076-current",
@@ -1199,7 +1199,7 @@
    "market": "Us Gulf",
    "specification": "Corn FOB US Gulf Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0076-monthly-avg",
@@ -1215,7 +1215,7 @@
    "market": "Us Gulf",
    "specification": "Corn FOB US Gulf Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0075-current",
@@ -1231,7 +1231,7 @@
    "market": "Us Gulf",
    "specification": "Corn FOB US Gulf $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0075-monthly-avg",
@@ -1247,7 +1247,7 @@
    "market": "Us Gulf",
    "specification": "Corn FOB US Gulf $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0069-current",
@@ -1263,7 +1263,7 @@
    "market": null,
    "specification": "Corn FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0069-monthly-avg",
@@ -1279,7 +1279,7 @@
    "market": null,
    "specification": "Corn FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0031-current",
@@ -1295,7 +1295,7 @@
    "market": null,
    "specification": "Corn CIF Korea Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0031-monthly-avg",
@@ -1311,7 +1311,7 @@
    "market": null,
    "specification": "Corn CIF Korea Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0030-current",
@@ -1327,7 +1327,7 @@
    "market": null,
    "specification": "Corn CIF Korea $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0030-monthly-avg",
@@ -1343,7 +1343,7 @@
    "market": null,
    "specification": "Corn CIF Korea $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0109-current",
@@ -1359,7 +1359,7 @@
    "market": null,
    "specification": "Corn gluten feed, unrestricted, fob Midwest rail, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0109-monthly-avg",
@@ -1375,7 +1375,7 @@
    "market": null,
    "specification": "Corn gluten feed, unrestricted, fob Midwest rail, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0106-current",
@@ -1391,7 +1391,7 @@
    "market": "Chicago",
    "specification": "Corn gluten feed, unrestricted, fob Chicago rail, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0106-monthly-avg",
@@ -1407,7 +1407,7 @@
    "market": "Chicago",
    "specification": "Corn gluten feed, unrestricted, fob Chicago rail, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0108-current",
@@ -1423,7 +1423,7 @@
    "market": null,
    "specification": "Corn gluten feed, unrestricted, fob Midwest barge, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0108-monthly-avg",
@@ -1439,7 +1439,7 @@
    "market": null,
    "specification": "Corn gluten feed, unrestricted, fob Midwest barge, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0104-current",
@@ -1455,7 +1455,7 @@
    "market": "Illinois",
    "specification": "Corn gluten feed, unrestricted, fob Illinois, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0104-monthly-avg",
@@ -1471,7 +1471,7 @@
    "market": "Illinois",
    "specification": "Corn gluten feed, unrestricted, fob Illinois, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0107-current",
@@ -1487,7 +1487,7 @@
    "market": null,
    "specification": "Corn gluten feed, unrestricted, fob Midwest truck, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0107-monthly-avg",
@@ -1503,7 +1503,7 @@
    "market": null,
    "specification": "Corn gluten feed, unrestricted, fob Midwest truck, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0105-current",
@@ -1519,7 +1519,7 @@
    "market": "Iowa",
    "specification": "Corn gluten feed, unrestricted, fob Iowa, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0105-monthly-avg",
@@ -1535,7 +1535,7 @@
    "market": "Iowa",
    "specification": "Corn gluten feed, unrestricted, fob Iowa, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0103-current",
@@ -1551,7 +1551,7 @@
    "market": "New Orleans",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0103-monthly-avg",
@@ -1567,7 +1567,7 @@
    "market": "New Orleans",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0097-current",
@@ -1583,7 +1583,7 @@
    "market": "Illinois",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0097-monthly-avg",
@@ -1599,7 +1599,7 @@
    "market": "Illinois",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0100-current",
@@ -1615,7 +1615,7 @@
    "market": null,
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0100-monthly-avg",
@@ -1631,7 +1631,7 @@
    "market": null,
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0098-current",
@@ -1647,7 +1647,7 @@
    "market": "Iowa",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0098-monthly-avg",
@@ -1663,7 +1663,7 @@
    "market": "Iowa",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0099-current",
@@ -1679,7 +1679,7 @@
    "market": "Chicago",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0099-monthly-avg",
@@ -1695,7 +1695,7 @@
    "market": "Chicago",
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0101-current",
@@ -1711,7 +1711,7 @@
    "market": null,
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0101-monthly-avg",
@@ -1727,7 +1727,7 @@
    "market": null,
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0102-current",
@@ -1743,7 +1743,7 @@
    "market": null,
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0102-monthly-avg",
@@ -1759,7 +1759,7 @@
    "market": null,
    "specification": "60",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0125-current",
@@ -1775,7 +1775,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, delivered Northern California, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0125-monthly-avg",
@@ -1791,7 +1791,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, delivered Northern California, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0010-current",
@@ -1807,7 +1807,7 @@
    "market": "Indiana",
    "specification": "Distiller's Corn Oil, fob Indiana/Ohio, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0010-monthly-avg",
@@ -1823,7 +1823,7 @@
    "market": "Indiana",
    "specification": "Distiller's Corn Oil, fob Indiana/Ohio, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0008-current",
@@ -1839,7 +1839,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob Mo. River, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0008-monthly-avg",
@@ -1855,7 +1855,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob Mo. River, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0011-current",
@@ -1871,7 +1871,7 @@
    "market": "Indiana",
    "specification": "Distiller's Corn Oil, fob Indiana/Ohio, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0011-monthly-avg",
@@ -1887,7 +1887,7 @@
    "market": "Indiana",
    "specification": "Distiller's Corn Oil, fob Indiana/Ohio, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0003-current",
@@ -1903,7 +1903,7 @@
    "market": "Manly",
    "specification": "Distiller's Corn Oil, delivered Manly, IA, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0003-monthly-avg",
@@ -1919,7 +1919,7 @@
    "market": "Manly",
    "specification": "Distiller's Corn Oil, delivered Manly, IA, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0123-current",
@@ -1935,7 +1935,7 @@
    "market": "Us Gulf",
    "specification": "Distiller's corn oil, delivered US Gulf, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0123-monthly-avg",
@@ -1951,7 +1951,7 @@
    "market": "Us Gulf",
    "specification": "Distiller's corn oil, delivered US Gulf, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0006-current",
@@ -1967,7 +1967,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob IL/WI, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0006-monthly-avg",
@@ -1983,7 +1983,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob IL/WI, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0009-current",
@@ -1999,7 +1999,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob Mo. River, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0009-monthly-avg",
@@ -2015,7 +2015,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob Mo. River, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0007-current",
@@ -2031,7 +2031,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob Mo. River, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0007-monthly-avg",
@@ -2047,7 +2047,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob Mo. River, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0015-current",
@@ -2063,7 +2063,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob NE/KS, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0015-monthly-avg",
@@ -2079,7 +2079,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob NE/KS, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0012-current",
@@ -2095,7 +2095,7 @@
    "market": "Indiana",
    "specification": "Distiller's Corn Oil, fob Indiana/Ohio, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0012-monthly-avg",
@@ -2111,7 +2111,7 @@
    "market": "Indiana",
    "specification": "Distiller's Corn Oil, fob Indiana/Ohio, cts/lb, 2 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0005-current",
@@ -2127,7 +2127,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob IL/WI, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0005-monthly-avg",
@@ -2143,7 +2143,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob IL/WI, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0013-current",
@@ -2159,7 +2159,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob NE/KS, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0013-monthly-avg",
@@ -2175,7 +2175,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob NE/KS, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0001-current",
@@ -2191,7 +2191,7 @@
    "market": "Manly",
    "specification": "Distiller's Corn Oil, delivered Manly, IA, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0001-monthly-avg",
@@ -2207,7 +2207,7 @@
    "market": "Manly",
    "specification": "Distiller's Corn Oil, delivered Manly, IA, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0004-current",
@@ -2223,7 +2223,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob IL/WI, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0004-monthly-avg",
@@ -2239,7 +2239,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob IL/WI, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0014-current",
@@ -2255,7 +2255,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob NE/KS, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0014-monthly-avg",
@@ -2271,7 +2271,7 @@
    "market": null,
    "specification": "Distiller's Corn Oil, fob NE/KS, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0002-current",
@@ -2287,7 +2287,7 @@
    "market": "Manly",
    "specification": "Distiller's Corn Oil, delivered Manly, IA, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0002-monthly-avg",
@@ -2303,7 +2303,7 @@
    "market": "Manly",
    "specification": "Distiller's Corn Oil, delivered Manly, IA, cts/lb, 1 month forward",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0113-current",
@@ -2319,7 +2319,7 @@
    "market": "Indiana",
    "specification": "Distiller dried grains, ethanol, fob Indiana, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0113-monthly-avg",
@@ -2335,7 +2335,7 @@
    "market": "Indiana",
    "specification": "Distiller dried grains, ethanol, fob Indiana, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0115-current",
@@ -2351,7 +2351,7 @@
    "market": "Michigan",
    "specification": "Distiller dried grain, ethanol, fob Michigan, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0115-monthly-avg",
@@ -2367,7 +2367,7 @@
    "market": "Michigan",
    "specification": "Distiller dried grain, ethanol, fob Michigan, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0111-current",
@@ -2383,7 +2383,7 @@
    "market": null,
    "specification": "Distiller dried grains, ethanol, fob Channoahon, IL, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0111-monthly-avg",
@@ -2399,7 +2399,7 @@
    "market": null,
    "specification": "Distiller dried grains, ethanol, fob Channoahon, IL, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0112-current",
@@ -2415,7 +2415,7 @@
    "market": "Illinois",
    "specification": "Distiller dried grains, ethanol, fob Illinois, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0112-monthly-avg",
@@ -2431,7 +2431,7 @@
    "market": "Illinois",
    "specification": "Distiller dried grains, ethanol, fob Illinois, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0110-current",
@@ -2447,7 +2447,7 @@
    "market": "Minnesota",
    "specification": "Distiller dried grains, ethanol, fob Minnesota/Dakotas, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0110-monthly-avg",
@@ -2463,7 +2463,7 @@
    "market": "Minnesota",
    "specification": "Distiller dried grains, ethanol, fob Minnesota/Dakotas, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0116-current",
@@ -2479,7 +2479,7 @@
    "market": "Ohio",
    "specification": "Distiller dried grain, ethanol, fob Ohio, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0116-monthly-avg",
@@ -2495,7 +2495,7 @@
    "market": "Ohio",
    "specification": "Distiller dried grain, ethanol, fob Ohio, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0114-current",
@@ -2511,7 +2511,7 @@
    "market": "Iowa",
    "specification": "Distiller dried grains, ethanol, fob Iowa, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CRN-0114-monthly-avg",
@@ -2527,7 +2527,7 @@
    "market": "Iowa",
    "specification": "Distiller dried grains, ethanol, fob Iowa, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0005-current",
@@ -2543,7 +2543,7 @@
    "market": null,
    "specification": "Rapeseed, cpt Crush Plant, hryvnia/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0005-monthly-avg",
@@ -2559,7 +2559,7 @@
    "market": null,
    "specification": "Rapeseed, cpt Crush Plant, hryvnia/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0004-current",
@@ -2575,7 +2575,7 @@
    "market": null,
    "specification": "Rapeseed FOB CVB $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0004-monthly-avg",
@@ -2591,7 +2591,7 @@
    "market": null,
    "specification": "Rapeseed FOB CVB $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0006-current",
@@ -2607,7 +2607,7 @@
    "market": null,
    "specification": "Rapeseed, cpt POC, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0006-monthly-avg",
@@ -2623,7 +2623,7 @@
    "market": null,
    "specification": "Rapeseed, cpt POC, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0001-current",
@@ -2639,7 +2639,7 @@
    "market": null,
    "specification": "Rapeoil FOB DM Rotterdam Euro/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0001-monthly-avg",
@@ -2655,7 +2655,7 @@
    "market": null,
    "specification": "Rapeoil FOB DM Rotterdam Euro/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0004-current",
@@ -2671,7 +2671,7 @@
    "market": "Velva",
    "specification": "Canola meal, basis (premium or discount to CME), fob Velva, ND, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0004-monthly-avg",
@@ -2687,7 +2687,7 @@
    "market": "Velva",
    "specification": "Canola meal, basis (premium or discount to CME), fob Velva, ND, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0003-current",
@@ -2703,7 +2703,7 @@
    "market": "Velva",
    "specification": "Canola meal, fob Velva, ND, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0003-monthly-avg",
@@ -2719,7 +2719,7 @@
    "market": "Velva",
    "specification": "Canola meal, fob Velva, ND, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0001-current",
@@ -2735,7 +2735,7 @@
    "market": null,
    "specification": "Rapeoil FOB DM Rotterdam Euro/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RSD-0001-monthly-avg",
@@ -2751,7 +2751,7 @@
    "market": null,
    "specification": "Rapeoil FOB DM Rotterdam Euro/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0002-current",
@@ -2767,7 +2767,7 @@
    "market": "Los Angeles",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0002-monthly-avg",
@@ -2783,7 +2783,7 @@
    "market": "Los Angeles",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0001-current",
@@ -2799,7 +2799,7 @@
    "market": "Los Angeles",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-RPS-0001-monthly-avg",
@@ -2815,7 +2815,7 @@
    "market": "Los Angeles",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0004-current",
@@ -2831,7 +2831,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0004-monthly-avg",
@@ -2847,7 +2847,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0003-current",
@@ -2863,7 +2863,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0003-monthly-avg",
@@ -2879,7 +2879,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0002-current",
@@ -2895,7 +2895,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Russia $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0002-monthly-avg",
@@ -2911,7 +2911,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Russia $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0007-current",
@@ -2927,7 +2927,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Germany $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0007-monthly-avg",
@@ -2943,7 +2943,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Germany $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0001-current",
@@ -2959,7 +2959,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Australia $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0001-monthly-avg",
@@ -2975,7 +2975,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Australia $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0005-current",
@@ -2991,7 +2991,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Germany Premium €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0005-monthly-avg",
@@ -3007,7 +3007,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB Germany Premium €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0006-current",
@@ -3023,7 +3023,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB France Premium €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0006-monthly-avg",
@@ -3039,7 +3039,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB France Premium €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0008-current",
@@ -3055,7 +3055,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB France $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-BRY-0008-monthly-avg",
@@ -3071,7 +3071,7 @@
    "market": null,
    "specification": "Barley Feed barley FOB France $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CTS-0001-current",
@@ -3087,7 +3087,7 @@
    "market": "Mississippi",
    "specification": "Cottonseed oil, PBSY, fob Mississippi Valley, US cents/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-CTS-0001-monthly-avg",
@@ -3103,7 +3103,7 @@
    "market": "Mississippi",
    "specification": "Cottonseed oil, PBSY, fob Mississippi Valley, US cents/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0008-current",
@@ -3119,7 +3119,7 @@
    "market": null,
    "specification": "Sunseed FOB CVB $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0008-monthly-avg",
@@ -3135,7 +3135,7 @@
    "market": null,
    "specification": "Sunseed FOB CVB $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0007-current",
@@ -3151,7 +3151,7 @@
    "market": null,
    "specification": "Sunmeal CPT Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0015-current",
@@ -3167,7 +3167,7 @@
    "market": null,
    "specification": "Sunmeal, cpt POC, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0015-monthly-avg",
@@ -3183,7 +3183,7 @@
    "market": null,
    "specification": "Sunmeal, cpt POC, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0006-current",
@@ -3199,7 +3199,7 @@
    "market": null,
    "specification": "Sunmeal FOB Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0010-current",
@@ -3215,7 +3215,7 @@
    "market": null,
    "specification": "Sunmeal FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0010-monthly-avg",
@@ -3231,7 +3231,7 @@
    "market": null,
    "specification": "Sunmeal FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0012-current",
@@ -3247,7 +3247,7 @@
    "market": null,
    "specification": "Sunoil CPT Ukraine Danube $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0014-current",
@@ -3263,7 +3263,7 @@
    "market": null,
    "specification": "Sunoil, cpt POC, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0014-monthly-avg",
@@ -3279,7 +3279,7 @@
    "market": null,
    "specification": "Sunoil, cpt POC, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0009-current",
@@ -3295,7 +3295,7 @@
    "market": null,
    "specification": "Sunoil FOB Russia $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0001-current",
@@ -3311,7 +3311,7 @@
    "market": null,
    "specification": "Sunoil CIF India $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0001-monthly-avg",
@@ -3327,7 +3327,7 @@
    "market": null,
    "specification": "Sunoil CIF India $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0003-current",
@@ -3343,7 +3343,7 @@
    "market": null,
    "specification": "Sunoil FOB Six Ports $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0003-monthly-avg",
@@ -3359,7 +3359,7 @@
    "market": null,
    "specification": "Sunoil FOB Six Ports $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0002-current",
@@ -3375,7 +3375,7 @@
    "market": null,
    "specification": "Sunoil FOB Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0004-current",
@@ -3391,7 +3391,7 @@
    "market": null,
    "specification": "Sunoil FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0004-monthly-avg",
@@ -3407,7 +3407,7 @@
    "market": null,
    "specification": "Sunoil FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0011-current",
@@ -3423,7 +3423,7 @@
    "market": null,
    "specification": "Sunoil CIF Turkey $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SSD-0011-monthly-avg",
@@ -3439,7 +3439,7 @@
    "market": null,
    "specification": "Sunoil CIF Turkey $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SNF-0001-current",
@@ -3455,7 +3455,7 @@
    "market": "Minnesota",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SNF-0001-monthly-avg",
@@ -3471,7 +3471,7 @@
    "market": "Minnesota",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0024-current",
@@ -3487,7 +3487,7 @@
    "market": "Us Gulf",
    "specification": "11 HRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0024-monthly-avg",
@@ -3503,7 +3503,7 @@
    "market": "Us Gulf",
    "specification": "11 HRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0027-current",
@@ -3519,7 +3519,7 @@
    "market": "Us Pacific Northwest",
    "specification": "10",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0027-monthly-avg",
@@ -3535,7 +3535,7 @@
    "market": "Us Pacific Northwest",
    "specification": "10",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0028-current",
@@ -3551,7 +3551,7 @@
    "market": null,
    "specification": "13.5 CWRS",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0028-monthly-avg",
@@ -3567,7 +3567,7 @@
    "market": null,
    "specification": "13.5 CWRS",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0029-current",
@@ -3583,7 +3583,7 @@
    "market": null,
    "specification": "13.5 CWRS",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0029-monthly-avg",
@@ -3599,7 +3599,7 @@
    "market": null,
    "specification": "13.5 CWRS",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0050-current",
@@ -3615,7 +3615,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0050-monthly-avg",
@@ -3631,7 +3631,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0055-current",
@@ -3647,7 +3647,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0055-monthly-avg",
@@ -3663,7 +3663,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0017-current",
@@ -3679,7 +3679,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0017-monthly-avg",
@@ -3695,7 +3695,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0016-current",
@@ -3711,7 +3711,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0016-monthly-avg",
@@ -3727,7 +3727,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0035-current",
@@ -3743,7 +3743,7 @@
    "market": null,
    "specification": "11",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0035-monthly-avg",
@@ -3759,7 +3759,7 @@
    "market": null,
    "specification": "11",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0023-current",
@@ -3775,7 +3775,7 @@
    "market": null,
    "specification": "Wheat Feed wheat FOB Constanta/Varna/Burgas Premium €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0023-monthly-avg",
@@ -3791,7 +3791,7 @@
    "market": null,
    "specification": "Wheat Feed wheat FOB Constanta/Varna/Burgas Premium €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0022-current",
@@ -3807,7 +3807,7 @@
    "market": null,
    "specification": "Wheat Feed wheat FOB Constanta/Varna/Burgas $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0022-monthly-avg",
@@ -3823,7 +3823,7 @@
    "market": null,
    "specification": "Wheat Feed wheat FOB Constanta/Varna/Burgas $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0020-current",
@@ -3839,7 +3839,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0020-monthly-avg",
@@ -3855,7 +3855,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0054-current",
@@ -3871,7 +3871,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0031-current",
@@ -3887,7 +3887,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0031-monthly-avg",
@@ -3903,7 +3903,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0001-current",
@@ -3919,7 +3919,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0001-monthly-avg",
@@ -3935,7 +3935,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0015-current",
@@ -3951,7 +3951,7 @@
    "market": null,
    "specification": "14.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0015-monthly-avg",
@@ -3967,7 +3967,7 @@
    "market": null,
    "specification": "14.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0012-current",
@@ -3983,7 +3983,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0012-monthly-avg",
@@ -3999,7 +3999,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0007-current",
@@ -4015,7 +4015,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0007-monthly-avg",
@@ -4031,7 +4031,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0037-current",
@@ -4047,7 +4047,7 @@
    "market": null,
    "specification": "14.5 2CWAD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0037-monthly-avg",
@@ -4063,7 +4063,7 @@
    "market": null,
    "specification": "14.5 2CWAD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0057-current",
@@ -4079,7 +4079,7 @@
    "market": "Us Gulf",
    "specification": "10.5 SRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0057-monthly-avg",
@@ -4095,7 +4095,7 @@
    "market": "Us Gulf",
    "specification": "10.5 SRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0059-current",
@@ -4111,7 +4111,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0059-monthly-avg",
@@ -4127,7 +4127,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0048-current",
@@ -4143,7 +4143,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0048-monthly-avg",
@@ -4159,7 +4159,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0033-current",
@@ -4175,7 +4175,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0033-monthly-avg",
@@ -4191,7 +4191,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0045-current",
@@ -4207,7 +4207,7 @@
    "market": "Minneapolis",
    "specification": "Wheat midds, fob Minneapolis, MN, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0045-monthly-avg",
@@ -4223,7 +4223,7 @@
    "market": "Minneapolis",
    "specification": "Wheat midds, fob Minneapolis, MN, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0049-current",
@@ -4239,7 +4239,7 @@
    "market": null,
    "specification": "Wheat FOB Danube Ukraine Feed wheat $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0049-monthly-avg",
@@ -4255,7 +4255,7 @@
    "market": null,
    "specification": "Wheat FOB Danube Ukraine Feed wheat $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0056-current",
@@ -4271,7 +4271,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0056-monthly-avg",
@@ -4287,7 +4287,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0053-current",
@@ -4303,7 +4303,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0046-current",
@@ -4319,7 +4319,7 @@
    "market": "Kansas City",
    "specification": "Wheat midds, fob Kansas City, KS, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0046-monthly-avg",
@@ -4335,7 +4335,7 @@
    "market": "Kansas City",
    "specification": "Wheat midds, fob Kansas City, KS, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0018-current",
@@ -4351,7 +4351,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0018-monthly-avg",
@@ -4367,7 +4367,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0009-current",
@@ -4383,7 +4383,7 @@
    "market": null,
    "specification": "13.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0009-monthly-avg",
@@ -4399,7 +4399,7 @@
    "market": null,
    "specification": "13.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0008-current",
@@ -4415,7 +4415,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0008-monthly-avg",
@@ -4431,7 +4431,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0021-current",
@@ -4447,7 +4447,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0021-monthly-avg",
@@ -4463,7 +4463,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0034-current",
@@ -4479,7 +4479,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0034-monthly-avg",
@@ -4495,7 +4495,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0003-current",
@@ -4511,7 +4511,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0003-monthly-avg",
@@ -4527,7 +4527,7 @@
    "market": null,
    "specification": "11.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0026-current",
@@ -4543,7 +4543,7 @@
    "market": "Us Gulf",
    "specification": "11 HRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0026-monthly-avg",
@@ -4559,7 +4559,7 @@
    "market": "Us Gulf",
    "specification": "11 HRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0038-current",
@@ -4575,7 +4575,7 @@
    "market": null,
    "specification": "14.5 2CWAD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0038-monthly-avg",
@@ -4591,7 +4591,7 @@
    "market": null,
    "specification": "14.5 2CWAD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0058-current",
@@ -4607,7 +4607,7 @@
    "market": "Us Gulf",
    "specification": "10.5 SRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0058-monthly-avg",
@@ -4623,7 +4623,7 @@
    "market": "Us Gulf",
    "specification": "10.5 SRW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0044-current",
@@ -4639,7 +4639,7 @@
    "market": null,
    "specification": "Wheat, organic feed, fob Midwest, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0044-monthly-avg",
@@ -4655,7 +4655,7 @@
    "market": null,
    "specification": "Wheat, organic feed, fob Midwest, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0047-current",
@@ -4671,7 +4671,7 @@
    "market": null,
    "specification": "Wheat midds, fob Buffalo, NY, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0047-monthly-avg",
@@ -4687,7 +4687,7 @@
    "market": null,
    "specification": "Wheat midds, fob Buffalo, NY, $/short ton",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0030-current",
@@ -4703,7 +4703,7 @@
    "market": null,
    "specification": "11",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0030-monthly-avg",
@@ -4719,7 +4719,7 @@
    "market": null,
    "specification": "11",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0036-current",
@@ -4735,7 +4735,7 @@
    "market": null,
    "specification": "Wheat Feed wheat CIF Spain $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0036-monthly-avg",
@@ -4751,7 +4751,7 @@
    "market": null,
    "specification": "Wheat Feed wheat CIF Spain $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0032-current",
@@ -4767,7 +4767,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0032-monthly-avg",
@@ -4783,7 +4783,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0002-current",
@@ -4799,7 +4799,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0002-monthly-avg",
@@ -4815,7 +4815,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0005-current",
@@ -4831,7 +4831,7 @@
    "market": null,
    "specification": "9.5 ASW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0005-monthly-avg",
@@ -4847,7 +4847,7 @@
    "market": null,
    "specification": "9.5 ASW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0019-current",
@@ -4863,7 +4863,7 @@
    "market": null,
    "specification": "Wheat Feed wheat FOB Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0019-monthly-avg",
@@ -4879,7 +4879,7 @@
    "market": null,
    "specification": "Wheat Feed wheat FOB Ukraine $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0010-current",
@@ -4895,7 +4895,7 @@
    "market": null,
    "specification": "14.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0010-monthly-avg",
@@ -4911,7 +4911,7 @@
    "market": null,
    "specification": "14.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0011-current",
@@ -4927,7 +4927,7 @@
    "market": null,
    "specification": "10.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0011-monthly-avg",
@@ -4943,7 +4943,7 @@
    "market": null,
    "specification": "10.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0004-current",
@@ -4959,7 +4959,7 @@
    "market": null,
    "specification": "10.5 APW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0004-monthly-avg",
@@ -4975,7 +4975,7 @@
    "market": null,
    "specification": "10.5 APW",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0014-current",
@@ -4991,7 +4991,7 @@
    "market": null,
    "specification": "13.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0014-monthly-avg",
@@ -5007,7 +5007,7 @@
    "market": null,
    "specification": "13.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0013-current",
@@ -5023,7 +5023,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0013-monthly-avg",
@@ -5039,7 +5039,7 @@
    "market": null,
    "specification": "12.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0006-current",
@@ -5055,7 +5055,7 @@
    "market": null,
    "specification": "10.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-WHE-0006-monthly-avg",
@@ -5071,7 +5071,7 @@
    "market": null,
    "specification": "10.5",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0003-current",
@@ -5087,7 +5087,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0003-monthly-avg",
@@ -5103,7 +5103,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0005-current",
@@ -5119,7 +5119,7 @@
    "market": "Us Gulf",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0005-monthly-avg",
@@ -5135,7 +5135,7 @@
    "market": "Us Gulf",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0036-current",
@@ -5151,7 +5151,7 @@
    "market": null,
    "specification": "refined",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0036-monthly-avg",
@@ -5167,7 +5167,7 @@
    "market": null,
    "specification": "refined",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0034-current",
@@ -5183,7 +5183,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0034-monthly-avg",
@@ -5199,7 +5199,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0037-current",
@@ -5215,7 +5215,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0037-monthly-avg",
@@ -5231,7 +5231,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0013-current",
@@ -5247,7 +5247,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0013-monthly-avg",
@@ -5263,7 +5263,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0033-current",
@@ -5279,7 +5279,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0033-monthly-avg",
@@ -5295,7 +5295,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0017-current",
@@ -5311,7 +5311,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0017-monthly-avg",
@@ -5327,7 +5327,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0008-current",
@@ -5343,7 +5343,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0008-monthly-avg",
@@ -5359,7 +5359,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0014-current",
@@ -5375,7 +5375,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0014-monthly-avg",
@@ -5391,7 +5391,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0028-current",
@@ -5407,7 +5407,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0028-monthly-avg",
@@ -5423,7 +5423,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0002-current",
@@ -5439,7 +5439,7 @@
    "market": "New Orleans",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0002-monthly-avg",
@@ -5455,7 +5455,7 @@
    "market": "New Orleans",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0004-current",
@@ -5471,7 +5471,7 @@
    "market": "Us Gulf",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0004-monthly-avg",
@@ -5487,7 +5487,7 @@
    "market": "Us Gulf",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0032-current",
@@ -5503,7 +5503,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0032-monthly-avg",
@@ -5519,7 +5519,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0030-current",
@@ -5535,7 +5535,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0030-monthly-avg",
@@ -5551,7 +5551,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0025-current",
@@ -5567,7 +5567,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0025-monthly-avg",
@@ -5583,7 +5583,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0031-current",
@@ -5599,7 +5599,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0031-monthly-avg",
@@ -5615,7 +5615,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0021-current",
@@ -5631,7 +5631,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0021-monthly-avg",
@@ -5647,7 +5647,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0026-current",
@@ -5663,7 +5663,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0026-monthly-avg",
@@ -5679,7 +5679,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0027-current",
@@ -5695,7 +5695,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0027-monthly-avg",
@@ -5711,7 +5711,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0012-current",
@@ -5727,7 +5727,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0012-monthly-avg",
@@ -5743,7 +5743,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0019-current",
@@ -5759,7 +5759,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0019-monthly-avg",
@@ -5775,7 +5775,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0018-current",
@@ -5791,7 +5791,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0018-monthly-avg",
@@ -5807,7 +5807,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0022-current",
@@ -5823,7 +5823,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0022-monthly-avg",
@@ -5839,7 +5839,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0011-current",
@@ -5855,7 +5855,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0011-monthly-avg",
@@ -5871,7 +5871,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0007-current",
@@ -5887,7 +5887,7 @@
    "market": "Us Gulf",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0007-monthly-avg",
@@ -5903,7 +5903,7 @@
    "market": "Us Gulf",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0035-current",
@@ -5919,7 +5919,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0035-monthly-avg",
@@ -5935,7 +5935,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0020-current",
@@ -5951,7 +5951,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0020-monthly-avg",
@@ -5967,7 +5967,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0029-current",
@@ -5983,7 +5983,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0029-monthly-avg",
@@ -5999,7 +5999,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0023-current",
@@ -6015,7 +6015,7 @@
    "market": null,
    "specification": "Palm fatty acid distillate (PFAD), fob Malaysia, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0023-monthly-avg",
@@ -6031,7 +6031,7 @@
    "market": null,
    "specification": "Palm fatty acid distillate (PFAD), fob Malaysia, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0024-current",
@@ -6047,7 +6047,7 @@
    "market": null,
    "specification": "Palm fatty acid distillate (PFAD), fob Indonesia, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0024-monthly-avg",
@@ -6063,7 +6063,7 @@
    "market": null,
    "specification": "Palm fatty acid distillate (PFAD), fob Indonesia, $/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0010-current",
@@ -6079,7 +6079,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0010-monthly-avg",
@@ -6095,7 +6095,7 @@
    "market": null,
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0009-current",
@@ -6111,7 +6111,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-PLM-0009-monthly-avg",
@@ -6127,7 +6127,7 @@
    "market": null,
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0039-current",
@@ -6143,7 +6143,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0039-monthly-avg",
@@ -6159,7 +6159,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0040-current",
@@ -6175,7 +6175,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0040-monthly-avg",
@@ -6191,7 +6191,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0044-current",
@@ -6207,7 +6207,7 @@
    "market": null,
    "specification": "Soymeal CIF Korea $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0044-monthly-avg",
@@ -6223,7 +6223,7 @@
    "market": null,
    "specification": "Soymeal CIF Korea $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0073-current",
@@ -6239,7 +6239,7 @@
    "market": "Iowa",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0073-monthly-avg",
@@ -6255,7 +6255,7 @@
    "market": "Iowa",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0067-current",
@@ -6271,7 +6271,7 @@
    "market": "Central Illinois",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0067-monthly-avg",
@@ -6287,7 +6287,7 @@
    "market": "Central Illinois",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0069-current",
@@ -6303,7 +6303,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0069-monthly-avg",
@@ -6319,7 +6319,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0042-current",
@@ -6335,7 +6335,7 @@
    "market": null,
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0042-monthly-avg",
@@ -6351,7 +6351,7 @@
    "market": null,
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0041-current",
@@ -6367,7 +6367,7 @@
    "market": null,
    "specification": "SMP",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0041-monthly-avg",
@@ -6383,7 +6383,7 @@
    "market": null,
    "specification": "SMP",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0033-current",
@@ -6399,7 +6399,7 @@
    "market": null,
    "specification": "SMP",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0033-monthly-avg",
@@ -6415,7 +6415,7 @@
    "market": null,
    "specification": "SMP",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0034-current",
@@ -6431,7 +6431,7 @@
    "market": null,
    "specification": "SMP",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0034-monthly-avg",
@@ -6447,7 +6447,7 @@
    "market": null,
    "specification": "SMP",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0036-current",
@@ -6463,7 +6463,7 @@
    "market": null,
    "specification": "Soymeal FOB Argentina Premium $/st",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0036-monthly-avg",
@@ -6479,7 +6479,7 @@
    "market": null,
    "specification": "Soymeal FOB Argentina Premium $/st",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0068-current",
@@ -6495,7 +6495,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0068-monthly-avg",
@@ -6511,7 +6511,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0076-current",
@@ -6527,7 +6527,7 @@
    "market": "Kansas City",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0076-monthly-avg",
@@ -6543,7 +6543,7 @@
    "market": "Kansas City",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0071-current",
@@ -6559,7 +6559,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0071-monthly-avg",
@@ -6575,7 +6575,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0074-current",
@@ -6591,7 +6591,7 @@
    "market": null,
    "specification": "48 Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0074-monthly-avg",
@@ -6607,7 +6607,7 @@
    "market": null,
    "specification": "48 Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0066-current",
@@ -6623,7 +6623,7 @@
    "market": "Central Illinois",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0066-monthly-avg",
@@ -6639,7 +6639,7 @@
    "market": "Central Illinois",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0077-current",
@@ -6655,7 +6655,7 @@
    "market": null,
    "specification": "49 Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0077-monthly-avg",
@@ -6671,7 +6671,7 @@
    "market": null,
    "specification": "49 Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0035-current",
@@ -6687,7 +6687,7 @@
    "market": null,
    "specification": "Soymeal FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0035-monthly-avg",
@@ -6703,7 +6703,7 @@
    "market": null,
    "specification": "Soymeal FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0037-current",
@@ -6719,7 +6719,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0037-monthly-avg",
@@ -6735,7 +6735,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0038-current",
@@ -6751,7 +6751,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0038-monthly-avg",
@@ -6767,7 +6767,7 @@
    "market": "Us Gulf",
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0070-current",
@@ -6783,7 +6783,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0070-monthly-avg",
@@ -6799,7 +6799,7 @@
    "market": null,
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0072-current",
@@ -6815,7 +6815,7 @@
    "market": "Iowa",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0072-monthly-avg",
@@ -6831,7 +6831,7 @@
    "market": "Iowa",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0075-current",
@@ -6847,7 +6847,7 @@
    "market": "Kansas City",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0075-monthly-avg",
@@ -6863,7 +6863,7 @@
    "market": "Kansas City",
    "specification": "Hi Pro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0043-current",
@@ -6879,7 +6879,7 @@
    "market": null,
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0043-monthly-avg",
@@ -6895,7 +6895,7 @@
    "market": null,
    "specification": "Hipro",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0007-current",
@@ -6911,7 +6911,7 @@
    "market": null,
    "specification": "Soybean CIF Netherlands $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0007-monthly-avg",
@@ -6927,7 +6927,7 @@
    "market": null,
    "specification": "Soybean CIF Netherlands $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0012-current",
@@ -6943,7 +6943,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Paranagua Paper $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0012-monthly-avg",
@@ -6959,7 +6959,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Paranagua Paper $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0013-current",
@@ -6975,7 +6975,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Paranagua Paper Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0013-monthly-avg",
@@ -6991,7 +6991,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Paranagua Paper Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0014-current",
@@ -7007,7 +7007,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Santos $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0014-monthly-avg",
@@ -7023,7 +7023,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Santos $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0015-current",
@@ -7039,7 +7039,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Santos Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0015-monthly-avg",
@@ -7055,7 +7055,7 @@
    "market": null,
    "specification": "Soybean FOB Brazil Santos Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0018-current",
@@ -7071,7 +7071,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CIF US Gulf Barge $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0018-monthly-avg",
@@ -7087,7 +7087,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CIF US Gulf Barge $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0063-current",
@@ -7103,7 +7103,7 @@
    "market": "Minneapolis",
    "specification": "Soybean, basis (premium or discount to CME), fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0063-monthly-avg",
@@ -7119,7 +7119,7 @@
    "market": "Minneapolis",
    "specification": "Soybean, basis (premium or discount to CME), fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0065-current",
@@ -7135,7 +7135,7 @@
    "market": "Toledo",
    "specification": "Soybean, basis (premium or discount to CME), fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0065-monthly-avg",
@@ -7151,7 +7151,7 @@
    "market": "Toledo",
    "specification": "Soybean, basis (premium or discount to CME), fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0064-current",
@@ -7167,7 +7167,7 @@
    "market": "Toledo",
    "specification": "Soybean, fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0064-monthly-avg",
@@ -7183,7 +7183,7 @@
    "market": "Toledo",
    "specification": "Soybean, fob Toledo, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0006-current",
@@ -7199,7 +7199,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CFR China (US Gulf) Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0006-monthly-avg",
@@ -7215,7 +7215,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CFR China (US Gulf) Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0011-current",
@@ -7231,7 +7231,7 @@
    "market": null,
    "specification": "Soybean FAS Paranagua R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0011-monthly-avg",
@@ -7247,7 +7247,7 @@
    "market": null,
    "specification": "Soybean FAS Paranagua R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0001-current",
@@ -7263,7 +7263,7 @@
    "market": null,
    "specification": "Soybean CFR China $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0001-monthly-avg",
@@ -7279,7 +7279,7 @@
    "market": null,
    "specification": "Soybean CFR China $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0004-current",
@@ -7295,7 +7295,7 @@
    "market": null,
    "specification": "Soybean CFR China (Brazil) Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0004-monthly-avg",
@@ -7311,7 +7311,7 @@
    "market": null,
    "specification": "Soybean CFR China (Brazil) Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0016-current",
@@ -7327,7 +7327,7 @@
    "market": null,
    "specification": "Soybean FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0016-monthly-avg",
@@ -7343,7 +7343,7 @@
    "market": null,
    "specification": "Soybean FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0020-current",
@@ -7359,7 +7359,7 @@
    "market": "Us Gulf",
    "specification": "Soybean FOB US Gulf $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0020-monthly-avg",
@@ -7375,7 +7375,7 @@
    "market": "Us Gulf",
    "specification": "Soybean FOB US Gulf $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0023-current",
@@ -7391,7 +7391,7 @@
    "market": "Pnw",
    "specification": "Soybean FOB US PNW Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0023-monthly-avg",
@@ -7407,7 +7407,7 @@
    "market": "Pnw",
    "specification": "Soybean FOB US PNW Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0059-current",
@@ -7423,7 +7423,7 @@
    "market": "Decatur",
    "specification": "Soybean, basis (premium or discount to CME), fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0059-monthly-avg",
@@ -7439,7 +7439,7 @@
    "market": "Decatur",
    "specification": "Soybean, basis (premium or discount to CME), fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0062-current",
@@ -7455,7 +7455,7 @@
    "market": "Minneapolis",
    "specification": "Soybean, fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0062-monthly-avg",
@@ -7471,7 +7471,7 @@
    "market": "Minneapolis",
    "specification": "Soybean, fob Minneapolis, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0060-current",
@@ -7487,7 +7487,7 @@
    "market": null,
    "specification": "Soybean, fob Sheldon, IA, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0060-monthly-avg",
@@ -7503,7 +7503,7 @@
    "market": null,
    "specification": "Soybean, fob Sheldon, IA, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0061-current",
@@ -7519,7 +7519,7 @@
    "market": null,
    "specification": "Soybean, basis (premium or discount to CME), fob Sheldon, IA, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0061-monthly-avg",
@@ -7535,7 +7535,7 @@
    "market": null,
    "specification": "Soybean, basis (premium or discount to CME), fob Sheldon, IA, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0003-current",
@@ -7551,7 +7551,7 @@
    "market": null,
    "specification": "Soybean CFR China (Brazil) $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0003-monthly-avg",
@@ -7567,7 +7567,7 @@
    "market": null,
    "specification": "Soybean CFR China (Brazil) $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0009-current",
@@ -7583,7 +7583,7 @@
    "market": null,
    "specification": "Soybean FOB Rondonopolis R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0009-monthly-avg",
@@ -7599,7 +7599,7 @@
    "market": null,
    "specification": "Soybean FOB Rondonopolis R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0010-current",
@@ -7615,7 +7615,7 @@
    "market": null,
    "specification": "Soybean FOB Ponta Grossa R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0010-monthly-avg",
@@ -7631,7 +7631,7 @@
    "market": null,
    "specification": "Soybean FOB Ponta Grossa R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0086-current",
@@ -7647,7 +7647,7 @@
    "market": null,
    "specification": "Soybean CFR China (Pacific Northwest) $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0086-monthly-avg",
@@ -7663,7 +7663,7 @@
    "market": null,
    "specification": "Soybean CFR China (Pacific Northwest) $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0017-current",
@@ -7679,7 +7679,7 @@
    "market": null,
    "specification": "Soybean FOB Argentina Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0017-monthly-avg",
@@ -7695,7 +7695,7 @@
    "market": null,
    "specification": "Soybean FOB Argentina Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0019-current",
@@ -7711,7 +7711,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CIF US Gulf Barge Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0019-monthly-avg",
@@ -7727,7 +7727,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CIF US Gulf Barge Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0021-current",
@@ -7743,7 +7743,7 @@
    "market": "Us Gulf",
    "specification": "Soybean FOB US Gulf Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0021-monthly-avg",
@@ -7759,7 +7759,7 @@
    "market": "Us Gulf",
    "specification": "Soybean FOB US Gulf Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0022-current",
@@ -7775,7 +7775,7 @@
    "market": "Pnw",
    "specification": "Soybean FOB US PNW $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0022-monthly-avg",
@@ -7791,7 +7791,7 @@
    "market": "Pnw",
    "specification": "Soybean FOB US PNW $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0058-current",
@@ -7807,7 +7807,7 @@
    "market": "Decatur",
    "specification": "Soybean, fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0058-monthly-avg",
@@ -7823,7 +7823,7 @@
    "market": "Decatur",
    "specification": "Soybean, fob Decatur, IL, $/bushel",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0005-current",
@@ -7839,7 +7839,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CFR China (US Gulf) $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0005-monthly-avg",
@@ -7855,7 +7855,7 @@
    "market": "Us Gulf",
    "specification": "Soybean CFR China (US Gulf) $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0002-current",
@@ -7871,7 +7871,7 @@
    "market": null,
    "specification": "Soybean CFR China Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0002-monthly-avg",
@@ -7887,7 +7887,7 @@
    "market": null,
    "specification": "Soybean CFR China Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0008-current",
@@ -7903,7 +7903,7 @@
    "market": null,
    "specification": "Soybean FOB Cascavel R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0008-monthly-avg",
@@ -7919,7 +7919,7 @@
    "market": null,
    "specification": "Soybean FOB Cascavel R$/60kg",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0087-current",
@@ -7935,7 +7935,7 @@
    "market": null,
    "specification": "Soybean CFR China (Pacific Northwest) Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0087-monthly-avg",
@@ -7951,7 +7951,7 @@
    "market": null,
    "specification": "Soybean CFR China (Pacific Northwest) Premium c$/bu",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0026-current",
@@ -7967,7 +7967,7 @@
    "market": null,
    "specification": "Soyoil FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0026-monthly-avg",
@@ -7983,7 +7983,7 @@
    "market": null,
    "specification": "Soyoil FOB Argentina $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0028-current",
@@ -7999,7 +7999,7 @@
    "market": null,
    "specification": "Soyoil FOB Brazil $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0028-monthly-avg",
@@ -8015,7 +8015,7 @@
    "market": null,
    "specification": "Soyoil FOB Brazil $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0046-current",
@@ -8031,7 +8031,7 @@
    "market": "Central Illinois",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0046-monthly-avg",
@@ -8047,7 +8047,7 @@
    "market": "Central Illinois",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0049-current",
@@ -8063,7 +8063,7 @@
    "market": "Central Illinois",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0049-monthly-avg",
@@ -8079,7 +8079,7 @@
    "market": "Central Illinois",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0031-current",
@@ -8095,7 +8095,7 @@
    "market": null,
    "specification": "Soyoil FCA Rotterdam €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0031-monthly-avg",
@@ -8111,7 +8111,7 @@
    "market": null,
    "specification": "Soyoil FCA Rotterdam €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0057-current",
@@ -8127,7 +8127,7 @@
    "market": "Us Gulf",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0057-monthly-avg",
@@ -8143,7 +8143,7 @@
    "market": "Us Gulf",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0084-current",
@@ -8159,7 +8159,7 @@
    "market": null,
    "specification": "Soyoil fob Ponta Grossa, no tax, Real/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0084-monthly-avg",
@@ -8175,7 +8175,7 @@
    "market": null,
    "specification": "Soyoil fob Ponta Grossa, no tax, Real/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0029-current",
@@ -8191,7 +8191,7 @@
    "market": null,
    "specification": "Soyoil FOB Brazil Premium c$/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0029-monthly-avg",
@@ -8207,7 +8207,7 @@
    "market": null,
    "specification": "Soyoil FOB Brazil Premium c$/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0045-current",
@@ -8223,7 +8223,7 @@
    "market": "Central Illinois",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0045-monthly-avg",
@@ -8239,7 +8239,7 @@
    "market": "Central Illinois",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0048-current",
@@ -8255,7 +8255,7 @@
    "market": "Central Illinois",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0048-monthly-avg",
@@ -8271,7 +8271,7 @@
    "market": "Central Illinois",
    "specification": "RBD",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0047-current",
@@ -8287,7 +8287,7 @@
    "market": "Us Gulf",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0047-monthly-avg",
@@ -8303,7 +8303,7 @@
    "market": "Us Gulf",
    "specification": "crude",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0085-current",
@@ -8319,7 +8319,7 @@
    "market": null,
    "specification": "Soyoil cif São Paulo, with tax, Real/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0085-monthly-avg",
@@ -8335,7 +8335,7 @@
    "market": null,
    "specification": "Soyoil cif São Paulo, with tax, Real/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0027-current",
@@ -8351,7 +8351,7 @@
    "market": null,
    "specification": "Soyoil FOB Argentina Premium c$/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0027-monthly-avg",
@@ -8367,7 +8367,7 @@
    "market": null,
    "specification": "Soyoil FOB Argentina Premium c$/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0030-current",
@@ -8383,7 +8383,7 @@
    "market": null,
    "specification": "Soyoil FCA Hamburg €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0030-monthly-avg",
@@ -8399,7 +8399,7 @@
    "market": null,
    "specification": "Soyoil FCA Hamburg €/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0032-current",
@@ -8415,7 +8415,7 @@
    "market": null,
    "specification": "Soyoil CFR India $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0032-monthly-avg",
@@ -8431,7 +8431,7 @@
    "market": null,
    "specification": "Soyoil CFR India $/mt",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0083-current",
@@ -8447,7 +8447,7 @@
    "market": null,
    "specification": "Soyoil fob Alto Araguaia, no tax, Real/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-SYB-0083-monthly-avg",
@@ -8463,7 +8463,7 @@
    "market": null,
    "specification": "Soyoil fob Alto Araguaia, no tax, Real/tonne",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-FO-0001-current",
@@ -8479,7 +8479,7 @@
    "market": null,
    "specification": "Menhaden fish oil feed grade, fob Argentina, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   },
   {
    "id": "FM-AG-FO-0001-monthly-avg",
@@ -8495,7 +8495,7 @@
    "market": null,
    "specification": "Menhaden fish oil feed grade, fob Argentina, cts/lb",
    "observationDate": "",
-   "loadedAt": "2026-09-03T20:54:14.680509+00:00"
+   "loadedAt": "2026-09-03T22:24:22.354586+00:00"
   }
  ]
 }

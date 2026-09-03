@@ -378,12 +378,15 @@ function renderMethodology() {
     <div class="kv"><span class="k">Evidence confidence</span><span>source quality + freshness + completeness + cross-source + depth.</span></div></div>`;
 }
 function renderSettings() {
+  const srcs = (DATA.sources.sources || []).map(s =>
+    `<div class="kv"><span class="k">${s.name}</span><span>${s.type} · quality ${s.quality} — ${s.notes}</span></div>`).join("");
   document.getElementById("view-settings").innerHTML = roleBanner() + `
     <div class="panel"><h2>Settings</h2>
     <div class="kv"><span class="k">Risk weights</span><span>Price 20% · Momentum 15% · Forecast 15% · Origin 15% · Supplier 10% · Import 10% · Premium 10% · Data 5%</span></div>
     <div class="kv"><span class="k">Risk bands</span><span>0–30 Low · 31–50 Moderate · 51–70 High · 71–100 Critical</span></div>
     <div class="kv"><span class="k">Inflation (BD CPI)</span><span>8.32% — Jul 2026 (Bangladesh Bank / Trading Economics)</span></div>
-    <div class="kv"><span class="k">Market index</span><span>Base 100 · equal-weight fallback</span></div></div>`;
+    <div class="kv"><span class="k">Market index</span><span>Base 100 · equal-weight fallback</span></div></div>
+    <div class="panel"><h2>Data sources</h2><p class="sub">Attribution and quality of every data input.</p>${srcs}</div>`;
 }
 
 /* ================= helpers ================= */

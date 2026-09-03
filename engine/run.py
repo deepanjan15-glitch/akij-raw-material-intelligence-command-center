@@ -35,6 +35,10 @@ def main():
          "notes": "Exchange-assessed physical price assessments (snapshot 2026-09-02)."},
         {"id": "nbr", "name": "NBR Customs", "type": "NBR Data", "quality": 75,
          "notes": "Bangladesh customs import records (Jul-Sep 2026 window)."},
+        {"id": "cme", "name": "CME Group", "type": "CME Group", "quality": 85,
+         "notes": "Futures benchmark (CBOT soybean meal / soybean oil / wheat) for forward reference."},
+        {"id": "te", "name": "Trading Economics", "type": "Trading Economics", "quality": 80,
+         "notes": "Macro-economic indicators (Bangladesh CPI inflation 8.32%, Jul 2026; FX)."},
         {"id": "volza", "name": "Volza", "type": "Volza", "quality": 55,
          "notes": "Third-party trade record (single material)."},
     ]
