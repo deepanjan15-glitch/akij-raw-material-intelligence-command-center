@@ -19,6 +19,13 @@ const VIEW_TITLES = {
   quality: "Data Quality & Governance", methodology: "Methodology", settings: "Settings",
 };
 
+// section color family per view (maps to [data-section] token overrides in style.css)
+const SECTION = {
+  command: "command", material: "material", origin: "origin", supplier: "supplier",
+  procurement: "procurement", signals: "signals", import: "import", forecast: "forecast",
+  feedcost: "feedcost", alerts: "alerts", quality: "quality", methodology: "methodology", settings: "settings",
+};
+
 async function load() {
   const files = ["materials", "market-index", "meta", "sources", "suppliers", "feed-cost", "scenario", "market-signals"];
   const vals = await Promise.all(files.map(f => fetch(`data/${f}.json`).then(r => r.json())));
@@ -57,6 +64,7 @@ function filtered() {
 }
 
 function render() {
+  document.body.dataset.section = SECTION[state.view] || "sapphire";
   document.getElementById("viewTitle").textContent = VIEW_TITLES[state.view];
   document.querySelectorAll(".nav-item").forEach(n => n.classList.toggle("active", n.dataset.view === state.view));
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));

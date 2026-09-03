@@ -27,3 +27,10 @@
 - Market Signals view fed by the feed-intelligence MCP (10 signals, WoW movers, trajectory, predictions).
 - Dynamic-color UI (teal/gold/blue/soft-red palette) + Supplier/Signals views.
 - QA extended to 18 tests.
+
+## [0.3.0] — 2026-09-04 — Executive visual theme redesign
+- Centralized design-token system (`--theme-*`) + per-section color families via `[data-section]`.
+- Section accents: Command=Sapphire, Material=Amber/Gold, Origin=Emerald, Supplier=Coral, Procurement=Teal, Signals=Maroon, Import=Ocean, Forecast=Indigo, Feed Cost=Sunflare, Alerts=Red, Governance=Slate.
+- Premium dark navigation with dynamic active-section accent + left indicator.
+- KPI/panel/table/filter/chip states follow the active section family; semantic status colors preserved.
+- No functional or analytical changes.
