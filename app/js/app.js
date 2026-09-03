@@ -46,10 +46,14 @@ function renderFilters() {
   const cats = ["All", ...new Set(DATA.materials.materials.map(m => m.category))];
   const srcs = ["All", ...(DATA.sources.sources || []).map(s => s.type)];
   document.getElementById("filters").innerHTML = `
-    <span class="mono" style="font-size:11px;color:var(--ink-3);align-self:center;">Category:</span>
-    ${cats.map(c => `<span class="chip ${state.category === c ? "active" : ""}" data-cat="${c}">${c}</span>`).join("")}
-    <span class="mono" style="font-size:11px;color:var(--ink-3);align-self:center;margin-left:10px;">Source:</span>
-    ${srcs.map(s => `<span class="chip ${state.source === s ? "active" : ""}" data-src="${s}">${s}</span>`).join("")}
+    <div class="filter-row">
+      <span class="mono" style="font-size:11px;color:var(--ink-3);align-self:center;">Category:</span>
+      ${cats.map(c => `<span class="chip ${state.category === c ? "active" : ""}" data-cat="${c}">${c}</span>`).join("")}
+    </div>
+    <div class="filter-row">
+      <span class="mono" style="font-size:11px;color:var(--ink-3);align-self:center;">Source:</span>
+      ${srcs.map(s => `<span class="chip ${state.source === s ? "active" : ""}" data-src="${s}">${s}</span>`).join("")}
+    </div>
   `;
   document.querySelectorAll(".chip[data-cat]").forEach(c => c.onclick = () => { state.category = c.dataset.cat; renderFilters(); render(); });
   document.querySelectorAll(".chip[data-src]").forEach(c => c.onclick = () => { state.source = c.dataset.src; renderFilters(); render(); });

@@ -166,7 +166,8 @@ body { font-family: var(--font); background: var(--theme-bg); color: var(--theme
 }
 .honesty-banner.show { display: block; }
 .honesty-banner strong { color: var(--theme-text-accent); }
-.filters { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 16px; }
+.filters { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .chip {
   padding: 6px 13px; border-radius: 999px; border: 1px solid var(--theme-border);
   background: var(--theme-surface); cursor: pointer; font-size: 12px; font-weight: 600;
