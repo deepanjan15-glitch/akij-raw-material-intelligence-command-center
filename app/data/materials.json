@@ -1,0 +1,8199 @@
+{
+ "asOfDate": "2026-09-02",
+ "generatedAt": "2026-09-03T19:56:59.089215+00:00",
+ "analyst": "Dr. Deepanjan Bhattacharya",
+ "materialsTracked": 87,
+ "materials": [
+  {
+   "id": "MAT-001",
+   "name": "MAIZE/CORN",
+   "category": "Grains & Cereals",
+   "hsCode": "10059090",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 209.6583375,
+    "current": 242.62,
+    "lastMonth": 229.15,
+    "sixMo": 243.0,
+    "avg2024": 246.0,
+    "avg2025": 246.0,
+    "lastYearYtd": 253.0,
+    "ytd2026": 242.0
+   },
+   "movement": {
+    "wow": 0.1572,
+    "mom": 0.0588,
+    "yoy": 0.0,
+    "ytd": -0.0435
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 65
+    }
+   },
+   "risk": {
+    "composite": 23.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 14.7,
+     "momentum": 62.9,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 98.5,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 257.88,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 26185.7,
+    "valueUsd": 6512216.0,
+    "unitValueUsdMt": 257.88,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 25785.7,
+      "valueUsd": 6279516.0
+     },
+     {
+      "country": "AR",
+      "volumeMt": 100.0,
+      "valueUsd": 52700.0
+     },
+     {
+      "country": "PK",
+      "volumeMt": 300.0,
+      "valueUsd": 180000.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 98.5
+   },
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-002",
+   "name": "CORN FOB",
+   "category": "Grains & Cereals",
+   "hsCode": "10059000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 141.7833362,
+    "current": 242.62,
+    "lastMonth": 229.15,
+    "sixMo": 398.0,
+    "avg2024": 493.0,
+    "avg2025": 418.0,
+    "lastYearYtd": 428.0,
+    "ytd2026": 402.0
+   },
+   "movement": {
+    "wow": 0.7112,
+    "mom": 0.0588,
+    "yoy": -0.1521,
+    "ytd": -0.0607
+   },
+   "originStats": {
+    "count": 4,
+    "min": -26.38,
+    "max": 51.97,
+    "mean": 17.22,
+    "std": 28.36,
+    "cv": 1.6465,
+    "spreadPct": -297.01,
+    "countries": [
+     "United States",
+     "Brazil",
+     "Ukraine",
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 48
+    }
+   },
+   "risk": {
+    "composite": 21.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 14.7,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": -26.38,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": -2.0448
+   }
+  },
+  {
+   "id": "MAT-003",
+   "name": "CORN CIF",
+   "category": "Grains & Cereals",
+   "hsCode": "10059000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 224.092384,
+    "current": 282.63,
+    "lastMonth": 267.37,
+    "sixMo": 318.0,
+    "avg2024": 394.0,
+    "avg2025": 334.0,
+    "lastYearYtd": 342.0,
+    "ytd2026": 321.0
+   },
+   "movement": {
+    "wow": 0.2612,
+    "mom": 0.0571,
+    "yoy": -0.1523,
+    "ytd": -0.0614
+   },
+   "originStats": {
+    "count": 6,
+    "min": 35.04,
+    "max": 266.75,
+    "mean": 104.43,
+    "std": 74.83,
+    "cv": 0.7165,
+    "spreadPct": 661.32,
+    "countries": [
+     "Japan",
+     "United States",
+     "Vietnam",
+     "China",
+     "Turkey",
+     "South Korea"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 26
+    }
+   },
+   "risk": {
+    "composite": 21.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 14.3,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 35.04,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-004",
+   "name": "CORN BASIS",
+   "category": "Grains & Cereals",
+   "hsCode": "10059000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 166.042975,
+    "current": 166.042975,
+    "lastMonth": 316.0,
+    "sixMo": 309.0,
+    "avg2024": 383.0,
+    "avg2025": 325.0,
+    "lastYearYtd": 333.0,
+    "ytd2026": 313.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.4745,
+    "yoy": -0.1514,
+    "ytd": -0.0601
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 22.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 100,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-005",
+   "name": "CORN FAS",
+   "category": "Grains & Cereals",
+   "hsCode": "10059000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 209.6583375,
+    "current": 209.6583375,
+    "lastMonth": 329.0,
+    "sixMo": 322.0,
+    "avg2024": 399.0,
+    "avg2025": 338.0,
+    "lastYearYtd": 347.0,
+    "ytd2026": 326.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.3627,
+    "yoy": -0.1529,
+    "ytd": -0.0605
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 19.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 90.7,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Hold",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-006",
+   "name": "CORN CPT",
+   "category": "Grains & Cereals",
+   "hsCode": "23033000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 216.0,
+    "current": 204.0,
+    "lastMonth": 212.75,
+    "sixMo": 291.0,
+    "avg2024": 361.0,
+    "avg2025": 306.0,
+    "lastYearYtd": 313.0,
+    "ytd2026": 294.0
+   },
+   "movement": {
+    "wow": -0.0556,
+    "mom": -0.0411,
+    "yoy": -0.1524,
+    "ytd": -0.0607
+   },
+   "originStats": {
+    "count": 1,
+    "min": 204.0,
+    "max": 204.0,
+    "mean": 204.0,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Ukraine"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 18.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 10.3,
+     "momentum": 22.2,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 204.0,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-007",
+   "name": "Corn DDG CIF",
+   "category": "Grains & Cereals",
+   "hsCode": "23033000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 402.0,
+    "current": 260.0,
+    "lastMonth": 228.95,
+    "sixMo": 755.0,
+    "avg2024": 935.0,
+    "avg2025": 793.0,
+    "lastYearYtd": 812.0,
+    "ytd2026": 763.0
+   },
+   "movement": {
+    "wow": -0.3532,
+    "mom": 0.1356,
+    "yoy": -0.1519,
+    "ytd": -0.0603
+   },
+   "originStats": {
+    "count": 1,
+    "min": 228.95,
+    "max": 228.95,
+    "mean": 228.95,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 34.8,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 33.9,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 228.95,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-008",
+   "name": "Corn DDG FOB",
+   "category": "Grains & Cereals",
+   "hsCode": "",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 237.0,
+    "current": 275.0,
+    "lastMonth": 246.33,
+    "sixMo": 268.0,
+    "avg2024": 272.0,
+    "avg2025": 273.0,
+    "lastYearYtd": 280.0,
+    "ytd2026": 269.0
+   },
+   "movement": {
+    "wow": 0.1603,
+    "mom": 0.1164,
+    "yoy": 0.0037,
+    "ytd": -0.0393
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 17.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 29.1,
+     "momentum": 64.1,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-009",
+   "name": "SOYMEAL CIF",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 432.0,
+    "current": 460.89,
+    "lastMonth": 426.37,
+    "sixMo": 398.0,
+    "avg2024": 493.0,
+    "avg2025": 418.0,
+    "lastYearYtd": 428.0,
+    "ytd2026": 402.0
+   },
+   "movement": {
+    "wow": 0.0669,
+    "mom": 0.081,
+    "yoy": -0.1521,
+    "ytd": -0.0607
+   },
+   "originStats": {
+    "count": 3,
+    "min": 425.41,
+    "max": 448.52,
+    "mean": 436.79,
+    "std": 9.44,
+    "cv": 0.0216,
+    "spreadPct": 5.43,
+    "countries": [
+     "South Korea",
+     "Netherlands",
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 75.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 100,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 71.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": true,
+     "observationDepth": 79
+    }
+   },
+   "risk": {
+    "composite": 20.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 20.2,
+     "momentum": 26.7,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 98.8,
+     "procurementPremium": 0,
+     "dataUncertainty": 28.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 425.41,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 518.79,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 8776.6,
+    "valueUsd": 4531695.0,
+    "unitValueUsdMt": 518.79,
+    "originCount": 2,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 103.6,
+      "valueUsd": 45066.0
+     },
+     {
+      "country": "BD",
+      "volumeMt": 8673.0,
+      "valueUsd": 4486629.0
+     }
+    ],
+    "topOrigin": "BD",
+    "concentrationPct": 98.8
+   },
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-010",
+   "name": "SOYMEAL CIF Hi-Pro",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 369.0,
+    "current": 461.45,
+    "lastMonth": 426.97,
+    "sixMo": 395.0,
+    "avg2024": 398.0,
+    "avg2025": 400.0,
+    "lastYearYtd": 378.0,
+    "ytd2026": 393.0
+   },
+   "movement": {
+    "wow": 0.2505,
+    "mom": 0.0808,
+    "yoy": 0.005,
+    "ytd": 0.0397
+   },
+   "originStats": {
+    "count": 3,
+    "min": 17.19,
+    "max": 447.15,
+    "mean": 299.78,
+    "std": 199.88,
+    "cv": 0.6668,
+    "spreadPct": 2501.22,
+    "countries": [
+     "Brazil",
+     "United States",
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 8
+    }
+   },
+   "risk": {
+    "composite": 22.3,
+    "band": "Low",
+    "dimensions": {
+     "price": 20.2,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 17.19,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": 0.0
+   }
+  },
+  {
+   "id": "MAT-011",
+   "name": "SOYMEAL CIF SMP",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 424.0,
+    "current": 456.0,
+    "lastMonth": 424.35,
+    "sixMo": 417.28,
+    "avg2024": 399.0,
+    "avg2025": 412.0,
+    "lastYearYtd": 411.0,
+    "ytd2026": 408.0
+   },
+   "movement": {
+    "wow": 0.0755,
+    "mom": 0.0746,
+    "yoy": 0.0326,
+    "ytd": -0.0073
+   },
+   "originStats": {
+    "count": 1,
+    "min": 424.35,
+    "max": 424.35,
+    "mean": 424.35,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Brazil"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 21.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 18.6,
+     "momentum": 30.2,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 424.35,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Strong Buy",
+    "premiumVsBest": 0.0
+   }
+  },
+  {
+   "id": "MAT-012",
+   "name": "SOYMEAL FOB Hi-Pro",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 321.8,
+    "current": 370.79,
+    "lastMonth": 345.49,
+    "sixMo": 398.0,
+    "avg2024": 493.0,
+    "avg2025": 418.0,
+    "lastYearYtd": 428.0,
+    "ytd2026": 402.0
+   },
+   "movement": {
+    "wow": 0.1522,
+    "mom": 0.0732,
+    "yoy": -0.1521,
+    "ytd": -0.0607
+   },
+   "originStats": {
+    "count": 1,
+    "min": 23.93,
+    "max": 23.93,
+    "mean": 23.93,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 25.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 18.3,
+     "momentum": 60.9,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 23.93,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-013",
+   "name": "SOYMEAL FOB",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 320.2213455,
+    "current": 404.25,
+    "lastMonth": 371.57,
+    "sixMo": 318.0,
+    "avg2024": 394.0,
+    "avg2025": 334.0,
+    "lastYearYtd": 342.0,
+    "ytd2026": 321.0
+   },
+   "movement": {
+    "wow": 0.2624,
+    "mom": 0.088,
+    "yoy": -0.1523,
+    "ytd": -0.0614
+   },
+   "originStats": {
+    "count": 2,
+    "min": -0.5,
+    "max": 12.71,
+    "mean": 6.11,
+    "std": 6.61,
+    "cv": 1.0819,
+    "spreadPct": -2642.0,
+    "countries": [
+     "United States",
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 24
+    }
+   },
+   "risk": {
+    "composite": 27.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 22.0,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 40,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": -0.5,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Buy",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-014",
+   "name": "SOYMEAL FOB SMP",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": null,
+    "current": 406.75,
+    "lastMonth": 373.13,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": null,
+    "mom": 0.0901,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": {
+    "count": 1,
+    "min": 20.43,
+    "max": 20.43,
+    "mean": 20.43,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Brazil"
+    ]
+   },
+   "dataQuality": {
+    "score": 39.0,
+    "completeness": 25.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 50.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 25.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 18.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 22.5,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 49.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 20.43,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Hold",
+    "premiumVsBest": 0.0
+   }
+  },
+  {
+   "id": "MAT-015",
+   "name": "SOYMEAL CBOT",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 348.4405071,
+    "current": 348.4405071,
+    "lastMonth": 316.0,
+    "sixMo": 309.0,
+    "avg2024": 383.0,
+    "avg2025": 325.0,
+    "lastYearYtd": 333.0,
+    "ytd2026": 313.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 0.1027,
+    "yoy": -0.1514,
+    "ytd": -0.0601
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 7.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.7,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-016",
+   "name": "SOYMEAL BASIS",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23040000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 293.0,
+    "current": 293.0,
+    "lastMonth": 329.0,
+    "sixMo": 322.0,
+    "avg2024": 399.0,
+    "avg2025": 338.0,
+    "lastYearYtd": 347.0,
+    "ytd2026": 326.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.1094,
+    "yoy": -0.1529,
+    "ytd": -0.0605
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 7.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 27.4,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-017",
+   "name": "SOYBEAN ORGANIC FEED",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23080000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 767.5,
+    "current": 767.5,
+    "lastMonth": 297.0,
+    "sixMo": 291.0,
+    "avg2024": 361.0,
+    "avg2025": 306.0,
+    "lastYearYtd": 313.0,
+    "ytd2026": 294.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 1.5842,
+    "yoy": -0.1524,
+    "ytd": -0.0607
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 22.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 100,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-018",
+   "name": "SOYBEAN BASIS",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019090, \n15079010",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 418.836,
+    "current": 418.836,
+    "lastMonth": 772.0,
+    "sixMo": 755.0,
+    "avg2024": 935.0,
+    "avg2025": 793.0,
+    "lastYearYtd": 812.0,
+    "ytd2026": 763.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.4575,
+    "yoy": -0.1519,
+    "ytd": -0.0603
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 22.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 100,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-019",
+   "name": "Soybean CBOT",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 352.133249,
+    "current": 352.133249,
+    "lastMonth": 332.0,
+    "sixMo": 325.0,
+    "avg2024": 402.0,
+    "avg2025": 341.0,
+    "lastYearYtd": 349.0,
+    "ytd2026": 328.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 0.0606,
+    "yoy": -0.1517,
+    "ytd": -0.0602
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 5.3,
+    "band": "Low",
+    "dimensions": {
+     "price": 15.2,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-020",
+   "name": "Soybean CFR",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 537.25,
+    "current": 620.94,
+    "lastMonth": 580.36,
+    "sixMo": 495.0,
+    "avg2024": 614.0,
+    "avg2025": 521.0,
+    "lastYearYtd": 534.0,
+    "ytd2026": 500.0
+   },
+   "movement": {
+    "wow": 0.1558,
+    "mom": 0.0699,
+    "yoy": -0.1515,
+    "ytd": -0.0637
+   },
+   "originStats": {
+    "count": 3,
+    "min": 106.94,
+    "max": 166.97,
+    "mean": 126.95,
+    "std": 28.3,
+    "cv": 0.2229,
+    "spreadPct": 56.13,
+    "countries": [
+     "United States",
+     "China",
+     "Brazil"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 16
+    }
+   },
+   "risk": {
+    "composite": 16.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 17.5,
+     "momentum": 62.3,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 106.94,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Strong Buy",
+    "premiumVsBest": -0.3595
+   }
+  },
+  {
+   "id": "MAT-021",
+   "name": "Soybean CIF",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 478.75,
+    "current": 544.12,
+    "lastMonth": 508.6,
+    "sixMo": 446.0,
+    "avg2024": 553.0,
+    "avg2025": 469.0,
+    "lastYearYtd": 481.0,
+    "ytd2026": 452.0
+   },
+   "movement": {
+    "wow": 0.1365,
+    "mom": 0.0698,
+    "yoy": -0.1519,
+    "ytd": -0.0603
+   },
+   "originStats": {
+    "count": 2,
+    "min": 40.05,
+    "max": 531.52,
+    "mean": 285.79,
+    "std": 245.73,
+    "cv": 0.8599,
+    "spreadPct": 1227.12,
+    "countries": [
+     "Netherlands",
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 6
+    }
+   },
+   "risk": {
+    "composite": 19.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 17.5,
+     "momentum": 54.6,
+     "forecast": 0,
+     "originConcentration": 40,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 40.05,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-022",
+   "name": "SOYBEAN FOB",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 460.4,
+    "current": 533.7,
+    "lastMonth": 497.86,
+    "sixMo": 450.0,
+    "avg2024": 483.0,
+    "avg2025": 483.0,
+    "lastYearYtd": 482.0,
+    "ytd2026": 468.0
+   },
+   "movement": {
+    "wow": 0.1592,
+    "mom": 0.072,
+    "yoy": 0.0,
+    "ytd": -0.029
+   },
+   "originStats": {
+    "count": 3,
+    "min": -20.94,
+    "max": 54.38,
+    "mean": 20.89,
+    "std": 31.31,
+    "cv": 1.4992,
+    "spreadPct": -359.65,
+    "countries": [
+     "Brazil",
+     "United States",
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 42
+    }
+   },
+   "risk": {
+    "composite": 16.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 18.0,
+     "momentum": 63.7,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": -20.94,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Monitor",
+    "premiumVsBest": 0.0
+   }
+  },
+  {
+   "id": "MAT-023",
+   "name": "Soybean FAS",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 458.5333425,
+    "current": 458.5333425,
+    "lastMonth": 437.0,
+    "sixMo": 425.0,
+    "avg2024": 527.0,
+    "avg2025": 447.0,
+    "lastYearYtd": 458.0,
+    "ytd2026": 430.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 0.0493,
+    "yoy": -0.1518,
+    "ytd": -0.0611
+   },
+   "originStats": {
+    "count": 1,
+    "min": 154.24,
+    "max": 154.24,
+    "mean": 154.24,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Brazil"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 15.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 12.3,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 154.24,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Hold",
+    "premiumVsBest": 0.0
+   }
+  },
+  {
+   "id": "MAT-024",
+   "name": "Soybean Feed",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 533.0,
+    "current": 533.0,
+    "lastMonth": 509.0,
+    "sixMo": 497.0,
+    "avg2024": 617.0,
+    "avg2025": 523.0,
+    "lastYearYtd": 537.0,
+    "ytd2026": 505.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 0.0472,
+    "yoy": -0.1524,
+    "ytd": -0.0596
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 4.6,
+    "band": "Low",
+    "dimensions": {
+     "price": 11.8,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-025",
+   "name": "SOYBEAN OIL CFR Crude",
+   "category": "Oils & Fats",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 1260.0,
+    "current": 1293.0,
+    "lastMonth": 1277.65,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.0262,
+    "mom": 0.012,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": {
+    "count": 1,
+    "min": 1277.65,
+    "max": 1277.65,
+    "mean": 1277.65,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "India"
+    ]
+   },
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 53.0,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 15.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 3.0,
+     "momentum": 10.5,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 47.0
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 1277.65,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-026",
+   "name": "SOYBEAN OIL FOB Crude",
+   "category": "Oils & Fats",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 1172.82,
+    "current": 1213.88,
+    "lastMonth": 1196.47,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.035,
+    "mom": 0.0146,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": {
+    "count": 3,
+    "min": -15.75,
+    "max": 49.6,
+    "mean": 6.15,
+    "std": 30.73,
+    "cv": 4.995,
+    "spreadPct": -414.95,
+    "countries": [
+     "Argentina",
+     "Brazil",
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 53.0,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 26
+    }
+   },
+   "risk": {
+    "composite": 6.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 3.6,
+     "momentum": 14.0,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 47.0
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": -15.75,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Buy",
+    "premiumVsBest": -0.0222
+   }
+  },
+  {
+   "id": "MAT-027",
+   "name": "SOYBEAN OIL FOB Refined",
+   "category": "Oils & Fats",
+   "hsCode": "12019000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 1718.0,
+    "current": 1695.13,
+    "lastMonth": 1655.67,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": -0.0133,
+    "mom": 0.0238,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": {
+    "count": 1,
+    "min": 135.14,
+    "max": 135.14,
+    "mean": 135.14,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 53.0,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 15.6,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.0,
+     "momentum": 5.3,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 47.0
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 135.14,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-028",
+   "name": "ANIMAL FEED",
+   "category": "Compound Feed",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "Volza",
+   "benchmark": {
+    "lastWeek": 450.0,
+    "current": 450.0,
+    "lastMonth": 1062.0,
+    "sixMo": 1130.0,
+    "avg2024": 1383.0,
+    "avg2025": 1279.0,
+    "lastYearYtd": 1542.0,
+    "ytd2026": 1115.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.5763,
+    "yoy": -0.0752,
+    "ytd": -0.2769
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 43.2,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 55,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 22.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 100,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 56.8
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-029",
+   "name": "WHEAT BRAN",
+   "category": "Grains & Cereals",
+   "hsCode": "23023000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 262.0,
+    "current": 157.08,
+    "lastMonth": 142.6,
+    "sixMo": 242.0,
+    "avg2024": 298.0,
+    "avg2025": 236.0,
+    "lastYearYtd": 247.0,
+    "ytd2026": 242.0
+   },
+   "movement": {
+    "wow": -0.4005,
+    "mom": 0.1015,
+    "yoy": -0.2081,
+    "ytd": -0.0202
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 253
+    }
+   },
+   "risk": {
+    "composite": 25.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.4,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 32.3,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 268.37,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 45189.5,
+    "valueUsd": 10826449.0,
+    "unitValueUsdMt": 268.37,
+    "originCount": 9,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 14588.4,
+      "valueUsd": 4158305.0
+     },
+     {
+      "country": "AO",
+      "volumeMt": 6219.1,
+      "valueUsd": 1296145.0
+     },
+     {
+      "country": "NG",
+      "volumeMt": 2619.0,
+      "valueUsd": 471420.0
+     },
+     {
+      "country": "TZ",
+      "volumeMt": 12004.0,
+      "valueUsd": 2729893.0
+     },
+     {
+      "country": "KE",
+      "volumeMt": 3740.0,
+      "valueUsd": 809110.0
+     },
+     {
+      "country": "UG",
+      "volumeMt": 1200.0,
+      "valueUsd": 259536.0
+     },
+     {
+      "country": "MZ",
+      "volumeMt": 3598.0,
+      "valueUsd": 785640.0
+     },
+     {
+      "country": "ID",
+      "volumeMt": 780.0,
+      "valueUsd": 192920.0
+     },
+     {
+      "country": "SG",
+      "volumeMt": 441.0,
+      "valueUsd": 123480.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 32.3
+   },
+   "procurement": {
+    "akijSourcingCountry": "Nigeria",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-030",
+   "name": "DDGS",
+   "category": "Grains & Cereals",
+   "hsCode": "23033000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 154.32354,
+    "current": 195.66,
+    "lastMonth": 175.66,
+    "sixMo": 287.0,
+    "avg2024": 289.0,
+    "avg2025": 253.0,
+    "lastYearYtd": 261.0,
+    "ytd2026": 291.0
+   },
+   "movement": {
+    "wow": 0.2679,
+    "mom": 0.1139,
+    "yoy": -0.1246,
+    "ytd": 0.1149
+   },
+   "originStats": {
+    "count": 1,
+    "min": 154.32,
+    "max": 154.32,
+    "mean": 154.32,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 75.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 100,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 71.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": true,
+     "observationDepth": 132
+    }
+   },
+   "risk": {
+    "composite": 40.0,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 28.5,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 66.7,
+     "procurementPremium": 0,
+     "dataUncertainty": 28.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 154.32,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 300.2,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 27027.7,
+    "valueUsd": 8326521.0,
+    "unitValueUsdMt": 300.2,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 18035.2,
+      "valueUsd": 5108339.0
+     },
+     {
+      "country": "US",
+      "volumeMt": 8483.3,
+      "valueUsd": 2989024.0
+     },
+     {
+      "country": "BR",
+      "volumeMt": 509.2,
+      "valueUsd": 229158.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 66.7
+   },
+   "procurement": {
+    "akijSourcingCountry": "Nigeria",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-031",
+   "name": "L-METHIONINE",
+   "category": "Amino Acids",
+   "hsCode": "29304000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 2700.0,
+    "current": 4950.0,
+    "lastMonth": 3050.0,
+    "sixMo": 2413.0,
+    "avg2024": null,
+    "avg2025": 2497.0,
+    "lastYearYtd": null,
+    "ytd2026": 2419.0
+   },
+   "movement": {
+    "wow": 0.8333,
+    "mom": 0.623,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 59.0,
+    "completeness": 75.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 55.2,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 75.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 1
+    }
+   },
+   "risk": {
+    "composite": 47.2,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 100,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.8
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 4950.0,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 36.0,
+    "valueUsd": 178200.0,
+    "unitValueUsdMt": 4950.0,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "MY",
+      "volumeMt": 36.0,
+      "valueUsd": 178200.0
+     }
+    ],
+    "topOrigin": "MY",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-032",
+   "name": "MONO CALCIUM PHOSPHATE (MCP)",
+   "category": "Minerals",
+   "hsCode": "28352600",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1414.0,
+    "current": 1120.3,
+    "lastMonth": 1091.14,
+    "sixMo": 926.0,
+    "avg2024": 696.0,
+    "avg2025": 751.0,
+    "lastYearYtd": 704.0,
+    "ytd2026": 928.0
+   },
+   "movement": {
+    "wow": -0.2077,
+    "mom": 0.0267,
+    "yoy": 0.079,
+    "ytd": 0.3182
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 60.2,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 19
+    }
+   },
+   "risk": {
+    "composite": 25.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.7,
+     "momentum": 83.1,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 39.8
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 1136.79,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 3721.0,
+    "valueUsd": 4168627.0,
+    "unitValueUsdMt": 1136.79,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 3721.0,
+      "valueUsd": 4168627.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-033",
+   "name": "DICALCIUM PHOSPHATE (DCP)",
+   "category": "Minerals",
+   "hsCode": "28352500",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 800.0,
+    "current": 749.58,
+    "lastMonth": 708.59,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": -0.063,
+    "mom": 0.0578,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 11
+    }
+   },
+   "risk": {
+    "composite": 16.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 14.5,
+     "momentum": 25.2,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 69.3,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 750.0,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 1246.2,
+    "valueUsd": 955248.0,
+    "unitValueUsdMt": 750.0,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 863.0,
+      "valueUsd": 691622.0
+     },
+     {
+      "country": "JP",
+      "volumeMt": 121.2,
+      "valueUsd": 65448.0
+     },
+     {
+      "country": "IN",
+      "volumeMt": 262.0,
+      "valueUsd": 198178.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 69.3
+   },
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-034",
+   "name": "CORN GLUTEN FEED",
+   "category": "Grains & Cereals",
+   "hsCode": "23031000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 126.765765,
+    "current": 142.84,
+    "lastMonth": 143.78,
+    "sixMo": 420.0,
+    "avg2024": 582.0,
+    "avg2025": 452.0,
+    "lastYearYtd": 497.0,
+    "ytd2026": 416.0
+   },
+   "movement": {
+    "wow": 0.1268,
+    "mom": -0.0065,
+    "yoy": -0.2234,
+    "ytd": -0.163
+   },
+   "originStats": {
+    "count": 1,
+    "min": 143.3,
+    "max": 143.3,
+    "mean": 143.3,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 75.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 100,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 71.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": true,
+     "observationDepth": 22
+    }
+   },
+   "risk": {
+    "composite": 30.6,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 1.6,
+     "momentum": 50.7,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 28.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 143.3,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 203.19,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 1456.5,
+    "valueUsd": 294181.0,
+    "unitValueUsdMt": 203.19,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 1456.5,
+      "valueUsd": 294181.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-035",
+   "name": "PH RAW MATERIALS",
+   "category": "Amino Acids",
+   "hsCode": "29224100, 29304000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": null,
+    "current": null,
+    "lastMonth": null,
+    "sixMo": null,
+    "avg2024": 2091.0,
+    "avg2025": 1813.0,
+    "lastYearYtd": 1805.0,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": null,
+    "mom": null,
+    "yoy": -0.133,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 29.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No current price",
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 37.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 62.2
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Hold",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-036",
+   "name": "RAPESEED Meal (RSM)",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23064900",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 262.1295558,
+    "current": 292.55,
+    "lastMonth": 263.38,
+    "sixMo": 264.0,
+    "avg2024": 339.0,
+    "avg2025": 355.0,
+    "lastYearYtd": 367.0,
+    "ytd2026": 264.0
+   },
+   "movement": {
+    "wow": 0.1161,
+    "mom": 0.1108,
+    "yoy": 0.0472,
+    "ytd": -0.2807
+   },
+   "originStats": {
+    "count": 1,
+    "min": -85.43,
+    "max": -85.43,
+    "mean": -85.43,
+    "std": 0.0,
+    "cv": -0.0,
+    "spreadPct": -0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 25.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 27.7,
+     "momentum": 46.4,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": -85.43,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-037",
+   "name": "RAPESEED / CANOLA CPT",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23064900",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 582.0,
+    "current": 490.0,
+    "lastMonth": 502.45,
+    "sixMo": 578.0,
+    "avg2024": 586.0,
+    "avg2025": 589.0,
+    "lastYearYtd": 582.0,
+    "ytd2026": 572.0
+   },
+   "movement": {
+    "wow": -0.1581,
+    "mom": -0.0248,
+    "yoy": 0.0051,
+    "ytd": -0.0172
+   },
+   "originStats": {
+    "count": 1,
+    "min": 490.0,
+    "max": 490.0,
+    "mean": 490.0,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Romania"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 23.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.2,
+     "momentum": 63.2,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 490.0,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-038",
+   "name": "RAPESEED / CANOLA FOB",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23064900",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 572.0,
+    "current": 595.75,
+    "lastMonth": 580.43,
+    "sixMo": 568.0,
+    "avg2024": 566.0,
+    "avg2025": 562.0,
+    "lastYearYtd": 582.0,
+    "ytd2026": 563.0
+   },
+   "movement": {
+    "wow": 0.0415,
+    "mom": 0.0264,
+    "yoy": -0.0071,
+    "ytd": -0.0326
+   },
+   "originStats": {
+    "count": 1,
+    "min": 580.43,
+    "max": 580.43,
+    "mean": 580.43,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Bulgaria"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 16.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.6,
+     "momentum": 16.6,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 580.43,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-039",
+   "name": "RAPESEED OIL FOB Refined",
+   "category": "Oils & Fats",
+   "hsCode": "23064900",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 1892.28,
+    "current": 1810.88,
+    "lastMonth": 1785.3,
+    "sixMo": 1852.0,
+    "avg2024": 1783.0,
+    "avg2025": 1792.0,
+    "lastYearYtd": 1801.0,
+    "ytd2026": 1802.0
+   },
+   "movement": {
+    "wow": -0.043,
+    "mom": 0.0143,
+    "yoy": 0.005,
+    "ytd": 0.0006
+   },
+   "originStats": {
+    "count": 1,
+    "min": 253.53,
+    "max": 253.53,
+    "mean": 253.53,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 6
+    }
+   },
+   "risk": {
+    "composite": 16.3,
+    "band": "Low",
+    "dimensions": {
+     "price": 3.6,
+     "momentum": 17.2,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 253.53,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-040",
+   "name": "RAPESEED EXTRACT",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23064900",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 281.0,
+    "current": 274.26,
+    "lastMonth": 281.32,
+    "sixMo": 262.0,
+    "avg2024": 278.0,
+    "avg2025": 273.0,
+    "lastYearYtd": 277.0,
+    "ytd2026": 268.0
+   },
+   "movement": {
+    "wow": -0.024,
+    "mom": -0.0251,
+    "yoy": -0.018,
+    "ytd": -0.0325
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 60.2,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 53
+    }
+   },
+   "risk": {
+    "composite": 14.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.3,
+     "momentum": 9.6,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 39.8
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 279.29,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 47898.7,
+    "valueUsd": 13136757.0,
+    "unitValueUsdMt": 279.29,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 47898.7,
+      "valueUsd": 13136757.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-041",
+   "name": "WHEAT CBOT",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 257.02,
+    "current": 257.02,
+    "lastMonth": 260.0,
+    "sixMo": 272.0,
+    "avg2024": 284.0,
+    "avg2025": 276.0,
+    "lastYearYtd": 281.0,
+    "ytd2026": 268.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.0115,
+    "yoy": -0.0282,
+    "ytd": -0.0463
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 2.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 2.9,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-042",
+   "name": "WHEAT 10%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 262.0,
+    "current": 267.0,
+    "lastMonth": 263.9,
+    "sixMo": 270.0,
+    "avg2024": 282.0,
+    "avg2025": 274.0,
+    "lastYearYtd": 279.0,
+    "ytd2026": 266.0
+   },
+   "movement": {
+    "wow": 0.0191,
+    "mom": 0.0117,
+    "yoy": -0.0284,
+    "ytd": -0.0466
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 4.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 2.9,
+     "momentum": 7.6,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-043",
+   "name": "WHEAT CBOT 10.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 192.5,
+    "current": 192.5,
+    "lastMonth": 198.0,
+    "sixMo": 221.0,
+    "avg2024": 244.0,
+    "avg2025": 236.0,
+    "lastYearYtd": 241.0,
+    "ytd2026": 229.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.0278,
+    "yoy": -0.0328,
+    "ytd": -0.0498
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.6,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.9,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-044",
+   "name": "WHEAT CBOT 11.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 195.5,
+    "current": 195.5,
+    "lastMonth": 201.0,
+    "sixMo": 224.0,
+    "avg2024": 247.0,
+    "avg2025": 239.0,
+    "lastYearYtd": 244.0,
+    "ytd2026": 232.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.0274,
+    "yoy": -0.0324,
+    "ytd": -0.0492
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.6,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.8,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-045",
+   "name": "WHEAT CBOT 12.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 197.5,
+    "current": 197.5,
+    "lastMonth": 202.0,
+    "sixMo": 225.0,
+    "avg2024": 248.0,
+    "avg2025": 240.0,
+    "lastYearYtd": 245.0,
+    "ytd2026": 233.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.0223,
+    "yoy": -0.0323,
+    "ytd": -0.049
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.3,
+    "band": "Low",
+    "dimensions": {
+     "price": 5.6,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-046",
+   "name": "WHEAT AND WHEAT BRAN CBOT 13.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 199.5,
+    "current": 241.79,
+    "lastMonth": 219.56,
+    "sixMo": 228.0,
+    "avg2024": 251.0,
+    "avg2025": 243.0,
+    "lastYearYtd": 248.0,
+    "ytd2026": 236.0
+   },
+   "movement": {
+    "wow": 0.212,
+    "mom": 0.1012,
+    "yoy": -0.0319,
+    "ytd": -0.0484
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 20.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.3,
+     "momentum": 84.8,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-047",
+   "name": "WHEAT CBOT 14.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 211.5,
+    "current": 211.5,
+    "lastMonth": 217.0,
+    "sixMo": 240.0,
+    "avg2024": 264.0,
+    "avg2025": 255.0,
+    "lastYearYtd": 261.0,
+    "ytd2026": 248.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": -0.0253,
+    "yoy": -0.0341,
+    "ytd": -0.0498
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.3,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-048",
+   "name": "WHEAT FEED",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 217.0,
+    "current": 241.62,
+    "lastMonth": 230.14,
+    "sixMo": 232.0,
+    "avg2024": 252.0,
+    "avg2025": 244.0,
+    "lastYearYtd": 249.0,
+    "ytd2026": 237.0
+   },
+   "movement": {
+    "wow": 0.1135,
+    "mom": 0.0499,
+    "yoy": -0.0317,
+    "ytd": -0.0482
+   },
+   "originStats": {
+    "count": 2,
+    "min": 190.25,
+    "max": 246.92,
+    "mean": 218.58,
+    "std": 28.33,
+    "cv": 0.1296,
+    "spreadPct": 29.79,
+    "countries": [
+     "Romania",
+     "Ukraine"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 10
+    }
+   },
+   "risk": {
+    "composite": 17.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 12.5,
+     "momentum": 45.4,
+     "forecast": 0,
+     "originConcentration": 40,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 190.25,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "India",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-049",
+   "name": "WHEAT FOB 10%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 260.0,
+    "current": 267.0,
+    "lastMonth": 263.9,
+    "sixMo": 258.0,
+    "avg2024": 252.0,
+    "avg2025": 257.0,
+    "lastYearYtd": 257.0,
+    "ytd2026": 260.41
+   },
+   "movement": {
+    "wow": 0.0269,
+    "mom": 0.0117,
+    "yoy": 0.0198,
+    "ytd": 0.0133
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 4.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 2.9,
+     "momentum": 10.8,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-050",
+   "name": "WHEAT FOB 10.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 268.0,
+    "current": 273.58,
+    "lastMonth": 255.98,
+    "sixMo": 269.0,
+    "avg2024": 255.0,
+    "avg2025": 253.0,
+    "lastYearYtd": 256.0,
+    "ytd2026": 264.22
+   },
+   "movement": {
+    "wow": 0.0208,
+    "mom": 0.0688,
+    "yoy": -0.0078,
+    "ytd": 0.0321
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 6.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 17.2,
+     "momentum": 8.3,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-051",
+   "name": "WHEAT FOB 11%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 254.57,
+    "current": 327.25,
+    "lastMonth": 300.75,
+    "sixMo": 258.0,
+    "avg2024": 265.0,
+    "avg2025": 262.0,
+    "lastYearYtd": 265.0,
+    "ytd2026": 254.57
+   },
+   "movement": {
+    "wow": 0.2855,
+    "mom": 0.0881,
+    "yoy": -0.0113,
+    "ytd": -0.0394
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 21.6,
+    "band": "Low",
+    "dimensions": {
+     "price": 22.0,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-052",
+   "name": "WHEAT FOB 11.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 212.13,
+    "current": 247.12,
+    "lastMonth": 233.5,
+    "sixMo": 212.0,
+    "avg2024": 202.0,
+    "avg2025": 206.0,
+    "lastYearYtd": 28.0,
+    "ytd2026": 215.73
+   },
+   "movement": {
+    "wow": 0.1649,
+    "mom": 0.0583,
+    "yoy": 0.0198,
+    "ytd": 6.7046
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 15.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 14.6,
+     "momentum": 66.0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Strong Buy",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-053",
+   "name": "WHEAT FOB 12.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 213.8,
+    "current": 266.54,
+    "lastMonth": 250.66,
+    "sixMo": 229.0,
+    "avg2024": 218.0,
+    "avg2025": 212.0,
+    "lastYearYtd": 209.0,
+    "ytd2026": 231.14
+   },
+   "movement": {
+    "wow": 0.2467,
+    "mom": 0.0634,
+    "yoy": -0.0275,
+    "ytd": 0.1059
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 20.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 15.8,
+     "momentum": 98.7,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-054",
+   "name": "WHEAT FOB 13.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 284.28,
+    "current": 266.12,
+    "lastMonth": 247.46,
+    "sixMo": 279.0,
+    "avg2024": 258.0,
+    "avg2025": 262.0,
+    "lastYearYtd": 259.32,
+    "ytd2026": 282.48
+   },
+   "movement": {
+    "wow": -0.0639,
+    "mom": 0.0754,
+    "yoy": 0.0155,
+    "ytd": 0.0893
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 9.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 18.9,
+     "momentum": 25.6,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-055",
+   "name": "WHEAT FOB 14.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 278.29,
+    "current": 265.17,
+    "lastMonth": 262.83,
+    "sixMo": 265.0,
+    "avg2024": 262.0,
+    "avg2025": 258.0,
+    "lastYearYtd": 255.322,
+    "ytd2026": 271.36
+   },
+   "movement": {
+    "wow": -0.0471,
+    "mom": 0.0089,
+    "yoy": -0.0153,
+    "ytd": 0.0628
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 5.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 2.2,
+     "momentum": 18.9,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-056",
+   "name": "WHEAT FOB 9.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 278.29,
+    "current": 304.0,
+    "lastMonth": 285.15,
+    "sixMo": 272.0,
+    "avg2024": 258.0,
+    "avg2025": 264.28,
+    "lastYearYtd": 264.28,
+    "ytd2026": 271.17
+   },
+   "movement": {
+    "wow": 0.0924,
+    "mom": 0.0661,
+    "yoy": 0.0243,
+    "ytd": 0.0261
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 11.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 16.5,
+     "momentum": 37.0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-057",
+   "name": "WHEAT CIF 10.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 217.0,
+    "current": 220.0,
+    "lastMonth": 220.0,
+    "sixMo": 219.0,
+    "avg2024": 212.0,
+    "avg2025": 216.0,
+    "lastYearYtd": 216.0,
+    "ytd2026": 217.83
+   },
+   "movement": {
+    "wow": 0.0138,
+    "mom": 0.0,
+    "yoy": 0.0189,
+    "ytd": 0.0085
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 5.5,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-058",
+   "name": "WHEAT CIF 11.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 256.78,
+    "current": 264.5,
+    "lastMonth": 245.84,
+    "sixMo": 254.0,
+    "avg2024": 237.0,
+    "avg2025": 239.0,
+    "lastYearYtd": 239.0,
+    "ytd2026": 250.87
+   },
+   "movement": {
+    "wow": 0.0301,
+    "mom": 0.0759,
+    "yoy": 0.0084,
+    "ytd": 0.0497
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 7.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 19.0,
+     "momentum": 12.0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-059",
+   "name": "WHEAT CIF 12.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 261.0,
+    "current": 267.5,
+    "lastMonth": 249.28,
+    "sixMo": 254.29,
+    "avg2024": 257.0,
+    "avg2025": 262.0,
+    "lastYearYtd": 262.0,
+    "ytd2026": 253.91
+   },
+   "movement": {
+    "wow": 0.0249,
+    "mom": 0.0731,
+    "yoy": 0.0195,
+    "ytd": -0.0309
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 7.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 18.3,
+     "momentum": 10.0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-060",
+   "name": "WHEAT CIF 13.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 230.0,
+    "current": 230.0,
+    "lastMonth": 230.0,
+    "sixMo": 236.82,
+    "avg2024": 241.0,
+    "avg2025": 245.0,
+    "lastYearYtd": 245.0,
+    "ytd2026": 230.42
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 0.0,
+    "yoy": 0.0166,
+    "ytd": -0.0595
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 2.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-061",
+   "name": "WHEAT CIF 14.5%",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 238.0,
+    "current": 239.0,
+    "lastMonth": 239.0,
+    "sixMo": 239.12,
+    "avg2024": 232.0,
+    "avg2025": 238.0,
+    "lastYearYtd": 238.0,
+    "ytd2026": 237.92
+   },
+   "movement": {
+    "wow": 0.0042,
+    "mom": 0.0,
+    "yoy": 0.0259,
+    "ytd": -0.0003
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 55.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 2.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 1.7,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 44.5
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-062",
+   "name": "WHEAT CIF Feed",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 272.0,
+    "current": 291.75,
+    "lastMonth": 265.24,
+    "sixMo": 242.0,
+    "avg2024": 238.0,
+    "avg2025": 242.0,
+    "lastYearYtd": 242.0,
+    "ytd2026": 246.26
+   },
+   "movement": {
+    "wow": 0.0726,
+    "mom": 0.0999,
+    "yoy": 0.0168,
+    "ytd": 0.0176
+   },
+   "originStats": {
+    "count": 1,
+    "min": 265.24,
+    "max": 265.24,
+    "mean": 265.24,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Spain"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 22.3,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.0,
+     "momentum": 29.0,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 265.24,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-063",
+   "name": "WHEAT FOB Midds",
+   "category": "Grains & Cereals",
+   "hsCode": "10019990",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 135.0,
+    "current": 157.08,
+    "lastMonth": 142.6,
+    "sixMo": 136.0,
+    "avg2024": 138.0,
+    "avg2025": 138.0,
+    "lastYearYtd": 138.0,
+    "ytd2026": 134.7796039
+   },
+   "movement": {
+    "wow": 0.1636,
+    "mom": 0.1015,
+    "yoy": 0.0,
+    "ytd": -0.0233
+   },
+   "originStats": {
+    "count": 1,
+    "min": 127.03,
+    "max": 127.03,
+    "mean": 127.03,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 6
+    }
+   },
+   "risk": {
+    "composite": 27.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.4,
+     "momentum": 65.4,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 127.03,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "Ukraine",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-064",
+   "name": "BERLEY",
+   "category": "Grains & Cereals",
+   "hsCode": "10039090",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 199.0,
+    "current": 255.65,
+    "lastMonth": 234.62,
+    "sixMo": 230.0,
+    "avg2024": 232.0,
+    "avg2025": 234.0,
+    "lastYearYtd": 227.0,
+    "ytd2026": 214.0
+   },
+   "movement": {
+    "wow": 0.2847,
+    "mom": 0.0896,
+    "yoy": 0.0086,
+    "ytd": -0.0573
+   },
+   "originStats": {
+    "count": 6,
+    "min": 190.0,
+    "max": 266.2,
+    "mean": 226.8,
+    "std": 28.35,
+    "cv": 0.125,
+    "spreadPct": 40.11,
+    "countries": [
+     "Argentina",
+     "Ukraine",
+     "Russia",
+     "Germany",
+     "Australia",
+     "France"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 16
+    }
+   },
+   "risk": {
+    "composite": 22.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 22.4,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 190.0,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-065",
+   "name": "COTTON SEED OIL",
+   "category": "Oils & Fats",
+   "hsCode": "15122100",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 1940.067888,
+    "current": 1907.0,
+    "lastMonth": 1924.86,
+    "sixMo": 2168.3224,
+    "avg2024": 2080.7225,
+    "avg2025": 2070.0,
+    "lastYearYtd": 2068.0,
+    "ytd2026": 2032.0
+   },
+   "movement": {
+    "wow": -0.017,
+    "mom": -0.0093,
+    "yoy": -0.0052,
+    "ytd": -0.0174
+   },
+   "originStats": {
+    "count": 1,
+    "min": 1907.0,
+    "max": 1907.0,
+    "mean": 1907.0,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 14.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 2.3,
+     "momentum": 6.8,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 1907.0,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "United States of America",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-066",
+   "name": "CORN GLUTEN MEAL",
+   "category": "Grains & Cereals",
+   "hsCode": "23031000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 473.99373,
+    "current": 547.22,
+    "lastMonth": 537.17,
+    "sixMo": 517.0,
+    "avg2024": 498.0,
+    "avg2025": 511.0,
+    "lastYearYtd": 510.0,
+    "ytd2026": 522.0
+   },
+   "movement": {
+    "wow": 0.1545,
+    "mom": 0.0187,
+    "yoy": 0.0261,
+    "ytd": 0.0235
+   },
+   "originStats": {
+    "count": 1,
+    "min": 518.09,
+    "max": 518.09,
+    "mean": 518.09,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "United States"
+    ]
+   },
+   "dataQuality": {
+    "score": 75.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 100,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 71.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": true,
+     "observationDepth": 31
+    }
+   },
+   "risk": {
+    "composite": 28.4,
+    "band": "Low",
+    "dimensions": {
+     "price": 4.7,
+     "momentum": 61.8,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 55.2,
+     "procurementPremium": 0,
+     "dataUncertainty": 28.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 518.09,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 729.56,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 3378.2,
+    "valueUsd": 2455753.0,
+    "unitValueUsdMt": 729.56,
+    "originCount": 4,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 261.8,
+      "valueUsd": 196786.0
+     },
+     {
+      "country": "CN",
+      "volumeMt": 1056.9,
+      "valueUsd": 796305.0
+     },
+     {
+      "country": "US",
+      "volumeMt": 1863.5,
+      "valueUsd": 1345062.0
+     },
+     {
+      "country": "PK",
+      "volumeMt": 196.0,
+      "valueUsd": 117600.0
+     }
+    ],
+    "topOrigin": "US",
+    "concentrationPct": 55.2
+   },
+   "procurement": {
+    "akijSourcingCountry": "Brazil",
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-067",
+   "name": "SUNFLOWER MEAL",
+   "category": "Oilseeds & Meals",
+   "hsCode": "23063000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 240.0,
+    "current": 216.25,
+    "lastMonth": 240.69,
+    "sixMo": 445.0,
+    "avg2024": 423.0,
+    "avg2025": 417.0,
+    "lastYearYtd": 421.0,
+    "ytd2026": 445.0
+   },
+   "movement": {
+    "wow": -0.099,
+    "mom": -0.1015,
+    "yoy": -0.0142,
+    "ytd": 0.057
+   },
+   "originStats": {
+    "count": 4,
+    "min": 175.0,
+    "max": 629.9,
+    "mean": 341.32,
+    "std": 173.1,
+    "cv": 0.5071,
+    "spreadPct": 259.94,
+    "countries": [
+     "Bulgaria",
+     "Ukraine",
+     "Romania",
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 8
+    }
+   },
+   "risk": {
+    "composite": 14.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.4,
+     "momentum": 39.6,
+     "forecast": 0,
+     "originConcentration": 10,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 175.0,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-068",
+   "name": "Fish Oil",
+   "category": "Oils & Fats",
+   "hsCode": "15042000",
+   "unit": "MT",
+   "source": "Fastmarkets",
+   "benchmark": {
+    "lastWeek": 3637.62729,
+    "current": 3637.63,
+    "lastMonth": 3637.63,
+    "sixMo": 445.0,
+    "avg2024": 423.0,
+    "avg2025": 417.0,
+    "lastYearYtd": 421.0,
+    "ytd2026": 445.0
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": 0.0,
+    "yoy": -0.0142,
+    "ytd": 0.057
+   },
+   "originStats": {
+    "count": 1,
+    "min": 3637.63,
+    "max": 3637.63,
+    "mean": 3637.63,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Argentina"
+    ]
+   },
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 65.5,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 90,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 2
+    }
+   },
+   "risk": {
+    "composite": 13.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0.0,
+     "forecast": 0,
+     "originConcentration": 75,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 34.5
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": 3637.63,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-069",
+   "name": "L-THREONINE",
+   "category": "Amino Acids",
+   "hsCode": "29225000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1400.0,
+    "current": 1154.67,
+    "lastMonth": 1437.5,
+    "sixMo": 1220.0,
+    "avg2024": null,
+    "avg2025": 1425.0,
+    "lastYearYtd": 1610.0,
+    "ytd2026": 1238.0
+   },
+   "movement": {
+    "wow": -0.1752,
+    "mom": -0.1968,
+    "yoy": null,
+    "ytd": -0.2311
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 52.0,
+    "completeness": 87.5,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 87.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 23.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 49.2,
+     "momentum": 70.1,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-070",
+   "name": "L-LYSINE",
+   "category": "Amino Acids",
+   "hsCode": "29224100",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1283.0,
+    "current": 787.5,
+    "lastMonth": 1186.63,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": -0.3862,
+    "mom": -0.3364,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 32.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 37.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 34.9,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 84.1,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 62.2
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-071",
+   "name": "L-LYSINE",
+   "category": "Amino Acids",
+   "hsCode": "29224100",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1283.0,
+    "current": 787.5,
+    "lastMonth": 1186.63,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": -0.3862,
+    "mom": -0.3364,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 15
+    }
+   },
+   "risk": {
+    "composite": 43.3,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 84.1,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 88.7,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 1098.13,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 1100.0,
+    "valueUsd": 1287826.0,
+    "unitValueUsdMt": 1098.13,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 976.0,
+      "valueUsd": 1073896.0
+     },
+     {
+      "country": "IN",
+      "volumeMt": 5.0,
+      "valueUsd": 3300.0
+     },
+     {
+      "country": "KR",
+      "volumeMt": 119.0,
+      "valueUsd": 210630.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 88.7
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-072",
+   "name": "L-THREONINE",
+   "category": "Amino Acids",
+   "hsCode": "29225000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1400.0,
+    "current": 1154.67,
+    "lastMonth": 1437.5,
+    "sixMo": 1220.0,
+    "avg2024": null,
+    "avg2025": 1425.0,
+    "lastYearYtd": 1610.0,
+    "ytd2026": 1238.0
+   },
+   "movement": {
+    "wow": -0.1752,
+    "mom": -0.1968,
+    "yoy": null,
+    "ytd": -0.2311
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 64.0,
+    "completeness": 87.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 57.8,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 87.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 4
+    }
+   },
+   "risk": {
+    "composite": 32.5,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 49.2,
+     "momentum": 70.1,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 42.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 1145.25,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 207.0,
+    "valueUsd": 239016.0,
+    "unitValueUsdMt": 1145.25,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 207.0,
+      "valueUsd": 239016.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-073",
+   "name": "CHOLINE CHLORIDE",
+   "category": "Additives",
+   "hsCode": "29231000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1041.91,
+    "current": 983.14,
+    "lastMonth": 858.99,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": -0.0564,
+    "mom": 0.1445,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 15
+    }
+   },
+   "risk": {
+    "composite": 20.8,
+    "band": "Low",
+    "dimensions": {
+     "price": 36.1,
+     "momentum": 22.6,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 75.4,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 1889.42,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 531.3,
+    "valueUsd": 515507.0,
+    "unitValueUsdMt": 1889.42,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 400.5,
+      "valueUsd": 380747.0
+     },
+     {
+      "country": "IN",
+      "volumeMt": 78.0,
+      "valueUsd": 85920.0
+     },
+     {
+      "country": "BE",
+      "volumeMt": 52.8,
+      "valueUsd": 48840.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 75.4
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-074",
+   "name": "DL-METHIONINE",
+   "category": "Amino Acids",
+   "hsCode": "29304000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 4283.93,
+    "current": 4309.09,
+    "lastMonth": 3828.99,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.0059,
+    "mom": 0.1254,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 12
+    }
+   },
+   "risk": {
+    "composite": 18.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 31.3,
+     "momentum": 2.3,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 93.1,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 4295.0,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 1160.0,
+    "valueUsd": 4576000.0,
+    "unitValueUsdMt": 4295.0,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 1080.0,
+      "valueUsd": 4175000.0
+     },
+     {
+      "country": "SG",
+      "volumeMt": 60.0,
+      "valueUsd": 310000.0
+     },
+     {
+      "country": "FR",
+      "volumeMt": 20.0,
+      "valueUsd": 91000.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 93.1
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-075",
+   "name": "FEED PREMIX",
+   "category": "Additives",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 2448.18,
+    "current": 3806.97,
+    "lastMonth": 5518.35,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.555,
+    "mom": -0.3101,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 11
+    }
+   },
+   "risk": {
+    "composite": 38.2,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 77.5,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 50.9,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 4757.41,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 76.6,
+    "valueUsd": 283060.0,
+    "unitValueUsdMt": 4757.41,
+    "originCount": 3,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 14.2,
+      "valueUsd": 32815.0
+     },
+     {
+      "country": "KR",
+      "volumeMt": 39.0,
+      "valueUsd": 116250.0
+     },
+     {
+      "country": "IN",
+      "volumeMt": 23.4,
+      "valueUsd": 133995.0
+     }
+    ],
+    "topOrigin": "KR",
+    "concentrationPct": 50.9
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-076",
+   "name": "FEED SUPPLEMENT (LIQUID)",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 2842.0,
+    "current": 3409.12,
+    "lastMonth": 1863.16,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.1995,
+    "mom": 0.8298,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 37
+    }
+   },
+   "risk": {
+    "composite": 41.2,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 100,
+     "momentum": 79.8,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 66.3,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 5214.25,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 350.8,
+    "valueUsd": 967604.0,
+    "unitValueUsdMt": 5214.25,
+    "originCount": 5,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 11.1,
+      "valueUsd": 94000.0
+     },
+     {
+      "country": "BD",
+      "volumeMt": 11.0,
+      "valueUsd": 66415.0
+     },
+     {
+      "country": "TW",
+      "volumeMt": 14.1,
+      "valueUsd": 183300.0
+     },
+     {
+      "country": "IN",
+      "volumeMt": 232.7,
+      "valueUsd": 623889.0
+     },
+     {
+      "country": "FR",
+      "volumeMt": 82.0,
+      "valueUsd": 0.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 66.3
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-077",
+   "name": "FEED SUPPLEMENT (POWDER)",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 5722.14,
+    "current": 3524.21,
+    "lastMonth": 2040.0,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": -0.3841,
+    "mom": 0.7276,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 3
+    }
+   },
+   "risk": {
+    "composite": 45.4,
+    "band": "Moderate",
+    "dimensions": {
+     "price": 100,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 77.6,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 3636.67,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 33.5,
+    "valueUsd": 64570.0,
+    "unitValueUsdMt": 3636.67,
+    "originCount": 2,
+    "origins": [
+     {
+      "country": "IN",
+      "volumeMt": 7.5,
+      "valueUsd": 28950.0
+     },
+     {
+      "country": "CN",
+      "volumeMt": 26.0,
+      "valueUsd": 35620.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 77.6
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-078",
+   "name": "FEED SUPPLEMENT (OTHER)",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 2027.72,
+    "current": 2326.35,
+    "lastMonth": 1871.17,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.1473,
+    "mom": 0.2433,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 44.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 47.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 63
+    }
+   },
+   "risk": {
+    "composite": 26.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 60.8,
+     "momentum": 58.9,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 25.0,
+     "procurementPremium": 0,
+     "dataUncertainty": 52.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 8558.35,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 997.4,
+    "valueUsd": 2110878.0,
+    "unitValueUsdMt": 8558.35,
+    "originCount": 16,
+    "origins": [
+     {
+      "country": "AT",
+      "volumeMt": 3.0,
+      "valueUsd": 84000.0
+     },
+     {
+      "country": "DE",
+      "volumeMt": 10.0,
+      "valueUsd": 116000.0
+     },
+     {
+      "country": "IN",
+      "volumeMt": 249.8,
+      "valueUsd": 703401.0
+     },
+     {
+      "country": "ZA",
+      "volumeMt": 0.0,
+      "valueUsd": 2711.0
+     },
+     {
+      "country": "LK",
+      "volumeMt": 17.5,
+      "valueUsd": 68300.0
+     },
+     {
+      "country": "CN",
+      "volumeMt": 33.6,
+      "valueUsd": 135164.0
+     },
+     {
+      "country": "KR",
+      "volumeMt": 221.4,
+      "valueUsd": 108937.0
+     },
+     {
+      "country": "GB",
+      "volumeMt": 11.1,
+      "valueUsd": 80205.0
+     },
+     {
+      "country": "ES",
+      "volumeMt": 15.0,
+      "valueUsd": 0.0
+     },
+     {
+      "country": "NL",
+      "volumeMt": 85.0,
+      "valueUsd": 0.0
+     },
+     {
+      "country": "PL",
+      "volumeMt": 60.7,
+      "valueUsd": 295680.0
+     },
+     {
+      "country": "TH",
+      "volumeMt": 31.3,
+      "valueUsd": 300000.0
+     },
+     {
+      "country": "TW",
+      "volumeMt": 12.6,
+      "valueUsd": 104060.0
+     },
+     {
+      "country": "FR",
+      "volumeMt": 184.0,
+      "valueUsd": 112420.0
+     },
+     {
+      "country": "IT",
+      "volumeMt": 12.0,
+      "valueUsd": 0.0
+     },
+     {
+      "country": "NO",
+      "volumeMt": 50.4,
+      "valueUsd": 0.0
+     }
+    ],
+    "topOrigin": "IN",
+    "concentrationPct": 25.0
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-079",
+   "name": "FISH MEAL",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 1372.09,
+    "current": 1380.09,
+    "lastMonth": 1346.78,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.0058,
+    "mom": 0.0247,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 32.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 37.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 4.7,
+    "band": "Low",
+    "dimensions": {
+     "price": 6.2,
+     "momentum": 2.3,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 62.2
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-080",
+   "name": "OTHER PROTEIN / MEAL",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 920.67,
+    "current": 920.67,
+    "lastMonth": null,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": null,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 27.0,
+    "completeness": 25.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 35.2,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 25.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 64.8
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-081",
+   "name": "POULTRY MEAL",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 648.75,
+    "current": 670.75,
+    "lastMonth": 617.4,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.0339,
+    "mom": 0.0864,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 32.0,
+    "completeness": 37.5,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 37.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 37.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 9.5,
+    "band": "Low",
+    "dimensions": {
+     "price": 21.6,
+     "momentum": 13.6,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 62.2
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-082",
+   "name": "SHRIMP MEAL",
+   "category": "Protein Meals & Supplements",
+   "hsCode": "23099090",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 750.0,
+    "current": 750.0,
+    "lastMonth": null,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": 0.0,
+    "mom": null,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 27.0,
+    "completeness": 25.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 35.2,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 25.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 3.2,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 64.8
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Monitor",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-083",
+   "name": "AMINO ACID (FEED)",
+   "category": "Amino Acids",
+   "hsCode": "29224100, 29225000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": null,
+    "current": 1168.2,
+    "lastMonth": 1302.21,
+    "sixMo": null,
+    "avg2024": 1586.0,
+    "avg2025": 1382.0,
+    "lastYearYtd": 1438.0,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": null,
+    "mom": -0.1029,
+    "yoy": -0.1286,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 42.0,
+    "completeness": 62.5,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 42.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 62.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 8.0,
+    "band": "Low",
+    "dimensions": {
+     "price": 25.7,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 57.2
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-084",
+   "name": "FEED ADDITIVE",
+   "category": "Additives",
+   "hsCode": "29231000, 29304000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 545.0,
+    "current": 2345.63,
+    "lastMonth": 2229.76,
+    "sixMo": 785.0,
+    "avg2024": 1413.0,
+    "avg2025": 856.0,
+    "lastYearYtd": 928.0,
+    "ytd2026": 793.0
+   },
+   "movement": {
+    "wow": 3.3039,
+    "mom": 0.052,
+    "yoy": -0.3942,
+    "ytd": -0.1455
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 57.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 0,
+    "issues": [
+     "No observations or import records"
+    ]
+   },
+   "evidenceConfidence": {
+    "score": 50.2,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 0
+    }
+   },
+   "risk": {
+    "composite": 20.1,
+    "band": "Low",
+    "dimensions": {
+     "price": 13.0,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 0,
+     "procurementPremium": 0,
+     "dataUncertainty": 49.8
+    }
+   },
+   "landedCost": {
+    "status": "UNAVAILABLE",
+    "reason": "No origin or import value available"
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": null,
+   "procurement": {
+    "akijSourcingCountry": "China",
+    "procurementAction": "Diversify Source",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-085",
+   "name": "LIMESTONE POWDER",
+   "category": "Minerals",
+   "hsCode": "25174900",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": 35.0,
+    "current": 61.9,
+    "lastMonth": 62.12,
+    "sixMo": 53.0,
+    "avg2024": 61.0,
+    "avg2025": 61.0,
+    "lastYearYtd": 65.0,
+    "ytd2026": 53.0
+   },
+   "movement": {
+    "wow": 0.7686,
+    "mom": -0.0035,
+    "yoy": 0.0,
+    "ytd": -0.1846
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 69.0,
+    "completeness": 100.0,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 60.2,
+    "level": "Medium",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 100.0,
+     "crossSourceAgreement": false,
+     "observationDepth": 53
+    }
+   },
+   "risk": {
+    "composite": 26.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 0.9,
+     "momentum": 100,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 97.7,
+     "procurementPremium": 0,
+     "dataUncertainty": 39.8
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 61.13,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 21756.2,
+    "valueUsd": 1346668.0,
+    "unitValueUsdMt": 61.13,
+    "originCount": 2,
+    "origins": [
+     {
+      "country": "EG",
+      "volumeMt": 21252.2,
+      "valueUsd": 1311388.0
+     },
+     {
+      "country": "VN",
+      "volumeMt": 504.0,
+      "valueUsd": 35280.0
+     }
+    ],
+    "topOrigin": "EG",
+    "concentrationPct": 97.7
+   },
+   "procurement": {
+    "akijSourcingCountry": "Egypt",
+    "procurementAction": "Strong Buy",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-086",
+   "name": "TAPIOCA RESIDUE PELLETS",
+   "category": "Grains & Cereals",
+   "hsCode": "23031000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": null,
+    "current": 253.0,
+    "lastMonth": null,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": null,
+    "mom": null,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 34.0,
+    "completeness": 12.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 42.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 12.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 1
+    }
+   },
+   "risk": {
+    "composite": 12.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 57.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 253.0,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 74.4,
+    "valueUsd": 18829.0,
+    "unitValueUsdMt": 253.0,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "VN",
+      "volumeMt": 74.4,
+      "valueUsd": 18829.0
+     }
+    ],
+    "topOrigin": "VN",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  },
+  {
+   "id": "MAT-087",
+   "name": "SOYBEAN FLOUR",
+   "category": "Oilseeds & Meals",
+   "hsCode": "12081000",
+   "unit": "MT",
+   "source": "NBR Data",
+   "benchmark": {
+    "lastWeek": null,
+    "current": 3300.0,
+    "lastMonth": null,
+    "sixMo": null,
+    "avg2024": null,
+    "avg2025": null,
+    "lastYearYtd": null,
+    "ytd2026": null
+   },
+   "movement": {
+    "wow": null,
+    "mom": null,
+    "yoy": null,
+    "ytd": null
+   },
+   "originStats": null,
+   "dataQuality": {
+    "score": 34.0,
+    "completeness": 12.5,
+    "freshness": 0,
+    "sourceCoverage": 60,
+    "issues": []
+   },
+   "evidenceConfidence": {
+    "score": 42.8,
+    "level": "Low",
+    "basis": {
+     "sourceQuality": 75,
+     "freshness": 0,
+     "completeness": 12.5,
+     "crossSourceAgreement": false,
+     "observationDepth": 1
+    }
+   },
+   "risk": {
+    "composite": 12.9,
+    "band": "Low",
+    "dimensions": {
+     "price": 0,
+     "momentum": 0,
+     "forecast": 0,
+     "originConcentration": 0,
+     "supplierConcentration": 0,
+     "importDependency": 100,
+     "procurementPremium": 0,
+     "dataUncertainty": 57.2
+    }
+   },
+   "landedCost": {
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": 3300.0,
+    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+   },
+   "savings": {
+    "status": "UNAVAILABLE",
+    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
+    "potentialSavingUsdMt": null,
+    "financialExposureUsd": null
+   },
+   "importIntelligence": {
+    "volumeMt": 1.0,
+    "valueUsd": 3300.0,
+    "unitValueUsdMt": 3300.0,
+    "originCount": 1,
+    "origins": [
+     {
+      "country": "CN",
+      "volumeMt": 1.0,
+      "valueUsd": 3300.0
+     }
+    ],
+    "topOrigin": "CN",
+    "concentrationPct": 100.0
+   },
+   "procurement": {
+    "akijSourcingCountry": null,
+    "procurementAction": "Review Supplier",
+    "premiumVsBest": null
+   }
+  }
+ ]
+}

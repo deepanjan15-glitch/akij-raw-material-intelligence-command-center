@@ -1,0 +1,10 @@
+{
+ "status": "OK",
+ "method": "Equal-weight fallback (no valid volume/spend weights provided)",
+ "basePeriod": "avg2025 (2025 calendar-year average)",
+ "baseValue": 491.93,
+ "currentAvg": 560.08,
+ "index": 113.85,
+ "materialsIncluded": 67,
+ "weights": "equal"
+}

@@ -1,0 +1,19 @@
+{
+ "asOfDate": "2026-09-02",
+ "generatedAt": "2026-09-03T19:56:59.089215+00:00",
+ "analyst": "Dr. Deepanjan Bhattacharya",
+ "dataHonesty": {
+  "unmappedObservations": 197,
+  "unmappedImports": 567,
+  "notes": [
+   "Forecasting is UNAVAILABLE (no time series; only a snapshot + 6-week import window).",
+   "Landed cost is PARTIAL — freight, insurance, duty, handling and finance are not provided.",
+   "Savings is UNAVAILABLE — Akij procurement prices and volumes not provided.",
+   "Feed-cost impact and scenarios are UNAVAILABLE — formulation data not provided.",
+   "Market index uses an equal-weight fallback (no valid volume/spend weights provided).",
+   "Supplier intelligence is UNAVAILABLE — no supplier records provided.",
+   "Untracked families with data but no master material: Palm Oil, Sunflower Oil, Distiller's Corn Oil (observations kept, materialId null).",
+   "Unmapped NBR imports are mostly pharma raw materials and pet/aquarium food — correctly excluded from feed-material mapping."
+  ]
+ }
+}

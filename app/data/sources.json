@@ -1,0 +1,25 @@
+{
+ "sources": [
+  {
+   "id": "fastmarkets",
+   "name": "Fastmarkets",
+   "type": "Fastmarkets",
+   "quality": 90,
+   "notes": "Exchange-assessed physical price assessments (snapshot 2026-09-02)."
+  },
+  {
+   "id": "nbr",
+   "name": "NBR Customs",
+   "type": "NBR Data",
+   "quality": 75,
+   "notes": "Bangladesh customs import records (Jul-Sep 2026 window)."
+  },
+  {
+   "id": "volza",
+   "name": "Volza",
+   "type": "Volza",
+   "quality": 55,
+   "notes": "Third-party trade record (single material)."
+  }
+ ]
+}

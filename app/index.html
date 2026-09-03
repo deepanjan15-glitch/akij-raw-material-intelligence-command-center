@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AKIJ AGRO FEED — Raw Material Market Intelligence &amp; Procurement Command Center</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23005bac'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='16' font-weight='bold' fill='white' text-anchor='middle'%3EAF%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark">AF</div>
+      <div class="brand-text"><strong>AKIJ AGRO FEED</strong><span>Command Center</span></div>
+    </div>
+
+    <div class="nav-group-label">Command</div>
+    <nav>
+      <a class="nav-item active" data-view="command"><span class="ic">▦</span>Command Center</a>
+      <a class="nav-item" data-view="material"><span class="ic">▤</span>Material Intelligence</a>
+      <a class="nav-item" data-view="origin"><span class="ic">◎</span>Origin &amp; Supply</a>
+      <a class="nav-item" data-view="procurement"><span class="ic">◈</span>Procurement Intelligence</a>
+    </nav>
+
+    <div class="nav-group-label">Intelligence</div>
+    <nav>
+      <a class="nav-item" data-view="import"><span class="ic">⇣</span>Import Intelligence</a>
+      <a class="nav-item" data-view="forecast"><span class="ic">⌁</span>Forecast &amp; Scenario</a>
+      <a class="nav-item" data-view="feedcost"><span class="ic">▧</span>Feed Cost Impact</a>
+      <a class="nav-item" data-view="alerts"><span class="ic">▲</span>Alert Center</a>
+    </nav>
+
+    <div class="nav-group-label">Governance</div>
+    <nav>
+      <a class="nav-item" data-view="quality"><span class="ic">✓</span>Data Quality &amp; Governance</a>
+      <a class="nav-item" data-view="methodology"><span class="ic">?</span>Methodology</a>
+      <a class="nav-item" data-view="settings"><span class="ic">⚙</span>Settings</a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="avatar">DB</div>
+      <div><strong>Dr. Deepanjan Bhattacharya</strong><span>Market Intelligence</span></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="topbar-title">
+        <h1 id="viewTitle">Command Center</h1>
+        <div class="subtitle">Data as of <span id="asOf">—</span> · Evidence-driven · No fabricated figures</div>
+      </div>
+      <div class="role-toggle" id="roleToggle">
+        <span class="role-label">View:</span>
+        <button class="role-btn" data-role="ceo">CEO</button>
+        <button class="role-btn" data-role="procurement">Procurement</button>
+        <button class="role-btn" data-role="research">Research</button>
+        <button class="role-btn" data-role="commercial">Commercial</button>
+      </div>
+      <div class="search">
+        <input id="search" placeholder="Search materials, categories, sources…" />
+      </div>
+    </header>
+
+    <section class="honesty-banner" id="honestyBanner"></section>
+
+    <section class="filters" id="filters"></section>
+
+    <section class="view active" id="view-command"></section>
+    <section class="view" id="view-material"></section>
+    <section class="view" id="view-origin"></section>
+    <section class="view" id="view-procurement"></section>
+    <section class="view" id="view-import"></section>
+    <section class="view" id="view-forecast"></section>
+    <section class="view" id="view-feedcost"></section>
+    <section class="view" id="view-alerts"></section>
+    <section class="view" id="view-quality"></section>
+    <section class="view" id="view-methodology"></section>
+    <section class="view" id="view-settings"></section>
+
+    <footer class="footer">
+      <strong>AKIJ AGRO FEED</strong> — Raw Material Market Intelligence &amp; Procurement Command Center ·
+      Independent system (reference dashboard treated as read-only benchmark) · Internal use only
+    </footer>
+  </main>
+</div>
+
+<div class="modal-overlay" id="modal"><div class="modal" id="modalBox"></div></div>
+<script src="js/chart.umd.min.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
