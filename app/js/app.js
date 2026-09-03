@@ -44,7 +44,7 @@ function renderHonesty() {
 
 function renderFilters() {
   const cats = ["All", ...new Set(DATA.materials.materials.map(m => m.category))];
-  const srcs = ["All", ...new Set(DATA.materials.materials.map(m => m.source))];
+  const srcs = ["All", ...(DATA.sources.sources || []).map(s => s.type)];
   document.getElementById("filters").innerHTML = `
     <span class="mono" style="font-size:11px;color:var(--ink-3);align-self:center;">Category:</span>
     ${cats.map(c => `<span class="chip ${state.category === c ? "active" : ""}" data-cat="${c}">${c}</span>`).join("")}
