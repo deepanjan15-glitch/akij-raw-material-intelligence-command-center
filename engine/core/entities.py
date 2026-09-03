@@ -52,11 +52,14 @@ class Import:
     materialId: Optional[str]
     hsCode: str
     countryCode: str
+    countryName: Optional[str]
     description: str
     period: str            # YYYY-MM
     volumeMt: Optional[float]
     valueUsd: Optional[float]
     unitValueUsdMt: Optional[float]
+    exporter: Optional[str]
+    importer: Optional[str]
     loadedAt: str
 
 
@@ -69,6 +72,42 @@ class Procurement:
     incoterm: Optional[str]
     priceUsdMt: Optional[float]
     date: str
+
+
+@dataclass
+class Supplier:
+    id: str
+    name: str
+    countryCode: str
+    countryName: str
+    materialId: Optional[str]
+    volumeMt: float
+    valueUsd: float
+    unitValueUsdMt: float
+    shipments: int
+
+
+# ISO-2 code -> full country name (for origin/supplier display)
+COUNTRY_NAMES = {
+    "AR": "Argentina", "AU": "Australia", "AT": "Austria", "BD": "Bangladesh", "BE": "Belgium",
+    "BR": "Brazil", "BG": "Bulgaria", "CA": "Canada", "CN": "China", "DK": "Denmark",
+    "EG": "Egypt", "FR": "France", "DE": "Germany", "GB": "United Kingdom", "HK": "Hong Kong",
+    "IN": "India", "ID": "Indonesia", "IT": "Italy", "JP": "Japan", "KE": "Kenya",
+    "KR": "South Korea", "MY": "Malaysia", "MX": "Mexico", "MA": "Morocco", "MZ": "Mozambique",
+    "NL": "Netherlands", "NG": "Nigeria", "NO": "Norway", "PK": "Pakistan", "PH": "Philippines",
+    "PL": "Poland", "RO": "Romania", "RU": "Russia", "SA": "Saudi Arabia", "SG": "Singapore",
+    "ES": "Spain", "LK": "Sri Lanka", "SE": "Sweden", "TW": "Taiwan", "TZ": "Tanzania",
+    "TH": "Thailand", "TN": "Tunisia", "TR": "Turkey", "UG": "Uganda", "UA": "Ukraine",
+    "AE": "United Arab Emirates", "US": "United States", "VN": "Vietnam", "ZA": "South Africa",
+    "AO": "Angola", "GH": "Ghana", "OM": "Oman", "SC": "Seychelles", "MV": "Maldives",
+}
+
+
+def country_full(code: Optional[str]) -> Optional[str]:
+    if not code:
+        return None
+    c = str(code).strip().upper()
+    return COUNTRY_NAMES.get(c, c)
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,50 @@
+{
+ "status": "SIMULATION",
+ "label": "SIMULATION — NOT ACTUAL",
+ "baseIndex": 113.85,
+ "note": "Category weights are indicative (no formulation/spend weights). Freight impact is excluded (no freight data).",
+ "sensitivities": [
+  {
+   "input": "Maize",
+   "weight": 0.2,
+   "shockPct": 10,
+   "indexImpactPts": 2.28
+  },
+  {
+   "input": "Soybean Meal",
+   "weight": 0.25,
+   "shockPct": 10,
+   "indexImpactPts": 2.85
+  },
+  {
+   "input": "Soybean Oil",
+   "weight": 0.15,
+   "shockPct": 10,
+   "indexImpactPts": 1.71
+  },
+  {
+   "input": "Wheat",
+   "weight": 0.15,
+   "shockPct": 10,
+   "indexImpactPts": 1.71
+  },
+  {
+   "input": "Additives/Amino acids",
+   "weight": 0.15,
+   "shockPct": 10,
+   "indexImpactPts": 1.71
+  },
+  {
+   "input": "FX (BDT/USD)",
+   "weight": 0.1,
+   "shockPct": 5,
+   "indexImpactPts": 0.57
+  },
+  {
+   "input": "Freight",
+   "weight": 0.0,
+   "shockPct": 10,
+   "indexImpactPts": null
+  }
+ ]
+}

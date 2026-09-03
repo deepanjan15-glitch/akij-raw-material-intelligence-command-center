@@ -1,0 +1,9 @@
+{
+ "status": "ESTIMATE",
+ "label": "Portfolio feed-cost pressure (ESTIMATE — no formulation data)",
+ "inflationPct": 8.32,
+ "inflationSource": "Bangladesh Bank / Trading Economics, July 2026 CPI",
+ "marketIndexChangePct": 13.85,
+ "totalFeedCostPressurePct": 22.17,
+ "note": "Feed-cost impact by animal (Broiler/Layer/Fish/Cattle) requires formulation/inclusion data — not provided."
+}

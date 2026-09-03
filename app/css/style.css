@@ -107,3 +107,25 @@ tbody tr:hover { background: #f8fafc; }
 .footer { margin-top: 30px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 11px; color: var(--ink-3); }
 .kv { display: grid; grid-template-columns: 190px 1fr; gap: 4px 12px; font-size: 12.5px; margin-bottom: 4px; }
 .kv .k { color: var(--ink-3); }
+
+/* ===== Dynamic color enhancements (brand palette) ===== */
+.brand-mark { background: linear-gradient(135deg, #49c5b6 0%, #2779a7 100%); }
+.nav-item.active { background: linear-gradient(90deg, #49c5b6, #3fb8aa); box-shadow: 0 2px 10px rgba(73,197,182,.35); }
+.topbar {
+  background: linear-gradient(120deg, #ffffff 0%, #eef8f6 60%, #e4f0f7 100%);
+  padding: 10px 12px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 12px;
+}
+.panel { box-shadow: 0 1px 3px rgba(0,0,0,.04); transition: box-shadow .15s ease; }
+.panel:hover { box-shadow: 0 4px 14px rgba(0,0,0,.07); }
+.kpi { border-top: 3px solid var(--primary); transition: transform .12s ease, box-shadow .12s ease; }
+.kpi:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,.08); }
+.kpi-value { color: #0f4c46; }
+.chip { transition: all .12s ease; }
+.nav-item { transition: background .12s ease; }
+.badge { letter-spacing: .02em; }
+.role-btn.active { box-shadow: 0 2px 8px rgba(73,197,182,.4); }
+.role-emphasis { background: linear-gradient(90deg, #eef8f6, #fdf6e3); }
+.modal { box-shadow: 0 20px 50px rgba(0,0,0,.25); }
+.honesty-banner { border-left: 4px solid var(--amber); }
+.state-partial { border-left: 4px solid var(--amber); }
+.state-unavailable { border-left: 4px solid var(--gray); }

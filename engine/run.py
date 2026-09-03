@@ -6,18 +6,21 @@ from collections import defaultdict
 
 from .ingest.materials import ingest_materials, ingest_benchmarks
 from .ingest.fastmarkets import ingest_fastmarkets
-from .ingest.nbr import ingest_nbr
-from .core.entities import asdict
+from .ingest.nbr import ingest_nbr, ingest_suppliers
+from .core.entities import asdict, country_full
 from .core.mapping import map_fastmarkets, map_nbr
 from .core.analytics import (
     compute_movement, compute_origin_stats, compute_market_index,
     compute_data_quality, compute_confidence, compute_risk,
     compute_landed_cost, compute_savings, compute_import_intelligence,
+    compute_forecast, compute_feed_cost, compute_scenario,
 )
 
 APP_DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "app", "data")
 AS_OF = "2026-09-02"
 ANALYST = "Dr. Deepanjan Bhattacharya"
+BD_INFLATION_PCT = 8.32   # Bangladesh CPI, July 2026 (Bangladesh Bank / Trading Economics)
+
 
 def main():
     os.makedirs(APP_DATA, exist_ok=True)
@@ -47,7 +50,6 @@ def main():
     for o in obs:
         mat_name = map_fastmarkets(o, {})
         o.materialId = name_to_id.get(mat_name) if mat_name else None
-        o._family = None
         if o.materialId:
             obs_by_mat[o.materialId].append(o)
         else:
@@ -60,17 +62,15 @@ def main():
         else:
             unmapped_imp += 1
 
-    # import intelligence
     import_intel = compute_import_intelligence(imp_by_mat)
+    suppliers = ingest_suppliers([im for im in imps if im.materialId], now)
 
-    # per-material analytics + intelligence
     result_materials = []
     for m in materials:
         b = benchmarks.get(m.name, {})
         mov = compute_movement(b)
         obs_list = obs_by_mat.get(m.id, [])
         imp_list = imp_by_mat.get(m.id, [])
-        # origin-level observations (current USD/MT, dedup by country keeping min)
         origin_vals = defaultdict(list)
         for o in obs_list:
             if o.valueUsdMt is not None and o.countryName:
@@ -86,13 +86,17 @@ def main():
         import_dep = import_intel.get(m.id)
         premium = None
         akij = b.get("akijSourcingCountry")
-        if akij and origin_vals.get(akij):
-            best = origin_values[0] if origin_values else None
+        if akij and origin_vals.get(akij) and origin_values:
+            best = origin_values[0]
             if best:
-                premium = (min(origin_vals[akij]) - best) / best if best else None
+                premium = (min(origin_vals[akij]) - best) / best
         risk = compute_risk(mov, origin, import_dep, conf, premium)
-        landed = compute_landed_cost(b, import_dep["unitValueUsdMt"] if import_dep else None, origin_values)
-        savings = compute_savings(b, landed)
+
+        import_uv = import_dep["unitValueUsdMt"] if import_dep else None
+        import_vol = import_dep["volumeMt"] if import_dep else None
+        landed = compute_landed_cost(b, import_uv, origin_values)
+        savings = compute_savings(b, import_uv, import_vol, origin_values)
+        forecast = compute_forecast(b)
 
         result_materials.append({
             "id": m.id,
@@ -114,6 +118,7 @@ def main():
             "risk": risk,
             "landedCost": landed,
             "savings": savings,
+            "forecast": forecast,
             "importIntelligence": import_dep,
             "procurement": {
                 "akijSourcingCountry": b.get("akijSourcingCountry"),
@@ -123,6 +128,15 @@ def main():
         })
 
     market_index = compute_market_index(materials, benchmarks)
+    feed_cost = compute_feed_cost(market_index, BD_INFLATION_PCT)
+    scenario = compute_scenario(market_index, BD_INFLATION_PCT)
+
+    # supplier intelligence (top by volume + by country)
+    supplier_by_country = defaultdict(lambda: {"volumeMt": 0.0, "valueUsd": 0.0, "suppliers": 0})
+    for s in suppliers:
+        supplier_by_country[s.countryName or s.countryCode]["volumeMt"] += s.volumeMt
+        supplier_by_country[s.countryName or s.countryCode]["valueUsd"] += s.valueUsd
+        supplier_by_country[s.countryName or s.countryCode]["suppliers"] += 1
 
     def dump(name, obj):
         with open(os.path.join(APP_DATA, name), "w") as f:
@@ -131,31 +145,37 @@ def main():
     dump("materials.json", {"asOfDate": AS_OF, "generatedAt": now, "analyst": ANALYST,
                             "materialsTracked": len(result_materials), "materials": result_materials})
     dump("market-index.json", market_index)
+    dump("feed-cost.json", feed_cost)
+    dump("scenario.json", scenario)
+    dump("suppliers.json", {"suppliers": [asdict(s) for s in suppliers],
+                            "byCountry": [{"country": c, **v} for c, v in
+                                          sorted(supplier_by_country.items(), key=lambda kv: kv[1]["volumeMt"], reverse=True)]})
     dump("sources.json", {"sources": sources})
     dump("observations.json", {"count": len(obs), "observations": [asdict(o) for o in obs]})
     dump("imports.json", {"count": len(imps), "imports": [asdict(im) for im in imps]})
     dump("meta.json", {
         "asOfDate": AS_OF, "generatedAt": now, "analyst": ANALYST,
+        "inflation": {"bangladeshCpiPct": BD_INFLATION_PCT, "period": "July 2026",
+                      "source": "Bangladesh Bank / Trading Economics"},
         "dataHonesty": {
             "unmappedObservations": unmapped_obs,
             "unmappedImports": unmapped_imp,
             "notes": [
-                "Forecasting is UNAVAILABLE (no time series; only a snapshot + 6-week import window).",
-                "Landed cost is PARTIAL — freight, insurance, duty, handling and finance are not provided.",
-                "Savings is UNAVAILABLE — Akij procurement prices and volumes not provided.",
-                "Feed-cost impact and scenarios are UNAVAILABLE — formulation data not provided.",
-                "Market index uses an equal-weight fallback (no valid volume/spend weights provided).",
-                "Supplier intelligence is UNAVAILABLE — no supplier records provided.",
-                "Untracked families with data but no master material: Palm Oil, Sunflower Oil, Distiller's Corn Oil (observations kept, materialId null).",
-                "Unmapped NBR imports are mostly pharma raw materials and pet/aquarium food — correctly excluded from feed-material mapping.",
+                "Forecast is SAMPLE (coarse 6-anchor series, no full time series) — low confidence.",
+                "Landed cost uses actual NBR import (CIF) unit value where available; otherwise PARTIAL.",
+                "Savings is an import-vs-best-origin ESTIMATE (Akij procurement prices not provided).",
+                "Feed-cost impact is a portfolio ESTIMATE using Bangladesh CPI (8.32%, Jul 2026) — no formulation data.",
+                "Scenario engine is SIMULATION — NOT ACTUAL (indicative category weights).",
+                "Supplier intelligence derived from NBR exporter names (col 63) — price/quality/reliability beyond unit value are not assessed.",
+                "Untracked families with data but no master material: Palm Oil, Sunflower Oil, Distiller's Corn Oil.",
+                "Unmapped NBR imports are mostly pharma raw materials and pet/aquarium food.",
             ],
         },
     })
 
-    print(f"materials: {len(result_materials)}")
-    print(f"observations: {len(obs)} (unmapped {unmapped_obs})")
-    print(f"imports: {len(imps)} (unmapped {unmapped_imp})")
-    print(f"market index: {market_index.get('index')} ({market_index.get('method','')[:40]}...)")
+    print(f"materials: {len(result_materials)} | suppliers: {len(suppliers)}")
+    print(f"observations: {len(obs)} (unmapped {unmapped_obs}) | imports: {len(imps)} (unmapped {unmapped_imp})")
+    print(f"market index: {market_index.get('index')} | feed-cost pressure: {feed_cost.get('totalFeedCostPressurePct')}%")
     print(f"written to {APP_DATA}")
 
 

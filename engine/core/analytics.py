@@ -205,12 +205,14 @@ def compute_import_intelligence(imports_by_material: dict) -> dict:
         vol = [r.volumeMt for r in recs if r.volumeMt]
         val = [r.valueUsd for r in recs if r.valueUsd]
         uv = [r.unitValueUsdMt for r in recs if r.unitValueUsdMt]
-        origins = defaultdict(lambda: [0.0, 0.0])
+        origins = defaultdict(lambda: [0.0, 0.0, ""])
         for r in recs:
             if r.volumeMt and r.countryCode:
                 origins[r.countryCode][0] += r.volumeMt
             if r.valueUsd and r.countryCode:
                 origins[r.countryCode][1] += r.valueUsd
+            if r.countryName:
+                origins[r.countryCode][2] = r.countryName
         total_vol = sum(v for v in vol)
         top = sorted(origins.items(), key=lambda kv: kv[1][0], reverse=True)
         concentration = round(top[0][1][0] / total_vol * 100, 1) if total_vol else None
@@ -219,8 +221,162 @@ def compute_import_intelligence(imports_by_material: dict) -> dict:
             "valueUsd": round(sum(val), 0) if val else None,
             "unitValueUsdMt": round(sum(uv) / len(uv), 2) if uv else None,
             "originCount": len(origins),
-            "origins": [{"country": c, "volumeMt": round(v[0], 1), "valueUsd": round(v[1], 0)} for c, (v0, v1) in origins.items() for v in [(v0, v1)]],
-            "topOrigin": top[0][0] if top else None,
+            "origins": [{"countryCode": c, "country": (v[2] or c), "volumeMt": round(v[0], 1), "valueUsd": round(v[1], 0)} for c, v in origins.items()],
+            "topOrigin": (top[0][1][2] or top[0][0]) if top else None,
             "concentrationPct": concentration,
         }
     return out
+
+
+# ===========================================================================
+# Phase-5 completions (sample/estimate labelled; no fabrication)
+# ===========================================================================
+
+ANCHOR_KEYS = ["avg2024", "avg2025", "sixMo", "lastMonth", "lastWeek", "current"]
+
+
+def _anchor_series(bench: dict) -> list[float]:
+    return [bench[k] for k in ANCHOR_KEYS if bench.get(k) is not None]
+
+
+def _backtest_mape(series: list[float], predict_fn) -> float | None:
+    """Leave-one-out MAPE: predict each point from all prior points."""
+    if len(series) < 3:
+        return None
+    errs = []
+    for i in range(2, len(series)):
+        hist = series[:i]
+        pred = predict_fn(hist)
+        if pred and series[i]:
+            errs.append(abs(pred - series[i]) / abs(series[i]))
+    return sum(errs) / len(errs) if errs else None
+
+
+def compute_forecast(bench: dict) -> dict:
+    """SAMPLE forecast (timebeing) from the 6 anchor points. Clearly labelled."""
+    s = _anchor_series(bench)
+    if len(s) < 2:
+        return {"status": "UNAVAILABLE", "reason": "insufficient anchor points"}
+    last = s[-1]
+
+    def naive(hist): return hist[-1] if hist else None
+    def ma3(hist): return sum(hist[-3:]) / len(hist[-3:]) if hist else None
+    def es(hist, alpha=0.5):
+        if not hist: return None
+        v = hist[0]
+        for x in hist[1:]:
+            v = alpha * x + (1 - alpha) * v
+        return v
+
+    std = (sum((x - (sum(s) / len(s))) ** 2 for x in s) / len(s)) ** 0.5
+    f_naive = naive(s)
+    f_ma = ma3(s)
+    f_es = es(s)
+
+    mape_naive = _backtest_mape(s, naive)
+    mape_ma = _backtest_mape(s, ma3)
+    mape_es = _backtest_mape(s, es)
+
+    # choose the method with the lowest backtest MAPE (fallback: ES)
+    methods = {
+        "Naive": (f_naive, mape_naive),
+        "MA(3)": (f_ma, mape_ma),
+        "ExponentialSmoothing": (f_es, mape_es),
+    }
+    valid = {k: v for k, v in methods.items() if v[0] is not None}
+    chosen = min(valid, key=lambda k: (valid[k][1] is None, valid[k][1] or 0)) if valid else None
+
+    return {
+        "status": "SAMPLE",
+        "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+        "window": [f"{k}={bench.get(k)}" for k in ANCHOR_KEYS if bench.get(k) is not None],
+        "nextWeek": round(f_es, 2) if f_es else None,
+        "lower": round((f_es - std), 2) if f_es else None,
+        "upper": round((f_es + std), 2) if f_es else None,
+        "method": chosen,
+        "methods": {k: {"value": round(v[0], 2) if v[0] else None,
+                        "mape": round(v[1], 4) if v[1] is not None else None} for k, v in methods.items()},
+        "direction": "up" if f_es and f_es > last else ("down" if f_es and f_es < last else "flat"),
+    }
+
+
+def compute_landed_cost(bench: dict, import_unit_value, obs_values) -> dict:
+    """Landed cost. When an import (CIF) unit value exists, it IS the actual landed
+    cost; the implied logistics premium = import value − best FOB origin. Otherwise PARTIAL."""
+    origin = min([v for v in obs_values if v is not None], default=None)
+    if import_unit_value is not None:
+        implied = round(import_unit_value - origin, 2) if origin is not None else None
+        return {
+            "status": "COMPLETE",
+            "originPriceFob": round(origin, 2) if origin else None,
+            "landedCostUsdMt": round(import_unit_value, 2),
+            "impliedLogisticsPremium": implied,  # freight + insurance + duty + handling + finance (not itemized)
+            "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized).",
+        }
+    components = {"originPrice": round(origin, 2) if origin else None,
+                  "freight": None, "insurance": None, "dutyTax": None,
+                  "portHandling": None, "financeLC": None, "other": None}
+    missing = [k for k, v in components.items() if v is None and k != "originPrice"]
+    return {"status": "PARTIAL", "components": components, "missingComponents": missing,
+            "importUnitValueUsdMt": None,
+            "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."}
+
+
+def compute_savings(bench: dict, import_unit_value, volume, obs_values) -> dict:
+    """Sourcing-optimization saving: (landed − best FOB origin) × import volume.
+    Positive = paying above the cheapest origin → saving opportunity."""
+    best = min([v for v in obs_values if v is not None], default=None)
+    if import_unit_value is None or best is None:
+        return {"status": "UNAVAILABLE",
+                "reason": "Need both an import (landed) value and a best-origin benchmark."}
+    gap = import_unit_value - best
+    saving = round(gap * volume, 0) if volume else None
+    return {
+        "status": "ESTIMATE",
+        "label": "Sourcing-optimization estimate (landed vs best origin, not Akij procurement)",
+        "gapUsdMt": round(gap, 2),
+        "volumeMt": volume,
+        "potentialSavingUsd": saving,
+        "note": "Akij procurement price is not provided; this is the import-vs-best-origin gap, not Akij-specific saving.",
+    }
+
+
+def compute_feed_cost(index: dict, inflation_pct: float) -> dict:
+    """Portfolio feed-cost pressure = market index change + Bangladesh CPI inflation (ESTIMATE)."""
+    if index.get("status") != "OK":
+        return {"status": "UNAVAILABLE", "reason": "no market index"}
+    index_chg = index["index"] - 100
+    total_pressure = round(index_chg + inflation_pct, 2)
+    return {
+        "status": "ESTIMATE",
+        "label": "Portfolio feed-cost pressure (ESTIMATE — no formulation data)",
+        "inflationPct": inflation_pct,
+        "inflationSource": "Bangladesh Bank / Trading Economics, July 2026 CPI",
+        "marketIndexChangePct": round(index_chg, 2),
+        "totalFeedCostPressurePct": total_pressure,
+        "note": "Feed-cost impact by animal (Broiler/Layer/Fish/Cattle) requires formulation/inclusion data — not provided.",
+    }
+
+
+def compute_scenario(index: dict, inflation_pct: float) -> dict:
+    """SAMPLE scenario engine: sensitivity of the market index to ±% moves in key inputs.
+    All output labelled SIMULATION."""
+    if index.get("status") != "OK":
+        return {"status": "UNAVAILABLE", "reason": "no market index"}
+    base = index["index"]
+    sensitivities = [
+        {"input": "Maize", "weight": 0.20, "shockPct": 10, "indexImpactPts": round(base * 0.20 * 0.10, 2)},
+        {"input": "Soybean Meal", "weight": 0.25, "shockPct": 10, "indexImpactPts": round(base * 0.25 * 0.10, 2)},
+        {"input": "Soybean Oil", "weight": 0.15, "shockPct": 10, "indexImpactPts": round(base * 0.15 * 0.10, 2)},
+        {"input": "Wheat", "weight": 0.15, "shockPct": 10, "indexImpactPts": round(base * 0.15 * 0.10, 2)},
+        {"input": "Additives/Amino acids", "weight": 0.15, "shockPct": 10, "indexImpactPts": round(base * 0.15 * 0.10, 2)},
+        {"input": "FX (BDT/USD)", "weight": 0.10, "shockPct": 5, "indexImpactPts": round(base * 0.10 * 0.05, 2)},
+        {"input": "Freight", "weight": 0.00, "shockPct": 10, "indexImpactPts": None},
+    ]
+    return {
+        "status": "SIMULATION",
+        "label": "SIMULATION — NOT ACTUAL",
+        "baseIndex": base,
+        "note": "Category weights are indicative (no formulation/spend weights). Freight impact is excluded (no freight data).",
+        "sensitivities": sensitivities,
+    }

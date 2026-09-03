@@ -1,0 +1,47 @@
+{
+  "source": "Feed Intelligence MCP (feed-intelligence) — pre-built 12-task analysis",
+  "asOf": "2026-08-24",
+  "materials": 85,
+  "dataQualityScore": 65,
+  "summary": "Protein co-products (DDGS, corn gluten feed) are in confirmed multi-week deflation — a cheap-protein window the dashboard's forecast expects to reverse. The soymeal complex is HIGH-COST (Akij sourcing Brazil ~8% premium vs best buy), and the additive/supplement cluster dominates the high-cost end.",
+  "signals": [
+    {"rank": 1, "signal": "FEED ADDITIVE price spike", "dimension": "Price", "magnitude": "Extreme (+320% WoW)", "severity": "High", "confidence": "Medium"},
+    {"rank": 2, "signal": "Corn DDG collapse → cheap protein", "dimension": "Price", "magnitude": "Large (−63% WoW)", "severity": "High (oppty)", "confidence": "High"},
+    {"rank": 3, "signal": "Additive/supplement cost cluster", "dimension": "Price dispersion", "magnitude": "Very high ($3–5.8k)", "severity": "High (cost)", "confidence": "High"},
+    {"rank": 4, "signal": "Soymeal complex cost pressure", "dimension": "Price + Sourcing", "magnitude": "High (~8% premium)", "severity": "High", "confidence": "High"},
+    {"rank": 5, "signal": "LIMESTONE reversal + Strong Buy", "dimension": "Price + Procurement", "magnitude": "Moderate (+80% WoW)", "severity": "Medium", "confidence": "Medium"},
+    {"rank": 6, "signal": "CORN GLUTEN FEED deflation", "dimension": "Price", "magnitude": "Large (−42%)", "severity": "Medium", "confidence": "High"},
+    {"rank": 7, "signal": "L-METHIONINE upward break", "dimension": "Price", "magnitude": "Moderate (+9.8%)", "severity": "Medium", "confidence": "High"},
+    {"rank": 8, "signal": "Sourcing concentration", "dimension": "Sourcing", "magnitude": "30+ single-origin", "severity": "Medium", "confidence": "High"},
+    {"rank": 9, "signal": "Buy / Strong Buy scarcity", "dimension": "Procurement", "magnitude": "3 of 85", "severity": "Medium", "confidence": "High"},
+    {"rank": 10, "signal": "ANIMAL FEED volatility", "dimension": "Price", "magnitude": "Extreme (450–1,402)", "severity": "Medium", "confidence": "Low"}
+  ],
+  "wowRisers": [
+    {"material": "FEED ADDITIVE", "pct": "+320%"}, {"material": "LIMESTONE POWDER", "pct": "+80%"},
+    {"material": "CORN FOB", "pct": "+50%"}, {"material": "WHEAT CBOT 13.5%", "pct": "+21%"},
+    {"material": "SOYMEAL FOB", "pct": "+12%"}, {"material": "MAIZE/CORN", "pct": "+4.5%"}
+  ],
+  "wowFallers": [
+    {"material": "Corn DDG CIF", "pct": "−63%"}, {"material": "Corn DDG FOB", "pct": "−37%"},
+    {"material": "MCP", "pct": "−21%"}, {"material": "RAPESEED / CANOLA CPT", "pct": "−13%"},
+    {"material": "WHEAT FEED", "pct": "−12%"}, {"material": "SOYMEAL CIF", "pct": "−3.6%"}
+  ],
+  "trajectory": [
+    {"material": "DDGS", "values": [288, 162, 178.7, 178.7, 154.3, 154.3], "verdict": "Confirmed ↓"},
+    {"material": "CORN GLUTEN FEED", "values": [219, 139, 138.9, 138.9, 126.8, 126.8], "verdict": "Confirmed ↓"},
+    {"material": "MAIZE/CORN", "values": [209, 222, 200.6, 200.6, 209.7, 219], "verdict": "Volatile"},
+    {"material": "WHEAT BRAN", "values": [286, 247, 246.7, 246.7, 262, 262], "verdict": "Recovered"},
+    {"material": "L-METHIONINE", "values": [2459, 2459, 2459, 2459, 2700, 2700], "verdict": "Step-up"},
+    {"material": "LIMESTONE POWDER", "values": [61, 61, 61, 61, 35, 62.9], "verdict": "Reversion"},
+    {"material": "FEED ADDITIVE", "values": [545, 545, 545, 545, 545, 2291], "verdict": "Stale-correction"},
+    {"material": "ANIMAL FEED", "values": [1402, 756, 1402, 1402, 450, 450], "verdict": "Erratic"}
+  ],
+  "predictions": [
+    {"signal": "DDGS rebound off the low", "probability": "Moderate", "magnitude": "154 → ~238 (+54%)", "confidence": "Low"},
+    {"signal": "Corn Gluten Feed rebound", "probability": "Low", "magnitude": "127 → ~328 (+159%)", "confidence": "Very Low"},
+    {"signal": "FEED ADDITIVE reversion from spike", "probability": "Moderate", "magnitude": "2,291 → ~1,366 (−40%)", "confidence": "Medium"},
+    {"signal": "Soymeal CIF stable (HIGH COST persists)", "probability": "High", "magnitude": "416.6 → ~412 (−1%)", "confidence": "Medium"},
+    {"signal": "L-METHIONINE held near 2,700", "probability": "High", "magnitude": "2,700 → ~2,676 (−1%)", "confidence": "Medium"},
+    {"signal": "Additive/supplement cluster easing", "probability": "Moderate", "magnitude": "DL-METH −12%, FEED SUPPL −19%, L-LYSINE −7%", "confidence": "Low"}
+  ]
+}

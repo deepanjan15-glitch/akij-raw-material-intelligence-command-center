@@ -1,19 +1,24 @@
 {
  "asOfDate": "2026-09-02",
- "generatedAt": "2026-09-03T19:56:59.089215+00:00",
+ "generatedAt": "2026-09-03T20:54:14.680509+00:00",
  "analyst": "Dr. Deepanjan Bhattacharya",
+ "inflation": {
+  "bangladeshCpiPct": 8.32,
+  "period": "July 2026",
+  "source": "Bangladesh Bank / Trading Economics"
+ },
  "dataHonesty": {
   "unmappedObservations": 197,
   "unmappedImports": 567,
   "notes": [
-   "Forecasting is UNAVAILABLE (no time series; only a snapshot + 6-week import window).",
-   "Landed cost is PARTIAL — freight, insurance, duty, handling and finance are not provided.",
-   "Savings is UNAVAILABLE — Akij procurement prices and volumes not provided.",
-   "Feed-cost impact and scenarios are UNAVAILABLE — formulation data not provided.",
-   "Market index uses an equal-weight fallback (no valid volume/spend weights provided).",
-   "Supplier intelligence is UNAVAILABLE — no supplier records provided.",
-   "Untracked families with data but no master material: Palm Oil, Sunflower Oil, Distiller's Corn Oil (observations kept, materialId null).",
-   "Unmapped NBR imports are mostly pharma raw materials and pet/aquarium food — correctly excluded from feed-material mapping."
+   "Forecast is SAMPLE (coarse 6-anchor series, no full time series) — low confidence.",
+   "Landed cost uses actual NBR import (CIF) unit value where available; otherwise PARTIAL.",
+   "Savings is an import-vs-best-origin ESTIMATE (Akij procurement prices not provided).",
+   "Feed-cost impact is a portfolio ESTIMATE using Bangladesh CPI (8.32%, Jul 2026) — no formulation data.",
+   "Scenario engine is SIMULATION — NOT ACTUAL (indicative category weights).",
+   "Supplier intelligence derived from NBR exporter names (col 63) — price/quality/reliability beyond unit value are not assessed.",
+   "Untracked families with data but no master material: Palm Oil, Sunflower Oil, Distiller's Corn Oil.",
+   "Unmapped NBR imports are mostly pharma raw materials and pet/aquarium food."
   ]
  }
 }

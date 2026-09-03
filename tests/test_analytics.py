@@ -135,3 +135,46 @@ def test_end_to_end_data_sanity():
     assert idx["status"] == "OK" and 0 < idx["index"] < 1000
     meta = json.load(open(os.path.join(data_dir, "meta.json")))
     assert meta["dataHonesty"]["notes"], "data-honesty notes must be present"
+
+
+# ---------- phase-5 completions ----------
+def test_forecast_sample():
+    from engine.core.analytics import compute_forecast
+    b = {"avg2024": 100, "avg2025": 105, "sixMo": 110, "lastMonth": 108, "lastWeek": 112, "current": 115}
+    f = compute_forecast(b)
+    assert f["status"] == "SAMPLE"
+    assert f["nextWeek"] is not None
+    assert f["method"] in ("Naive", "MA(3)", "ExponentialSmoothing")
+    assert f["direction"] in ("up", "down", "flat")
+    assert f["upper"] >= f["nextWeek"] >= f["lower"] or (f["lower"] is None)
+
+
+def test_forecast_insufficient():
+    from engine.core.analytics import compute_forecast
+    assert compute_forecast({"current": 100})["status"] == "UNAVAILABLE"
+
+
+def test_landed_cost_complete_vs_partial():
+    from engine.core.analytics import compute_landed_cost
+    complete = compute_landed_cost({}, 500.0, [450.0, 460.0])
+    assert complete["status"] == "COMPLETE"
+    assert complete["landedCostUsdMt"] == 500.0
+    assert complete["impliedLogisticsPremium"] == 50.0  # 500 - 450 (best origin)
+    partial = compute_landed_cost({}, None, [450.0])
+    assert partial["status"] == "PARTIAL"
+
+
+def test_savings_estimate():
+    from engine.core.analytics import compute_savings
+    s = compute_savings({}, 500.0, 1000, [450.0])
+    assert s["status"] == "ESTIMATE"
+    assert s["gapUsdMt"] == 50.0
+    assert s["potentialSavingUsd"] == 50000.0  # 50 * 1000
+    assert compute_savings({}, None, 1000, [450.0])["status"] == "UNAVAILABLE"
+
+
+def test_feed_cost_estimate():
+    from engine.core.analytics import compute_feed_cost
+    fc = compute_feed_cost({"status": "OK", "index": 110.0}, 8.32)
+    assert fc["status"] == "ESTIMATE"
+    assert abs(fc["totalFeedCostPressurePct"] - (10.0 + 8.32)) < 1e-9

@@ -2,14 +2,15 @@
 from __future__ import annotations
 import openpyxl
 from datetime import datetime, date
-from ..core.entities import Import
+from ..core.entities import Import, Supplier, country_full
 
-NBR_FILE = "/Users/deep/Downloads/fwdrequestingforimportdataaug26/NBR_Raw_Material_Data.xlsx"
+NBR_FILE = "/Users/deep/Desktop/NBR_Raw_Material_Data.xlsx"
 
 # column indices (1-based) in the NBR data header (row 6)
 COL = {
     "hs": 10, "desc": 12, "invoice": 13, "net_kg": 16, "qty": 17,
     "uprice": 18, "cur": 21, "coo": 22, "boe": 8, "receipt": 56,
+    "exporter": 63, "importer": 5,
 }
 
 SHEET_MATERIAL = {
@@ -83,13 +84,48 @@ def ingest_nbr(loaded_at: str) -> list[Import]:
                 materialId=None,  # mapped later
                 hsCode=str(hs) if hs else "",
                 countryCode=str(coo) if coo else "",
+                countryName=country_full(str(coo)) if coo else None,
                 description=str(desc).strip(),
                 period=period,
                 volumeMt=volume_mt,
                 valueUsd=value_usd,
                 unitValueUsdMt=unit_value_usd_mt,
+                exporter=str(ws.cell(row=r, column=COL["exporter"]).value).strip() if ws.cell(row=r, column=COL["exporter"]).value else None,
+                importer=str(ws.cell(row=r, column=COL["importer"]).value).strip() if ws.cell(row=r, column=COL["importer"]).value else None,
                 loadedAt=loaded_at,
             ))
             out[-1]._sheet = sheet
             out[-1]._material_hint = material_hint
+    return out
+
+
+def ingest_suppliers(imports: list[Import], loaded_at: str) -> list[Supplier]:
+    """Aggregate NBR exporters (col 63) into supplier intelligence."""
+    from collections import defaultdict
+    agg = defaultdict(lambda: {"vol": 0.0, "val": 0.0, "ship": 0, "coo": "", "mats": set()})
+    for im in imports:
+        if not im.exporter:
+            continue
+        key = im.exporter.upper()
+        a = agg[key]
+        a["vol"] += im.volumeMt or 0
+        a["val"] += im.valueUsd or 0
+        a["ship"] += 1
+        a["coo"] = im.countryCode or a["coo"]
+        if im.materialId:
+            a["mats"].add(im.materialId)
+    out = []
+    for i, (name, a) in enumerate(sorted(agg.items(), key=lambda kv: kv[1]["vol"], reverse=True)):
+        vol = a["vol"]
+        out.append(Supplier(
+            id=f"SUP-{i+1:04d}",
+            name=name.title(),
+            countryCode=a["coo"],
+            countryName=country_full(a["coo"]),
+            materialId=next(iter(a["mats"]), None),
+            volumeMt=round(vol, 1),
+            valueUsd=round(a["val"], 0),
+            unitValueUsdMt=round(a["val"] / vol, 2) if vol else None,
+            shipments=a["ship"],
+        ))
     return out

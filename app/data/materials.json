@@ -1,6 +1,6 @@
 {
  "asOfDate": "2026-09-02",
- "generatedAt": "2026-09-03T19:56:59.089215+00:00",
+ "generatedAt": "2026-09-03T20:54:14.680509+00:00",
  "analyst": "Dr. Deepanjan Bhattacharya",
  "materialsTracked": 87,
  "materials": [
@@ -61,32 +61,46 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 257.88,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 257.88,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=246.0",
+     "avg2025=246.0",
+     "sixMo=243.0",
+     "lastMonth=229.15",
+     "lastWeek=209.6583375",
+     "current=242.62"
+    ],
+    "nextWeek": 232.93,
+    "lower": 219.81,
+    "upper": 246.06,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 242.62,
+      "mape": 0.0754
+     },
+     "MA(3)": {
+      "value": 227.14,
+      "mape": 0.0716
+     },
+     "ExponentialSmoothing": {
+      "value": 232.93,
+      "mape": 0.0722
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 26185.7,
@@ -95,22 +109,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 25785.7,
       "valueUsd": 6279516.0
      },
      {
-      "country": "AR",
+      "countryCode": "AR",
+      "country": "Argentina",
       "volumeMt": 100.0,
       "valueUsd": 52700.0
      },
      {
-      "country": "PK",
+      "countryCode": "PK",
+      "country": "Pakistan",
       "volumeMt": 300.0,
       "valueUsd": 180000.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 98.5
    },
    "procurement": {
@@ -209,13 +226,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=493.0",
+     "avg2025=418.0",
+     "sixMo=398.0",
+     "lastMonth=229.15",
+     "lastWeek=141.7833362",
+     "current=242.62"
+    ],
+    "nextWeek": 238.74,
+    "lower": 115.17,
+    "upper": 362.31,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 242.62,
+      "mape": 0.4547
+     },
+     "MA(3)": {
+      "value": 204.52,
+      "mape": 0.6405
+     },
+     "ExponentialSmoothing": {
+      "value": 238.74,
+      "mape": 0.5879
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -316,13 +362,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=394.0",
+     "avg2025=334.0",
+     "sixMo=318.0",
+     "lastMonth=267.37",
+     "lastWeek=224.092384",
+     "current=282.63"
+    ],
+    "nextWeek": 273.38,
+    "lower": 219.57,
+    "upper": 327.2,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 282.63,
+      "mape": 0.16
+     },
+     "MA(3)": {
+      "value": 258.03,
+      "mape": 0.2154
+     },
+     "ExponentialSmoothing": {
+      "value": 273.38,
+      "mape": 0.2107
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -390,14 +465,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=383.0",
+     "avg2025=325.0",
+     "sixMo=309.0",
+     "lastMonth=316.0",
+     "lastWeek=166.042975",
+     "current=166.042975"
+    ],
+    "nextWeek": 205.47,
+    "lower": 123.1,
+    "upper": 287.84,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 166.04,
+      "mape": 0.2443
+     },
+     "MA(3)": {
+      "value": 216.03,
+      "mape": 0.4284
+     },
+     "ExponentialSmoothing": {
+      "value": 205.47,
+      "mape": 0.4048
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -463,14 +585,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=399.0",
+     "avg2025=338.0",
+     "sixMo=322.0",
+     "lastMonth=329.0",
+     "lastWeek=209.6583375",
+     "current=209.6583375"
+    ],
+    "nextWeek": 241.53,
+    "lower": 172.14,
+    "upper": 310.91,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 209.66,
+      "mape": 0.16
+     },
+     "MA(3)": {
+      "value": 249.44,
+      "mape": 0.2895
+     },
+     "ExponentialSmoothing": {
+      "value": 241.53,
+      "mape": 0.2764
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -566,13 +735,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=361.0",
+     "avg2025=306.0",
+     "sixMo=291.0",
+     "lastMonth=212.75",
+     "lastWeek=216.0",
+     "current=204.0"
+    ],
+    "nextWeek": 221.62,
+    "lower": 163.28,
+    "upper": 279.97,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 204.0,
+      "mape": 0.1233
+     },
+     "MA(3)": {
+      "value": 210.92,
+      "mape": 0.2682
+     },
+     "ExponentialSmoothing": {
+      "value": 221.62,
+      "mape": 0.2505
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -668,13 +866,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=935.0",
+     "avg2025=793.0",
+     "sixMo=755.0",
+     "lastMonth=228.95",
+     "lastWeek=402.0",
+     "current=260.0"
+    ],
+    "nextWeek": 360.31,
+    "lower": 84.18,
+    "upper": 636.43,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 260.0,
+      "mape": 0.8312
+     },
+     "MA(3)": {
+      "value": 296.98,
+      "mape": 1.0024
+     },
+     "ExponentialSmoothing": {
+      "value": 360.31,
+      "mape": 0.9358
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -742,14 +969,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=272.0",
+     "avg2025=273.0",
+     "sixMo=268.0",
+     "lastMonth=246.33",
+     "lastWeek=237.0",
+     "current=275.0"
+    ],
+    "nextWeek": 261.32,
+    "lower": 246.62,
+    "upper": 276.02,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 275.0,
+      "mape": 0.071
+     },
+     "MA(3)": {
+      "value": 252.78,
+      "mape": 0.0784
+     },
+     "ExponentialSmoothing": {
+      "value": 261.32,
+      "mape": 0.0758
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -828,32 +1102,50 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": 425.41,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 518.79,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": 425.41,
+    "landedCostUsdMt": 518.79,
+    "impliedLogisticsPremium": 93.38,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
-    "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "status": "ESTIMATE",
+    "label": "Sourcing-optimization estimate (landed vs best origin, not Akij procurement)",
+    "gapUsdMt": 93.38,
+    "volumeMt": 8776.6,
+    "potentialSavingUsd": 819559.0,
+    "note": "Akij procurement price is not provided; this is the import-vs-best-origin gap, not Akij-specific saving."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=493.0",
+     "avg2025=418.0",
+     "sixMo=398.0",
+     "lastMonth=426.37",
+     "lastWeek=432.0",
+     "current=460.89"
+    ],
+    "nextWeek": 445.08,
+    "lower": 414.21,
+    "upper": 475.96,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 460.89,
+      "mape": 0.0481
+     },
+     "MA(3)": {
+      "value": 439.75,
+      "mape": 0.0751
+     },
+     "ExponentialSmoothing": {
+      "value": 445.08,
+      "mape": 0.0566
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 8776.6,
@@ -862,17 +1154,19 @@
     "originCount": 2,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 103.6,
       "valueUsd": 45066.0
      },
      {
-      "country": "BD",
+      "countryCode": "BD",
+      "country": "Bangladesh",
       "volumeMt": 8673.0,
       "valueUsd": 4486629.0
      }
     ],
-    "topOrigin": "BD",
+    "topOrigin": "Bangladesh",
     "concentrationPct": 98.8
    },
    "procurement": {
@@ -970,13 +1264,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=398.0",
+     "avg2025=400.0",
+     "sixMo=395.0",
+     "lastMonth=426.97",
+     "lastWeek=369.0",
+     "current=461.45"
+    ],
+    "nextWeek": 425.97,
+    "lower": 396.9,
+    "upper": 455.04,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 461.45,
+      "mape": 0.1112
+     },
+     "MA(3)": {
+      "value": 419.14,
+      "mape": 0.0806
+     },
+     "ExponentialSmoothing": {
+      "value": 425.97,
+      "mape": 0.0876
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1072,13 +1395,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=399.0",
+     "avg2025=412.0",
+     "sixMo=417.28",
+     "lastMonth=424.35",
+     "lastWeek=424.0",
+     "current=456.0"
+    ],
+    "nextWeek": 438.47,
+    "lower": 421.07,
+    "upper": 455.87,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 456.0,
+      "mape": 0.0251
+     },
+     "MA(3)": {
+      "value": 434.78,
+      "mape": 0.0382
+     },
+     "ExponentialSmoothing": {
+      "value": 438.47,
+      "mape": 0.0375
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1174,13 +1526,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=493.0",
+     "avg2025=418.0",
+     "sixMo=398.0",
+     "lastMonth=345.49",
+     "lastWeek=321.8",
+     "current=370.79"
+    ],
+    "nextWeek": 362.38,
+    "lower": 306.92,
+    "upper": 417.83,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 370.79,
+      "mape": 0.102
+     },
+     "MA(3)": {
+      "value": 346.03,
+      "mape": 0.1632
+     },
+     "ExponentialSmoothing": {
+      "value": 362.38,
+      "mape": 0.1562
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1277,13 +1658,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=394.0",
+     "avg2025=334.0",
+     "sixMo=318.0",
+     "lastMonth=371.57",
+     "lastWeek=320.2213455",
+     "current=404.25"
+    ],
+    "nextWeek": 371.25,
+    "lower": 336.57,
+    "upper": 405.93,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 404.25,
+      "mape": 0.1407
+     },
+     "MA(3)": {
+      "value": 365.35,
+      "mape": 0.1098
+     },
+     "ExponentialSmoothing": {
+      "value": 371.25,
+      "mape": 0.1257
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1379,13 +1789,38 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=373.13",
+     "current=406.75"
+    ],
+    "nextWeek": 389.94,
+    "lower": 373.13,
+    "upper": 406.75,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 406.75,
+      "mape": null
+     },
+     "MA(3)": {
+      "value": 389.94,
+      "mape": null
+     },
+     "ExponentialSmoothing": {
+      "value": 389.94,
+      "mape": null
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1453,14 +1888,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=383.0",
+     "avg2025=325.0",
+     "sixMo=309.0",
+     "lastMonth=316.0",
+     "lastWeek=348.4405071",
+     "current=348.4405071"
+    ],
+    "nextWeek": 342.27,
+    "lower": 317.31,
+    "upper": 367.22,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 348.44,
+      "mape": 0.0418
+     },
+     "MA(3)": {
+      "value": 337.63,
+      "mape": 0.0946
+     },
+     "ExponentialSmoothing": {
+      "value": 342.27,
+      "mape": 0.0752
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1528,14 +2010,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=399.0",
+     "avg2025=338.0",
+     "sixMo=322.0",
+     "lastMonth=329.0",
+     "lastWeek=293.0",
+     "current=293.0"
+    ],
+    "nextWeek": 304.03,
+    "lower": 268.39,
+    "upper": 339.67,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 293.0,
+      "mape": 0.0485
+     },
+     "MA(3)": {
+      "value": 305.0,
+      "mape": 0.1041
+     },
+     "ExponentialSmoothing": {
+      "value": 304.03,
+      "mape": 0.1049
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1603,14 +2132,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=361.0",
+     "avg2025=306.0",
+     "sixMo=291.0",
+     "lastMonth=297.0",
+     "lastWeek=767.5",
+     "current=767.5"
+    ],
+    "nextWeek": 651.78,
+    "lower": 436.68,
+    "upper": 866.88,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 767.5,
+      "mape": 0.1712
+     },
+     "MA(3)": {
+      "value": 610.67,
+      "mape": 0.3111
+     },
+     "ExponentialSmoothing": {
+      "value": 651.78,
+      "mape": 0.2755
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1678,14 +2254,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=935.0",
+     "avg2025=793.0",
+     "sixMo=755.0",
+     "lastMonth=772.0",
+     "lastWeek=418.836",
+     "current=418.836"
+    ],
+    "nextWeek": 511.81,
+    "lower": 316.76,
+    "upper": 706.87,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 418.84,
+      "mape": 0.2289
+     },
+     "MA(3)": {
+      "value": 536.56,
+      "mape": 0.4029
+     },
+     "ExponentialSmoothing": {
+      "value": 511.81,
+      "mape": 0.3812
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1753,14 +2376,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=402.0",
+     "avg2025=341.0",
+     "sixMo=325.0",
+     "lastMonth=332.0",
+     "lastWeek=352.133249",
+     "current=352.133249"
+    ],
+    "nextWeek": 349.13,
+    "lower": 324.16,
+    "upper": 374.1,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 352.13,
+      "mape": 0.0319
+     },
+     "MA(3)": {
+      "value": 345.42,
+      "mape": 0.0788
+     },
+     "ExponentialSmoothing": {
+      "value": 349.13,
+      "mape": 0.0608
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1858,13 +2528,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=614.0",
+     "avg2025=521.0",
+     "sixMo=495.0",
+     "lastMonth=580.36",
+     "lastWeek=537.25",
+     "current=620.94"
+    ],
+    "nextWeek": 583.73,
+    "lower": 536.66,
+    "upper": 630.81,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 620.94,
+      "mape": 0.1037
+     },
+     "MA(3)": {
+      "value": 579.52,
+      "mape": 0.0885
+     },
+     "ExponentialSmoothing": {
+      "value": 583.73,
+      "mape": 0.0964
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -1961,13 +2660,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=553.0",
+     "avg2025=469.0",
+     "sixMo=446.0",
+     "lastMonth=508.6",
+     "lastWeek=478.75",
+     "current=544.12"
+    ],
+    "nextWeek": 515.13,
+    "lower": 476.07,
+    "upper": 554.2,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 544.12,
+      "mape": 0.0893
+     },
+     "MA(3)": {
+      "value": 510.49,
+      "mape": 0.0786
+     },
+     "ExponentialSmoothing": {
+      "value": 515.13,
+      "mape": 0.0856
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2065,13 +2793,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=483.0",
+     "avg2025=483.0",
+     "sixMo=450.0",
+     "lastMonth=497.86",
+     "lastWeek=460.4",
+     "current=533.7"
+    ],
+    "nextWeek": 502.5,
+    "lower": 475.49,
+    "upper": 529.5,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 533.7,
+      "mape": 0.097
+     },
+     "MA(3)": {
+      "value": 497.32,
+      "mape": 0.0704
+     },
+     "ExponentialSmoothing": {
+      "value": 502.5,
+      "mape": 0.0751
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2167,13 +2924,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=527.0",
+     "avg2025=447.0",
+     "sixMo=425.0",
+     "lastMonth=437.0",
+     "lastWeek=458.5333425",
+     "current=458.5333425"
+    ],
+    "nextWeek": 455.53,
+    "lower": 422.84,
+    "upper": 488.21,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 458.53,
+      "mape": 0.0315
+     },
+     "MA(3)": {
+      "value": 451.36,
+      "mape": 0.0754
+     },
+     "ExponentialSmoothing": {
+      "value": 455.53,
+      "mape": 0.0572
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2241,14 +3027,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=617.0",
+     "avg2025=523.0",
+     "sixMo=497.0",
+     "lastMonth=509.0",
+     "lastWeek=533.0",
+     "current=533.0"
+    ],
+    "nextWeek": 530.06,
+    "lower": 491.34,
+    "upper": 568.78,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 533.0,
+      "mape": 0.0302
+     },
+     "MA(3)": {
+      "value": 525.0,
+      "mape": 0.0751
+     },
+     "ExponentialSmoothing": {
+      "value": 530.06,
+      "mape": 0.057
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2344,13 +3177,39 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1277.65",
+     "lastWeek=1260.0",
+     "current=1293.0"
+    ],
+    "nextWeek": 1280.91,
+    "lower": 1267.43,
+    "upper": 1294.4,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 1293.0,
+      "mape": 0.0255
+     },
+     "MA(3)": {
+      "value": 1276.88,
+      "mape": 0.0187
+     },
+     "ExponentialSmoothing": {
+      "value": 1280.91,
+      "mape": 0.0187
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2448,13 +3307,39 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1196.47",
+     "lastWeek=1172.82",
+     "current=1213.88"
+    ],
+    "nextWeek": 1199.26,
+    "lower": 1182.44,
+    "upper": 1216.09,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 1213.88,
+      "mape": 0.0338
+     },
+     "MA(3)": {
+      "value": 1194.39,
+      "mape": 0.0241
+     },
+     "ExponentialSmoothing": {
+      "value": 1199.26,
+      "mape": 0.0241
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2550,13 +3435,39 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1655.67",
+     "lastWeek=1718.0",
+     "current=1695.13"
+    ],
+    "nextWeek": 1690.98,
+    "lower": 1665.24,
+    "upper": 1716.73,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 1695.13,
+      "mape": 0.0135
+     },
+     "MA(3)": {
+      "value": 1689.6,
+      "mape": 0.0049
+     },
+     "ExponentialSmoothing": {
+      "value": 1690.98,
+      "mape": 0.0049
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2624,14 +3535,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=1383.0",
+     "avg2025=1279.0",
+     "sixMo=1130.0",
+     "lastMonth=1062.0",
+     "lastWeek=450.0",
+     "current=450.0"
+    ],
+    "nextWeek": 624.06,
+    "lower": 249.85,
+    "upper": 998.27,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 450.0,
+      "mape": 0.389
+     },
+     "MA(3)": {
+      "value": 654.0,
+      "mape": 0.7241
+     },
+     "ExponentialSmoothing": {
+      "value": 624.06,
+      "mape": 0.6643
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -2697,32 +3655,46 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 268.37,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 268.37,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=298.0",
+     "avg2025=236.0",
+     "sixMo=242.0",
+     "lastMonth=142.6",
+     "lastWeek=262.0",
+     "current=157.08"
+    ],
+    "nextWeek": 193.68,
+    "lower": 138.17,
+    "upper": 249.18,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 157.08,
+      "mape": 0.4614
+     },
+     "MA(3)": {
+      "value": 187.23,
+      "mape": 0.3749
+     },
+     "ExponentialSmoothing": {
+      "value": 193.68,
+      "mape": 0.399
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 45189.5,
@@ -2731,52 +3703,61 @@
     "originCount": 9,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 14588.4,
       "valueUsd": 4158305.0
      },
      {
-      "country": "AO",
+      "countryCode": "AO",
+      "country": "Angola",
       "volumeMt": 6219.1,
       "valueUsd": 1296145.0
      },
      {
-      "country": "NG",
+      "countryCode": "NG",
+      "country": "Nigeria",
       "volumeMt": 2619.0,
       "valueUsd": 471420.0
      },
      {
-      "country": "TZ",
+      "countryCode": "TZ",
+      "country": "Tanzania",
       "volumeMt": 12004.0,
       "valueUsd": 2729893.0
      },
      {
-      "country": "KE",
+      "countryCode": "KE",
+      "country": "Kenya",
       "volumeMt": 3740.0,
       "valueUsd": 809110.0
      },
      {
-      "country": "UG",
+      "countryCode": "UG",
+      "country": "Uganda",
       "volumeMt": 1200.0,
       "valueUsd": 259536.0
      },
      {
-      "country": "MZ",
+      "countryCode": "MZ",
+      "country": "Mozambique",
       "volumeMt": 3598.0,
       "valueUsd": 785640.0
      },
      {
-      "country": "ID",
+      "countryCode": "ID",
+      "country": "Indonesia",
       "volumeMt": 780.0,
       "valueUsd": 192920.0
      },
      {
-      "country": "SG",
+      "countryCode": "SG",
+      "country": "Singapore",
       "volumeMt": 441.0,
       "valueUsd": 123480.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 32.3
    },
    "procurement": {
@@ -2853,32 +3834,50 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": 154.32,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 300.2,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": 154.32,
+    "landedCostUsdMt": 300.2,
+    "impliedLogisticsPremium": 145.88,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
-    "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "status": "ESTIMATE",
+    "label": "Sourcing-optimization estimate (landed vs best origin, not Akij procurement)",
+    "gapUsdMt": 145.88,
+    "volumeMt": 27027.7,
+    "potentialSavingUsd": 3942704.0,
+    "note": "Akij procurement price is not provided; this is the import-vs-best-origin gap, not Akij-specific saving."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=289.0",
+     "avg2025=253.0",
+     "sixMo=287.0",
+     "lastMonth=175.66",
+     "lastWeek=154.32354",
+     "current=195.66"
+    ],
+    "nextWeek": 193.24,
+    "lower": 140.0,
+    "upper": 246.49,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 195.66,
+      "mape": 0.2755
+     },
+     "MA(3)": {
+      "value": 175.21,
+      "mape": 0.3064
+     },
+     "ExponentialSmoothing": {
+      "value": 193.24,
+      "mape": 0.2855
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 27027.7,
@@ -2887,22 +3886,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 18035.2,
       "valueUsd": 5108339.0
      },
      {
-      "country": "US",
+      "countryCode": "US",
+      "country": "United States",
       "volumeMt": 8483.3,
       "valueUsd": 2989024.0
      },
      {
-      "country": "BR",
+      "countryCode": "BR",
+      "country": "Brazil",
       "volumeMt": 509.2,
       "valueUsd": 229158.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 66.7
    },
    "procurement": {
@@ -2968,32 +3970,45 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 4950.0,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 4950.0,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2025=2497.0",
+     "sixMo=2413.0",
+     "lastMonth=3050.0",
+     "lastWeek=2700.0",
+     "current=4950.0"
+    ],
+    "nextWeek": 3838.12,
+    "lower": 2898.11,
+    "upper": 4778.14,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 4950.0,
+      "mape": 0.2643
+     },
+     "MA(3)": {
+      "value": 3566.67,
+      "mape": 0.2209
+     },
+     "ExponentialSmoothing": {
+      "value": 3838.12,
+      "mape": 0.2213
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 36.0,
@@ -3002,12 +4017,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "MY",
+      "countryCode": "MY",
+      "country": "Malaysia",
       "volumeMt": 36.0,
       "valueUsd": 178200.0
      }
     ],
-    "topOrigin": "MY",
+    "topOrigin": "Malaysia",
     "concentrationPct": 100.0
    },
    "procurement": {
@@ -3073,32 +4089,46 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 1136.79,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 1136.79,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=696.0",
+     "avg2025=751.0",
+     "sixMo=926.0",
+     "lastMonth=1091.14",
+     "lastWeek=1414.0",
+     "current=1120.3"
+    ],
+    "nextWeek": 1153.14,
+    "lower": 910.21,
+    "upper": 1396.06,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 1120.3,
+      "mape": 0.2077
+     },
+     "MA(3)": {
+      "value": 1208.48,
+      "mape": 0.2155
+     },
+     "ExponentialSmoothing": {
+      "value": 1153.14,
+      "mape": 0.211
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 3721.0,
@@ -3107,12 +4137,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 3721.0,
       "valueUsd": 4168627.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 100.0
    },
    "procurement": {
@@ -3178,32 +4209,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 750.0,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 750.0,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=708.59",
+     "lastWeek=800.0",
+     "current=749.58"
+    ],
+    "nextWeek": 751.94,
+    "lower": 714.55,
+    "upper": 789.32,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 749.58,
+      "mape": 0.0673
+     },
+     "MA(3)": {
+      "value": 752.72,
+      "mape": 0.0063
+     },
+     "ExponentialSmoothing": {
+      "value": 751.94,
+      "mape": 0.0063
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 1246.2,
@@ -3212,22 +4254,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 863.0,
       "valueUsd": 691622.0
      },
      {
-      "country": "JP",
+      "countryCode": "JP",
+      "country": "Japan",
       "volumeMt": 121.2,
       "valueUsd": 65448.0
      },
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 262.0,
       "valueUsd": 198178.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 69.3
    },
    "procurement": {
@@ -3304,32 +4349,50 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": 143.3,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 203.19,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": 143.3,
+    "landedCostUsdMt": 203.19,
+    "impliedLogisticsPremium": 59.89,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
-    "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "status": "ESTIMATE",
+    "label": "Sourcing-optimization estimate (landed vs best origin, not Akij procurement)",
+    "gapUsdMt": 59.89,
+    "volumeMt": 1456.5,
+    "potentialSavingUsd": 87229.0,
+    "note": "Akij procurement price is not provided; this is the import-vs-best-origin gap, not Akij-specific saving."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=582.0",
+     "avg2025=452.0",
+     "sixMo=420.0",
+     "lastMonth=143.78",
+     "lastWeek=126.765765",
+     "current=142.84"
+    ],
+    "nextWeek": 179.65,
+    "lower": -0.81,
+    "upper": 360.1,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 142.84,
+      "mape": 0.561
+     },
+     "MA(3)": {
+      "value": 137.8,
+      "mape": 1.2211
+     },
+     "ExponentialSmoothing": {
+      "value": 179.65,
+      "mape": 1.1049
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 1456.5,
@@ -3338,12 +4401,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 1456.5,
       "valueUsd": 294181.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 100.0
    },
    "procurement": {
@@ -3412,14 +4476,57 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=2091.0",
+     "avg2025=1813.0"
+    ],
+    "nextWeek": 1952.0,
+    "lower": 1813.0,
+    "upper": 2091.0,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 1813.0,
+      "mape": null
+     },
+     "MA(3)": {
+      "value": 1952.0,
+      "mape": null
+     },
+     "ExponentialSmoothing": {
+      "value": 1952.0,
+      "mape": null
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -3515,13 +4622,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=339.0",
+     "avg2025=355.0",
+     "sixMo=264.0",
+     "lastMonth=263.38",
+     "lastWeek=262.1295558",
+     "current=292.55"
+    ],
+    "nextWeek": 282.92,
+    "lower": 245.11,
+    "upper": 320.73,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 292.55,
+      "mape": 0.114
+     },
+     "MA(3)": {
+      "value": 272.69,
+      "mape": 0.1873
+     },
+     "ExponentialSmoothing": {
+      "value": 282.92,
+      "mape": 0.1563
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -3617,13 +4753,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=586.0",
+     "avg2025=589.0",
+     "sixMo=578.0",
+     "lastMonth=502.45",
+     "lastWeek=582.0",
+     "current=490.0"
+    ],
+    "nextWeek": 526.15,
+    "lower": 484.6,
+    "upper": 567.7,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 490.0,
+      "mape": 0.1235
+     },
+     "MA(3)": {
+      "value": 524.82,
+      "mape": 0.0885
+     },
+     "ExponentialSmoothing": {
+      "value": 526.15,
+      "mape": 0.0979
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -3719,13 +4884,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=566.0",
+     "avg2025=562.0",
+     "sixMo=568.0",
+     "lastMonth=580.43",
+     "lastWeek=572.0",
+     "current=595.75"
+    ],
+    "nextWeek": 584.18,
+    "lower": 572.91,
+    "upper": 595.45,
+    "method": "ExponentialSmoothing",
+    "methods": {
+     "Naive": {
+      "value": 595.75,
+      "mape": 0.0216
+     },
+     "MA(3)": {
+      "value": 582.73,
+      "mape": 0.0184
+     },
+     "ExponentialSmoothing": {
+      "value": 584.18,
+      "mape": 0.0182
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -3821,13 +5015,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=1783.0",
+     "avg2025=1792.0",
+     "sixMo=1852.0",
+     "lastMonth=1785.3",
+     "lastWeek=1892.28",
+     "current=1810.88"
+    ],
+    "nextWeek": 1829.14,
+    "lower": 1788.96,
+    "upper": 1869.32,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 1810.88,
+      "mape": 0.0428
+     },
+     "MA(3)": {
+      "value": 1829.49,
+      "mape": 0.0274
+     },
+     "ExponentialSmoothing": {
+      "value": 1829.14,
+      "mape": 0.0304
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -3893,32 +5116,46 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 279.29,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 279.29,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=278.0",
+     "avg2025=273.0",
+     "sixMo=262.0",
+     "lastMonth=281.32",
+     "lastWeek=281.0",
+     "current=274.26"
+    ],
+    "nextWeek": 276.14,
+    "lower": 269.58,
+    "upper": 282.7,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 274.26,
+      "mape": 0.0341
+     },
+     "MA(3)": {
+      "value": 278.86,
+      "mape": 0.0304
+     },
+     "ExponentialSmoothing": {
+      "value": 276.14,
+      "mape": 0.0328
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 47898.7,
@@ -3927,12 +5164,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 47898.7,
       "valueUsd": 13136757.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 100.0
    },
    "procurement": {
@@ -4000,14 +5238,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=284.0",
+     "avg2025=276.0",
+     "sixMo=272.0",
+     "lastMonth=260.0",
+     "lastWeek=257.02",
+     "current=257.02"
+    ],
+    "nextWeek": 259.76,
+    "lower": 249.43,
+    "upper": 270.1,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 257.02,
+      "mape": 0.0181
+     },
+     "MA(3)": {
+      "value": 258.01,
+      "mape": 0.0418
+     },
+     "ExponentialSmoothing": {
+      "value": 259.76,
+      "mape": 0.0388
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4075,14 +5360,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=282.0",
+     "avg2025=274.0",
+     "sixMo=270.0",
+     "lastMonth=263.9",
+     "lastWeek=262.0",
+     "current=267.0"
+    ],
+    "nextWeek": 266.24,
+    "lower": 259.53,
+    "upper": 272.95,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 267.0,
+      "mape": 0.016
+     },
+     "MA(3)": {
+      "value": 264.3,
+      "mape": 0.0268
+     },
+     "ExponentialSmoothing": {
+      "value": 266.24,
+      "mape": 0.025
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4150,14 +5482,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=244.0",
+     "avg2025=236.0",
+     "sixMo=221.0",
+     "lastMonth=198.0",
+     "lastWeek=192.5",
+     "current=192.5"
+    ],
+    "nextWeek": 197.94,
+    "lower": 177.07,
+    "upper": 218.81,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 192.5,
+      "mape": 0.0532
+     },
+     "MA(3)": {
+      "value": 194.33,
+      "mape": 0.1148
+     },
+     "ExponentialSmoothing": {
+      "value": 197.94,
+      "mape": 0.1049
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4225,14 +5604,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=247.0",
+     "avg2025=239.0",
+     "sixMo=224.0",
+     "lastMonth=201.0",
+     "lastWeek=195.5",
+     "current=195.5"
+    ],
+    "nextWeek": 200.94,
+    "lower": 180.07,
+    "upper": 221.81,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 195.5,
+      "mape": 0.0524
+     },
+     "MA(3)": {
+      "value": 197.33,
+      "mape": 0.1131
+     },
+     "ExponentialSmoothing": {
+      "value": 200.94,
+      "mape": 0.1033
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4300,14 +5726,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=248.0",
+     "avg2025=240.0",
+     "sixMo=225.0",
+     "lastMonth=202.0",
+     "lastWeek=197.5",
+     "current=197.5"
+    ],
+    "nextWeek": 202.69,
+    "lower": 182.16,
+    "upper": 223.22,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 197.5,
+      "mape": 0.0508
+     },
+     "MA(3)": {
+      "value": 199.0,
+      "mape": 0.1102
+     },
+     "ExponentialSmoothing": {
+      "value": 202.69,
+      "mape": 0.1007
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4375,14 +5848,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=251.0",
+     "avg2025=243.0",
+     "sixMo=228.0",
+     "lastMonth=219.56",
+     "lastWeek=199.5",
+     "current=241.79"
+    ],
+    "nextWeek": 227.9,
+    "lower": 210.63,
+    "upper": 245.18,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 241.79,
+      "mape": 0.0949
+     },
+     "MA(3)": {
+      "value": 220.28,
+      "mape": 0.1103
+     },
+     "ExponentialSmoothing": {
+      "value": 227.9,
+      "mape": 0.1064
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4450,14 +5970,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=264.0",
+     "avg2025=255.0",
+     "sixMo=240.0",
+     "lastMonth=217.0",
+     "lastWeek=211.5",
+     "current=211.5"
+    ],
+    "nextWeek": 216.97,
+    "lower": 195.86,
+    "upper": 238.08,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 211.5,
+      "mape": 0.0486
+     },
+     "MA(3)": {
+      "value": 213.33,
+      "mape": 0.1057
+     },
+     "ExponentialSmoothing": {
+      "value": 216.97,
+      "mape": 0.0968
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4554,13 +6121,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=252.0",
+     "avg2025=244.0",
+     "sixMo=232.0",
+     "lastMonth=230.14",
+     "lastWeek=217.0",
+     "current=241.62"
+    ],
+    "nextWeek": 233.83,
+    "lower": 222.55,
+    "upper": 245.1,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 241.62,
+      "mape": 0.0556
+     },
+     "MA(3)": {
+      "value": 229.59,
+      "mape": 0.0678
+     },
+     "ExponentialSmoothing": {
+      "value": 233.83,
+      "mape": 0.0649
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4628,14 +6224,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=252.0",
+     "avg2025=257.0",
+     "sixMo=258.0",
+     "lastMonth=263.9",
+     "lastWeek=260.0",
+     "current=267.0"
+    ],
+    "nextWeek": 263.52,
+    "lower": 258.68,
+    "upper": 268.36,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 267.0,
+      "mape": 0.0169
+     },
+     "MA(3)": {
+      "value": 263.63,
+      "mape": 0.0175
+     },
+     "ExponentialSmoothing": {
+      "value": 263.52,
+      "mape": 0.0172
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4703,14 +6346,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=255.0",
+     "avg2025=253.0",
+     "sixMo=269.0",
+     "lastMonth=255.98",
+     "lastWeek=268.0",
+     "current=273.58"
+    ],
+    "nextWeek": 268.48,
+    "lower": 260.47,
+    "upper": 276.48,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 273.58,
+      "mape": 0.0439
+     },
+     "MA(3)": {
+      "value": 265.85,
+      "mape": 0.0334
+     },
+     "ExponentialSmoothing": {
+      "value": 268.48,
+      "mape": 0.0373
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4778,14 +6468,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=265.0",
+     "avg2025=262.0",
+     "sixMo=258.0",
+     "lastMonth=300.75",
+     "lastWeek=254.57",
+     "current=327.25"
+    ],
+    "nextWeek": 297.45,
+    "lower": 270.63,
+    "upper": 324.28,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 327.25,
+      "mape": 0.1403
+     },
+     "MA(3)": {
+      "value": 294.19,
+      "mape": 0.0994
+     },
+     "ExponentialSmoothing": {
+      "value": 297.45,
+      "mape": 0.1098
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4853,14 +6590,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=202.0",
+     "avg2025=206.0",
+     "sixMo=212.0",
+     "lastMonth=233.5",
+     "lastWeek=212.13",
+     "current=247.12"
+    ],
+    "nextWeek": 231.78,
+    "lower": 215.68,
+    "upper": 247.88,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 247.12,
+      "mape": 0.0907
+     },
+     "MA(3)": {
+      "value": 230.92,
+      "mape": 0.0723
+     },
+     "ExponentialSmoothing": {
+      "value": 231.78,
+      "mape": 0.0779
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -4928,14 +6712,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=218.0",
+     "avg2025=212.0",
+     "sixMo=229.0",
+     "lastMonth=250.66",
+     "lastWeek=213.8",
+     "current=266.54"
+    ],
+    "nextWeek": 245.8,
+    "lower": 225.49,
+    "upper": 266.12,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 266.54,
+      "mape": 0.1327
+     },
+     "MA(3)": {
+      "value": 243.67,
+      "mape": 0.099
+     },
+     "ExponentialSmoothing": {
+      "value": 245.8,
+      "mape": 0.1091
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5003,14 +6834,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=258.0",
+     "avg2025=262.0",
+     "sixMo=279.0",
+     "lastMonth=247.46",
+     "lastWeek=284.28",
+     "current=266.12"
+    ],
+    "nextWeek": 268.75,
+    "lower": 256.32,
+    "upper": 281.18,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 266.12,
+      "mape": 0.0965
+     },
+     "MA(3)": {
+      "value": 265.95,
+      "mape": 0.0588
+     },
+     "ExponentialSmoothing": {
+      "value": 268.75,
+      "mape": 0.0669
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5078,14 +6956,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=262.0",
+     "avg2025=258.0",
+     "sixMo=265.0",
+     "lastMonth=262.83",
+     "lastWeek=278.29",
+     "current=265.17"
+    ],
+    "nextWeek": 267.82,
+    "lower": 261.51,
+    "upper": 274.14,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 265.17,
+      "mape": 0.0349
+     },
+     "MA(3)": {
+      "value": 268.76,
+      "mape": 0.0238
+     },
+     "ExponentialSmoothing": {
+      "value": 267.82,
+      "mape": 0.0241
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5153,14 +7078,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=258.0",
+     "avg2025=264.28",
+     "sixMo=272.0",
+     "lastMonth=285.15",
+     "lastWeek=278.29",
+     "current=304.0"
+    ],
+    "nextWeek": 290.54,
+    "lower": 275.57,
+    "upper": 305.51,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 304.0,
+      "mape": 0.0459
+     },
+     "MA(3)": {
+      "value": 289.15,
+      "mape": 0.0529
+     },
+     "ExponentialSmoothing": {
+      "value": 290.54,
+      "mape": 0.0506
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5228,14 +7200,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=212.0",
+     "avg2025=216.0",
+     "sixMo=219.0",
+     "lastMonth=220.0",
+     "lastWeek=217.0",
+     "current=220.0"
+    ],
+    "nextWeek": 218.81,
+    "lower": 216.0,
+    "upper": 221.62,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 220.0,
+      "mape": 0.0114
+     },
+     "MA(3)": {
+      "value": 219.0,
+      "mape": 0.0137
+     },
+     "ExponentialSmoothing": {
+      "value": 218.81,
+      "mape": 0.0138
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5303,14 +7322,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=237.0",
+     "avg2025=239.0",
+     "sixMo=254.0",
+     "lastMonth=245.84",
+     "lastWeek=256.78",
+     "current=264.5"
+    ],
+    "nextWeek": 257.93,
+    "lower": 248.11,
+    "upper": 267.74,
+    "method": "ExponentialSmoothing",
+    "methods": {
+     "Naive": {
+      "value": 264.5,
+      "mape": 0.041
+     },
+     "MA(3)": {
+      "value": 255.71,
+      "mape": 0.0401
+     },
+     "ExponentialSmoothing": {
+      "value": 257.93,
+      "mape": 0.0389
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5378,14 +7444,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=257.0",
+     "avg2025=262.0",
+     "sixMo=254.29",
+     "lastMonth=249.28",
+     "lastWeek=261.0",
+     "current=267.5"
+    ],
+    "nextWeek": 262.27,
+    "lower": 256.43,
+    "upper": 268.11,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 267.5,
+      "mape": 0.0299
+     },
+     "MA(3)": {
+      "value": 259.26,
+      "mape": 0.031
+     },
+     "ExponentialSmoothing": {
+      "value": 262.27,
+      "mape": 0.0301
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5453,14 +7566,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=241.0",
+     "avg2025=245.0",
+     "sixMo=236.82",
+     "lastMonth=230.0",
+     "lastWeek=230.0",
+     "current=230.0"
+    ],
+    "nextWeek": 231.24,
+    "lower": 225.28,
+    "upper": 237.2,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 230.0,
+      "mape": 0.016
+     },
+     "MA(3)": {
+      "value": 230.0,
+      "mape": 0.0288
+     },
+     "ExponentialSmoothing": {
+      "value": 231.24,
+      "mape": 0.0254
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5528,14 +7688,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=232.0",
+     "avg2025=238.0",
+     "sixMo=239.12",
+     "lastMonth=239.0",
+     "lastWeek=238.0",
+     "current=239.0"
+    ],
+    "nextWeek": 238.51,
+    "lower": 236.0,
+    "upper": 241.02,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 239.0,
+      "mape": 0.0034
+     },
+     "MA(3)": {
+      "value": 238.67,
+      "mape": 0.0081
+     },
+     "ExponentialSmoothing": {
+      "value": 238.51,
+      "mape": 0.0074
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5631,13 +7838,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=238.0",
+     "avg2025=242.0",
+     "sixMo=242.0",
+     "lastMonth=265.24",
+     "lastWeek=272.0",
+     "current=291.75"
+    ],
+    "nextWeek": 277.15,
+    "lower": 257.58,
+    "upper": 296.73,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 291.75,
+      "mape": 0.045
+     },
+     "MA(3)": {
+      "value": 276.33,
+      "mape": 0.0731
+     },
+     "ExponentialSmoothing": {
+      "value": 277.15,
+      "mape": 0.0673
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5733,13 +7969,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=138.0",
+     "avg2025=138.0",
+     "sixMo=136.0",
+     "lastMonth=142.6",
+     "lastWeek=135.0",
+     "current=157.08"
+    ],
+    "nextWeek": 147.24,
+    "lower": 139.71,
+    "upper": 154.77,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 157.08,
+      "mape": 0.0645
+     },
+     "MA(3)": {
+      "value": 144.89,
+      "mape": 0.0506
+     },
+     "ExponentialSmoothing": {
+      "value": 147.24,
+      "mape": 0.0537
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5840,13 +8105,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=232.0",
+     "avg2025=234.0",
+     "sixMo=230.0",
+     "lastMonth=234.62",
+     "lastWeek=199.0",
+     "current=255.65"
+    ],
+    "nextWeek": 235.84,
+    "lower": 219.23,
+    "upper": 252.45,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 255.65,
+      "mape": 0.1094
+     },
+     "MA(3)": {
+      "value": 229.76,
+      "mape": 0.0823
+     },
+     "ExponentialSmoothing": {
+      "value": 235.84,
+      "mape": 0.0881
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -5942,13 +8236,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=2080.7225",
+     "avg2025=2070.0",
+     "sixMo=2168.3224",
+     "lastMonth=1924.86",
+     "lastWeek=1940.067888",
+     "current=1907.0"
+    ],
+    "nextWeek": 1944.35,
+    "lower": 1847.52,
+    "upper": 2041.18,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 1907.0,
+      "mape": 0.0493
+     },
+     "MA(3)": {
+      "value": 1923.98,
+      "mape": 0.0627
+     },
+     "ExponentialSmoothing": {
+      "value": 1944.35,
+      "mape": 0.0568
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -6025,32 +8348,50 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": 518.09,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 729.56,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": 518.09,
+    "landedCostUsdMt": 729.56,
+    "impliedLogisticsPremium": 211.47,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
-    "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "status": "ESTIMATE",
+    "label": "Sourcing-optimization estimate (landed vs best origin, not Akij procurement)",
+    "gapUsdMt": 211.47,
+    "volumeMt": 3378.2,
+    "potentialSavingUsd": 714400.0,
+    "note": "Akij procurement price is not provided; this is the import-vs-best-origin gap, not Akij-specific saving."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=498.0",
+     "avg2025=511.0",
+     "sixMo=517.0",
+     "lastMonth=537.17",
+     "lastWeek=473.99373",
+     "current=547.22"
+    ],
+    "nextWeek": 523.1,
+    "lower": 498.89,
+    "upper": 547.3,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 547.22,
+      "mape": 0.0791
+     },
+     "MA(3)": {
+      "value": 519.46,
+      "mape": 0.0618
+     },
+     "ExponentialSmoothing": {
+      "value": 523.1,
+      "mape": 0.0667
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 3378.2,
@@ -6059,27 +8400,31 @@
     "originCount": 4,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 261.8,
       "valueUsd": 196786.0
      },
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 1056.9,
       "valueUsd": 796305.0
      },
      {
-      "country": "US",
+      "countryCode": "US",
+      "country": "United States",
       "volumeMt": 1863.5,
       "valueUsd": 1345062.0
      },
      {
-      "country": "PK",
+      "countryCode": "PK",
+      "country": "Pakistan",
       "volumeMt": 196.0,
       "valueUsd": 117600.0
      }
     ],
-    "topOrigin": "US",
+    "topOrigin": "United States",
     "concentrationPct": 55.2
    },
    "procurement": {
@@ -6178,13 +8523,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=423.0",
+     "avg2025=417.0",
+     "sixMo=445.0",
+     "lastMonth=240.69",
+     "lastWeek=240.0",
+     "current=216.25"
+    ],
+    "nextWeek": 252.27,
+    "lower": 153.57,
+    "upper": 350.98,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 216.25,
+      "mape": 0.2561
+     },
+     "MA(3)": {
+      "value": 232.31,
+      "mape": 0.4485
+     },
+     "ExponentialSmoothing": {
+      "value": 252.27,
+      "mape": 0.3972
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -6280,13 +8654,42 @@
      "other"
     ],
     "importUnitValueUsdMt": null,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=423.0",
+     "avg2025=417.0",
+     "sixMo=445.0",
+     "lastMonth=3637.63",
+     "lastWeek=3637.62729",
+     "current=3637.63"
+    ],
+    "nextWeek": 3236.99,
+    "lower": 1632.32,
+    "upper": 4841.66,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 3637.63,
+      "mape": 0.2351
+     },
+     "MA(3)": {
+      "value": 3637.63,
+      "mape": 0.4547
+     },
+     "ExponentialSmoothing": {
+      "value": 3236.99,
+      "mape": 0.3995
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -6354,14 +8757,60 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2025=1425.0",
+     "sixMo=1220.0",
+     "lastMonth=1437.5",
+     "lastWeek=1400.0",
+     "current=1154.67"
+    ],
+    "nextWeek": 1272.34,
+    "lower": 1155.47,
+    "upper": 1389.2,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 1154.67,
+      "mape": 0.1302
+     },
+     "MA(3)": {
+      "value": 1330.72,
+      "mape": 0.0931
+     },
+     "ExponentialSmoothing": {
+      "value": 1272.34,
+      "mape": 0.0994
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -6429,14 +8878,58 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1186.63",
+     "lastWeek=1283.0",
+     "current=787.5"
+    ],
+    "nextWeek": 1011.16,
+    "lower": 796.65,
+    "upper": 1225.66,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 787.5,
+      "mape": 0.6292
+     },
+     "MA(3)": {
+      "value": 1085.71,
+      "mape": 0.568
+     },
+     "ExponentialSmoothing": {
+      "value": 1011.16,
+      "mape": 0.568
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -6502,32 +8995,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 1098.13,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 1098.13,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1186.63",
+     "lastWeek=1283.0",
+     "current=787.5"
+    ],
+    "nextWeek": 1011.16,
+    "lower": 796.65,
+    "upper": 1225.66,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 787.5,
+      "mape": 0.6292
+     },
+     "MA(3)": {
+      "value": 1085.71,
+      "mape": 0.568
+     },
+     "ExponentialSmoothing": {
+      "value": 1011.16,
+      "mape": 0.568
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 1100.0,
@@ -6536,22 +9040,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 976.0,
       "valueUsd": 1073896.0
      },
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 5.0,
       "valueUsd": 3300.0
      },
      {
-      "country": "KR",
+      "countryCode": "KR",
+      "country": "South Korea",
       "volumeMt": 119.0,
       "valueUsd": 210630.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 88.7
    },
    "procurement": {
@@ -6617,32 +9124,45 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 1145.25,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 1145.25,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2025=1425.0",
+     "sixMo=1220.0",
+     "lastMonth=1437.5",
+     "lastWeek=1400.0",
+     "current=1154.67"
+    ],
+    "nextWeek": 1272.34,
+    "lower": 1155.47,
+    "upper": 1389.2,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 1154.67,
+      "mape": 0.1302
+     },
+     "MA(3)": {
+      "value": 1330.72,
+      "mape": 0.0931
+     },
+     "ExponentialSmoothing": {
+      "value": 1272.34,
+      "mape": 0.0994
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 207.0,
@@ -6651,12 +9171,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 207.0,
       "valueUsd": 239016.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 100.0
    },
    "procurement": {
@@ -6722,32 +9243,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 1889.42,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 1889.42,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=858.99",
+     "lastWeek=1041.91",
+     "current=983.14"
+    ],
+    "nextWeek": 966.8,
+    "lower": 890.54,
+    "upper": 1043.05,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 983.14,
+      "mape": 0.0598
+     },
+     "MA(3)": {
+      "value": 961.35,
+      "mape": 0.0333
+     },
+     "ExponentialSmoothing": {
+      "value": 966.8,
+      "mape": 0.0333
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 531.3,
@@ -6756,22 +9288,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 400.5,
       "valueUsd": 380747.0
      },
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 78.0,
       "valueUsd": 85920.0
      },
      {
-      "country": "BE",
+      "countryCode": "BE",
+      "country": "Belgium",
       "volumeMt": 52.8,
       "valueUsd": 48840.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 75.4
    },
    "procurement": {
@@ -6837,32 +9372,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 4295.0,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 4295.0,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=3828.99",
+     "lastWeek=4283.93",
+     "current=4309.09"
+    ],
+    "nextWeek": 4182.77,
+    "lower": 3962.14,
+    "upper": 4403.41,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 4309.09,
+      "mape": 0.0058
+     },
+     "MA(3)": {
+      "value": 4140.67,
+      "mape": 0.0586
+     },
+     "ExponentialSmoothing": {
+      "value": 4182.77,
+      "mape": 0.0586
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 1160.0,
@@ -6871,22 +9417,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 1080.0,
       "valueUsd": 4175000.0
      },
      {
-      "country": "SG",
+      "countryCode": "SG",
+      "country": "Singapore",
       "volumeMt": 60.0,
       "valueUsd": 310000.0
      },
      {
-      "country": "FR",
+      "countryCode": "FR",
+      "country": "France",
       "volumeMt": 20.0,
       "valueUsd": 91000.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 93.1
    },
    "procurement": {
@@ -6952,32 +9501,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 4757.41,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 4757.41,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=5518.35",
+     "lastWeek=2448.18",
+     "current=3806.97"
+    ],
+    "nextWeek": 3895.12,
+    "lower": 2638.97,
+    "upper": 5151.26,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 3806.97,
+      "mape": 0.3569
+     },
+     "MA(3)": {
+      "value": 3924.5,
+      "mape": 0.0463
+     },
+     "ExponentialSmoothing": {
+      "value": 3895.12,
+      "mape": 0.0463
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 76.6,
@@ -6986,22 +9546,25 @@
     "originCount": 3,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 14.2,
       "valueUsd": 32815.0
      },
      {
-      "country": "KR",
+      "countryCode": "KR",
+      "country": "South Korea",
       "volumeMt": 39.0,
       "valueUsd": 116250.0
      },
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 23.4,
       "valueUsd": 133995.0
      }
     ],
-    "topOrigin": "KR",
+    "topOrigin": "South Korea",
     "concentrationPct": 50.9
    },
    "procurement": {
@@ -7067,32 +9630,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 5214.25,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 5214.25,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1863.16",
+     "lastWeek=2842.0",
+     "current=3409.12"
+    ],
+    "nextWeek": 2880.85,
+    "lower": 2242.3,
+    "upper": 3519.4,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 3409.12,
+      "mape": 0.1664
+     },
+     "MA(3)": {
+      "value": 2704.76,
+      "mape": 0.3099
+     },
+     "ExponentialSmoothing": {
+      "value": 2880.85,
+      "mape": 0.3099
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 350.8,
@@ -7101,32 +9675,37 @@
     "originCount": 5,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 11.1,
       "valueUsd": 94000.0
      },
      {
-      "country": "BD",
+      "countryCode": "BD",
+      "country": "Bangladesh",
       "volumeMt": 11.0,
       "valueUsd": 66415.0
      },
      {
-      "country": "TW",
+      "countryCode": "TW",
+      "country": "Taiwan",
       "volumeMt": 14.1,
       "valueUsd": 183300.0
      },
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 232.7,
       "valueUsd": 623889.0
      },
      {
-      "country": "FR",
+      "countryCode": "FR",
+      "country": "France",
       "volumeMt": 82.0,
       "valueUsd": 0.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 66.3
    },
    "procurement": {
@@ -7192,32 +9771,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 3636.67,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 3636.67,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=2040.0",
+     "lastWeek=5722.14",
+     "current=3524.21"
+    ],
+    "nextWeek": 3702.64,
+    "lower": 2190.03,
+    "upper": 5215.25,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 3524.21,
+      "mape": 0.6237
+     },
+     "MA(3)": {
+      "value": 3762.12,
+      "mape": 0.1013
+     },
+     "ExponentialSmoothing": {
+      "value": 3702.64,
+      "mape": 0.1013
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": {
     "volumeMt": 33.5,
@@ -7226,17 +9816,19 @@
     "originCount": 2,
     "origins": [
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 7.5,
       "valueUsd": 28950.0
      },
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 26.0,
       "valueUsd": 35620.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 77.6
    },
    "procurement": {
@@ -7302,32 +9894,43 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 8558.35,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 8558.35,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1871.17",
+     "lastWeek=2027.72",
+     "current=2326.35"
+    ],
+    "nextWeek": 2137.9,
+    "lower": 1949.08,
+    "upper": 2326.72,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 2326.35,
+      "mape": 0.1284
+     },
+     "MA(3)": {
+      "value": 2075.08,
+      "mape": 0.162
+     },
+     "ExponentialSmoothing": {
+      "value": 2137.9,
+      "mape": 0.162
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 997.4,
@@ -7336,87 +9939,103 @@
     "originCount": 16,
     "origins": [
      {
-      "country": "AT",
+      "countryCode": "AT",
+      "country": "Austria",
       "volumeMt": 3.0,
       "valueUsd": 84000.0
      },
      {
-      "country": "DE",
+      "countryCode": "DE",
+      "country": "Germany",
       "volumeMt": 10.0,
       "valueUsd": 116000.0
      },
      {
-      "country": "IN",
+      "countryCode": "IN",
+      "country": "India",
       "volumeMt": 249.8,
       "valueUsd": 703401.0
      },
      {
-      "country": "ZA",
+      "countryCode": "ZA",
+      "country": "South Africa",
       "volumeMt": 0.0,
       "valueUsd": 2711.0
      },
      {
-      "country": "LK",
+      "countryCode": "LK",
+      "country": "Sri Lanka",
       "volumeMt": 17.5,
       "valueUsd": 68300.0
      },
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 33.6,
       "valueUsd": 135164.0
      },
      {
-      "country": "KR",
+      "countryCode": "KR",
+      "country": "South Korea",
       "volumeMt": 221.4,
       "valueUsd": 108937.0
      },
      {
-      "country": "GB",
+      "countryCode": "GB",
+      "country": "United Kingdom",
       "volumeMt": 11.1,
       "valueUsd": 80205.0
      },
      {
-      "country": "ES",
+      "countryCode": "ES",
+      "country": "Spain",
       "volumeMt": 15.0,
       "valueUsd": 0.0
      },
      {
-      "country": "NL",
+      "countryCode": "NL",
+      "country": "Netherlands",
       "volumeMt": 85.0,
       "valueUsd": 0.0
      },
      {
-      "country": "PL",
+      "countryCode": "PL",
+      "country": "Poland",
       "volumeMt": 60.7,
       "valueUsd": 295680.0
      },
      {
-      "country": "TH",
+      "countryCode": "TH",
+      "country": "Thailand",
       "volumeMt": 31.3,
       "valueUsd": 300000.0
      },
      {
-      "country": "TW",
+      "countryCode": "TW",
+      "country": "Taiwan",
       "volumeMt": 12.6,
       "valueUsd": 104060.0
      },
      {
-      "country": "FR",
+      "countryCode": "FR",
+      "country": "France",
       "volumeMt": 184.0,
       "valueUsd": 112420.0
      },
      {
-      "country": "IT",
+      "countryCode": "IT",
+      "country": "Italy",
       "volumeMt": 12.0,
       "valueUsd": 0.0
      },
      {
-      "country": "NO",
+      "countryCode": "NO",
+      "country": "Norway",
       "volumeMt": 50.4,
       "valueUsd": 0.0
      }
     ],
-    "topOrigin": "IN",
+    "topOrigin": "India",
     "concentrationPct": 25.0
    },
    "procurement": {
@@ -7484,14 +10103,58 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=1346.78",
+     "lastWeek=1372.09",
+     "current=1380.09"
+    ],
+    "nextWeek": 1369.76,
+    "lower": 1355.56,
+    "upper": 1383.96,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 1380.09,
+      "mape": 0.0058
+     },
+     "MA(3)": {
+      "value": 1366.32,
+      "mape": 0.015
+     },
+     "ExponentialSmoothing": {
+      "value": 1369.76,
+      "mape": 0.015
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -7559,14 +10222,57 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastWeek=920.67",
+     "current=920.67"
+    ],
+    "nextWeek": 920.67,
+    "lower": 920.67,
+    "upper": 920.67,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 920.67,
+      "mape": null
+     },
+     "MA(3)": {
+      "value": 920.67,
+      "mape": null
+     },
+     "ExponentialSmoothing": {
+      "value": 920.67,
+      "mape": null
+     }
+    },
+    "direction": "flat"
    },
    "importIntelligence": null,
    "procurement": {
@@ -7634,14 +10340,58 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastMonth=617.4",
+     "lastWeek=648.75",
+     "current=670.75"
+    ],
+    "nextWeek": 651.91,
+    "lower": 630.02,
+    "upper": 673.8,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 670.75,
+      "mape": 0.0328
+     },
+     "MA(3)": {
+      "value": 645.63,
+      "mape": 0.0562
+     },
+     "ExponentialSmoothing": {
+      "value": 651.91,
+      "mape": 0.0562
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -7709,14 +10459,57 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "lastWeek=750.0",
+     "current=750.0"
+    ],
+    "nextWeek": 750.0,
+    "lower": 750.0,
+    "upper": 750.0,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 750.0,
+      "mape": null
+     },
+     "MA(3)": {
+      "value": 750.0,
+      "mape": null
+     },
+     "ExponentialSmoothing": {
+      "value": 750.0,
+      "mape": null
+     }
+    },
+    "direction": "flat"
    },
    "importIntelligence": null,
    "procurement": {
@@ -7784,14 +10577,59 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=1586.0",
+     "avg2025=1382.0",
+     "lastMonth=1302.21",
+     "current=1168.2"
+    ],
+    "nextWeek": 1280.65,
+    "lower": 1129.25,
+    "upper": 1432.05,
+    "method": "Naive",
+    "methods": {
+     "Naive": {
+      "value": 1168.2,
+      "mape": 0.088
+     },
+     "MA(3)": {
+      "value": 1284.14,
+      "mape": 0.179
+     },
+     "ExponentialSmoothing": {
+      "value": 1280.65,
+      "mape": 0.1661
+     }
+    },
+    "direction": "up"
    },
    "importIntelligence": null,
    "procurement": {
@@ -7859,14 +10697,61 @@
     }
    },
    "landedCost": {
-    "status": "UNAVAILABLE",
-    "reason": "No origin or import value available"
+    "status": "PARTIAL",
+    "components": {
+     "originPrice": null,
+     "freight": null,
+     "insurance": null,
+     "dutyTax": null,
+     "portHandling": null,
+     "financeLC": null,
+     "other": null
+    },
+    "missingComponents": [
+     "freight",
+     "insurance",
+     "dutyTax",
+     "portHandling",
+     "financeLC",
+     "other"
+    ],
+    "importUnitValueUsdMt": null,
+    "note": "No import record for this material; freight/insurance/duty/handling/finance not provided."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=1413.0",
+     "avg2025=856.0",
+     "sixMo=785.0",
+     "lastMonth=2229.76",
+     "lastWeek=545.0",
+     "current=2345.63"
+    ],
+    "nextWeek": 1707.75,
+    "lower": 1003.06,
+    "upper": 2412.45,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 2345.63,
+      "mape": 1.1493
+     },
+     "MA(3)": {
+      "value": 1706.8,
+      "mape": 0.7126
+     },
+     "ExponentialSmoothing": {
+      "value": 1707.75,
+      "mape": 0.8712
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": null,
    "procurement": {
@@ -7932,32 +10817,46 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 61.13,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 61.13,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "SAMPLE",
+    "label": "SAMPLE forecast — low confidence (coarse anchors, no full time series)",
+    "window": [
+     "avg2024=61.0",
+     "avg2025=61.0",
+     "sixMo=53.0",
+     "lastMonth=62.12",
+     "lastWeek=35.0",
+     "current=61.9"
+    ],
+    "nextWeek": 54.59,
+    "lower": 44.83,
+    "upper": 64.35,
+    "method": "MA(3)",
+    "methods": {
+     "Naive": {
+      "value": 61.9,
+      "mape": 0.3768
+     },
+     "MA(3)": {
+      "value": 53.01,
+      "mape": 0.2702
+     },
+     "ExponentialSmoothing": {
+      "value": 54.59,
+      "mape": 0.2928
+     }
+    },
+    "direction": "down"
    },
    "importIntelligence": {
     "volumeMt": 21756.2,
@@ -7966,17 +10865,19 @@
     "originCount": 2,
     "origins": [
      {
-      "country": "EG",
+      "countryCode": "EG",
+      "country": "Egypt",
       "volumeMt": 21252.2,
       "valueUsd": 1311388.0
      },
      {
-      "country": "VN",
+      "countryCode": "VN",
+      "country": "Vietnam",
       "volumeMt": 504.0,
       "valueUsd": 35280.0
      }
     ],
-    "topOrigin": "EG",
+    "topOrigin": "Egypt",
     "concentrationPct": 97.7
    },
    "procurement": {
@@ -8042,32 +10943,19 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 253.0,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 253.0,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "UNAVAILABLE",
+    "reason": "insufficient anchor points"
    },
    "importIntelligence": {
     "volumeMt": 74.4,
@@ -8076,12 +10964,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "VN",
+      "countryCode": "VN",
+      "country": "Vietnam",
       "volumeMt": 74.4,
       "valueUsd": 18829.0
      }
     ],
-    "topOrigin": "VN",
+    "topOrigin": "Vietnam",
     "concentrationPct": 100.0
    },
    "procurement": {
@@ -8147,32 +11036,19 @@
     }
    },
    "landedCost": {
-    "status": "PARTIAL",
-    "components": {
-     "originPrice": null,
-     "freight": null,
-     "insurance": null,
-     "dutyTax": null,
-     "portHandling": null,
-     "financeLC": null,
-     "other": null
-    },
-    "missingComponents": [
-     "freight",
-     "insurance",
-     "dutyTax",
-     "portHandling",
-     "financeLC",
-     "other"
-    ],
-    "importUnitValueUsdMt": 3300.0,
-    "note": "Origin price is FOB/FAS benchmark; freight, insurance, duty, handling and finance are not provided."
+    "status": "COMPLETE",
+    "originPriceFob": null,
+    "landedCostUsdMt": 3300.0,
+    "impliedLogisticsPremium": null,
+    "note": "Landed cost taken from actual NBR import (CIF) unit value; logistics premium is implied (not itemized)."
    },
    "savings": {
     "status": "UNAVAILABLE",
-    "reason": "Akij procurement price and volume not provided. Cannot compute Akij − Best Landed × quantity.",
-    "potentialSavingUsdMt": null,
-    "financialExposureUsd": null
+    "reason": "Need both an import (landed) value and a best-origin benchmark."
+   },
+   "forecast": {
+    "status": "UNAVAILABLE",
+    "reason": "insufficient anchor points"
    },
    "importIntelligence": {
     "volumeMt": 1.0,
@@ -8181,12 +11057,13 @@
     "originCount": 1,
     "origins": [
      {
-      "country": "CN",
+      "countryCode": "CN",
+      "country": "China",
       "volumeMt": 1.0,
       "valueUsd": 3300.0
      }
     ],
-    "topOrigin": "CN",
+    "topOrigin": "China",
     "concentrationPct": 100.0
    },
    "procurement": {

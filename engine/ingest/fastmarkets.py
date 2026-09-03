@@ -6,7 +6,7 @@ from ..core.entities import (
     PriceObservation, extract_country, extract_incoterm, extract_unit, extract_specification,
 )
 
-FM_FILE = "/Users/deep/Downloads/Raw_Material.xlsx"
+FM_FILE = "/Users/deep/Desktop/Raw_Material_Analyzed.xlsx"
 
 # Sheet name -> (family material name, category)
 SHEET_FAMILY = {
