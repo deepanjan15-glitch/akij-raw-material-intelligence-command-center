@@ -7,7 +7,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23005bac'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='16' font-weight='bold' fill='white' text-anchor='middle'%3EAF%3C/text%3E%3C/svg%3E" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=11" />
+<link rel="stylesheet" href="css/style.css?v=12" />
 </head>
 <body>
 <div class="app">
@@ -51,9 +51,13 @@
       <div><strong>Dr. Deepanjan Bhattacharya</strong><span>Market Intelligence</span></div>
     </div>
   </aside>
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 
   <main class="main">
     <header class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" title="Menu">
+        <span></span><span></span><span></span>
+      </button>
       <div class="topbar-title">
         <h1 id="viewTitle">Command Center</h1>
         <div class="subtitle"><span class="live-dot" id="liveDot" title="Live — data current"></span>Data as of <span id="asOf">—</span> · Evidence-driven · No fabricated figures</div>
@@ -106,6 +110,6 @@
 
 <div class="modal-overlay" id="modal"><div class="modal" id="modalBox"></div></div>
 <script src="js/chart.umd.min.js"></script>
-<script type="module" src="js/app.js?v=11"></script>
+<script type="module" src="js/app.js?v=12"></script>
 </body>
 </html>

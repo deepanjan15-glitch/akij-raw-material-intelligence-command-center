@@ -1057,7 +1057,8 @@ function exportExcel() {
 function exportPDF() { window.print(); }
 
 /* ================= wiring ================= */
-document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () => { state.view = n.dataset.view; render(); }));
+function closeSidebar() { document.querySelector(".app").classList.remove("sidebar-open"); }
+document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () => { state.view = n.dataset.view; render(); closeSidebar(); }));
 document.querySelectorAll(".role-btn").forEach(b => b.addEventListener("click", () => {
   document.querySelectorAll(".role-btn").forEach(x => x.classList.remove("active"));
   b.classList.add("active"); state.role = b.dataset.role; render();
@@ -1066,5 +1067,7 @@ document.getElementById("search").addEventListener("input", e => { state.search 
 document.getElementById("modal").addEventListener("click", e => { if (e.target.id === "modal") e.target.classList.remove("show"); });
 document.getElementById("exportExcelBtn").addEventListener("click", exportExcel);
 document.getElementById("exportPdfBtn").addEventListener("click", exportPDF);
+document.getElementById("menuBtn").addEventListener("click", () => document.querySelector(".app").classList.toggle("sidebar-open"));
+document.getElementById("sidebarBackdrop").addEventListener("click", closeSidebar);
 
 load();

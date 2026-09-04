@@ -362,3 +362,46 @@ tbody tr:hover { background: var(--theme-bg-tint); }
   .panel, .kpi, .summary-card { box-shadow: none; break-inside: avoid; }
   body { background: #fff; }
 }
+
+/* --------------------------------------------------------------------------
+   14. RESPONSIVE / MOBILE
+   -------------------------------------------------------------------------- */
+.menu-btn { display: none; flex-direction: column; gap: 4px; background: var(--theme-surface); border: 1px solid var(--theme-border); border-radius: 8px; padding: 8px 9px; cursor: pointer; }
+.menu-btn span { display: block; width: 18px; height: 2px; background: var(--theme-text-2); border-radius: 2px; }
+.sidebar-backdrop { display: none; }
+
+@media (max-width: 900px) {
+  .menu-btn { display: inline-flex; flex-shrink: 0; }
+  .sidebar {
+    position: fixed; left: 0; top: 0; bottom: 0; height: 100vh; z-index: 60;
+    transform: translateX(-103%); transition: transform .28s ease;
+  }
+  .app.sidebar-open .sidebar { transform: translateX(0); box-shadow: 0 12px 44px rgba(0,0,0,.4); }
+  .sidebar-backdrop {
+    display: block; position: fixed; inset: 0; background: rgba(15,23,42,.55); z-index: 55;
+    opacity: 0; pointer-events: none; transition: opacity .28s ease;
+  }
+  .app.sidebar-open .sidebar-backdrop { opacity: 1; pointer-events: auto; }
+
+  .main { padding: 14px 13px 44px; }
+  .topbar { row-gap: 10px; column-gap: 12px; }
+  .topbar-title { flex: 1 1 auto; min-width: 0; }
+  .topbar-title h1 { font-size: 18px; }
+  .role-toggle { margin-left: 0; flex-wrap: wrap; }
+  .search { width: 100%; order: 6; }
+  .search input { width: 100%; }
+  .topbar-actions { order: 5; }
+
+  .panel { padding: 15px 14px; }
+  .panel > table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .panel > table th, .panel > table td { white-space: nowrap; }
+  .kv { grid-template-columns: 1fr; gap: 2px 8px; }
+  .modal { width: 95%; padding: 18px; }
+  .exec-summary-head { gap: 14px; }
+  .health-gauge { width: 96px; height: 96px; }
+  .health-gauge-inner { width: 70px; height: 70px; }
+  .health-score { font-size: 24px; }
+  .chart-box { height: 320px; }
+  .chart-box.tall { height: 380px; }
+  .kpi-value { font-size: 20px; }
+}

@@ -88,3 +88,8 @@
 - Moved **Executive Summary** nav item to immediately after **Command Center**.
 - Wrapped the Material Intelligence table in a **scrollable window** (sticky header).
 - Added **visible data labels** to bar charts (momentum, sourcing gap) and a center total + per-segment counts on the risk donut.
+
+## [0.9.0] — 2026-09-04 — Mobile responsive
+- Off-canvas sidebar with a hamburger toggle + backdrop (≤900px); closes on nav/backdrop tap.
+- Wide data tables become horizontally scrollable on mobile (material table keeps its sticky-header window).
+- Top bar, KPI/summary grids, charts, gauge and modal reflow for small screens; no horizontal page overflow.
