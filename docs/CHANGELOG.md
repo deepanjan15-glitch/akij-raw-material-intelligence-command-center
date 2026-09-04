@@ -80,3 +80,11 @@
   buy** (cost-gap bar).
 - Removed the "Data Freshness" KPI card from the Command Center.
 - QA extended to 35 tests (sourcing gap + country normalisation + signal cleaning).
+
+## [0.8.0] — 2026-09-04 — Export, live status, source breakdown, data labels
+- Added **Export PDF** (print) and **Export Excel/CSV** (full 18-column material export) buttons in the top bar.
+- Added a pulsing **green "live" indicator** before the "Data as of" date in the top bar.
+- Added a **Data source breakdown** panel (count + percentage bars: Fastmarkets / NBR / other) to the Executive Summary.
+- Moved **Executive Summary** nav item to immediately after **Command Center**.
+- Wrapped the Material Intelligence table in a **scrollable window** (sticky header).
+- Added **visible data labels** to bar charts (momentum, sourcing gap) and a center total + per-segment counts on the risk donut.

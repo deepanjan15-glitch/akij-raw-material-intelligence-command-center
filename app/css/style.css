@@ -322,3 +322,43 @@ tbody tr:hover { background: var(--theme-bg-tint); }
 .summary-value.warning { color: #b45309; }
 .summary-value.info { color: #2563eb; }
 .summary-sub { font-size: 11px; color: var(--theme-muted); }
+
+/* --------------------------------------------------------------------------
+   13. LIVE STATUS + EXPORT + SOURCE BREAKDOWN + SCROLL WINDOW
+   -------------------------------------------------------------------------- */
+.live-dot {
+  display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #16a34a;
+  box-shadow: 0 0 0 0 rgba(22,163,74,.55); animation: livePulse 2s infinite; margin-right: 3px; vertical-align: middle;
+}
+@keyframes livePulse {
+  0% { box-shadow: 0 0 0 0 rgba(22,163,74,.55); }
+  70% { box-shadow: 0 0 0 8px rgba(22,163,74,0); }
+  100% { box-shadow: 0 0 0 0 rgba(22,163,74,0); }
+}
+
+.topbar-actions { display: flex; gap: 8px; align-items: center; }
+.btn-export {
+  padding: 8px 14px; border: 1px solid var(--theme-border); border-radius: 8px; background: var(--theme-surface);
+  color: var(--theme-text-2); font-size: 12px; font-weight: 600; cursor: pointer; font-family: var(--font); transition: all .14s ease;
+}
+.btn-export:hover { border-color: var(--theme-secondary); color: var(--theme-text-accent); background: var(--theme-bg-tint); }
+
+.source-row { margin-bottom: 11px; }
+.source-row-head { display: flex; align-items: center; gap: 8px; font-size: 12.5px; margin-bottom: 4px; }
+.source-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+.source-name { font-weight: 600; }
+.source-pct { margin-left: auto; color: var(--theme-muted); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+.source-bar { height: 8px; border-radius: 999px; background: var(--theme-bg-tint); overflow: hidden; }
+.source-bar-fill { height: 100%; border-radius: 999px; }
+
+.table-scroll { max-height: 520px; overflow-y: auto; border: 1px solid var(--theme-border); border-radius: var(--radius-sm); }
+.table-scroll thead th { position: sticky; top: 0; background: var(--theme-surface-2); z-index: 1; }
+
+@media print {
+  .sidebar, .topbar .role-toggle, .topbar-actions, .search, .filters, .honesty-banner, .footer { display: none !important; }
+  .main { padding: 0; }
+  .view { display: none !important; }
+  .view.active { display: block !important; }
+  .panel, .kpi, .summary-card { box-shadow: none; break-inside: avoid; }
+  body { background: #fff; }
+}

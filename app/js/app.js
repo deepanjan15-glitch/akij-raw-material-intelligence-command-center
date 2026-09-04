@@ -126,6 +126,63 @@ const zeroAxesPlugin = {
   },
 };
 
+// Draws a value label on each bar (horizontal or vertical) so charts are readable
+// without hovering. Enabled per-dataset via `ds._label = (v) => "..."`.
+const dataLabelPlugin = {
+  id: "dataLabel",
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    if (chart.config.type !== "bar") return;
+    const isHBar = chart.config.options.indexAxis === "y";
+    chart.data.datasets.forEach((ds, di) => {
+      const meta = chart.getDatasetMeta(di);
+      if (!meta || !ds._label) return;
+      meta.data.forEach((el, i) => {
+        const v = ds.data[i];
+        if (v == null) return;
+        const label = ds._label(v, i);
+        if (label == null || label === "") return;
+        ctx.save();
+        ctx.font = "600 10px Inter, system-ui, sans-serif";
+        ctx.fillStyle = "#475569";
+        if (isHBar) {
+          ctx.textAlign = v >= 0 ? "left" : "right";
+          ctx.textBaseline = "middle";
+          ctx.fillText(label, v >= 0 ? el.x + 5 : el.x - 5, el.y);
+        } else {
+          ctx.textAlign = "center";
+          ctx.textBaseline = "bottom";
+          ctx.fillText(label, el.x, el.y < el.base ? el.y - 3 : el.y + 11);
+        }
+        ctx.restore();
+      });
+    });
+  },
+};
+
+// Center total for doughnut charts (readable summary in the middle).
+const centerTextPlugin = {
+  id: "centerText",
+  afterDraw(chart) {
+    if (chart.config.type !== "doughnut") return;
+    const { ctx, chartArea } = chart;
+    if (!chartArea) return;
+    const total = chart.data.datasets[0].data.reduce((a, b) => a + (b || 0), 0);
+    const cx = (chartArea.left + chartArea.right) / 2;
+    const cy = (chartArea.top + chartArea.bottom) / 2;
+    ctx.save();
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillStyle = "#0f172a";
+    ctx.font = "800 22px Inter, system-ui, sans-serif";
+    ctx.fillText(String(total), cx, cy - 7);
+    ctx.fillStyle = "#64748b";
+    ctx.font = "600 10px Inter, system-ui, sans-serif";
+    ctx.fillText("materials", cx, cy + 11);
+    ctx.restore();
+  },
+};
+
 function momentumRows(ms) {
   const key = state.momentumPeriod === "mom" ? "mom" : "wow";
   const prior = state.momentumPeriod === "mom" ? "lastMonth" : "lastWeek";
@@ -151,6 +208,7 @@ function momentumChart(ms) {
         data: rows.map(r => +(r.v * 100).toFixed(1)),
         backgroundColor: rows.map(r => (r.v >= 0 ? UP_COLOR : DOWN_COLOR)),
         borderRadius: 3,
+        _label: (v) => (v > 0 ? "+" : "") + v.toFixed(1) + "%",
       }],
     },
     options: {
@@ -177,6 +235,7 @@ function momentumChart(ms) {
         y: { grid: { display: false }, ticks: { font: { size: 11 }, callback: (v) => (v.length > 26 ? v.slice(0, 25) + "…" : v) } },
       },
     },
+    plugins: [dataLabelPlugin],
   };
 }
 
@@ -439,9 +498,24 @@ function riskDonutChart(ms) {
     type: "doughnut",
     data: { labels, datasets: [{ data: labels.map(l => counts[l] || 0), backgroundColor: colors, borderWidth: 2, borderColor: "#fff", hoverOffset: 6 }] },
     options: {
-      responsive: true, maintainAspectRatio: false, cutout: "66%",
-      plugins: { legend: { position: "bottom", labels: { boxWidth: 8, boxHeight: 8, usePointStyle: true, padding: 10, font: { size: 10.5 } } } },
+      responsive: true, maintainAspectRatio: false, cutout: "64%",
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: {
+            boxWidth: 8, boxHeight: 8, usePointStyle: true, padding: 10, font: { size: 10.5 },
+            generateLabels: (chart) => chart.data.labels.map((l, i) => ({
+              text: `${l} (${chart.data.datasets[0].data[i]})`,
+              fillStyle: chart.data.datasets[0].backgroundColor[i],
+              strokeStyle: "#fff",
+              pointStyle: "circle",
+              index: i,
+            })),
+          },
+        },
+      },
     },
+    plugins: [centerTextPlugin],
   };
 }
 function sourcingGapChart(ms) {
@@ -451,7 +525,7 @@ function sourcingGapChart(ms) {
     data: {
       labels: list.map(m => m.name),
       datasets: [
-        { label: "Akij Sourcing Price", data: list.map(m => m.sourcingGap.akijQuotedPrice), backgroundColor: "#0f766e", borderRadius: 4, maxBarThickness: 18 },
+        { label: "Akij Sourcing Price", data: list.map(m => m.sourcingGap.akijQuotedPrice), backgroundColor: "#0f766e", borderRadius: 4, maxBarThickness: 18, _label: (v) => "$" + fmt(v) },
         { label: "Best Buy Price", data: list.map(m => m.sourcingGap.bestBuyPrice), backgroundColor: "#14b8a6", borderRadius: 4, maxBarThickness: 18 },
       ],
     },
@@ -474,6 +548,7 @@ function sourcingGapChart(ms) {
         y: { grid: { color: "#e5eaf1" }, ticks: { callback: (v) => "$" + v } },
       },
     },
+    plugins: [dataLabelPlugin],
   };
 }
 
@@ -572,7 +647,27 @@ function renderExecutive() {
         <div class="summary-value ${c[3]}">${c[1]}</div>
         <div class="summary-sub">${c[2]}</div>
       </div>`).join("")}
+    </div>
+    <div class="panel" style="margin-top:15px;">
+      <h2>Data source breakdown</h2>
+      <p class="sub">Share of tracked materials by data source (Fastmarkets exchange assessments vs NBR customs vs other).</p>
+      ${sourceBreakdown()}
     </div>`;
+}
+
+function sourceBreakdown() {
+  const counts = {};
+  DATA.materials.materials.forEach(m => { const s = m.source || "Other"; counts[s] = (counts[s] || 0) + 1; });
+  const total = DATA.materials.materials.length || 1;
+  const tone = { "Fastmarkets": "#2563eb", "NBR Data": "#16a34a", "CME Group": "#b45309", "Trading Economics": "#7c3aed", "Volza": "#64748b" };
+  return Object.entries(counts).sort((a, b) => b[1] - a[1]).map(([name, count]) => {
+    const pct = Math.round((count / total) * 100);
+    const color = tone[name] || "#64748b";
+    return `<div class="source-row">
+      <div class="source-row-head"><span class="source-dot" style="background:${color};"></span><span class="source-name">${name}</span><span class="source-pct">${count} · ${pct}%</span></div>
+      <div class="source-bar"><div class="source-bar-fill" style="width:${pct}%;background:${color};"></div></div>
+    </div>`;
+  }).join("");
 }
 
 function forecastDir(ms) {
@@ -627,6 +722,7 @@ function renderMaterial() {
       </div>
     </div>
     <div class="panel">
+      <div class="table-scroll">
       <table><thead><tr>
         <th>Material</th><th>Category</th><th>Source</th><th class="num">Current $/MT</th>
         <th class="num">WoW%</th><th class="num">Forecast</th><th class="num">Landed $/MT</th>
@@ -644,6 +740,7 @@ function renderMaterial() {
           <td class="num">${m.dataQuality.score}</td>
         </tr>`).join("")}
       </tbody></table>
+      </div>
     </div>`;
   document.getElementById("view-material").querySelectorAll("tbody tr").forEach(tr => tr.onclick = () => openMaterial(tr.dataset.id));
   document.querySelectorAll("#view-material .chart-toggle .chip[data-mom]").forEach(c => c.onclick = () => { state.momentumPeriod = c.dataset.mom; render(); });
@@ -937,6 +1034,28 @@ function fmt(n) { return Number(n).toLocaleString("en-US", { maximumFractionDigi
 function fmtDate(s) { return s ? new Date(s).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }) : "—"; }
 function pct0(v) { return v == null ? "—" : (v > 0 ? "+" : "") + (v * 100).toFixed(1) + "%"; }
 
+/* ================= export ================= */
+function exportExcel() {
+  const ms = filtered();
+  const header = ["HS Code", "Material", "Unit", "Source", "Last Week Price", "Current Avg Price", "Last Month Avg", "6-Mo Avg", "2024 Avg", "2025 Avg", "WoW %", "MoM %", "YoY %", "YTD %", "Akij Origin", "Best Buy Origin", "Risk Signal", "Recommendation"];
+  const esc = (v) => { const s = v == null ? "" : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+  const rows = ms.map(m => [
+    m.hsCode, m.name, m.unit, m.source,
+    m.benchmark.lastWeek, m.benchmark.current, m.benchmark.lastMonth, m.benchmark.sixMo, m.benchmark.avg2024, m.benchmark.avg2025,
+    m.movement.wow != null ? +(m.movement.wow * 100).toFixed(2) : "", m.movement.mom != null ? +(m.movement.mom * 100).toFixed(2) : "",
+    m.movement.yoy != null ? +(m.movement.yoy * 100).toFixed(2) : "", m.movement.ytd != null ? +(m.movement.ytd * 100).toFixed(2) : "",
+    m.procurement?.akijSourcingCountry || "", m.sourcingGap?.bestBuyCountry || "", m.procurement?.riskSignal || "", m.procurement?.procurementAction || "",
+  ].map(esc).join(","));
+  const csv = [header.map(esc).join(","), ...rows].join("\n");
+  const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8;" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `akij_raw_material_intelligence_${(DATA.materials.asOfDate || "export")}.csv`;
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(a.href);
+}
+function exportPDF() { window.print(); }
+
 /* ================= wiring ================= */
 document.querySelectorAll(".nav-item").forEach(n => n.addEventListener("click", () => { state.view = n.dataset.view; render(); }));
 document.querySelectorAll(".role-btn").forEach(b => b.addEventListener("click", () => {
@@ -945,5 +1064,7 @@ document.querySelectorAll(".role-btn").forEach(b => b.addEventListener("click", 
 }));
 document.getElementById("search").addEventListener("input", e => { state.search = e.target.value; render(); });
 document.getElementById("modal").addEventListener("click", e => { if (e.target.id === "modal") e.target.classList.remove("show"); });
+document.getElementById("exportExcelBtn").addEventListener("click", exportExcel);
+document.getElementById("exportPdfBtn").addEventListener("click", exportPDF);
 
 load();
