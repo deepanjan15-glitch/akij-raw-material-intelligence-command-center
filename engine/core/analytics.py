@@ -61,6 +61,141 @@ def compute_origin_stats(values: list[float], countries: list[str]) -> dict | No
     }
 
 
+def compute_position(bench: dict) -> float | None:
+    """Current price deviation vs the 2025 calendar-year average (fraction).
+
+    Uses avg2025 as the historical mean because it is the same documented base
+    period as the Raw Material Market Index. Returns None (not zero) when the
+    current price or the base is missing — never fabricated.
+    """
+    return pct_change(bench.get("current"), bench.get("avg2025"))
+
+
+def compute_opportunity(bench: dict, mov: dict) -> dict:
+    """2x2 procurement-opportunity classification (analytical interpretation).
+
+    x = price deviation vs 2025 average (positive => above historical mean)
+    y = week-on-week price change (positive => rising)
+
+    Quadrants (analytical labels — NOT buy/sell instructions):
+      low price + rising     -> Potential Early Procurement Opportunity
+      high price + rising    -> Procurement Pressure
+      high price + declining -> Monitor / Potential Waiting Zone
+      low price + declining  -> Potential Value Zone
+    """
+    pos = compute_position(bench)
+    wow = mov.get("wow")
+    if pos is None or wow is None:
+        return {"status": "UNAVAILABLE", "positionVs2025": pos, "momentumWow": wow, "quadrant": None}
+    high = pos >= 0
+    rising = wow >= 0
+    if not high and rising:
+        quadrant = "Potential Early Procurement Opportunity"
+    elif high and rising:
+        quadrant = "Procurement Pressure"
+    elif high and not rising:
+        quadrant = "Monitor / Potential Waiting Zone"
+    else:
+        quadrant = "Potential Value Zone"
+    return {
+        "status": "OK",
+        "positionVs2025": round(pos, 4),
+        "momentumWow": round(wow, 4),
+        "quadrant": quadrant,
+    }
+
+
+def compute_price_history(series: list) -> dict | None:
+    """Derived statistics over a material's snapshot price history.
+
+    series = [(date, price), ...] chronological. Returns None when fewer than 2
+    points exist (a single point is not a series). returnVolPct is the standard
+    deviation of log returns over the (irregular) snapshots — reported per-period,
+    NOT annualized (the cadence is 9–22 day, so annualization would be misleading).
+    """
+    if not series or len(series) < 2:
+        return None
+    dates = [d for d, _ in series]
+    vals = [v for _, v in series]
+    n = len(vals)
+    change = pct_change(vals[-1], vals[0])
+    last_change = pct_change(vals[-1], vals[-2])
+    rets = []
+    for i in range(1, n):
+        if vals[i - 1] and vals[i]:
+            rets.append(math.log(vals[i] / vals[i - 1]))
+    vol = None
+    if n >= 5 and len(rets) >= 2:
+        m = sum(rets) / len(rets)
+        vol = math.sqrt(sum((r - m) ** 2 for r in rets) / len(rets))
+    return {
+        "points": n,
+        "start": dates[0],
+        "end": dates[-1],
+        "dates": dates,
+        "values": [round(v, 2) for v in vals],
+        "changePct": round(change, 4) if change is not None else None,
+        "lastChangePct": round(last_change, 4) if last_change is not None else None,
+        "returnVolPct": round(vol * 100, 2) if vol is not None else None,
+        "frequency": "irregular snapshots (9–22 day gaps)",
+    }
+
+
+def compute_seasonality_index(months: list) -> dict | None:
+    """Seasonal index = (calendar-month average) / (long-term monthly average) × 100.
+
+    months = [{"ym": "YYYY-MM", "volumeMt": ...}, ...]. Returns {month_number: index}
+    only when >= 24 monthly observations exist (2 years); otherwise None (a shorter
+    series cannot support a defensible seasonal pattern).
+    """
+    by_month = defaultdict(list)
+    for m in months:
+        try:
+            mm = int(str(m["ym"]).split("-")[1])
+        except (KeyError, IndexError, ValueError):
+            continue
+        if m.get("volumeMt"):
+            by_month[mm].append(m["volumeMt"])
+    if len(months) < 24 or not by_month:
+        return None
+    all_vals = [v for vs in by_month.values() for v in vs]
+    overall = sum(all_vals) / len(all_vals)
+    if not overall:
+        return None
+    return {mm: round(sum(vs) / len(vs) / overall * 100, 1) for mm, vs in by_month.items()}
+
+
+def compute_yoy(months: list) -> dict | None:
+    """Year-over-year on volume/value using the last two COMPLETE (12-month) years.
+
+    Partial years (e.g. the in-progress 2025) are excluded so the comparison is
+    like-for-like. Returns None when fewer than two complete years exist.
+    """
+    by_year = defaultdict(lambda: [0.0, 0.0, 0])
+    for m in months:
+        try:
+            y = int(str(m["ym"]).split("-")[0])
+        except (KeyError, IndexError, ValueError):
+            continue
+        by_year[y][0] += m.get("volumeMt") or 0
+        by_year[y][1] += m.get("valueUsd") or 0
+        by_year[y][2] += 1
+    complete = {y: v for y, v in by_year.items() if v[2] >= 12}
+    if len(complete) < 2:
+        return None
+    years = sorted(complete)
+    ly, py = years[-1], years[-2]
+    lv, pv = complete[ly][0], complete[py][0]
+    lval, pval = complete[ly][1], complete[py][1]
+    return {
+        "latestYear": ly, "priorYear": py,
+        "latestVolumeMt": round(lv, 1), "priorVolumeMt": round(pv, 1),
+        "volumeYoYPct": round((lv - pv) / pv, 4) if pv else None,
+        "latestValueUsd": round(lval, 0), "priorValueUsd": round(pval, 0),
+        "valueYoYPct": round((lval - pval) / pval, 4) if pval else None,
+    }
+
+
 def compute_market_index(materials, benchmarks) -> dict:
     """Equal-weight Raw Material Market Index (fallback — labelled).
 

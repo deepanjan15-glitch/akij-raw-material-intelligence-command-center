@@ -274,3 +274,21 @@ tbody tr:hover { background: var(--theme-bg-tint); }
 .footer-logo { height: 34px; width: auto; opacity: .92; }
 .kv { display: grid; grid-template-columns: 200px 1fr; gap: 4px 12px; font-size: 12.5px; margin-bottom: 4px; }
 .kv .k { color: var(--theme-muted); }
+
+/* --------------------------------------------------------------------------
+   11. CHARTS (thin renderer over precomputed analytics)
+   -------------------------------------------------------------------------- */
+.chart-box { position: relative; height: 360px; width: 100%; }
+.chart-box.tall { height: 440px; }
+.chart-toggle { display: flex; gap: 6px; margin-bottom: 12px; }
+.chart-meta { font-size: 11px; color: var(--theme-muted); margin-top: 10px; }
+.chart-select { padding: 8px 12px; border: 1px solid var(--theme-border); border-radius: 8px; font-size: 13px; font-weight: 600; background: var(--theme-surface); color: var(--theme-text); font-family: var(--font); max-width: 260px; cursor: pointer; }
+.chart-select:focus { outline: none; border-color: var(--theme-secondary); box-shadow: 0 0 0 3px var(--theme-light); }
+
+.heatmap-wrap { overflow-x: auto; }
+.heatmap { width: 100%; border-collapse: separate; border-spacing: 2px; font-size: 11px; }
+.heatmap th { text-align: center; padding: 4px 6px; border: none; color: var(--theme-muted); font-size: 10px; }
+.heatmap td { padding: 5px 6px; text-align: center; border-radius: 4px; font-variant-numeric: tabular-nums; }
+.heatmap .hm-row { text-align: left; font-weight: 600; white-space: nowrap; background: none !important; font-size: 11.5px; color: var(--theme-text-2); }
+.heatmap .hm-cell { min-width: 40px; }
+.heatmap .hm-cell:empty { background: transparent !important; }

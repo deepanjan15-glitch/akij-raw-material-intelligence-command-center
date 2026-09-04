@@ -36,6 +36,17 @@ CTS_LB_TO_MT = 22.0462262
 BUSHEL = {"CRN": 39.3683, "WHE": 36.7437, "SYB": 36.7437, "RPS": 36.7437, "RSD": 36.7437,
           "SSD": 36.7437, "CTS": 36.7437, "BRY": 36.7437, "PLM": 36.7437}
 
+# Foreign-exchange rates: USD per 1 unit of foreign currency.
+# Source: RAW MATERIAL RAW SOURCE.xlsx -> "Live FX" sheet (documented, not assumed).
+FX_RATES = {
+    "EUR": 1.17,
+    "BRL": 0.181,
+    "UAH": 0.024,
+    "MYR": 0.236,
+    "IDR": 0.000061,
+    "CNY": 0.139,
+}
+
 
 def _num(v):
     if v is None:
@@ -53,7 +64,7 @@ def _num(v):
     return None
 
 
-def _to_usd_mt(symbol: str, desc: str, value) -> float | None:
+def _to_usd_mt(symbol: str, desc: str, value, currency: str = "USD", unit: str = "mt") -> float | None:
     if value is None:
         return None
     d = desc.lower()
@@ -66,9 +77,15 @@ def _to_usd_mt(symbol: str, desc: str, value) -> float | None:
         return value * BUSHEL.get(prefix, 36.7437)
     if "c$/bu" in d or "c/bu" in d:
         return value / 100.0 * BUSHEL.get(prefix, 36.7437)
-    if "€" in d or "euro/mt" in d or "hryvnia" in d or "real/" in d or "ringgit" in d or "rupiah" in d:
-        return None  # not USD-convertible without FX; keep original only
-    return value  # $/mt or $/tonne
+    # Foreign-currency quotes -> USD/MT via documented FX rates (Live FX sheet).
+    rate = FX_RATES.get(currency)
+    if currency == "USD" or rate is None:
+        return value if currency == "USD" else None
+    if currency == "BRL" and unit == "60kg":
+        return value * rate * (1000 / 60)   # 60kg bags -> MT
+    if currency == "IDR" and unit == "kg":
+        return value * rate * 1000           # kg -> MT
+    return value * rate                      # per-MT quotes (EUR/tonne, real/tonne, etc.)
 
 
 def ingest_fastmarkets(loaded_at: str) -> list[PriceObservation]:
@@ -138,7 +155,7 @@ def ingest_fastmarkets(loaded_at: str) -> list[PriceObservation]:
                     currency=currency,
                     unit=unit,
                     value=val,
-                    valueUsdMt=_to_usd_mt(sym, desc, val),
+                    valueUsdMt=_to_usd_mt(sym, desc, val, currency, unit),
                     market=market,
                     specification=spec or (desc if desc else None),
                     observationDate=obs_date,

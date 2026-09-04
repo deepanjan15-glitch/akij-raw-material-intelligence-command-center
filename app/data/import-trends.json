@@ -1,0 +1,6083 @@
+{
+ "asOfDate": "2026-09-02",
+ "generatedAt": "2026-09-04T08:44:21.951150+00:00",
+ "note": "Multi-year Bangladesh customs import records (2014-2025) deduplicated by Bill Of Entry No across three export files; unit value = USD invoice value / quantity MT (source 'Price In MT' column not trusted). Value aggregated from USD rows only.",
+ "groups": [
+  {
+   "hs": "12019090",
+   "name": "Soybean (Basis)",
+   "months": [
+    {
+     "ym": "2020-01",
+     "volumeMt": 307061.8,
+     "valueUsd": 121874360.0,
+     "unitValueUsdMt": 396.91
+    },
+    {
+     "ym": "2020-02",
+     "volumeMt": 239804.8,
+     "valueUsd": 98058733.0,
+     "unitValueUsdMt": 408.91
+    },
+    {
+     "ym": "2020-03",
+     "volumeMt": 333968.3,
+     "valueUsd": 137253345.0,
+     "unitValueUsdMt": 410.98
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 273575.5,
+     "valueUsd": 109104434.0,
+     "unitValueUsdMt": 398.81
+    },
+    {
+     "ym": "2020-05",
+     "volumeMt": 334635.1,
+     "valueUsd": 132883509.0,
+     "unitValueUsdMt": 397.1
+    },
+    {
+     "ym": "2020-06",
+     "volumeMt": 88066.2,
+     "valueUsd": 34493836.0,
+     "unitValueUsdMt": 391.68
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 235357.2,
+     "valueUsd": 89876441.0,
+     "unitValueUsdMt": 381.87
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 178708.5,
+     "valueUsd": 68514721.0,
+     "unitValueUsdMt": 383.39
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 151443.4,
+     "valueUsd": 60188323.0,
+     "unitValueUsdMt": 397.43
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 52856.1,
+     "valueUsd": 20630802.0,
+     "unitValueUsdMt": 390.32
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 111729.1,
+     "valueUsd": 48953768.0,
+     "unitValueUsdMt": 438.15
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 273189.6,
+     "valueUsd": 118070275.0,
+     "unitValueUsdMt": 432.19
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 227674.0,
+     "valueUsd": 111802666.0,
+     "unitValueUsdMt": 491.06
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 51820.8,
+     "valueUsd": 26749620.0,
+     "unitValueUsdMt": 516.2
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 303666.3,
+     "valueUsd": 156783559.0,
+     "unitValueUsdMt": 516.3
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 230666.9,
+     "valueUsd": 128892781.0,
+     "unitValueUsdMt": 558.78
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 341740.2,
+     "valueUsd": 177323530.0,
+     "unitValueUsdMt": 518.88
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 275654.1,
+     "valueUsd": 145788526.0,
+     "unitValueUsdMt": 528.88
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 279881.5,
+     "valueUsd": 164743751.0,
+     "unitValueUsdMt": 588.62
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 71740.5,
+     "valueUsd": 44887874.0,
+     "unitValueUsdMt": 625.7
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 140409.8,
+     "valueUsd": 78798669.0,
+     "unitValueUsdMt": 561.21
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 55297.2,
+     "valueUsd": 35028046.0,
+     "unitValueUsdMt": 633.45
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 223454.0,
+     "valueUsd": 137053495.0,
+     "unitValueUsdMt": 613.34
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 260745.5,
+     "valueUsd": 149438260.0,
+     "unitValueUsdMt": 573.12
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 196931.8,
+     "valueUsd": 110325673.0,
+     "unitValueUsdMt": 560.22
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 114341.8,
+     "valueUsd": 66739998.0,
+     "unitValueUsdMt": 583.69
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 230541.2,
+     "valueUsd": 129378827.0,
+     "unitValueUsdMt": 561.2
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 193988.8,
+     "valueUsd": 125663144.0,
+     "unitValueUsdMt": 647.79
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 227459.1,
+     "valueUsd": 153322232.0,
+     "unitValueUsdMt": 674.07
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 256168.2,
+     "valueUsd": 173718262.0,
+     "unitValueUsdMt": 678.14
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 549493.9,
+     "valueUsd": 375379137.0,
+     "unitValueUsdMt": 683.14
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 154898.0,
+     "valueUsd": 105605805.0,
+     "unitValueUsdMt": 681.78
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 76769.6,
+     "valueUsd": 47759130.0,
+     "unitValueUsdMt": 622.11
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 0.0,
+     "valueUsd": 15.0,
+     "unitValueUsdMt": 1458.0
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 117537.6,
+     "valueUsd": 78521921.0,
+     "unitValueUsdMt": 668.06
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 57182.3,
+     "valueUsd": 38883993.0,
+     "unitValueUsdMt": 680.0
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 57678.4,
+     "valueUsd": 38493412.0,
+     "unitValueUsdMt": 667.38
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 117358.2,
+     "valueUsd": 71472951.0,
+     "unitValueUsdMt": 609.02
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 233489.2,
+     "valueUsd": 139747195.0,
+     "unitValueUsdMt": 598.52
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 189060.1,
+     "valueUsd": 107351396.0,
+     "unitValueUsdMt": 567.82
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 144345.6,
+     "valueUsd": 83018490.0,
+     "unitValueUsdMt": 575.14
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 33500.0,
+     "valueUsd": 18743250.0,
+     "unitValueUsdMt": 559.5
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 120694.6,
+     "valueUsd": 70304603.0,
+     "unitValueUsdMt": 582.5
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 65262.4,
+     "valueUsd": 35808742.0,
+     "unitValueUsdMt": 548.69
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 156885.5,
+     "valueUsd": 89333103.0,
+     "unitValueUsdMt": 569.42
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 180651.1,
+     "valueUsd": 100964580.0,
+     "unitValueUsdMt": 558.89
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 82386.5,
+     "valueUsd": 47678542.0,
+     "unitValueUsdMt": 578.72
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 182720.7,
+     "valueUsd": 103683888.0,
+     "unitValueUsdMt": 567.44
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 265200.3,
+     "valueUsd": 136803666.0,
+     "unitValueUsdMt": 515.85
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 158405.5,
+     "valueUsd": 74084383.0,
+     "unitValueUsdMt": 467.69
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 204626.3,
+     "valueUsd": 98952836.0,
+     "unitValueUsdMt": 483.58
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 268349.0,
+     "valueUsd": 125738232.0,
+     "unitValueUsdMt": 468.56
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 71104.7,
+     "valueUsd": 36363678.0,
+     "unitValueUsdMt": 511.41
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 56429.1,
+     "valueUsd": 29625262.0,
+     "unitValueUsdMt": 525.0
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 154393.6,
+     "valueUsd": 70348521.0,
+     "unitValueUsdMt": 455.64
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 59304.2,
+     "valueUsd": 28707907.0,
+     "unitValueUsdMt": 484.08
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 112593.3,
+     "valueUsd": 53227904.0,
+     "unitValueUsdMt": 472.74
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 281782.2,
+     "valueUsd": 126686537.0,
+     "unitValueUsdMt": 449.59
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 268039.9,
+     "valueUsd": 126713590.0,
+     "unitValueUsdMt": 472.74
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 245499.2,
+     "valueUsd": 104717595.0,
+     "unitValueUsdMt": 426.55
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 127527.7,
+     "valueUsd": 57639873.0,
+     "unitValueUsdMt": 451.98
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 253826.5,
+     "valueUsd": 105277889.0,
+     "unitValueUsdMt": 414.76
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 59020.0,
+     "valueUsd": 25721010.0,
+     "unitValueUsdMt": 435.8
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 73281.7,
+     "valueUsd": 29909339.0,
+     "unitValueUsdMt": 408.14
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 134318.9,
+     "valueUsd": 57588682.0,
+     "unitValueUsdMt": 428.75
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 62113.2,
+     "valueUsd": 27992781.0,
+     "unitValueUsdMt": 450.67
+    },
+    {
+     "ym": "2025-09",
+     "volumeMt": 130877.9,
+     "valueUsd": 56640907.0,
+     "unitValueUsdMt": 432.78
+    }
+   ],
+   "totalVolumeMt": 11769184.0,
+   "totalValueUsd": 6081832204.0,
+   "avgUnitValueUsdMt": 516.76,
+   "records": 2266,
+   "origins": [
+    {
+     "origin": "Brazil",
+     "volumeMt": 5378475.3,
+     "sharePct": 45.7
+    },
+    {
+     "origin": "United States Of America",
+     "volumeMt": 5028775.1,
+     "sharePct": 42.7
+    },
+    {
+     "origin": "Canada",
+     "volumeMt": 978270.3,
+     "sharePct": 8.3
+    },
+    {
+     "origin": "Uruguay",
+     "volumeMt": 269151.4,
+     "sharePct": 2.3
+    },
+    {
+     "origin": "South Africa",
+     "volumeMt": 85514.5,
+     "sharePct": 0.7
+    }
+   ],
+   "seasonality": {
+    "1": 112.1,
+    "2": 83.3,
+    "3": 123.2,
+    "4": 114.8,
+    "5": 130.9,
+    "6": 107.5,
+    "7": 132.2,
+    "8": 52.1,
+    "9": 72.4,
+    "10": 32.6,
+    "11": 84.8,
+    "12": 139.7
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 1897295.4,
+    "priorVolumeMt": 1473645.0,
+    "volumeYoYPct": 0.2875,
+    "latestValueUsd": 931901356.0,
+    "priorValueUsd": 872643636.0,
+    "valueYoYPct": 0.0679
+   }
+  },
+  {
+   "hs": "23040000",
+   "name": "Soybean Meal",
+   "months": [
+    {
+     "ym": "2016-02",
+     "volumeMt": 96.0,
+     "valueUsd": 40800.0,
+     "unitValueUsdMt": 425.0
+    },
+    {
+     "ym": "2016-08",
+     "volumeMt": 2365.5,
+     "valueUsd": 1308122.0,
+     "unitValueUsdMt": 553.0
+    },
+    {
+     "ym": "2016-09",
+     "volumeMt": 7263.3,
+     "valueUsd": 3755535.0,
+     "unitValueUsdMt": 517.06
+    },
+    {
+     "ym": "2016-10",
+     "volumeMt": 6043.2,
+     "valueUsd": 2894847.0,
+     "unitValueUsdMt": 479.03
+    },
+    {
+     "ym": "2016-12",
+     "volumeMt": 29181.1,
+     "valueUsd": 11784100.0,
+     "unitValueUsdMt": 403.83
+    },
+    {
+     "ym": "2017-02",
+     "volumeMt": 4662.7,
+     "valueUsd": 1843069.0,
+     "unitValueUsdMt": 395.28
+    },
+    {
+     "ym": "2017-03",
+     "volumeMt": 9658.5,
+     "valueUsd": 3606140.0,
+     "unitValueUsdMt": 373.36
+    },
+    {
+     "ym": "2017-04",
+     "volumeMt": 15714.7,
+     "valueUsd": 6162902.0,
+     "unitValueUsdMt": 392.17
+    },
+    {
+     "ym": "2017-05",
+     "volumeMt": 14727.3,
+     "valueUsd": 5953493.0,
+     "unitValueUsdMt": 404.25
+    },
+    {
+     "ym": "2017-06",
+     "volumeMt": 14589.3,
+     "valueUsd": 6028918.0,
+     "unitValueUsdMt": 413.24
+    },
+    {
+     "ym": "2017-07",
+     "volumeMt": 2379.4,
+     "valueUsd": 1044543.0,
+     "unitValueUsdMt": 439.0
+    },
+    {
+     "ym": "2017-08",
+     "volumeMt": 13859.2,
+     "valueUsd": 5651262.0,
+     "unitValueUsdMt": 407.76
+    },
+    {
+     "ym": "2017-09",
+     "volumeMt": 2375.1,
+     "valueUsd": 961907.0,
+     "unitValueUsdMt": 405.0
+    },
+    {
+     "ym": "2017-10",
+     "volumeMt": 7320.3,
+     "valueUsd": 3166033.0,
+     "unitValueUsdMt": 432.5
+    },
+    {
+     "ym": "2017-11",
+     "volumeMt": 9641.2,
+     "valueUsd": 3772923.0,
+     "unitValueUsdMt": 391.33
+    },
+    {
+     "ym": "2017-12",
+     "volumeMt": 12206.6,
+     "valueUsd": 4773208.0,
+     "unitValueUsdMt": 391.03
+    },
+    {
+     "ym": "2018-01",
+     "volumeMt": 7191.2,
+     "valueUsd": 2764032.0,
+     "unitValueUsdMt": 384.36
+    },
+    {
+     "ym": "2018-02",
+     "volumeMt": 2292.8,
+     "valueUsd": 1054688.0,
+     "unitValueUsdMt": 460.0
+    },
+    {
+     "ym": "2018-03",
+     "volumeMt": 2410.4,
+     "valueUsd": 1426957.0,
+     "unitValueUsdMt": 592.0
+    },
+    {
+     "ym": "2018-04",
+     "volumeMt": 5992.5,
+     "valueUsd": 3185301.0,
+     "unitValueUsdMt": 531.55
+    },
+    {
+     "ym": "2018-05",
+     "volumeMt": 4923.6,
+     "valueUsd": 2749793.0,
+     "unitValueUsdMt": 558.49
+    },
+    {
+     "ym": "2018-06",
+     "volumeMt": 4823.0,
+     "valueUsd": 2637701.0,
+     "unitValueUsdMt": 546.9
+    },
+    {
+     "ym": "2018-07",
+     "volumeMt": 12152.9,
+     "valueUsd": 5840193.0,
+     "unitValueUsdMt": 480.56
+    },
+    {
+     "ym": "2018-08",
+     "volumeMt": 14561.2,
+     "valueUsd": 7162297.0,
+     "unitValueUsdMt": 491.88
+    },
+    {
+     "ym": "2018-09",
+     "volumeMt": 14698.7,
+     "valueUsd": 6654454.0,
+     "unitValueUsdMt": 452.72
+    },
+    {
+     "ym": "2018-10",
+     "volumeMt": 10291.5,
+     "valueUsd": 4079462.0,
+     "unitValueUsdMt": 396.39
+    },
+    {
+     "ym": "2018-11",
+     "volumeMt": 14570.3,
+     "valueUsd": 5800612.0,
+     "unitValueUsdMt": 398.11
+    },
+    {
+     "ym": "2018-12",
+     "volumeMt": 12587.9,
+     "valueUsd": 5079195.0,
+     "unitValueUsdMt": 403.5
+    },
+    {
+     "ym": "2019-01",
+     "volumeMt": 5233.1,
+     "valueUsd": 2139738.0,
+     "unitValueUsdMt": 408.89
+    },
+    {
+     "ym": "2019-02",
+     "volumeMt": 4381.9,
+     "valueUsd": 1912893.0,
+     "unitValueUsdMt": 436.55
+    },
+    {
+     "ym": "2019-03",
+     "volumeMt": 11692.4,
+     "valueUsd": 5309013.0,
+     "unitValueUsdMt": 454.06
+    },
+    {
+     "ym": "2019-04",
+     "volumeMt": 576.2,
+     "valueUsd": 271047.0,
+     "unitValueUsdMt": 470.4
+    },
+    {
+     "ym": "2019-12",
+     "volumeMt": 2858.0,
+     "valueUsd": 1077929.0,
+     "unitValueUsdMt": 377.16
+    },
+    {
+     "ym": "2020-01",
+     "volumeMt": 57872.7,
+     "valueUsd": 21371625.0,
+     "unitValueUsdMt": 369.29
+    },
+    {
+     "ym": "2020-02",
+     "volumeMt": 28209.0,
+     "valueUsd": 10564038.0,
+     "unitValueUsdMt": 374.49
+    },
+    {
+     "ym": "2020-03",
+     "volumeMt": 478.0,
+     "valueUsd": 269900.0,
+     "unitValueUsdMt": 564.64
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 53054.0,
+     "valueUsd": 21079989.0,
+     "unitValueUsdMt": 397.33
+    },
+    {
+     "ym": "2020-05",
+     "volumeMt": 38664.0,
+     "valueUsd": 14755965.0,
+     "unitValueUsdMt": 381.65
+    },
+    {
+     "ym": "2020-06",
+     "volumeMt": 1696.7,
+     "valueUsd": 676983.0,
+     "unitValueUsdMt": 399.0
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 934.5,
+     "valueUsd": 421890.0,
+     "unitValueUsdMt": 451.46
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 1612.0,
+     "valueUsd": 665900.0,
+     "unitValueUsdMt": 413.09
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 2436.0,
+     "valueUsd": 1050176.0,
+     "unitValueUsdMt": 431.11
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 1791.8,
+     "valueUsd": 756090.0,
+     "unitValueUsdMt": 421.98
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 23825.1,
+     "valueUsd": 11433237.0,
+     "unitValueUsdMt": 479.88
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 32750.8,
+     "valueUsd": 17049627.0,
+     "unitValueUsdMt": 520.59
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 76511.8,
+     "valueUsd": 38455147.0,
+     "unitValueUsdMt": 502.6
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 48132.6,
+     "valueUsd": 24918516.0,
+     "unitValueUsdMt": 517.71
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 15515.3,
+     "valueUsd": 8243540.0,
+     "unitValueUsdMt": 531.32
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 6325.0,
+     "valueUsd": 3802392.0,
+     "unitValueUsdMt": 601.17
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 21157.2,
+     "valueUsd": 11757996.0,
+     "unitValueUsdMt": 555.74
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 110736.9,
+     "valueUsd": 58133124.0,
+     "unitValueUsdMt": 524.97
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 46077.8,
+     "valueUsd": 24044975.0,
+     "unitValueUsdMt": 521.83
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 24494.9,
+     "valueUsd": 14439871.0,
+     "unitValueUsdMt": 589.5
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 131867.4,
+     "valueUsd": 79532969.0,
+     "unitValueUsdMt": 603.13
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 81825.1,
+     "valueUsd": 44448262.0,
+     "unitValueUsdMt": 543.21
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 22486.5,
+     "valueUsd": 11567571.0,
+     "unitValueUsdMt": 514.42
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 47335.8,
+     "valueUsd": 24340864.0,
+     "unitValueUsdMt": 514.22
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 67700.3,
+     "valueUsd": 35402580.0,
+     "unitValueUsdMt": 522.93
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 41221.5,
+     "valueUsd": 21644726.0,
+     "unitValueUsdMt": 525.08
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 7153.6,
+     "valueUsd": 5011091.0,
+     "unitValueUsdMt": 700.5
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 4693.0,
+     "valueUsd": 3352771.0,
+     "unitValueUsdMt": 714.42
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 3440.0,
+     "valueUsd": 2455518.0,
+     "unitValueUsdMt": 713.81
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 153926.2,
+     "valueUsd": 95823284.0,
+     "unitValueUsdMt": 622.53
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 145042.6,
+     "valueUsd": 89557050.0,
+     "unitValueUsdMt": 617.45
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 159629.8,
+     "valueUsd": 94065402.0,
+     "unitValueUsdMt": 589.27
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 72814.1,
+     "valueUsd": 40946987.0,
+     "unitValueUsdMt": 562.35
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 5678.4,
+     "valueUsd": 3229564.0,
+     "unitValueUsdMt": 568.75
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 3977.0,
+     "valueUsd": 2292525.0,
+     "unitValueUsdMt": 576.45
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 8339.5,
+     "valueUsd": 4672698.0,
+     "unitValueUsdMt": 560.31
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 66752.1,
+     "valueUsd": 36391720.0,
+     "unitValueUsdMt": 545.18
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 24647.2,
+     "valueUsd": 14242119.0,
+     "unitValueUsdMt": 577.84
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 60987.6,
+     "valueUsd": 37072945.0,
+     "unitValueUsdMt": 607.88
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 73391.9,
+     "valueUsd": 44632791.0,
+     "unitValueUsdMt": 608.14
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 67921.3,
+     "valueUsd": 41450916.0,
+     "unitValueUsdMt": 610.28
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 32092.5,
+     "valueUsd": 19549619.0,
+     "unitValueUsdMt": 609.16
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 173122.6,
+     "valueUsd": 101209822.0,
+     "unitValueUsdMt": 584.61
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 17177.6,
+     "valueUsd": 9225192.0,
+     "unitValueUsdMt": 537.05
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 3300.0,
+     "valueUsd": 1831500.0,
+     "unitValueUsdMt": 555.0
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 141949.4,
+     "valueUsd": 76429542.0,
+     "unitValueUsdMt": 538.43
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 61250.2,
+     "valueUsd": 34392713.0,
+     "unitValueUsdMt": 561.51
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 64079.4,
+     "valueUsd": 37001437.0,
+     "unitValueUsdMt": 577.43
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 62541.2,
+     "valueUsd": 34403772.0,
+     "unitValueUsdMt": 550.1
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 45842.1,
+     "valueUsd": 25781422.0,
+     "unitValueUsdMt": 562.4
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 26629.2,
+     "valueUsd": 14275476.0,
+     "unitValueUsdMt": 536.08
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 186184.2,
+     "valueUsd": 100441695.0,
+     "unitValueUsdMt": 539.47
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 40582.3,
+     "valueUsd": 20514145.0,
+     "unitValueUsdMt": 505.49
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 196213.6,
+     "valueUsd": 92293836.0,
+     "unitValueUsdMt": 470.37
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 73651.7,
+     "valueUsd": 34797249.0,
+     "unitValueUsdMt": 472.46
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 60949.5,
+     "valueUsd": 28120582.0,
+     "unitValueUsdMt": 461.38
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 500.4,
+     "valueUsd": 241684.0,
+     "unitValueUsdMt": 482.98
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 83390.2,
+     "valueUsd": 39146693.0,
+     "unitValueUsdMt": 469.44
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 62767.6,
+     "valueUsd": 28099669.0,
+     "unitValueUsdMt": 447.68
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 21064.3,
+     "valueUsd": 9025152.0,
+     "unitValueUsdMt": 428.46
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 107128.9,
+     "valueUsd": 46003752.0,
+     "unitValueUsdMt": 429.42
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 84883.8,
+     "valueUsd": 37235073.0,
+     "unitValueUsdMt": 438.66
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 131856.1,
+     "valueUsd": 54628000.0,
+     "unitValueUsdMt": 414.3
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 103683.6,
+     "valueUsd": 39698427.0,
+     "unitValueUsdMt": 382.88
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 114347.0,
+     "valueUsd": 44155846.0,
+     "unitValueUsdMt": 386.16
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 14787.7,
+     "valueUsd": 5639197.0,
+     "unitValueUsdMt": 381.34
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 104099.1,
+     "valueUsd": 39404508.0,
+     "unitValueUsdMt": 378.53
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 90948.1,
+     "valueUsd": 34031943.0,
+     "unitValueUsdMt": 374.19
+    },
+    {
+     "ym": "2025-09",
+     "volumeMt": 25312.0,
+     "valueUsd": 9446256.0,
+     "unitValueUsdMt": 373.19
+    },
+    {
+     "ym": "2025-10",
+     "volumeMt": 29745.6,
+     "valueUsd": 11217654.0,
+     "unitValueUsdMt": 377.12
+    }
+   ],
+   "totalVolumeMt": 4286507.9,
+   "totalValueUsd": 2166160298.0,
+   "avgUnitValueUsdMt": 505.34,
+   "records": 3996,
+   "origins": [
+    {
+     "origin": "Brazil",
+     "volumeMt": 1379041.2,
+     "sharePct": 32.2
+    },
+    {
+     "origin": "Argentina",
+     "volumeMt": 1286577.0,
+     "sharePct": 30.0
+    },
+    {
+     "origin": "India",
+     "volumeMt": 973749.9,
+     "sharePct": 22.7
+    },
+    {
+     "origin": "United States Of America",
+     "volumeMt": 389803.5,
+     "sharePct": 9.1
+    },
+    {
+     "origin": "Bangladesh",
+     "volumeMt": 257296.4,
+     "sharePct": 6.0
+    }
+   ],
+   "seasonality": {
+    "2": 68.3,
+    "8": 102.9,
+    "9": 69.6,
+    "10": 98.3,
+    "12": 61.5,
+    "3": 71.1,
+    "4": 120.0,
+    "5": 91.8,
+    "6": 158.9,
+    "7": 167.4,
+    "11": 68.1,
+    "1": 135.4
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 860316.3,
+    "priorVolumeMt": 786671.8,
+    "volumeYoYPct": 0.0936,
+    "latestValueUsd": 427141375.0,
+    "priorValueUsd": 453430316.0,
+    "valueYoYPct": -0.058
+   }
+  },
+  {
+   "hs": "10059090",
+   "name": "Maize / Corn",
+   "months": [
+    {
+     "ym": "2018-03",
+     "volumeMt": 2464.0,
+     "valueUsd": 591360.0,
+     "unitValueUsdMt": 240.0
+    },
+    {
+     "ym": "2018-04",
+     "volumeMt": 2466.5,
+     "valueUsd": 530298.0,
+     "unitValueUsdMt": 215.0
+    },
+    {
+     "ym": "2018-05",
+     "volumeMt": 9789.9,
+     "valueUsd": 2044056.0,
+     "unitValueUsdMt": 208.79
+    },
+    {
+     "ym": "2018-06",
+     "volumeMt": 12216.0,
+     "valueUsd": 2416214.0,
+     "unitValueUsdMt": 197.79
+    },
+    {
+     "ym": "2018-09",
+     "volumeMt": 9821.6,
+     "valueUsd": 2064898.0,
+     "unitValueUsdMt": 210.24
+    },
+    {
+     "ym": "2018-10",
+     "volumeMt": 2465.6,
+     "valueUsd": 517776.0,
+     "unitValueUsdMt": 210.0
+    },
+    {
+     "ym": "2019-12",
+     "volumeMt": 70480.5,
+     "valueUsd": 14608208.0,
+     "unitValueUsdMt": 207.27
+    },
+    {
+     "ym": "2020-01",
+     "volumeMt": 221425.8,
+     "valueUsd": 47471705.0,
+     "unitValueUsdMt": 214.39
+    },
+    {
+     "ym": "2020-02",
+     "volumeMt": 170227.0,
+     "valueUsd": 37036900.0,
+     "unitValueUsdMt": 217.57
+    },
+    {
+     "ym": "2020-03",
+     "volumeMt": 26907.1,
+     "valueUsd": 6666648.0,
+     "unitValueUsdMt": 247.77
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 11163.7,
+     "valueUsd": 2891658.0,
+     "unitValueUsdMt": 259.02
+    },
+    {
+     "ym": "2020-06",
+     "volumeMt": 12577.6,
+     "valueUsd": 2386044.0,
+     "unitValueUsdMt": 189.71
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 47201.0,
+     "valueUsd": 9050156.0,
+     "unitValueUsdMt": 191.74
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 162992.9,
+     "valueUsd": 31816171.0,
+     "unitValueUsdMt": 195.2
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 225307.5,
+     "valueUsd": 42293409.0,
+     "unitValueUsdMt": 187.71
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 361254.8,
+     "valueUsd": 67727233.0,
+     "unitValueUsdMt": 187.48
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 204345.9,
+     "valueUsd": 40848505.0,
+     "unitValueUsdMt": 199.9
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 195804.1,
+     "valueUsd": 44707475.0,
+     "unitValueUsdMt": 228.33
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 236887.8,
+     "valueUsd": 59762880.0,
+     "unitValueUsdMt": 252.28
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 75033.7,
+     "valueUsd": 19266562.0,
+     "unitValueUsdMt": 256.77
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 8586.0,
+     "valueUsd": 1928675.0,
+     "unitValueUsdMt": 224.63
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 8421.9,
+     "valueUsd": 1880357.0,
+     "unitValueUsdMt": 223.27
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 23705.6,
+     "valueUsd": 5371846.0,
+     "unitValueUsdMt": 226.61
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 53183.6,
+     "valueUsd": 12489465.0,
+     "unitValueUsdMt": 234.84
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 57902.0,
+     "valueUsd": 14509110.0,
+     "unitValueUsdMt": 250.58
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 67630.9,
+     "valueUsd": 18019170.0,
+     "unitValueUsdMt": 266.43
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 135542.0,
+     "valueUsd": 39893081.0,
+     "unitValueUsdMt": 294.32
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 87111.3,
+     "valueUsd": 24857733.0,
+     "unitValueUsdMt": 285.36
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 429118.3,
+     "valueUsd": 137893039.0,
+     "unitValueUsdMt": 321.34
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 98759.2,
+     "valueUsd": 29855386.0,
+     "unitValueUsdMt": 302.3
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 207882.4,
+     "valueUsd": 66326935.0,
+     "unitValueUsdMt": 319.06
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 61639.0,
+     "valueUsd": 19313733.0,
+     "unitValueUsdMt": 313.34
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 51126.8,
+     "valueUsd": 16684808.0,
+     "unitValueUsdMt": 326.34
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 58486.7,
+     "valueUsd": 19597791.0,
+     "unitValueUsdMt": 335.08
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 65135.8,
+     "valueUsd": 21858270.0,
+     "unitValueUsdMt": 335.58
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 162272.1,
+     "valueUsd": 55218406.0,
+     "unitValueUsdMt": 340.28
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 105515.3,
+     "valueUsd": 35889088.0,
+     "unitValueUsdMt": 340.13
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 89263.5,
+     "valueUsd": 29624926.0,
+     "unitValueUsdMt": 331.88
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 184742.3,
+     "valueUsd": 62832210.0,
+     "unitValueUsdMt": 340.11
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 260027.9,
+     "valueUsd": 89136924.0,
+     "unitValueUsdMt": 342.8
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 199800.9,
+     "valueUsd": 64729740.0,
+     "unitValueUsdMt": 323.97
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 146280.0,
+     "valueUsd": 46681219.0,
+     "unitValueUsdMt": 319.12
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 66013.9,
+     "valueUsd": 21183239.0,
+     "unitValueUsdMt": 320.89
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 82803.2,
+     "valueUsd": 26503374.0,
+     "unitValueUsdMt": 320.08
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 30992.6,
+     "valueUsd": 9636095.0,
+     "unitValueUsdMt": 310.92
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 4232.6,
+     "valueUsd": 1300722.0,
+     "unitValueUsdMt": 307.31
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 13841.1,
+     "valueUsd": 3498492.0,
+     "unitValueUsdMt": 252.76
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 11523.4,
+     "valueUsd": 2821697.0,
+     "unitValueUsdMt": 244.87
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 2885.9,
+     "valueUsd": 699910.0,
+     "unitValueUsdMt": 242.53
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 22047.5,
+     "valueUsd": 5886820.0,
+     "unitValueUsdMt": 267.01
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 6647.6,
+     "valueUsd": 1650946.0,
+     "unitValueUsdMt": 248.35
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 66125.0,
+     "valueUsd": 17151509.0,
+     "unitValueUsdMt": 259.38
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 94895.9,
+     "valueUsd": 23733070.0,
+     "unitValueUsdMt": 250.1
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 154199.1,
+     "valueUsd": 39173790.0,
+     "unitValueUsdMt": 254.05
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 10513.9,
+     "valueUsd": 2666394.0,
+     "unitValueUsdMt": 253.61
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 3033.0,
+     "valueUsd": 865269.0,
+     "unitValueUsdMt": 285.28
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 4713.6,
+     "valueUsd": 1216873.0,
+     "unitValueUsdMt": 258.16
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 10351.6,
+     "valueUsd": 2577022.0,
+     "unitValueUsdMt": 248.95
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 2452.3,
+     "valueUsd": 580751.0,
+     "unitValueUsdMt": 236.82
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 2797.0,
+     "valueUsd": 773158.0,
+     "unitValueUsdMt": 276.43
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 2424.9,
+     "valueUsd": 627002.0,
+     "unitValueUsdMt": 258.57
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 9832.9,
+     "valueUsd": 2404406.0,
+     "unitValueUsdMt": 244.53
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 315840.7,
+     "valueUsd": 78267242.0,
+     "unitValueUsdMt": 247.81
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 548434.5,
+     "valueUsd": 134629622.0,
+     "unitValueUsdMt": 245.48
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 158639.8,
+     "valueUsd": 38257187.0,
+     "unitValueUsdMt": 241.16
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 167666.1,
+     "valueUsd": 40950413.0,
+     "unitValueUsdMt": 244.24
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 80689.3,
+     "valueUsd": 20408537.0,
+     "unitValueUsdMt": 252.93
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 146289.5,
+     "valueUsd": 36844876.0,
+     "unitValueUsdMt": 251.86
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 57466.9,
+     "valueUsd": 14619015.0,
+     "unitValueUsdMt": 254.39
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 225.0,
+     "valueUsd": 103125.0,
+     "unitValueUsdMt": 458.33
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 125.0,
+     "valueUsd": 48125.0,
+     "unitValueUsdMt": 385.0
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 8.6,
+     "valueUsd": 7716.0,
+     "unitValueUsdMt": 897.18
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 0.0,
+     "valueUsd": 53.0,
+     "unitValueUsdMt": 5280.0
+    },
+    {
+     "ym": "2025-09",
+     "volumeMt": 71346.9,
+     "valueUsd": 16834542.0,
+     "unitValueUsdMt": 235.95
+    },
+    {
+     "ym": "2025-10",
+     "volumeMt": 132843.5,
+     "valueUsd": 31088474.0,
+     "unitValueUsdMt": 234.02
+    }
+   ],
+   "totalVolumeMt": 6904869.4,
+   "totalValueUsd": 1826299533.0,
+   "avgUnitValueUsdMt": 264.49,
+   "records": 11970,
+   "origins": [
+    {
+     "origin": "Brazil",
+     "volumeMt": 3224631.7,
+     "sharePct": 46.7
+    },
+    {
+     "origin": "India",
+     "volumeMt": 2522470.2,
+     "sharePct": 36.5
+    },
+    {
+     "origin": "Argentina",
+     "volumeMt": 796146.1,
+     "sharePct": 11.5
+    },
+    {
+     "origin": "Myanmar",
+     "volumeMt": 178159.7,
+     "sharePct": 2.6
+    },
+    {
+     "origin": "Ukraine",
+     "volumeMt": 113336.6,
+     "sharePct": 1.6
+    }
+   ],
+   "seasonality": {
+    "3": 27.9,
+    "4": 17.0,
+    "5": 20.6,
+    "6": 39.0,
+    "9": 145.3,
+    "10": 223.3,
+    "12": 148.8,
+    "1": 147.1,
+    "2": 96.3,
+    "7": 38.6,
+    "8": 75.4,
+    "11": 232.9
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 1236700.3,
+    "priorVolumeMt": 556207.8,
+    "volumeYoYPct": 1.2235,
+    "latestValueUsd": 303815339.0,
+    "priorValueUsd": 153239664.0,
+    "valueYoYPct": 0.9826
+   }
+  },
+  {
+   "hs": "23099090",
+   "name": "Feed Supplements & Premix",
+   "months": [
+    {
+     "ym": "2016-06",
+     "volumeMt": 1.1,
+     "valueUsd": 5810.0,
+     "unitValueUsdMt": 5533.33
+    },
+    {
+     "ym": "2018-02",
+     "volumeMt": 4.2,
+     "valueUsd": 1313.0,
+     "unitValueUsdMt": 311.76
+    },
+    {
+     "ym": "2018-03",
+     "volumeMt": 2.1,
+     "valueUsd": 31029.0,
+     "unitValueUsdMt": 14705.79
+    },
+    {
+     "ym": "2019-06",
+     "volumeMt": 432.1,
+     "valueUsd": 136118.0,
+     "unitValueUsdMt": 315.0
+    },
+    {
+     "ym": "2019-07",
+     "volumeMt": 155.4,
+     "valueUsd": 181764.0,
+     "unitValueUsdMt": 1169.95
+    },
+    {
+     "ym": "2019-08",
+     "volumeMt": 21.0,
+     "valueUsd": 18905.0,
+     "unitValueUsdMt": 900.24
+    },
+    {
+     "ym": "2019-09",
+     "volumeMt": 227.1,
+     "valueUsd": 126759.0,
+     "unitValueUsdMt": 558.28
+    },
+    {
+     "ym": "2019-10",
+     "volumeMt": 25.0,
+     "valueUsd": 78824.0,
+     "unitValueUsdMt": 3152.96
+    },
+    {
+     "ym": "2019-11",
+     "volumeMt": 4.5,
+     "valueUsd": 37100.0,
+     "unitValueUsdMt": 8189.85
+    },
+    {
+     "ym": "2019-12",
+     "volumeMt": 6373.6,
+     "valueUsd": 5707457.0,
+     "unitValueUsdMt": 895.49
+    },
+    {
+     "ym": "2020-01",
+     "volumeMt": 6833.4,
+     "valueUsd": 5779590.0,
+     "unitValueUsdMt": 845.78
+    },
+    {
+     "ym": "2020-02",
+     "volumeMt": 6945.8,
+     "valueUsd": 25251754.0,
+     "unitValueUsdMt": 3635.53
+    },
+    {
+     "ym": "2020-03",
+     "volumeMt": 8091.6,
+     "valueUsd": 7353488.0,
+     "unitValueUsdMt": 908.78
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 9290.7,
+     "valueUsd": 10562884.0,
+     "unitValueUsdMt": 1136.93
+    },
+    {
+     "ym": "2020-05",
+     "volumeMt": 12864.1,
+     "valueUsd": 10352924.0,
+     "unitValueUsdMt": 804.79
+    },
+    {
+     "ym": "2020-06",
+     "volumeMt": 14552.4,
+     "valueUsd": 13932147.0,
+     "unitValueUsdMt": 957.38
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 14323.1,
+     "valueUsd": 21262068.0,
+     "unitValueUsdMt": 1484.46
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 9533.4,
+     "valueUsd": 8476776.0,
+     "unitValueUsdMt": 889.17
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 15001.7,
+     "valueUsd": 12654762.0,
+     "unitValueUsdMt": 843.55
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 9573.6,
+     "valueUsd": 8446247.0,
+     "unitValueUsdMt": 882.24
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 10314.6,
+     "valueUsd": 7868925.0,
+     "unitValueUsdMt": 762.89
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 10834.0,
+     "valueUsd": 28934858.0,
+     "unitValueUsdMt": 2670.76
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 8607.7,
+     "valueUsd": 7454757.0,
+     "unitValueUsdMt": 866.05
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 9142.9,
+     "valueUsd": 11587502.0,
+     "unitValueUsdMt": 1267.37
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 11583.8,
+     "valueUsd": 10403720.0,
+     "unitValueUsdMt": 898.13
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 8841.5,
+     "valueUsd": 19151139.0,
+     "unitValueUsdMt": 2166.06
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 9955.0,
+     "valueUsd": 8805652.0,
+     "unitValueUsdMt": 884.54
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 10746.5,
+     "valueUsd": 10925735.0,
+     "unitValueUsdMt": 1016.68
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 13883.9,
+     "valueUsd": 22225798.0,
+     "unitValueUsdMt": 1600.84
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 10329.5,
+     "valueUsd": 10044188.0,
+     "unitValueUsdMt": 972.38
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 14526.7,
+     "valueUsd": 16369197.0,
+     "unitValueUsdMt": 1126.84
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 11533.5,
+     "valueUsd": 10539798.0,
+     "unitValueUsdMt": 913.84
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 8705.3,
+     "valueUsd": 27744282.0,
+     "unitValueUsdMt": 3187.05
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 11879.9,
+     "valueUsd": 10455573.0,
+     "unitValueUsdMt": 880.1
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 10072.7,
+     "valueUsd": 11021348.0,
+     "unitValueUsdMt": 1094.18
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 9071.0,
+     "valueUsd": 9821589.0,
+     "unitValueUsdMt": 1082.75
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 8421.7,
+     "valueUsd": 18780698.0,
+     "unitValueUsdMt": 2230.03
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 10332.3,
+     "valueUsd": 11096915.0,
+     "unitValueUsdMt": 1074.0
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 12878.4,
+     "valueUsd": 34830963.0,
+     "unitValueUsdMt": 2704.61
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 14431.3,
+     "valueUsd": 15417495.0,
+     "unitValueUsdMt": 1068.34
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 9618.5,
+     "valueUsd": 12361343.0,
+     "unitValueUsdMt": 1285.16
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 9337.3,
+     "valueUsd": 10843676.0,
+     "unitValueUsdMt": 1161.33
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 9527.4,
+     "valueUsd": 35527296.0,
+     "unitValueUsdMt": 3728.94
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 7043.9,
+     "valueUsd": 8248301.0,
+     "unitValueUsdMt": 1170.98
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 10648.2,
+     "valueUsd": 11585602.0,
+     "unitValueUsdMt": 1088.03
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 7672.5,
+     "valueUsd": 8744372.0,
+     "unitValueUsdMt": 1139.7
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 7033.3,
+     "valueUsd": 27892037.0,
+     "unitValueUsdMt": 3965.71
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 8663.1,
+     "valueUsd": 10009140.0,
+     "unitValueUsdMt": 1155.37
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 12874.7,
+     "valueUsd": 13666700.0,
+     "unitValueUsdMt": 1061.51
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 12842.2,
+     "valueUsd": 34996062.0,
+     "unitValueUsdMt": 2725.09
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 11222.1,
+     "valueUsd": 12284342.0,
+     "unitValueUsdMt": 1094.65
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 10337.5,
+     "valueUsd": 32546929.0,
+     "unitValueUsdMt": 3148.42
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 14299.8,
+     "valueUsd": 15793359.0,
+     "unitValueUsdMt": 1104.44
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 12948.5,
+     "valueUsd": 13686205.0,
+     "unitValueUsdMt": 1056.97
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 10441.9,
+     "valueUsd": 10671438.0,
+     "unitValueUsdMt": 1021.98
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 10035.4,
+     "valueUsd": 10464555.0,
+     "unitValueUsdMt": 1042.76
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 9118.1,
+     "valueUsd": 10831413.0,
+     "unitValueUsdMt": 1187.9
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 10416.7,
+     "valueUsd": 12215009.0,
+     "unitValueUsdMt": 1172.64
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 8461.4,
+     "valueUsd": 10628737.0,
+     "unitValueUsdMt": 1256.15
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 9379.3,
+     "valueUsd": 10620682.0,
+     "unitValueUsdMt": 1132.35
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 14426.5,
+     "valueUsd": 16820569.0,
+     "unitValueUsdMt": 1165.95
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 14626.0,
+     "valueUsd": 36209407.0,
+     "unitValueUsdMt": 2475.69
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 12769.1,
+     "valueUsd": 15538748.0,
+     "unitValueUsdMt": 1216.9
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 13094.6,
+     "valueUsd": 15029569.0,
+     "unitValueUsdMt": 1147.77
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 14516.0,
+     "valueUsd": 19892829.0,
+     "unitValueUsdMt": 1370.41
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 22232.2,
+     "valueUsd": 45824675.0,
+     "unitValueUsdMt": 2061.18
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 12964.0,
+     "valueUsd": 15603662.0,
+     "unitValueUsdMt": 1203.62
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 17941.2,
+     "valueUsd": 19246999.0,
+     "unitValueUsdMt": 1072.78
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 17249.6,
+     "valueUsd": 16296136.0,
+     "unitValueUsdMt": 944.72
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 13179.7,
+     "valueUsd": 15043874.0,
+     "unitValueUsdMt": 1141.44
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 11614.6,
+     "valueUsd": 13977909.0,
+     "unitValueUsdMt": 1203.48
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 10203.2,
+     "valueUsd": 11505312.0,
+     "unitValueUsdMt": 1127.62
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 11145.9,
+     "valueUsd": 13256719.0,
+     "unitValueUsdMt": 1189.38
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 11348.5,
+     "valueUsd": 18462038.0,
+     "unitValueUsdMt": 1626.82
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 15375.2,
+     "valueUsd": 38479596.0,
+     "unitValueUsdMt": 2502.71
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 12294.2,
+     "valueUsd": 14637217.0,
+     "unitValueUsdMt": 1190.58
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 11076.3,
+     "valueUsd": 12148088.0,
+     "unitValueUsdMt": 1096.77
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 5430.1,
+     "valueUsd": 7247840.0,
+     "unitValueUsdMt": 1334.75
+    }
+   ],
+   "totalVolumeMt": 773757.0,
+   "totalValueUsd": 1092716236.0,
+   "avgUnitValueUsdMt": 1412.22,
+   "records": 14921,
+   "origins": [
+    {
+     "origin": "Saudi Arabia",
+     "volumeMt": 293176.3,
+     "sharePct": 37.9
+    },
+    {
+     "origin": "India",
+     "volumeMt": 108601.5,
+     "sharePct": 14.0
+    },
+    {
+     "origin": "Indonesia",
+     "volumeMt": 44126.8,
+     "sharePct": 5.7
+    },
+    {
+     "origin": "Thailand",
+     "volumeMt": 33211.0,
+     "sharePct": 4.3
+    },
+    {
+     "origin": "Turkey",
+     "volumeMt": 29157.2,
+     "sharePct": 3.8
+    }
+   ],
+   "seasonality": {
+    "6": 95.6,
+    "2": 76.9,
+    "3": 95.8,
+    "7": 112.1,
+    "8": 100.6,
+    "9": 105.3,
+    "10": 94.3,
+    "11": 94.2,
+    "12": 101.4,
+    "1": 88.4,
+    "4": 113.0,
+    "5": 126.1
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 170839.6,
+    "priorVolumeMt": 130233.3,
+    "volumeYoYPct": 0.3118,
+    "latestValueUsd": 236755887.0,
+    "priorValueUsd": 205057189.0,
+    "valueYoYPct": 0.1546
+   }
+  },
+  {
+   "hs": "23033000",
+   "name": "DDGS",
+   "months": [
+    {
+     "ym": "2019-12",
+     "volumeMt": 3977.6,
+     "valueUsd": 988299.0,
+     "unitValueUsdMt": 248.46
+    },
+    {
+     "ym": "2020-01",
+     "volumeMt": 2367.3,
+     "valueUsd": 592527.0,
+     "unitValueUsdMt": 250.29
+    },
+    {
+     "ym": "2020-02",
+     "volumeMt": 5618.6,
+     "valueUsd": 1397048.0,
+     "unitValueUsdMt": 248.65
+    },
+    {
+     "ym": "2020-03",
+     "volumeMt": 2712.1,
+     "valueUsd": 820430.0,
+     "unitValueUsdMt": 302.51
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 4330.6,
+     "valueUsd": 1132911.0,
+     "unitValueUsdMt": 261.61
+    },
+    {
+     "ym": "2020-05",
+     "volumeMt": 8226.1,
+     "valueUsd": 2154292.0,
+     "unitValueUsdMt": 261.88
+    },
+    {
+     "ym": "2020-06",
+     "volumeMt": 9577.9,
+     "valueUsd": 2578702.0,
+     "unitValueUsdMt": 269.23
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 8786.9,
+     "valueUsd": 2405622.0,
+     "unitValueUsdMt": 273.77
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 8219.7,
+     "valueUsd": 2209898.0,
+     "unitValueUsdMt": 268.85
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 21442.9,
+     "valueUsd": 5500039.0,
+     "unitValueUsdMt": 256.5
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 9197.9,
+     "valueUsd": 2274611.0,
+     "unitValueUsdMt": 247.3
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 16651.4,
+     "valueUsd": 4148112.0,
+     "unitValueUsdMt": 249.12
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 13588.7,
+     "valueUsd": 3364275.0,
+     "unitValueUsdMt": 247.58
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 17381.8,
+     "valueUsd": 4426589.0,
+     "unitValueUsdMt": 254.67
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 7476.5,
+     "valueUsd": 2046813.0,
+     "unitValueUsdMt": 273.77
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 14909.5,
+     "valueUsd": 4298110.0,
+     "unitValueUsdMt": 288.28
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 9164.9,
+     "valueUsd": 2798460.0,
+     "unitValueUsdMt": 305.35
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 2487.1,
+     "valueUsd": 787196.0,
+     "unitValueUsdMt": 316.51
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 15300.6,
+     "valueUsd": 5197421.0,
+     "unitValueUsdMt": 339.69
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 12450.0,
+     "valueUsd": 4264022.0,
+     "unitValueUsdMt": 342.49
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 9408.0,
+     "valueUsd": 3303825.0,
+     "unitValueUsdMt": 351.17
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 6218.2,
+     "valueUsd": 2260889.0,
+     "unitValueUsdMt": 363.59
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 8678.1,
+     "valueUsd": 2916552.0,
+     "unitValueUsdMt": 336.08
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 7973.1,
+     "valueUsd": 2949406.0,
+     "unitValueUsdMt": 369.92
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 2557.1,
+     "valueUsd": 916692.0,
+     "unitValueUsdMt": 358.49
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 3526.3,
+     "valueUsd": 1290490.0,
+     "unitValueUsdMt": 365.96
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 1233.0,
+     "valueUsd": 404524.0,
+     "unitValueUsdMt": 328.08
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 1517.3,
+     "valueUsd": 509939.0,
+     "unitValueUsdMt": 336.09
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 3257.5,
+     "valueUsd": 1234320.0,
+     "unitValueUsdMt": 378.92
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 41521.0,
+     "valueUsd": 16714384.0,
+     "unitValueUsdMt": 402.55
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 9485.9,
+     "valueUsd": 3820075.0,
+     "unitValueUsdMt": 402.71
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 8250.0,
+     "valueUsd": 3534685.0,
+     "unitValueUsdMt": 428.45
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 6327.2,
+     "valueUsd": 3058967.0,
+     "unitValueUsdMt": 483.46
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 3751.4,
+     "valueUsd": 1732717.0,
+     "unitValueUsdMt": 461.89
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 4223.0,
+     "valueUsd": 1935347.0,
+     "unitValueUsdMt": 458.29
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 2415.5,
+     "valueUsd": 1060979.0,
+     "unitValueUsdMt": 439.24
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 3452.8,
+     "valueUsd": 1428071.0,
+     "unitValueUsdMt": 413.6
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 6097.8,
+     "valueUsd": 2599057.0,
+     "unitValueUsdMt": 426.23
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 3375.5,
+     "valueUsd": 1480245.0,
+     "unitValueUsdMt": 438.53
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 3945.1,
+     "valueUsd": 1677512.0,
+     "unitValueUsdMt": 425.21
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 3017.3,
+     "valueUsd": 1288342.0,
+     "unitValueUsdMt": 426.99
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 2762.6,
+     "valueUsd": 1288846.0,
+     "unitValueUsdMt": 466.53
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 5313.9,
+     "valueUsd": 2389259.0,
+     "unitValueUsdMt": 449.62
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 10829.6,
+     "valueUsd": 4816288.0,
+     "unitValueUsdMt": 444.73
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 10123.4,
+     "valueUsd": 4465622.0,
+     "unitValueUsdMt": 441.12
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 13627.4,
+     "valueUsd": 5338115.0,
+     "unitValueUsdMt": 391.72
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 16506.7,
+     "valueUsd": 5941122.0,
+     "unitValueUsdMt": 359.92
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 12430.1,
+     "valueUsd": 4358811.0,
+     "unitValueUsdMt": 350.67
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 7599.1,
+     "valueUsd": 2563051.0,
+     "unitValueUsdMt": 337.28
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 7736.6,
+     "valueUsd": 2565346.0,
+     "unitValueUsdMt": 331.59
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 7697.5,
+     "valueUsd": 2600938.0,
+     "unitValueUsdMt": 337.89
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 7677.2,
+     "valueUsd": 2640660.0,
+     "unitValueUsdMt": 343.96
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 17310.7,
+     "valueUsd": 5708446.0,
+     "unitValueUsdMt": 329.76
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 13708.0,
+     "valueUsd": 4708313.0,
+     "unitValueUsdMt": 343.47
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 12181.3,
+     "valueUsd": 3435864.0,
+     "unitValueUsdMt": 282.06
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 23362.7,
+     "valueUsd": 6905538.0,
+     "unitValueUsdMt": 295.58
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 18580.6,
+     "valueUsd": 5311849.0,
+     "unitValueUsdMt": 285.88
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 26926.7,
+     "valueUsd": 7703550.0,
+     "unitValueUsdMt": 286.09
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 23875.9,
+     "valueUsd": 6695851.0,
+     "unitValueUsdMt": 280.44
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 14091.8,
+     "valueUsd": 3596467.0,
+     "unitValueUsdMt": 255.22
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 14880.8,
+     "valueUsd": 3722906.0,
+     "unitValueUsdMt": 250.18
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 12897.3,
+     "valueUsd": 3304563.0,
+     "unitValueUsdMt": 256.22
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 14175.4,
+     "valueUsd": 3725868.0,
+     "unitValueUsdMt": 262.84
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 18136.1,
+     "valueUsd": 4612556.0,
+     "unitValueUsdMt": 254.33
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 26460.3,
+     "valueUsd": 6720352.0,
+     "unitValueUsdMt": 253.98
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 24476.7,
+     "valueUsd": 6619684.0,
+     "unitValueUsdMt": 270.45
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 18314.8,
+     "valueUsd": 4710254.0,
+     "unitValueUsdMt": 257.18
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 13958.9,
+     "valueUsd": 3641756.0,
+     "unitValueUsdMt": 260.89
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 18147.2,
+     "valueUsd": 4646127.0,
+     "unitValueUsdMt": 256.02
+    },
+    {
+     "ym": "2025-09",
+     "volumeMt": 19541.3,
+     "valueUsd": 4850562.0,
+     "unitValueUsdMt": 248.22
+    },
+    {
+     "ym": "2025-10",
+     "volumeMt": 10859.8,
+     "valueUsd": 2314295.0,
+     "unitValueUsdMt": 213.11
+    }
+   ],
+   "totalVolumeMt": 778289.4,
+   "totalValueUsd": 241405259.0,
+   "avgUnitValueUsdMt": 310.17,
+   "records": 2730,
+   "origins": [
+    {
+     "origin": "United States Of America",
+     "volumeMt": 598956.5,
+     "sharePct": 77.0
+    },
+    {
+     "origin": "India",
+     "volumeMt": 164603.8,
+     "sharePct": 21.1
+    },
+    {
+     "origin": "Brazil",
+     "volumeMt": 8002.1,
+     "sharePct": 1.0
+    },
+    {
+     "origin": "Paraguay",
+     "volumeMt": 3591.8,
+     "sharePct": 0.5
+    },
+    {
+     "origin": "Canada",
+     "volumeMt": 3114.3,
+     "sharePct": 0.4
+    }
+   ],
+   "seasonality": {
+    "12": 70.0,
+    "1": 76.0,
+    "2": 60.2,
+    "3": 74.3,
+    "4": 96.6,
+    "5": 141.7,
+    "6": 106.7,
+    "7": 118.0,
+    "8": 107.7,
+    "9": 139.1,
+    "10": 111.5,
+    "11": 97.7
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 188029.8,
+    "priorVolumeMt": 95628.5,
+    "volumeYoYPct": 0.9663,
+    "latestValueUsd": 55595728.0,
+    "priorValueUsd": 38206270.0,
+    "valueYoYPct": 0.4551
+   }
+  },
+  {
+   "hs": "29304000",
+   "name": "Methionine (L/DL)",
+   "months": [
+    {
+     "ym": "2020-02",
+     "volumeMt": 36.0,
+     "valueUsd": 72000.0,
+     "unitValueUsdMt": 2000.0
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 40.0,
+     "valueUsd": 108000.0,
+     "unitValueUsdMt": 2700.0
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 373.8,
+     "valueUsd": 896725.0,
+     "unitValueUsdMt": 2398.75
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 790.7,
+     "valueUsd": 1808215.0,
+     "unitValueUsdMt": 2286.74
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 1470.0,
+     "valueUsd": 3152200.0,
+     "unitValueUsdMt": 2144.35
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 1227.5,
+     "valueUsd": 2572446.0,
+     "unitValueUsdMt": 2095.68
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 1591.2,
+     "valueUsd": 3106524.0,
+     "unitValueUsdMt": 1952.27
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 879.2,
+     "valueUsd": 1637152.0,
+     "unitValueUsdMt": 1861.99
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 2324.3,
+     "valueUsd": 4841454.0,
+     "unitValueUsdMt": 2082.94
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 2046.4,
+     "valueUsd": 4207169.0,
+     "unitValueUsdMt": 2055.93
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 638.5,
+     "valueUsd": 1367663.0,
+     "unitValueUsdMt": 2141.93
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 1413.5,
+     "valueUsd": 3022680.0,
+     "unitValueUsdMt": 2138.47
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 1332.9,
+     "valueUsd": 3585113.0,
+     "unitValueUsdMt": 2689.69
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 1300.8,
+     "valueUsd": 3425410.0,
+     "unitValueUsdMt": 2633.35
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 2252.6,
+     "valueUsd": 6562105.0,
+     "unitValueUsdMt": 2913.11
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 1627.0,
+     "valueUsd": 4432099.0,
+     "unitValueUsdMt": 2724.13
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 1240.4,
+     "valueUsd": 3360038.0,
+     "unitValueUsdMt": 2708.77
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 1324.5,
+     "valueUsd": 3724380.0,
+     "unitValueUsdMt": 2811.81
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 1367.4,
+     "valueUsd": 3743796.0,
+     "unitValueUsdMt": 2737.83
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 882.6,
+     "valueUsd": 2584044.0,
+     "unitValueUsdMt": 2927.63
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 976.7,
+     "valueUsd": 2864660.0,
+     "unitValueUsdMt": 2933.0
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 1332.1,
+     "valueUsd": 4266443.0,
+     "unitValueUsdMt": 3202.72
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 2068.5,
+     "valueUsd": 6215636.0,
+     "unitValueUsdMt": 3004.93
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 1072.2,
+     "valueUsd": 3068584.0,
+     "unitValueUsdMt": 2861.92
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 1376.2,
+     "valueUsd": 4278693.0,
+     "unitValueUsdMt": 3109.11
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 1681.6,
+     "valueUsd": 5445000.0,
+     "unitValueUsdMt": 3237.97
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 1199.6,
+     "valueUsd": 3845938.0,
+     "unitValueUsdMt": 3205.91
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 1173.0,
+     "valueUsd": 3362312.0,
+     "unitValueUsdMt": 2866.47
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 1187.4,
+     "valueUsd": 3269632.0,
+     "unitValueUsdMt": 2753.54
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 817.1,
+     "valueUsd": 2048950.0,
+     "unitValueUsdMt": 2507.59
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 1204.3,
+     "valueUsd": 3293170.0,
+     "unitValueUsdMt": 2734.56
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 1309.2,
+     "valueUsd": 3475612.0,
+     "unitValueUsdMt": 2654.7
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 1771.2,
+     "valueUsd": 4493845.0,
+     "unitValueUsdMt": 2537.1
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 1326.1,
+     "valueUsd": 3129136.0,
+     "unitValueUsdMt": 2359.72
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 1868.0,
+     "valueUsd": 4528290.0,
+     "unitValueUsdMt": 2424.14
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 842.3,
+     "valueUsd": 2073885.0,
+     "unitValueUsdMt": 2462.05
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 1575.0,
+     "valueUsd": 3227740.0,
+     "unitValueUsdMt": 2049.36
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 1457.5,
+     "valueUsd": 3242882.0,
+     "unitValueUsdMt": 2224.96
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 851.5,
+     "valueUsd": 1639814.0,
+     "unitValueUsdMt": 1925.79
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 1664.6,
+     "valueUsd": 3251674.0,
+     "unitValueUsdMt": 1953.45
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 2007.8,
+     "valueUsd": 4272000.0,
+     "unitValueUsdMt": 2127.65
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 1264.8,
+     "valueUsd": 2715350.0,
+     "unitValueUsdMt": 2146.88
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 2167.3,
+     "valueUsd": 4514685.0,
+     "unitValueUsdMt": 2083.08
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 2058.8,
+     "valueUsd": 4812202.0,
+     "unitValueUsdMt": 2337.37
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 1101.3,
+     "valueUsd": 2948250.0,
+     "unitValueUsdMt": 2676.94
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 1356.2,
+     "valueUsd": 3308500.0,
+     "unitValueUsdMt": 2439.54
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 1237.8,
+     "valueUsd": 3201660.0,
+     "unitValueUsdMt": 2586.68
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 1458.6,
+     "valueUsd": 3753867.0,
+     "unitValueUsdMt": 2573.68
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 1486.7,
+     "valueUsd": 4314334.0,
+     "unitValueUsdMt": 2901.95
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 2722.4,
+     "valueUsd": 6807645.0,
+     "unitValueUsdMt": 2500.65
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 1633.5,
+     "valueUsd": 4416815.0,
+     "unitValueUsdMt": 2703.85
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 2034.6,
+     "valueUsd": 5472891.0,
+     "unitValueUsdMt": 2689.95
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 1496.5,
+     "valueUsd": 3809218.0,
+     "unitValueUsdMt": 2545.37
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 584.8,
+     "valueUsd": 1817801.0,
+     "unitValueUsdMt": 3108.36
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 1587.8,
+     "valueUsd": 3738090.0,
+     "unitValueUsdMt": 2354.18
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 1117.6,
+     "valueUsd": 2574440.0,
+     "unitValueUsdMt": 2303.54
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 798.1,
+     "valueUsd": 2030145.0,
+     "unitValueUsdMt": 2543.72
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 1754.8,
+     "valueUsd": 4192122.0,
+     "unitValueUsdMt": 2388.9
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 2226.8,
+     "valueUsd": 5044758.0,
+     "unitValueUsdMt": 2265.5
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 2422.4,
+     "valueUsd": 5782762.0,
+     "unitValueUsdMt": 2387.18
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 2627.3,
+     "valueUsd": 6432402.0,
+     "unitValueUsdMt": 2448.27
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 2244.6,
+     "valueUsd": 5520943.0,
+     "unitValueUsdMt": 2459.71
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 1313.7,
+     "valueUsd": 3115966.0,
+     "unitValueUsdMt": 2371.9
+    }
+   ],
+   "totalVolumeMt": 89618.1,
+   "totalValueUsd": 223827955.0,
+   "avgUnitValueUsdMt": 2497.58,
+   "records": 1571,
+   "origins": [
+    {
+     "origin": "Singapore",
+     "volumeMt": 37758.0,
+     "sharePct": 42.1
+    },
+    {
+     "origin": "China",
+     "volumeMt": 25999.6,
+     "sharePct": 29.0
+    },
+    {
+     "origin": "Japan",
+     "volumeMt": 12535.2,
+     "sharePct": 14.0
+    },
+    {
+     "origin": "Malaysia",
+     "volumeMt": 11161.0,
+     "sharePct": 12.5
+    },
+    {
+     "origin": "France",
+     "volumeMt": 822.8,
+     "sharePct": 0.9
+    }
+   ],
+   "seasonality": {
+    "2": 82.1,
+    "7": 110.7,
+    "8": 89.3,
+    "9": 102.5,
+    "10": 104.1,
+    "11": 73.4,
+    "12": 111.3,
+    "1": 87.8,
+    "3": 109.9,
+    "4": 113.0,
+    "5": 101.4,
+    "6": 118.1
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 18759.0,
+    "priorVolumeMt": 18105.3,
+    "volumeYoYPct": 0.0361,
+    "latestValueUsd": 48401273.0,
+    "priorValueUsd": 40564913.0,
+    "valueYoYPct": 0.1932
+   }
+  },
+  {
+   "hs": "28352600",
+   "name": "MCP",
+   "months": [
+    {
+     "ym": "2015-02",
+     "volumeMt": 0.1,
+     "valueUsd": 27.0,
+     "unitValueUsdMt": 450.0
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 2232.0,
+     "valueUsd": 993200.0,
+     "unitValueUsdMt": 444.98
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 2566.1,
+     "valueUsd": 1235160.0,
+     "unitValueUsdMt": 481.33
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 1854.7,
+     "valueUsd": 794414.0,
+     "unitValueUsdMt": 428.32
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 1311.6,
+     "valueUsd": 680232.0,
+     "unitValueUsdMt": 518.63
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 2350.2,
+     "valueUsd": 1035644.0,
+     "unitValueUsdMt": 440.66
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 2159.0,
+     "valueUsd": 939235.0,
+     "unitValueUsdMt": 435.03
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 2488.1,
+     "valueUsd": 1205275.0,
+     "unitValueUsdMt": 484.41
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 2430.1,
+     "valueUsd": 1174040.0,
+     "unitValueUsdMt": 483.12
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 2134.8,
+     "valueUsd": 1062995.0,
+     "unitValueUsdMt": 497.94
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 1257.8,
+     "valueUsd": 658204.0,
+     "unitValueUsdMt": 523.3
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 1660.6,
+     "valueUsd": 954156.0,
+     "unitValueUsdMt": 574.57
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 1499.0,
+     "valueUsd": 744026.0,
+     "unitValueUsdMt": 496.35
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 1618.5,
+     "valueUsd": 942666.0,
+     "unitValueUsdMt": 582.43
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 2222.0,
+     "valueUsd": 1216675.0,
+     "unitValueUsdMt": 547.55
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 2373.3,
+     "valueUsd": 1661383.0,
+     "unitValueUsdMt": 700.02
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 298.0,
+     "valueUsd": 236057.0,
+     "unitValueUsdMt": 792.14
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 1978.2,
+     "valueUsd": 1541430.0,
+     "unitValueUsdMt": 779.19
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 1774.6,
+     "valueUsd": 1501592.0,
+     "unitValueUsdMt": 846.16
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 2521.6,
+     "valueUsd": 2066777.0,
+     "unitValueUsdMt": 819.65
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 3969.7,
+     "valueUsd": 3394618.0,
+     "unitValueUsdMt": 855.13
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 3652.9,
+     "valueUsd": 2941118.0,
+     "unitValueUsdMt": 805.15
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 3308.7,
+     "valueUsd": 2796498.0,
+     "unitValueUsdMt": 845.2
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 2926.7,
+     "valueUsd": 2905086.0,
+     "unitValueUsdMt": 992.61
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 2650.6,
+     "valueUsd": 2516195.0,
+     "unitValueUsdMt": 949.3
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 1901.8,
+     "valueUsd": 2024592.0,
+     "unitValueUsdMt": 1064.55
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 734.0,
+     "valueUsd": 697800.0,
+     "unitValueUsdMt": 950.68
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 3231.1,
+     "valueUsd": 2670555.0,
+     "unitValueUsdMt": 826.52
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 3226.0,
+     "valueUsd": 2497004.0,
+     "unitValueUsdMt": 774.02
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 2831.9,
+     "valueUsd": 2196504.0,
+     "unitValueUsdMt": 775.62
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 2119.5,
+     "valueUsd": 1474674.0,
+     "unitValueUsdMt": 695.76
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 2699.1,
+     "valueUsd": 2380180.0,
+     "unitValueUsdMt": 881.85
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 2996.7,
+     "valueUsd": 2163745.0,
+     "unitValueUsdMt": 722.04
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 2788.1,
+     "valueUsd": 2291194.0,
+     "unitValueUsdMt": 821.79
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 4269.1,
+     "valueUsd": 2984113.0,
+     "unitValueUsdMt": 699.01
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 2296.9,
+     "valueUsd": 1596934.0,
+     "unitValueUsdMt": 695.26
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 1546.9,
+     "valueUsd": 1123954.0,
+     "unitValueUsdMt": 726.58
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 953.9,
+     "valueUsd": 988822.0,
+     "unitValueUsdMt": 1036.61
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 3003.5,
+     "valueUsd": 1750128.0,
+     "unitValueUsdMt": 582.71
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 2172.7,
+     "valueUsd": 1361221.0,
+     "unitValueUsdMt": 626.51
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 2595.0,
+     "valueUsd": 1571160.0,
+     "unitValueUsdMt": 605.46
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 880.8,
+     "valueUsd": 535660.0,
+     "unitValueUsdMt": 608.15
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 1108.0,
+     "valueUsd": 1138822.0,
+     "unitValueUsdMt": 1027.79
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 2367.6,
+     "valueUsd": 2511830.0,
+     "unitValueUsdMt": 1060.93
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 5513.1,
+     "valueUsd": 3247520.0,
+     "unitValueUsdMt": 589.06
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 2464.3,
+     "valueUsd": 1489656.0,
+     "unitValueUsdMt": 604.49
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 4010.5,
+     "valueUsd": 2820324.0,
+     "unitValueUsdMt": 703.24
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 4230.8,
+     "valueUsd": 2656150.0,
+     "unitValueUsdMt": 627.81
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 2420.5,
+     "valueUsd": 1888084.0,
+     "unitValueUsdMt": 780.04
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 2010.5,
+     "valueUsd": 1568511.0,
+     "unitValueUsdMt": 780.16
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 3342.6,
+     "valueUsd": 2255367.0,
+     "unitValueUsdMt": 674.73
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 2523.6,
+     "valueUsd": 1721414.0,
+     "unitValueUsdMt": 682.14
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 4854.8,
+     "valueUsd": 3311616.0,
+     "unitValueUsdMt": 682.13
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 5073.6,
+     "valueUsd": 3356842.0,
+     "unitValueUsdMt": 661.63
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 1336.0,
+     "valueUsd": 1007195.0,
+     "unitValueUsdMt": 753.89
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 2398.1,
+     "valueUsd": 2028499.0,
+     "unitValueUsdMt": 845.9
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 2886.4,
+     "valueUsd": 2075675.0,
+     "unitValueUsdMt": 719.12
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 6117.5,
+     "valueUsd": 4145065.0,
+     "unitValueUsdMt": 677.57
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 4757.5,
+     "valueUsd": 3233140.0,
+     "unitValueUsdMt": 679.59
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 3991.7,
+     "valueUsd": 3005999.0,
+     "unitValueUsdMt": 753.07
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 4570.8,
+     "valueUsd": 3675554.0,
+     "unitValueUsdMt": 804.15
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 2409.1,
+     "valueUsd": 2028135.0,
+     "unitValueUsdMt": 841.85
+    }
+   ],
+   "totalVolumeMt": 161872.8,
+   "totalValueUsd": 114670343.0,
+   "avgUnitValueUsdMt": 708.4,
+   "records": 1262,
+   "origins": [
+    {
+     "origin": "China",
+     "volumeMt": 147578.7,
+     "sharePct": 91.2
+    },
+    {
+     "origin": "Turkey",
+     "volumeMt": 8128.0,
+     "sharePct": 5.0
+    },
+    {
+     "origin": "Morocco",
+     "volumeMt": 1850.0,
+     "sharePct": 1.1
+    },
+    {
+     "origin": "United Kingdom",
+     "volumeMt": 1416.0,
+     "sharePct": 0.9
+    },
+    {
+     "origin": "United States Of America",
+     "volumeMt": 951.7,
+     "sharePct": 0.6
+    }
+   ],
+   "seasonality": {
+    "2": 79.6,
+    "8": 71.0,
+    "9": 90.9,
+    "10": 93.1,
+    "11": 94.1,
+    "12": 100.5,
+    "1": 65.1,
+    "3": 136.3,
+    "4": 131.4,
+    "5": 134.8,
+    "6": 115.7,
+    "7": 97.2
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 39919.9,
+    "priorVolumeMt": 28322.2,
+    "volumeYoYPct": 0.4095,
+    "latestValueUsd": 27966136.0,
+    "priorValueUsd": 20221785.0,
+    "valueYoYPct": 0.383
+   }
+  },
+  {
+   "hs": "29224100",
+   "name": "L-Lysine",
+   "months": [
+    {
+     "ym": "2020-08",
+     "volumeMt": 266.4,
+     "valueUsd": 346260.0,
+     "unitValueUsdMt": 1299.77
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 504.7,
+     "valueUsd": 549455.0,
+     "unitValueUsdMt": 1088.76
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 439.5,
+     "valueUsd": 508030.0,
+     "unitValueUsdMt": 1155.93
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 501.1,
+     "valueUsd": 611805.0,
+     "unitValueUsdMt": 1220.8
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 220.2,
+     "valueUsd": 289705.0,
+     "unitValueUsdMt": 1315.64
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 1185.5,
+     "valueUsd": 1474627.0,
+     "unitValueUsdMt": 1243.88
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 1414.2,
+     "valueUsd": 1801715.0,
+     "unitValueUsdMt": 1274.06
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 1588.0,
+     "valueUsd": 2025790.0,
+     "unitValueUsdMt": 1275.69
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 1618.5,
+     "valueUsd": 2389712.0,
+     "unitValueUsdMt": 1476.48
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 1302.1,
+     "valueUsd": 2220451.0,
+     "unitValueUsdMt": 1705.31
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 918.4,
+     "valueUsd": 1816550.0,
+     "unitValueUsdMt": 1977.91
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 490.3,
+     "valueUsd": 926292.0,
+     "unitValueUsdMt": 1889.16
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 696.3,
+     "valueUsd": 1169840.0,
+     "unitValueUsdMt": 1680.08
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 768.5,
+     "valueUsd": 1276167.0,
+     "unitValueUsdMt": 1660.64
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 557.3,
+     "valueUsd": 839320.0,
+     "unitValueUsdMt": 1506.02
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 605.6,
+     "valueUsd": 1128024.0,
+     "unitValueUsdMt": 1862.66
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 884.5,
+     "valueUsd": 1416068.0,
+     "unitValueUsdMt": 1600.96
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 295.3,
+     "valueUsd": 391223.0,
+     "unitValueUsdMt": 1324.83
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 647.0,
+     "valueUsd": 1234922.0,
+     "unitValueUsdMt": 1908.69
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 543.7,
+     "valueUsd": 1243140.0,
+     "unitValueUsdMt": 2286.44
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 1246.5,
+     "valueUsd": 2631050.0,
+     "unitValueUsdMt": 2110.75
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 898.1,
+     "valueUsd": 1975458.0,
+     "unitValueUsdMt": 2199.65
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 1202.5,
+     "valueUsd": 2568827.0,
+     "unitValueUsdMt": 2136.2
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 1006.7,
+     "valueUsd": 2221435.0,
+     "unitValueUsdMt": 2206.74
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 1405.0,
+     "valueUsd": 2863656.0,
+     "unitValueUsdMt": 2038.16
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 1471.8,
+     "valueUsd": 2590400.0,
+     "unitValueUsdMt": 1759.96
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 1253.5,
+     "valueUsd": 2482467.0,
+     "unitValueUsdMt": 1980.43
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 1526.1,
+     "valueUsd": 2178330.0,
+     "unitValueUsdMt": 1427.38
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 864.0,
+     "valueUsd": 1335145.0,
+     "unitValueUsdMt": 1545.31
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 792.0,
+     "valueUsd": 1697629.0,
+     "unitValueUsdMt": 2143.47
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 682.6,
+     "valueUsd": 964190.0,
+     "unitValueUsdMt": 1412.53
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 1246.9,
+     "valueUsd": 2292054.0,
+     "unitValueUsdMt": 1838.2
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 826.5,
+     "valueUsd": 1136187.0,
+     "unitValueUsdMt": 1374.66
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 626.7,
+     "valueUsd": 834079.0,
+     "unitValueUsdMt": 1330.91
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 916.2,
+     "valueUsd": 1255680.0,
+     "unitValueUsdMt": 1370.53
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 1085.2,
+     "valueUsd": 1562736.0,
+     "unitValueUsdMt": 1439.98
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 497.9,
+     "valueUsd": 646292.0,
+     "unitValueUsdMt": 1298.04
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 925.0,
+     "valueUsd": 1206593.0,
+     "unitValueUsdMt": 1304.4
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 1629.7,
+     "valueUsd": 2243320.0,
+     "unitValueUsdMt": 1376.52
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 711.7,
+     "valueUsd": 1057688.0,
+     "unitValueUsdMt": 1486.18
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 1218.8,
+     "valueUsd": 1810995.0,
+     "unitValueUsdMt": 1485.88
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 2215.5,
+     "valueUsd": 3416712.0,
+     "unitValueUsdMt": 1542.19
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 522.2,
+     "valueUsd": 733265.0,
+     "unitValueUsdMt": 1404.29
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 1499.0,
+     "valueUsd": 2113295.0,
+     "unitValueUsdMt": 1409.8
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 1481.3,
+     "valueUsd": 1986069.0,
+     "unitValueUsdMt": 1340.76
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 863.0,
+     "valueUsd": 1477069.0,
+     "unitValueUsdMt": 1711.53
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 1017.1,
+     "valueUsd": 1383728.0,
+     "unitValueUsdMt": 1360.46
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 1184.3,
+     "valueUsd": 1676764.0,
+     "unitValueUsdMt": 1415.82
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 1520.5,
+     "valueUsd": 2330450.0,
+     "unitValueUsdMt": 1532.74
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 1551.2,
+     "valueUsd": 2411301.0,
+     "unitValueUsdMt": 1554.42
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 1859.0,
+     "valueUsd": 3011616.0,
+     "unitValueUsdMt": 1620.02
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 640.0,
+     "valueUsd": 1311166.0,
+     "unitValueUsdMt": 2048.7
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 735.0,
+     "valueUsd": 1371598.0,
+     "unitValueUsdMt": 1866.07
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 1148.0,
+     "valueUsd": 1695257.0,
+     "unitValueUsdMt": 1476.7
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 509.1,
+     "valueUsd": 859860.0,
+     "unitValueUsdMt": 1688.98
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 1698.1,
+     "valueUsd": 2513394.0,
+     "unitValueUsdMt": 1480.12
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 3156.1,
+     "valueUsd": 4070939.0,
+     "unitValueUsdMt": 1289.85
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 2512.3,
+     "valueUsd": 3069040.0,
+     "unitValueUsdMt": 1221.61
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 2721.0,
+     "valueUsd": 3218112.0,
+     "unitValueUsdMt": 1182.69
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 2251.1,
+     "valueUsd": 2664139.0,
+     "unitValueUsdMt": 1183.51
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 945.0,
+     "valueUsd": 1265926.0,
+     "unitValueUsdMt": 1339.6
+    }
+   ],
+   "totalVolumeMt": 67509.4,
+   "totalValueUsd": 103793006.0,
+   "avgUnitValueUsdMt": 1537.46,
+   "records": 1229,
+   "origins": [
+    {
+     "origin": "China",
+     "volumeMt": 55007.8,
+     "sharePct": 81.5
+    },
+    {
+     "origin": "South Korea",
+     "volumeMt": 7638.8,
+     "sharePct": 11.3
+    },
+    {
+     "origin": "Indonesia",
+     "volumeMt": 4651.0,
+     "sharePct": 6.9
+    },
+    {
+     "origin": "India",
+     "volumeMt": 112.0,
+     "sharePct": 0.2
+    },
+    {
+     "origin": "Bangladesh",
+     "volumeMt": 37.0,
+     "sharePct": 0.1
+    }
+   ],
+   "seasonality": {
+    "8": 80.3,
+    "9": 94.4,
+    "10": 103.7,
+    "11": 72.0,
+    "12": 70.9,
+    "1": 101.9,
+    "2": 68.2,
+    "3": 118.8,
+    "4": 150.5,
+    "5": 112.1,
+    "6": 122.4,
+    "7": 108.7
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 15088.1,
+    "priorVolumeMt": 11159.2,
+    "volumeYoYPct": 0.3521,
+    "latestValueUsd": 23223033.0,
+    "priorValueUsd": 16707443.0,
+    "valueYoYPct": 0.39
+   }
+  },
+  {
+   "hs": "29225000",
+   "name": "L-Threonine",
+   "months": [
+    {
+     "ym": "2020-04",
+     "volumeMt": 18.0,
+     "valueUsd": 21600.0,
+     "unitValueUsdMt": 1200.0
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 58.6,
+     "valueUsd": 247357.0,
+     "unitValueUsdMt": 4221.82
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 122.9,
+     "valueUsd": 809573.0,
+     "unitValueUsdMt": 6585.64
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 174.4,
+     "valueUsd": 938904.0,
+     "unitValueUsdMt": 5384.55
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 228.3,
+     "valueUsd": 1386543.0,
+     "unitValueUsdMt": 6073.34
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 284.8,
+     "valueUsd": 1038150.0,
+     "unitValueUsdMt": 3645.83
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 128.4,
+     "valueUsd": 1170200.0,
+     "unitValueUsdMt": 9115.84
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 283.9,
+     "valueUsd": 1502780.0,
+     "unitValueUsdMt": 5292.97
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 388.2,
+     "valueUsd": 1418245.0,
+     "unitValueUsdMt": 3653.67
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 509.9,
+     "valueUsd": 1565707.0,
+     "unitValueUsdMt": 3070.68
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 481.6,
+     "valueUsd": 1714177.0,
+     "unitValueUsdMt": 3559.26
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 550.6,
+     "valueUsd": 2001824.0,
+     "unitValueUsdMt": 3635.52
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 278.4,
+     "valueUsd": 1324807.0,
+     "unitValueUsdMt": 4758.13
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 383.9,
+     "valueUsd": 1546987.0,
+     "unitValueUsdMt": 4029.77
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 539.4,
+     "valueUsd": 1653971.0,
+     "unitValueUsdMt": 3066.32
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 239.2,
+     "valueUsd": 1410275.0,
+     "unitValueUsdMt": 5895.8
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 299.3,
+     "valueUsd": 1142335.0,
+     "unitValueUsdMt": 3816.31
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 198.7,
+     "valueUsd": 1451046.0,
+     "unitValueUsdMt": 7301.96
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 174.9,
+     "valueUsd": 1628624.0,
+     "unitValueUsdMt": 9309.08
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 174.9,
+     "valueUsd": 1135867.0,
+     "unitValueUsdMt": 6495.12
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 160.9,
+     "valueUsd": 1191852.0,
+     "unitValueUsdMt": 7407.41
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 239.4,
+     "valueUsd": 1268098.0,
+     "unitValueUsdMt": 5296.98
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 301.6,
+     "valueUsd": 1296562.0,
+     "unitValueUsdMt": 4299.51
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 172.9,
+     "valueUsd": 892166.0,
+     "unitValueUsdMt": 5161.21
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 352.6,
+     "valueUsd": 1439299.0,
+     "unitValueUsdMt": 4081.61
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 426.4,
+     "valueUsd": 1561214.0,
+     "unitValueUsdMt": 3661.81
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 409.1,
+     "valueUsd": 1298133.0,
+     "unitValueUsdMt": 3173.3
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 344.1,
+     "valueUsd": 1926203.0,
+     "unitValueUsdMt": 5597.15
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 357.0,
+     "valueUsd": 1541801.0,
+     "unitValueUsdMt": 4319.13
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 61.6,
+     "valueUsd": 560397.0,
+     "unitValueUsdMt": 9095.88
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 355.1,
+     "valueUsd": 1569891.0,
+     "unitValueUsdMt": 4420.73
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 86.0,
+     "valueUsd": 665497.0,
+     "unitValueUsdMt": 7741.94
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 196.0,
+     "valueUsd": 977808.0,
+     "unitValueUsdMt": 4988.82
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 310.7,
+     "valueUsd": 657090.0,
+     "unitValueUsdMt": 2114.67
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 194.2,
+     "valueUsd": 1196581.0,
+     "unitValueUsdMt": 6162.54
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 350.3,
+     "valueUsd": 1489388.0,
+     "unitValueUsdMt": 4251.26
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 254.9,
+     "valueUsd": 1164914.0,
+     "unitValueUsdMt": 4569.36
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 437.9,
+     "valueUsd": 1547340.0,
+     "unitValueUsdMt": 3533.47
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 401.4,
+     "valueUsd": 1453696.0,
+     "unitValueUsdMt": 3621.83
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 316.5,
+     "valueUsd": 1372072.0,
+     "unitValueUsdMt": 4335.28
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 364.9,
+     "valueUsd": 1107344.0,
+     "unitValueUsdMt": 3034.32
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 166.8,
+     "valueUsd": 868659.0,
+     "unitValueUsdMt": 5206.54
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 660.5,
+     "valueUsd": 1584161.0,
+     "unitValueUsdMt": 2398.32
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 191.3,
+     "valueUsd": 1178944.0,
+     "unitValueUsdMt": 6161.19
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 462.4,
+     "valueUsd": 1983969.0,
+     "unitValueUsdMt": 4290.31
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 445.9,
+     "valueUsd": 1574777.0,
+     "unitValueUsdMt": 3532.0
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 500.6,
+     "valueUsd": 1649612.0,
+     "unitValueUsdMt": 3295.27
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 731.6,
+     "valueUsd": 2260252.0,
+     "unitValueUsdMt": 3089.38
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 615.3,
+     "valueUsd": 1608166.0,
+     "unitValueUsdMt": 2613.46
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 203.8,
+     "valueUsd": 1392527.0,
+     "unitValueUsdMt": 6833.15
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 322.6,
+     "valueUsd": 1510170.0,
+     "unitValueUsdMt": 4681.25
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 459.2,
+     "valueUsd": 2023243.0,
+     "unitValueUsdMt": 4405.92
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 228.1,
+     "valueUsd": 1434240.0,
+     "unitValueUsdMt": 6288.04
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 158.9,
+     "valueUsd": 1512289.0,
+     "unitValueUsdMt": 9516.04
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 265.9,
+     "valueUsd": 1357347.0,
+     "unitValueUsdMt": 5104.15
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 135.7,
+     "valueUsd": 918955.0,
+     "unitValueUsdMt": 6770.96
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 392.6,
+     "valueUsd": 1281134.0,
+     "unitValueUsdMt": 3263.29
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 751.1,
+     "valueUsd": 1627626.0,
+     "unitValueUsdMt": 2167.02
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 868.9,
+     "valueUsd": 1796660.0,
+     "unitValueUsdMt": 2067.65
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 746.6,
+     "valueUsd": 1736708.0,
+     "unitValueUsdMt": 2326.28
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 624.6,
+     "valueUsd": 1947785.0,
+     "unitValueUsdMt": 3118.35
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 93.5,
+     "valueUsd": 653741.0,
+     "unitValueUsdMt": 6988.14
+    }
+   ],
+   "totalVolumeMt": 20638.0,
+   "totalValueUsd": 83187282.0,
+   "avgUnitValueUsdMt": 4030.79,
+   "records": 2465,
+   "origins": [
+    {
+     "origin": "China",
+     "volumeMt": 19305.5,
+     "sharePct": 93.5
+    },
+    {
+     "origin": "India",
+     "volumeMt": 562.6,
+     "sharePct": 2.7
+    },
+    {
+     "origin": "Spain (Excluding Xb, Xc)",
+     "volumeMt": 557.3,
+     "sharePct": 2.7
+    },
+    {
+     "origin": "United States Of America",
+     "volumeMt": 157.6,
+     "sharePct": 0.8
+    },
+    {
+     "origin": "Singapore",
+     "volumeMt": 18.0,
+     "sharePct": 0.1
+    }
+   ],
+   "seasonality": {
+    "4": 113.9,
+    "8": 80.3,
+    "9": 107.9,
+    "10": 92.1,
+    "11": 88.8,
+    "12": 52.3,
+    "1": 95.2,
+    "2": 52.4,
+    "3": 96.1,
+    "5": 141.0,
+    "6": 153.3,
+    "7": 127.7
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 4980.2,
+    "priorVolumeMt": 3434.7,
+    "volumeYoYPct": 0.45,
+    "latestValueUsd": 19712350.0,
+    "priorValueUsd": 14070280.0,
+    "valueYoYPct": 0.401
+   }
+  },
+  {
+   "hs": "25174900",
+   "name": "Limestone Powder",
+   "months": [
+    {
+     "ym": "2019-10",
+     "volumeMt": 90.5,
+     "valueUsd": 5069.0,
+     "unitValueUsdMt": 56.0
+    },
+    {
+     "ym": "2019-11",
+     "volumeMt": 138.2,
+     "valueUsd": 7738.0,
+     "unitValueUsdMt": 56.0
+    },
+    {
+     "ym": "2019-12",
+     "volumeMt": 280.0,
+     "valueUsd": 15680.0,
+     "unitValueUsdMt": 56.0
+    },
+    {
+     "ym": "2020-05",
+     "volumeMt": 34400.0,
+     "valueUsd": 535400.0,
+     "unitValueUsdMt": 15.56
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 10716.0,
+     "valueUsd": 645854.0,
+     "unitValueUsdMt": 60.27
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 23477.7,
+     "valueUsd": 1403178.0,
+     "unitValueUsdMt": 59.77
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 17034.4,
+     "valueUsd": 992025.0,
+     "unitValueUsdMt": 58.24
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 13805.7,
+     "valueUsd": 800627.0,
+     "unitValueUsdMt": 57.99
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 18836.4,
+     "valueUsd": 1126305.0,
+     "unitValueUsdMt": 59.79
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 8565.5,
+     "valueUsd": 533835.0,
+     "unitValueUsdMt": 62.32
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 22997.0,
+     "valueUsd": 1548014.0,
+     "unitValueUsdMt": 67.31
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 24517.2,
+     "valueUsd": 1940443.0,
+     "unitValueUsdMt": 79.15
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 29674.2,
+     "valueUsd": 2387470.0,
+     "unitValueUsdMt": 80.46
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 11297.9,
+     "valueUsd": 1000027.0,
+     "unitValueUsdMt": 88.51
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 26146.5,
+     "valueUsd": 2176081.0,
+     "unitValueUsdMt": 83.23
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 12908.9,
+     "valueUsd": 1149296.0,
+     "unitValueUsdMt": 89.03
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 14628.8,
+     "valueUsd": 1276355.0,
+     "unitValueUsdMt": 87.25
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 13459.4,
+     "valueUsd": 1144962.0,
+     "unitValueUsdMt": 85.07
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 10775.3,
+     "valueUsd": 964952.0,
+     "unitValueUsdMt": 89.55
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 8678.5,
+     "valueUsd": 837594.0,
+     "unitValueUsdMt": 96.51
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 12140.7,
+     "valueUsd": 1207497.0,
+     "unitValueUsdMt": 99.46
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 6291.7,
+     "valueUsd": 733125.0,
+     "unitValueUsdMt": 116.52
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 12934.8,
+     "valueUsd": 1527496.0,
+     "unitValueUsdMt": 118.09
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 42985.2,
+     "valueUsd": 4573753.0,
+     "unitValueUsdMt": 106.4
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 15174.5,
+     "valueUsd": 1784401.0,
+     "unitValueUsdMt": 117.59
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 16761.6,
+     "valueUsd": 2020185.0,
+     "unitValueUsdMt": 120.52
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 3419.8,
+     "valueUsd": 396067.0,
+     "unitValueUsdMt": 115.81
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 6461.7,
+     "valueUsd": 671480.0,
+     "unitValueUsdMt": 103.92
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 9655.4,
+     "valueUsd": 980368.0,
+     "unitValueUsdMt": 101.54
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 8629.3,
+     "valueUsd": 836395.0,
+     "unitValueUsdMt": 96.93
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 6898.6,
+     "valueUsd": 511150.0,
+     "unitValueUsdMt": 74.09
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 14921.7,
+     "valueUsd": 992592.0,
+     "unitValueUsdMt": 66.52
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 17385.5,
+     "valueUsd": 1117134.0,
+     "unitValueUsdMt": 64.26
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 10572.6,
+     "valueUsd": 611592.0,
+     "unitValueUsdMt": 57.85
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 14668.4,
+     "valueUsd": 875985.0,
+     "unitValueUsdMt": 59.72
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 22351.7,
+     "valueUsd": 1254883.0,
+     "unitValueUsdMt": 56.14
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 22059.4,
+     "valueUsd": 1228859.0,
+     "unitValueUsdMt": 55.71
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 18934.3,
+     "valueUsd": 1032829.0,
+     "unitValueUsdMt": 54.55
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 14514.7,
+     "valueUsd": 743896.0,
+     "unitValueUsdMt": 51.25
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 21386.5,
+     "valueUsd": 1071740.0,
+     "unitValueUsdMt": 50.11
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 12429.8,
+     "valueUsd": 644333.0,
+     "unitValueUsdMt": 51.84
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 17940.7,
+     "valueUsd": 894209.0,
+     "unitValueUsdMt": 49.84
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 22330.4,
+     "valueUsd": 1061135.0,
+     "unitValueUsdMt": 47.52
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 16014.6,
+     "valueUsd": 706117.0,
+     "unitValueUsdMt": 44.09
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 14583.5,
+     "valueUsd": 628106.0,
+     "unitValueUsdMt": 43.07
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 10339.6,
+     "valueUsd": 450493.0,
+     "unitValueUsdMt": 43.57
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 4825.4,
+     "valueUsd": 207326.0,
+     "unitValueUsdMt": 42.97
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 9112.4,
+     "valueUsd": 443855.0,
+     "unitValueUsdMt": 48.71
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 7806.1,
+     "valueUsd": 432855.0,
+     "unitValueUsdMt": 55.45
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 12891.0,
+     "valueUsd": 767817.0,
+     "unitValueUsdMt": 59.56
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 11530.4,
+     "valueUsd": 699690.0,
+     "unitValueUsdMt": 60.68
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 15374.8,
+     "valueUsd": 886403.0,
+     "unitValueUsdMt": 57.65
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 12729.7,
+     "valueUsd": 791747.0,
+     "unitValueUsdMt": 62.2
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 8563.7,
+     "valueUsd": 536565.0,
+     "unitValueUsdMt": 62.66
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 18160.3,
+     "valueUsd": 1242982.0,
+     "unitValueUsdMt": 68.45
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 36921.0,
+     "valueUsd": 2536922.0,
+     "unitValueUsdMt": 68.71
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 21723.9,
+     "valueUsd": 1555444.0,
+     "unitValueUsdMt": 71.6
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 9128.3,
+     "valueUsd": 598003.0,
+     "unitValueUsdMt": 65.51
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 10596.3,
+     "valueUsd": 747318.0,
+     "unitValueUsdMt": 70.53
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 13690.9,
+     "valueUsd": 981898.0,
+     "unitValueUsdMt": 71.72
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 20215.2,
+     "valueUsd": 1324223.0,
+     "unitValueUsdMt": 65.51
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 15721.3,
+     "valueUsd": 920976.0,
+     "unitValueUsdMt": 58.58
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 24690.7,
+     "valueUsd": 1396211.0,
+     "unitValueUsdMt": 56.55
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 11301.6,
+     "valueUsd": 690289.0,
+     "unitValueUsdMt": 61.08
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 25742.7,
+     "valueUsd": 1553084.0,
+     "unitValueUsdMt": 60.33
+    },
+    {
+     "ym": "2025-09",
+     "volumeMt": 18936.7,
+     "valueUsd": 1110168.0,
+     "unitValueUsdMt": 58.63
+    },
+    {
+     "ym": "2025-10",
+     "volumeMt": 13351.6,
+     "valueUsd": 789989.0,
+     "unitValueUsdMt": 59.17
+    },
+    {
+     "ym": "2025-11",
+     "volumeMt": 18946.0,
+     "valueUsd": 1080031.0,
+     "unitValueUsdMt": 57.01
+    }
+   ],
+   "totalVolumeMt": 1036174.4,
+   "totalValueUsd": 70340518.0,
+   "avgUnitValueUsdMt": 67.88,
+   "records": 2979,
+   "origins": [
+    {
+     "origin": "Egypt",
+     "volumeMt": 836752.2,
+     "sharePct": 80.8
+    },
+    {
+     "origin": "Vietnam",
+     "volumeMt": 187154.3,
+     "sharePct": 18.1
+    },
+    {
+     "origin": "Bhutan",
+     "volumeMt": 9818.2,
+     "sharePct": 0.9
+    },
+    {
+     "origin": "India",
+     "volumeMt": 1699.4,
+     "sharePct": 0.2
+    },
+    {
+     "origin": "China",
+     "volumeMt": 660.8,
+     "sharePct": 0.1
+    }
+   ],
+   "seasonality": {
+    "10": 83.1,
+    "11": 102.6,
+    "12": 92.9,
+    "5": 120.3,
+    "8": 94.0,
+    "9": 99.5,
+    "1": 58.9,
+    "2": 86.7,
+    "3": 147.9,
+    "4": 124.6,
+    "6": 105.4,
+    "7": 88.5
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 169978.3,
+    "priorVolumeMt": 207786.6,
+    "volumeYoYPct": -0.182,
+    "latestValueUsd": 10552099.0,
+    "priorValueUsd": 10753684.0,
+    "valueYoYPct": -0.0187
+   }
+  },
+  {
+   "hs": "29231000",
+   "name": "Choline Chloride",
+   "months": [
+    {
+     "ym": "2017-11",
+     "volumeMt": 48.0,
+     "valueUsd": 38400.0,
+     "unitValueUsdMt": 800.0
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 12.0,
+     "valueUsd": 8820.0,
+     "unitValueUsdMt": 735.0
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 11.5,
+     "valueUsd": 7580.0,
+     "unitValueUsdMt": 659.13
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 365.9,
+     "valueUsd": 263700.0,
+     "unitValueUsdMt": 720.69
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 314.9,
+     "valueUsd": 188899.0,
+     "unitValueUsdMt": 599.77
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 241.2,
+     "valueUsd": 168632.0,
+     "unitValueUsdMt": 699.08
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 355.0,
+     "valueUsd": 268200.0,
+     "unitValueUsdMt": 755.49
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 272.3,
+     "valueUsd": 214884.0,
+     "unitValueUsdMt": 789.15
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 249.3,
+     "valueUsd": 205760.0,
+     "unitValueUsdMt": 825.35
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 658.0,
+     "valueUsd": 541440.0,
+     "unitValueUsdMt": 822.86
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 238.5,
+     "valueUsd": 210764.0,
+     "unitValueUsdMt": 883.85
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 401.1,
+     "valueUsd": 416480.0,
+     "unitValueUsdMt": 1038.47
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 660.5,
+     "valueUsd": 648014.0,
+     "unitValueUsdMt": 981.13
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 390.3,
+     "valueUsd": 349784.0,
+     "unitValueUsdMt": 896.19
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 373.0,
+     "valueUsd": 384226.0,
+     "unitValueUsdMt": 1030.07
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 418.6,
+     "valueUsd": 379742.0,
+     "unitValueUsdMt": 907.24
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 316.9,
+     "valueUsd": 320834.0,
+     "unitValueUsdMt": 1012.41
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 157.8,
+     "valueUsd": 140374.0,
+     "unitValueUsdMt": 889.74
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 81.0,
+     "valueUsd": 105616.0,
+     "unitValueUsdMt": 1304.22
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 120.6,
+     "valueUsd": 132884.0,
+     "unitValueUsdMt": 1101.49
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 258.6,
+     "valueUsd": 278446.0,
+     "unitValueUsdMt": 1076.74
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 177.5,
+     "valueUsd": 260926.0,
+     "unitValueUsdMt": 1470.26
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 200.0,
+     "valueUsd": 238968.0,
+     "unitValueUsdMt": 1194.66
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 568.0,
+     "valueUsd": 915125.0,
+     "unitValueUsdMt": 1611.14
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 406.3,
+     "valueUsd": 447800.0,
+     "unitValueUsdMt": 1102.09
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 579.4,
+     "valueUsd": 730267.0,
+     "unitValueUsdMt": 1260.38
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 609.3,
+     "valueUsd": 992329.0,
+     "unitValueUsdMt": 1628.74
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 906.5,
+     "valueUsd": 1124345.0,
+     "unitValueUsdMt": 1240.31
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 325.5,
+     "valueUsd": 363751.0,
+     "unitValueUsdMt": 1117.51
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 221.0,
+     "valueUsd": 259495.0,
+     "unitValueUsdMt": 1174.19
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 419.4,
+     "valueUsd": 442027.0,
+     "unitValueUsdMt": 1053.92
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 325.1,
+     "valueUsd": 323805.0,
+     "unitValueUsdMt": 996.02
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 340.9,
+     "valueUsd": 332729.0,
+     "unitValueUsdMt": 976.09
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 179.2,
+     "valueUsd": 199592.0,
+     "unitValueUsdMt": 1113.92
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 640.6,
+     "valueUsd": 604720.0,
+     "unitValueUsdMt": 943.92
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 364.0,
+     "valueUsd": 341110.0,
+     "unitValueUsdMt": 937.12
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 495.3,
+     "valueUsd": 497325.0,
+     "unitValueUsdMt": 1004.09
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 333.5,
+     "valueUsd": 265516.0,
+     "unitValueUsdMt": 796.08
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 578.0,
+     "valueUsd": 446680.0,
+     "unitValueUsdMt": 772.86
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 627.7,
+     "valueUsd": 447171.0,
+     "unitValueUsdMt": 712.4
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 286.6,
+     "valueUsd": 268450.0,
+     "unitValueUsdMt": 936.74
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 440.0,
+     "valueUsd": 337140.0,
+     "unitValueUsdMt": 766.23
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 385.5,
+     "valueUsd": 285179.0,
+     "unitValueUsdMt": 739.8
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 424.5,
+     "valueUsd": 314879.0,
+     "unitValueUsdMt": 741.75
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 408.1,
+     "valueUsd": 732265.0,
+     "unitValueUsdMt": 1794.55
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 353.8,
+     "valueUsd": 283125.0,
+     "unitValueUsdMt": 800.2
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 533.4,
+     "valueUsd": 468263.0,
+     "unitValueUsdMt": 877.95
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 595.3,
+     "valueUsd": 440740.0,
+     "unitValueUsdMt": 740.33
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 539.9,
+     "valueUsd": 418000.0,
+     "unitValueUsdMt": 774.17
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 441.3,
+     "valueUsd": 336902.0,
+     "unitValueUsdMt": 763.43
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 445.0,
+     "valueUsd": 395756.0,
+     "unitValueUsdMt": 889.28
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 203.8,
+     "valueUsd": 182226.0,
+     "unitValueUsdMt": 894.14
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 249.8,
+     "valueUsd": 173824.0,
+     "unitValueUsdMt": 695.77
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 344.8,
+     "valueUsd": 259388.0,
+     "unitValueUsdMt": 752.35
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 306.9,
+     "valueUsd": 242546.0,
+     "unitValueUsdMt": 790.31
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 597.6,
+     "valueUsd": 455363.0,
+     "unitValueUsdMt": 762.04
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 471.0,
+     "valueUsd": 374491.0,
+     "unitValueUsdMt": 795.08
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 348.9,
+     "valueUsd": 254203.0,
+     "unitValueUsdMt": 728.67
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 284.1,
+     "valueUsd": 232508.0,
+     "unitValueUsdMt": 818.54
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 987.6,
+     "valueUsd": 672727.0,
+     "unitValueUsdMt": 681.17
+    },
+    {
+     "ym": "2025-05",
+     "volumeMt": 762.7,
+     "valueUsd": 572275.0,
+     "unitValueUsdMt": 750.32
+    },
+    {
+     "ym": "2025-06",
+     "volumeMt": 725.0,
+     "valueUsd": 601497.0,
+     "unitValueUsdMt": 829.62
+    },
+    {
+     "ym": "2025-07",
+     "volumeMt": 786.3,
+     "valueUsd": 560750.0,
+     "unitValueUsdMt": 713.13
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 74.2,
+     "valueUsd": 94340.0,
+     "unitValueUsdMt": 1270.74
+    }
+   ],
+   "totalVolumeMt": 25238.2,
+   "totalValueUsd": 23463996.0,
+   "avgUnitValueUsdMt": 929.7,
+   "records": 759,
+   "origins": [
+    {
+     "origin": "China",
+     "volumeMt": 20088.9,
+     "sharePct": 79.6
+    },
+    {
+     "origin": "India",
+     "volumeMt": 3628.2,
+     "sharePct": 14.4
+    },
+    {
+     "origin": "Belgium",
+     "volumeMt": 652.1,
+     "sharePct": 2.6
+    },
+    {
+     "origin": "Thailand",
+     "volumeMt": 382.0,
+     "sharePct": 1.5
+    },
+    {
+     "origin": "Canada",
+     "volumeMt": 165.5,
+     "sharePct": 0.7
+    }
+   ],
+   "seasonality": {
+    "11": 67.4,
+    "4": 123.7,
+    "7": 118.5,
+    "8": 109.7,
+    "9": 75.8,
+    "10": 71.2,
+    "12": 88.3,
+    "1": 87.6,
+    "2": 87.1,
+    "3": 96.2,
+    "5": 145.3,
+    "6": 125.2
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 5019.7,
+    "priorVolumeMt": 5095.8,
+    "volumeYoYPct": -0.0149,
+    "latestValueUsd": 4388398.0,
+    "priorValueUsd": 4340491.0,
+    "valueYoYPct": 0.011
+   }
+  },
+  {
+   "hs": "23064900",
+   "name": "Rapeseed Meal / Extract",
+   "months": [
+    {
+     "ym": "2017-05",
+     "volumeMt": 2471.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2017-10",
+     "volumeMt": 256.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2019-12",
+     "volumeMt": 1390.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-01",
+     "volumeMt": 2867.2,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-02",
+     "volumeMt": 3636.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-06",
+     "volumeMt": 4183.6,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 6029.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 8228.9,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 11580.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-10",
+     "volumeMt": 8027.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 4894.9,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 6447.4,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 1611.4,
+     "valueUsd": 494581.0,
+     "unitValueUsdMt": 306.93
+    },
+    {
+     "ym": "2021-03",
+     "volumeMt": 3741.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-04",
+     "volumeMt": 4897.7,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 2774.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-06",
+     "volumeMt": 9654.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-07",
+     "volumeMt": 6858.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 7738.8,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 18135.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-10",
+     "volumeMt": 13891.4,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 18677.3,
+     "valueUsd": 201966.0,
+     "unitValueUsdMt": 10.81
+    },
+    {
+     "ym": "2021-12",
+     "volumeMt": 4149.0,
+     "valueUsd": 229306.0,
+     "unitValueUsdMt": 55.27
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 1780.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 682.7,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-03",
+     "volumeMt": 2355.7,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 13335.7,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-05",
+     "volumeMt": 19229.3,
+     "valueUsd": 59955.0,
+     "unitValueUsdMt": 3.12
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 15488.2,
+     "valueUsd": 464093.0,
+     "unitValueUsdMt": 29.96
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 4633.7,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 11977.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-09",
+     "volumeMt": 9837.6,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 5558.8,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 15963.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-12",
+     "volumeMt": 11398.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 3521.3,
+     "valueUsd": 171300.0,
+     "unitValueUsdMt": 48.65
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 5382.4,
+     "valueUsd": 157531.0,
+     "unitValueUsdMt": 29.27
+    },
+    {
+     "ym": "2023-03",
+     "volumeMt": 4760.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 5484.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 2423.8,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 5116.2,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 10781.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-08",
+     "volumeMt": 10001.4,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 12203.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 10132.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 7982.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-12",
+     "volumeMt": 4754.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 434.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 10289.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 4441.8,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 8448.2,
+     "valueUsd": 537340.0,
+     "unitValueUsdMt": 63.6
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 3654.8,
+     "valueUsd": 210143.0,
+     "unitValueUsdMt": 57.5
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 10257.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 4541.4,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 9864.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-09",
+     "volumeMt": 8319.7,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 6799.8,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-11",
+     "volumeMt": 3201.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 4419.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 2449.4,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2025-02",
+     "volumeMt": 5525.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 480.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    }
+   ],
+   "totalVolumeMt": 430051.9,
+   "totalValueUsd": 2526215.0,
+   "avgUnitValueUsdMt": 5.87,
+   "records": 1449,
+   "origins": [
+    {
+     "origin": "India",
+     "volumeMt": 429745.3,
+     "sharePct": 99.9
+    },
+    {
+     "origin": "China",
+     "volumeMt": 285.5,
+     "sharePct": 0.1
+    },
+    {
+     "origin": "Bangladesh",
+     "volumeMt": 20.4,
+     "sharePct": 0.0
+    },
+    {
+     "origin": "United Kingdom",
+     "volumeMt": 0.6,
+     "sharePct": 0.0
+    },
+    {
+     "origin": "New Zealand",
+     "volumeMt": 0.0,
+     "sharePct": 0.0
+    }
+   ],
+   "seasonality": {
+    "5": 88.1,
+    "10": 107.3,
+    "12": 78.2,
+    "1": 30.4,
+    "2": 73.6,
+    "6": 128.9,
+    "7": 94.7,
+    "8": 137.9,
+    "9": 173.2,
+    "11": 146.2,
+    "3": 45.5,
+    "4": 115.9
+   },
+   "yoy": {
+    "latestYear": 2024,
+    "priorYear": 2023,
+    "latestVolumeMt": 74671.8,
+    "priorVolumeMt": 82542.8,
+    "volumeYoYPct": -0.0954,
+    "latestValueUsd": 747483.0,
+    "priorValueUsd": 328831.0,
+    "valueYoYPct": 1.2732
+   }
+  },
+  {
+   "hs": "15079010",
+   "name": "Soybean Oil",
+   "months": [
+    {
+     "ym": "2020-03",
+     "volumeMt": 5.1,
+     "valueUsd": 30815.0,
+     "unitValueUsdMt": 6054.05
+    },
+    {
+     "ym": "2020-04",
+     "volumeMt": 3.0,
+     "valueUsd": 21210.0,
+     "unitValueUsdMt": 7070.0
+    },
+    {
+     "ym": "2020-05",
+     "volumeMt": 5.1,
+     "valueUsd": 31374.0,
+     "unitValueUsdMt": 6163.94
+    },
+    {
+     "ym": "2020-07",
+     "volumeMt": 3.0,
+     "valueUsd": 21210.0,
+     "unitValueUsdMt": 7070.0
+    },
+    {
+     "ym": "2020-08",
+     "volumeMt": 45.3,
+     "valueUsd": 35557.0,
+     "unitValueUsdMt": 784.74
+    },
+    {
+     "ym": "2020-09",
+     "volumeMt": 20.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2020-11",
+     "volumeMt": 3.1,
+     "valueUsd": 21535.0,
+     "unitValueUsdMt": 6924.42
+    },
+    {
+     "ym": "2020-12",
+     "volumeMt": 7.1,
+     "valueUsd": 31730.0,
+     "unitValueUsdMt": 4475.37
+    },
+    {
+     "ym": "2021-01",
+     "volumeMt": 5.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-02",
+     "volumeMt": 20.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-05",
+     "volumeMt": 40.3,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2021-08",
+     "volumeMt": 2.3,
+     "valueUsd": 3040.0,
+     "unitValueUsdMt": 1321.74
+    },
+    {
+     "ym": "2021-09",
+     "volumeMt": 5.3,
+     "valueUsd": 1520.0,
+     "unitValueUsdMt": 287.33
+    },
+    {
+     "ym": "2021-11",
+     "volumeMt": 6.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-01",
+     "volumeMt": 33.4,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-02",
+     "volumeMt": 5.9,
+     "valueUsd": 10355.0,
+     "unitValueUsdMt": 1758.06
+    },
+    {
+     "ym": "2022-04",
+     "volumeMt": 26.0,
+     "valueUsd": 2250.0,
+     "unitValueUsdMt": 86.41
+    },
+    {
+     "ym": "2022-06",
+     "volumeMt": 20.1,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-07",
+     "volumeMt": 0.5,
+     "valueUsd": 3700.0,
+     "unitValueUsdMt": 7400.0
+    },
+    {
+     "ym": "2022-08",
+     "volumeMt": 9.6,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-10",
+     "volumeMt": 45.6,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2022-11",
+     "volumeMt": 7.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-01",
+     "volumeMt": 0.6,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-02",
+     "volumeMt": 1.9,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-04",
+     "volumeMt": 8.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2023-05",
+     "volumeMt": 0.4,
+     "valueUsd": 1600.0,
+     "unitValueUsdMt": 4000.0
+    },
+    {
+     "ym": "2023-06",
+     "volumeMt": 10.0,
+     "valueUsd": 20756.0,
+     "unitValueUsdMt": 2071.45
+    },
+    {
+     "ym": "2023-07",
+     "volumeMt": 12.7,
+     "valueUsd": 1350.0,
+     "unitValueUsdMt": 106.3
+    },
+    {
+     "ym": "2023-09",
+     "volumeMt": 7.1,
+     "valueUsd": 14290.0,
+     "unitValueUsdMt": 2006.97
+    },
+    {
+     "ym": "2023-10",
+     "volumeMt": 39.4,
+     "valueUsd": 45737.0,
+     "unitValueUsdMt": 1160.24
+    },
+    {
+     "ym": "2023-11",
+     "volumeMt": 46.5,
+     "valueUsd": 72000.0,
+     "unitValueUsdMt": 1548.39
+    },
+    {
+     "ym": "2024-01",
+     "volumeMt": 17.9,
+     "valueUsd": 23571.0,
+     "unitValueUsdMt": 1318.29
+    },
+    {
+     "ym": "2024-02",
+     "volumeMt": 6.5,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-03",
+     "volumeMt": 1.0,
+     "valueUsd": 3000.0,
+     "unitValueUsdMt": 3000.0
+    },
+    {
+     "ym": "2024-04",
+     "volumeMt": 6.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-05",
+     "volumeMt": 69.7,
+     "valueUsd": 120904.0,
+     "unitValueUsdMt": 1733.64
+    },
+    {
+     "ym": "2024-06",
+     "volumeMt": 33.0,
+     "valueUsd": 49266.0,
+     "unitValueUsdMt": 1493.81
+    },
+    {
+     "ym": "2024-07",
+     "volumeMt": 12.4,
+     "valueUsd": 1316.0,
+     "unitValueUsdMt": 106.39
+    },
+    {
+     "ym": "2024-08",
+     "volumeMt": 8.0,
+     "valueUsd": null,
+     "unitValueUsdMt": null
+    },
+    {
+     "ym": "2024-10",
+     "volumeMt": 10.2,
+     "valueUsd": 6600.0,
+     "unitValueUsdMt": 647.06
+    },
+    {
+     "ym": "2024-12",
+     "volumeMt": 10.0,
+     "valueUsd": 58503.0,
+     "unitValueUsdMt": 5850.29
+    },
+    {
+     "ym": "2025-01",
+     "volumeMt": 40.0,
+     "valueUsd": 70000.0,
+     "unitValueUsdMt": 1750.0
+    },
+    {
+     "ym": "2025-03",
+     "volumeMt": 0.2,
+     "valueUsd": 7320.0,
+     "unitValueUsdMt": 36600.0
+    },
+    {
+     "ym": "2025-04",
+     "volumeMt": 13.1,
+     "valueUsd": 72006.0,
+     "unitValueUsdMt": 5492.46
+    },
+    {
+     "ym": "2025-08",
+     "volumeMt": 46.1,
+     "valueUsd": 109025.0,
+     "unitValueUsdMt": 2364.46
+    },
+    {
+     "ym": "2025-09",
+     "volumeMt": 12.0,
+     "valueUsd": 70402.0,
+     "unitValueUsdMt": 5852.19
+    }
+   ],
+   "totalVolumeMt": 732.9,
+   "totalValueUsd": 961942.0,
+   "avgUnitValueUsdMt": 1312.55,
+   "records": 87,
+   "origins": [
+    {
+     "origin": "Belgium",
+     "volumeMt": 229.5,
+     "sharePct": 31.3
+    },
+    {
+     "origin": "France",
+     "volumeMt": 206.4,
+     "sharePct": 28.2
+    },
+    {
+     "origin": "China",
+     "volumeMt": 164.1,
+     "sharePct": 22.4
+    },
+    {
+     "origin": "Thailand",
+     "volumeMt": 63.0,
+     "sharePct": 8.6
+    },
+    {
+     "origin": "Bangladesh",
+     "volumeMt": 49.4,
+     "sharePct": 6.7
+    }
+   ],
+   "seasonality": {
+    "3": 13.2,
+    "4": 70.4,
+    "5": 181.3,
+    "7": 44.9,
+    "8": 139.8,
+    "9": 69.8,
+    "11": 99.8,
+    "12": 53.7,
+    "1": 121.8,
+    "2": 54.0,
+    "6": 132.1,
+    "10": 199.2
+   },
+   "yoy": null
+  }
+ ]
+}

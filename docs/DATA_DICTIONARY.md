@@ -14,6 +14,9 @@
 ```
 benchmark  { lastWeek, current, lastMonth, sixMo, avg2024, avg2025, lastYearYtd, ytd2026 }
 movement   { wow, mom, yoy, ytd }           # recomputed by engine (not trusted)
+opportunity{ status, positionVs2025, momentumWow, quadrant }   # DERIVED; quadrant is an analytical label
+priceHistory{ points, start, end, dates[], values[], changePct, lastChangePct, returnVolPct, frequency }
+                                           # DERIVED from 7 dated snapshots (exact-name match)
 originStats{ count, min, max, mean, std, cv, spreadPct, countries[] }
 dataQuality{ score, completeness, freshness, sourceCoverage, issues[] }
 evidenceConfidence{ score, level, basis{} }
@@ -28,7 +31,18 @@ procurement { akijSourcingCountry, procurementAction, premiumVsBest }
 ## `app/data/meta.json`
 `dataHonesty.notes[]` — the explicit list of UNAVAILABLE / PARTIAL inputs and unmapped-record counts.
 
+## `app/data/import-trends.json`
+```
+groups[] { hs, name, months[]{ym, volumeMt, valueUsd, unitValueUsdMt},
+           totalVolumeMt, totalValueUsd, avgUnitValueUsdMt, records,
+           origins[]{origin, volumeMt, sharePct},
+           seasonality{month:int->index}, yoy{latestYear,priorYear,volumeYoYPct,valueYoYPct} }
+```
+Multi-year (2014–2025) customs import records deduplicated by Bill Of Entry No; unit value =
+USD invoice value ÷ quantity MT (source "Price In MT" column not trusted). See METHODOLOGY.
+
 ## Value semantics
 - All prices are USD/MT unless `value`/`currency`/`unit` say otherwise on the observation.
-- `valueUsdMt = null` when the raw quote is EUR/BRL/UAH/MYR/IDR (no FX applied — not fabricated).
+- Non-USD quotes (EUR/BRL/UAH/MYR/IDR/CNY) are converted to `valueUsdMt` via the documented "Live FX" rates
+  (see METHODOLOGY); `valueUsdMt = null` only when no documented rate/unit exists (not fabricated).
 - Unmapped observations/imports are **kept** with `materialId = null` for traceability.

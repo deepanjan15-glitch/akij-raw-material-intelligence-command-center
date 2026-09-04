@@ -250,6 +250,8 @@ def extract_unit(text: str):
         return "MYR", "mt"
     if "rupiah" in t:
         return "IDR", "kg"
+    if "yuan" in t or "cny" in t:
+        return "CNY", "mt"
     if "$/mt" in t or "$/tonne" in t or "$/ton" in t or "usd/mt" in t:
         return "USD", "mt"
     return "USD", "mt"

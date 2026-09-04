@@ -17,6 +17,10 @@
 | Potential saving | (Akij − best landed)×qty | Akij price + landed + volume | dollar opportunity | UNAVAILABLE — Akij prices not provided |
 | Financial exposure | Σ import value USD | NBR records | import value at risk | only tracked import lines |
 | Import arbitrage % | (import unit value − benchmark)/benchmark | import + benchmark | landed vs world price | mixes CIF import vs FOB benchmark |
+| Price position vs 2025 | (current − avg2025)/avg2025 | current + avg2025 | cheap/expensive vs historical mean | deviation, NOT a Z-score (too few anchors) |
+| Opportunity quadrant | 2x2 sign classification of (position, WoW momentum) | current + avg2025 + lastWeek | procurement prioritisation | analytical label, not a buy/sell instruction |
+| Price history change % | (last − first)/first over snapshot series | ≥2 snapshots (exact-name) | longer-run price move | 7 irregular snapshots (9–22 day gaps), coarse |
+| Price history return vol | std dev of log returns across snapshots | ≥5 snapshots | price uncertainty | per-period, NOT annualised; n≤6 returns |
 
 **Forecast:** enabled only with sufficient history + backtesting (Naïve/MA/ES/ARIMA; MAE/RMSE/MAPE/Bias).
 Currently **UNAVAILABLE** — the engine has a snapshot + 6-week import window, no monthly/weekly time series.

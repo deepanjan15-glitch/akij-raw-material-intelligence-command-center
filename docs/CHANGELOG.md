@@ -34,3 +34,37 @@
 - Premium dark navigation with dynamic active-section accent + left indicator.
 - KPI/panel/table/filter/chip states follow the active section family; semantic status colors preserved.
 - No functional or analytical changes.
+
+## [0.4.0] — 2026-09-04 — Procurement decision intelligence (additive)
+- Added `opportunity` analytics per material: price position vs 2025 average + 2x2 procurement-opportunity
+  quadrant (Early Opportunity / Pressure / Monitor-Wait / Value Zone). DERIVED, never fabricated; null-safe.
+- Added **Price Momentum Ranking** (Material Intelligence): diverging horizontal bar of WoW/MoM price change,
+  top 15 by magnitude, filter-aware, with a WoW/MoM toggle.
+- Added **Procurement Opportunity Matrix** (Procurement Intelligence): bubble scatter of price-vs-2025 × WoW
+  momentum, quadrant-coloured, import-volume bubble sizing, zero-axis guide, analytical (not buy/sell) labels.
+- Exposed position/quadrant in the material drill-down modal.
+- QA extended to 21 tests (position + quadrant classification).
+- No time-series analytics added (rolling volatility, SMA trend, Z-score, seasonality, correlation, itemised
+  landed cost / FX) — the dataset is a snapshot + anchor points, not a price time series (see METHODOLOGY).
+
+## [0.5.0] — 2026-09-04 — Price history + FX conversion (additive)
+- Added **price history** ingest from the dated snapshot workbook (7 snapshots: 2026-06-17 → 2026-09-02),
+  exact-name matched to the master (no forced renaming). 83 materials get a real snapshot series (41×2,
+  30×3, 2×5, 10×7 points). Per-material DERIVED stats: change%, last-change%, return volatility (per-period,
+  NOT annualised; only when ≥5 points).
+- Added **FX conversion** of non-USD Fastmarkets quotes (EUR/BRL/UAH/MYR/IDR/CNY) → USD/MT using the
+  documented "Live FX" rates from the raw source — 63 previously-null observations now converted, 0 remaining.
+- Added **Core price trajectory line chart** (Market Signals): 8 core materials × 6 snapshots, indexed to 100.
+- Added **per-material price-trend line chart** in the drill-down modal (snapshot history).
+- QA extended to 25 tests (price-history stats + FX conversion).
+- Still NOT implemented: rolling 30-obs volatility, SMA-30/90, Z-score(90), seasonality, correlation,
+  itemised landed-cost/FX waterfall (see METHODOLOGY "NOT IMPLEMENTED").
+
+## [0.6.0] — 2026-09-04 — Multi-year import trends (additive)
+- Ingested multi-year Bangladesh customs import records (2014–2025) from the three Master_Import_Data CSV
+  exports, deduplicated by Bill Of Entry No, filtered to feed raw-material HS codes (13 product groups).
+- New **Import Trends** view (nav: Intelligence → Import Trends): per-material multi-year import trend
+  (monthly volume bar + unit-value line), YoY (complete-year comparison), top origins, latest-12-month unit
+  value, and a month × material **seasonality heatmap** (seasonal index, ≥24 months only).
+- Unit value = USD invoice value ÷ quantity MT; the source "Price In MT" column is NOT trusted (outliers).
+- QA extended to 30 tests (seasonality index + YoY).

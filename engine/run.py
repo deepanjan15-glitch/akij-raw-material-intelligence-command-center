@@ -7,13 +7,16 @@ from collections import defaultdict
 from .ingest.materials import ingest_materials, ingest_benchmarks
 from .ingest.fastmarkets import ingest_fastmarkets
 from .ingest.nbr import ingest_nbr, ingest_suppliers
+from .ingest.history import ingest_price_history
+from .ingest.imports_csv import ingest_import_trends
 from .core.entities import asdict, country_full
 from .core.mapping import map_fastmarkets, map_nbr
 from .core.analytics import (
     compute_movement, compute_origin_stats, compute_market_index,
     compute_data_quality, compute_confidence, compute_risk,
     compute_landed_cost, compute_savings, compute_import_intelligence,
-    compute_forecast, compute_feed_cost, compute_scenario,
+    compute_forecast, compute_feed_cost, compute_scenario, compute_opportunity,
+    compute_price_history, compute_seasonality_index, compute_yoy,
 )
 
 APP_DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "app", "data")
@@ -45,6 +48,7 @@ def main():
 
     obs = ingest_fastmarkets(now)
     imps = ingest_nbr(now)
+    history = ingest_price_history()
 
     # map observations/imports to materials
     obs_by_mat = defaultdict(list)
@@ -116,6 +120,8 @@ def main():
                 "lastYearYtd": b.get("lastYearYtd"), "ytd2026": b.get("ytd2026"),
             },
             "movement": {k: (round(v, 4) if v is not None else None) for k, v in mov.items()},
+            "opportunity": compute_opportunity(b, mov),
+            "priceHistory": compute_price_history(history.get(m.name.strip().upper())),
             "originStats": origin,
             "dataQuality": dq,
             "evidenceConfidence": conf,
@@ -134,6 +140,11 @@ def main():
     market_index = compute_market_index(materials, benchmarks)
     feed_cost = compute_feed_cost(market_index, BD_INFLATION_PCT)
     scenario = compute_scenario(market_index, BD_INFLATION_PCT)
+
+    import_trends = ingest_import_trends()
+    for g in import_trends:
+        g["seasonality"] = compute_seasonality_index(g["months"])
+        g["yoy"] = compute_yoy(g["months"])
 
     # supplier intelligence (top by volume + by country)
     supplier_by_country = defaultdict(lambda: {"volumeMt": 0.0, "valueUsd": 0.0, "suppliers": 0})
@@ -157,6 +168,11 @@ def main():
     dump("sources.json", {"sources": sources})
     dump("observations.json", {"count": len(obs), "observations": [asdict(o) for o in obs]})
     dump("imports.json", {"count": len(imps), "imports": [asdict(im) for im in imps]})
+    dump("import-trends.json", {
+        "asOfDate": AS_OF, "generatedAt": now,
+        "note": "Multi-year Bangladesh customs import records (2014-2025) deduplicated by Bill Of Entry No across three export files; unit value = USD invoice value / quantity MT (source 'Price In MT' column not trusted). Value aggregated from USD rows only.",
+        "groups": import_trends,
+    })
     dump("meta.json", {
         "asOfDate": AS_OF, "generatedAt": now, "analyst": ANALYST,
         "inflation": {"bangladeshCpiPct": BD_INFLATION_PCT, "period": "July 2026",

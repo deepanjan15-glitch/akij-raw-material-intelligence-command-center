@@ -2,7 +2,7 @@
 // Presentation layer (thin). Analytics are precomputed by engine/run.py; signals from feed-intelligence MCP.
 
 let DATA = {};
-let state = { view: "command", role: "ceo", category: "All", source: "All", search: "" };
+let state = { view: "command", role: "ceo", category: "All", source: "All", search: "", momentumPeriod: "wow", importHs: "10059090" };
 
 const ROLE_TITLES = {
   ceo: "Situation → Risk → Opportunity → Action",
@@ -14,7 +14,7 @@ const ROLE_TITLES = {
 const VIEW_TITLES = {
   command: "Command Center", material: "Material Intelligence", origin: "Origin & Supply",
   supplier: "Supplier Intelligence", procurement: "Procurement Intelligence",
-  signals: "Market Signals", import: "Import Intelligence",
+  signals: "Market Signals", import: "Import Intelligence", "import-trends": "Import Trends",
   forecast: "Forecast & Scenario", feedcost: "Feed Cost Impact", alerts: "Alert Center",
   quality: "Data Quality & Governance", methodology: "Methodology", settings: "Settings",
 };
@@ -22,12 +22,12 @@ const VIEW_TITLES = {
 // section color family per view (maps to [data-section] token overrides in style.css)
 const SECTION = {
   command: "command", material: "material", origin: "origin", supplier: "supplier",
-  procurement: "procurement", signals: "signals", import: "import", forecast: "forecast",
-  feedcost: "feedcost", alerts: "alerts", quality: "quality", methodology: "methodology", settings: "settings",
+  procurement: "procurement", signals: "signals", import: "import", "import-trends": "import",
+  forecast: "forecast", feedcost: "feedcost", alerts: "alerts", quality: "quality", methodology: "methodology", settings: "settings",
 };
 
 async function load() {
-  const files = ["materials", "market-index", "meta", "sources", "suppliers", "feed-cost", "scenario", "market-signals"];
+  const files = ["materials", "market-index", "meta", "sources", "suppliers", "feed-cost", "scenario", "market-signals", "import-trends"];
   const vals = await Promise.all(files.map(f => fetch(`data/${f}.json`).then(r => r.json())));
   DATA = Object.fromEntries(files.map((f, i) => [f, vals[i]]));
   document.getElementById("asOf").textContent = fmtDate(DATA.materials.asOfDate);
@@ -68,14 +68,15 @@ function filtered() {
 }
 
 function render() {
+  destroyCharts();
   document.body.dataset.section = SECTION[state.view] || "sapphire";
   document.getElementById("viewTitle").textContent = VIEW_TITLES[state.view];
   document.querySelectorAll(".nav-item").forEach(n => n.classList.toggle("active", n.dataset.view === state.view));
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById("view-" + state.view).classList.add("active");
   ({ command: renderCommand, material: renderMaterial, origin: renderOrigin, supplier: renderSupplier,
-     procurement: renderProcurement, signals: renderSignals, import: renderImport, forecast: renderForecast,
-     feedcost: renderFeedCost, alerts: renderAlerts, quality: renderQuality, methodology: renderMethodology,
+     procurement: renderProcurement, signals: renderSignals, import: renderImport, "import-trends": renderImportTrends,
+     forecast: renderForecast, feedcost: renderFeedCost, alerts: renderAlerts, quality: renderQuality, methodology: renderMethodology,
      settings: renderSettings }[state.view])();
 }
 
@@ -83,6 +84,268 @@ function roleBanner() {
   const names = (["command", "alerts", "procurement", "material", "supplier", "origin", "import", "forecast", "feedcost"]
     .filter(v => [state.view].concat(state.view === "command" ? ["alerts", "procurement"] : [])).map(v => VIEW_TITLES[v])).join(" → ");
   return `<div class="role-emphasis"><strong>${state.role.toUpperCase()}</strong> focus: ${ROLE_TITLES[state.role]}.</div>`;
+}
+
+/* ================= Charts (thin renderer over precomputed analytics) ================= */
+let CHARTS = {};
+function destroyCharts() { for (const k in CHARTS) { CHARTS[k].destroy(); delete CHARTS[k]; } }
+function mountChart(key, cfg) {
+  if (CHARTS[key]) { CHARTS[key].destroy(); delete CHARTS[key]; }
+  const canvas = document.getElementById("chart-" + key);
+  if (!canvas) return null;
+  CHARTS[key] = new Chart(canvas.getContext("2d"), cfg);
+  return CHARTS[key];
+}
+
+const UP_COLOR = "#dc2626", DOWN_COLOR = "#16a34a";
+const QUADRANT_COLORS = {
+  "Potential Early Procurement Opportunity": "#16a34a",
+  "Procurement Pressure": "#dc2626",
+  "Monitor / Potential Waiting Zone": "#b45309",
+  "Potential Value Zone": "#2563eb",
+};
+const QUADRANT_ORDER = ["Potential Early Procurement Opportunity", "Procurement Pressure", "Monitor / Potential Waiting Zone", "Potential Value Zone"];
+
+// Dashed zero-axis lines to read the 2x2 opportunity quadrants (drawn only when within range).
+const zeroAxesPlugin = {
+  id: "zeroAxes",
+  afterDraw(chart) {
+    const { ctx, chartArea, scales } = chart;
+    if (!chartArea || !scales.x || !scales.y) return;
+    const x0 = scales.x.getPixelForValue(0);
+    const y0 = scales.y.getPixelForValue(0);
+    ctx.save();
+    ctx.strokeStyle = "rgba(15,23,42,0.28)";
+    ctx.setLineDash([5, 4]);
+    ctx.lineWidth = 1;
+    ctx.beginPath();
+    if (y0 >= chartArea.top && y0 <= chartArea.bottom) { ctx.moveTo(chartArea.left, y0); ctx.lineTo(chartArea.right, y0); }
+    if (x0 >= chartArea.left && x0 <= chartArea.right) { ctx.moveTo(x0, chartArea.top); ctx.lineTo(x0, chartArea.bottom); }
+    ctx.stroke();
+    ctx.restore();
+  },
+};
+
+function momentumRows(ms) {
+  const key = state.momentumPeriod === "mom" ? "mom" : "wow";
+  const prior = state.momentumPeriod === "mom" ? "lastMonth" : "lastWeek";
+  const rows = [];
+  ms.forEach(m => {
+    const v = m.movement[key];
+    if (v == null) return;
+    rows.push({ name: m.name, v, current: m.benchmark.current, prior: m.benchmark[prior], wow: m.movement.wow, mom: m.movement.mom });
+  });
+  return rows.sort((a, b) => Math.abs(b.v) - Math.abs(a.v)).slice(0, 15).sort((a, b) => b.v - a.v);
+}
+
+function momentumChart(ms) {
+  const rows = momentumRows(ms);
+  const key = state.momentumPeriod === "mom" ? "mom" : "wow";
+  const label = key === "mom" ? "MoM" : "WoW";
+  return {
+    type: "bar",
+    data: {
+      labels: rows.map(r => r.name),
+      datasets: [{
+        label: label + " price change (%)",
+        data: rows.map(r => +(r.v * 100).toFixed(1)),
+        backgroundColor: rows.map(r => (r.v >= 0 ? UP_COLOR : DOWN_COLOR)),
+        borderRadius: 3,
+      }],
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const r = rows[ctx.dataIndex];
+              return [
+                `${label}: ${pct0(r.v)}`,
+                `Current: ${r.current != null ? "$" + fmt(r.current) + "/MT" : "—"}`,
+                `${key === "mom" ? "Last month" : "Last week"}: ${r.prior != null ? "$" + fmt(r.prior) + "/MT" : "—"}`,
+                `WoW ${pct0(r.wow)} · MoM ${pct0(r.mom)}`,
+              ];
+            },
+          },
+        },
+      },
+      scales: {
+        x: { title: { display: true, text: label + " price change (%)" }, grid: { color: "#e5eaf1" } },
+        y: { grid: { display: false }, ticks: { font: { size: 11 }, callback: (v) => (v.length > 26 ? v.slice(0, 25) + "…" : v) } },
+      },
+    },
+  };
+}
+
+function opportunityChart(ms) {
+  const pts = [];
+  ms.forEach(m => {
+    const o = m.opportunity;
+    if (!o || o.status !== "OK") return;
+    pts.push({ name: m.name, position: o.positionVs2025, wow: o.momentumWow, quadrant: o.quadrant, current: m.benchmark.current, avg2025: m.benchmark.avg2025, vol: m.importIntelligence?.volumeMt });
+  });
+  const maxVol = Math.max(0, ...pts.map(p => p.vol || 0));
+  const rOf = (p) => (p.vol ? 4 + 9 * Math.sqrt(p.vol) / Math.sqrt(maxVol || 1) : 4);
+  const datasets = QUADRANT_ORDER.map(q => {
+    const qpts = pts.filter(p => p.quadrant === q);
+    return {
+      label: q,
+      data: qpts.map(p => ({ x: +(p.position * 100).toFixed(1), y: +(p.wow * 100).toFixed(1), r: rOf(p), _p: p })),
+      backgroundColor: QUADRANT_COLORS[q] + "99",
+      borderColor: QUADRANT_COLORS[q],
+      borderWidth: 1,
+    };
+  });
+  return {
+    type: "bubble",
+    data: { datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 10, boxHeight: 10, font: { size: 10.5 }, padding: 12 } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const p = ctx.raw._p;
+              return [
+                p.name,
+                `Position vs 2025 avg: ${pct0(p.position)}`,
+                `WoW: ${pct0(p.wow)}`,
+                `Current: ${p.current != null ? "$" + fmt(p.current) + "/MT" : "—"}`,
+                `Import volume: ${p.vol ? fmt(p.vol) + " MT" : "—"}`,
+              ];
+            },
+          },
+        },
+      },
+      scales: {
+        x: { title: { display: true, text: "Price deviation vs 2025 average (%)" }, grid: { color: "#e5eaf1" } },
+        y: { title: { display: true, text: "WoW price change (%)" }, grid: { color: "#e5eaf1" } },
+      },
+    },
+    plugins: [zeroAxesPlugin],
+  };
+}
+
+const TRAJECTORY_DATES = ["2026-06-17", "2026-07-02", "2026-07-13", "2026-07-22", "2026-08-02", "2026-08-24"];
+const TRAJECTORY_LABELS = ["Jun 17", "Jul 2", "Jul 13", "Jul 22", "Aug 2", "Aug 24"];
+const LINE_PALETTE = ["#2563eb", "#16a34a", "#dc2626", "#b45309", "#7c3aed", "#0d9488", "#db2777", "#64748b"];
+
+function trajectoryChart(sg) {
+  const datasets = sg.trajectory.map((t, i) => {
+    const base = t.values[0] || 1;
+    return {
+      label: t.material,
+      data: t.values.map(v => +(v / base * 100).toFixed(1)),
+      borderColor: LINE_PALETTE[i % LINE_PALETTE.length],
+      backgroundColor: LINE_PALETTE[i % LINE_PALETTE.length],
+      borderWidth: 1.5,
+      pointRadius: 2.5,
+      tension: 0.25,
+      _raw: t.values,
+    };
+  });
+  return {
+    type: "line",
+    data: { labels: TRAJECTORY_LABELS, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 10, boxHeight: 10, font: { size: 10 }, padding: 10 } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => `${ctx.dataset.label}: $${fmt(ctx.dataset._raw[ctx.dataIndex])}/MT · index ${ctx.parsed.y}`,
+          },
+        },
+      },
+      scales: {
+        y: { title: { display: true, text: "Index (100 = first snapshot)" }, grid: { color: "#e5eaf1" } },
+        x: { grid: { display: false } },
+      },
+    },
+  };
+}
+
+function priceHistoryChart(m) {
+  const h = m.priceHistory;
+  return {
+    type: "line",
+    data: {
+      labels: h.dates.map(d => d.slice(5)),
+      datasets: [{
+        label: m.name + " ($/MT)",
+        data: h.values,
+        borderColor: "#2563eb",
+        backgroundColor: "rgba(37,99,235,0.10)",
+        borderWidth: 1.5,
+        pointRadius: 3,
+        fill: true,
+        tension: 0.2,
+      }],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        y: { title: { display: true, text: "$/MT" }, grid: { color: "#e5eaf1" } },
+        x: { title: { display: true, text: "Snapshot date (2026)" }, grid: { display: false } },
+      },
+    },
+  };
+}
+
+function importTrendChart(g) {
+  return {
+    type: "bar",
+    data: {
+      labels: g.months.map(m => m.ym),
+      datasets: [
+        { label: "Volume (MT)", data: g.months.map(m => m.volumeMt), backgroundColor: "rgba(37,99,235,0.45)", yAxisID: "y", order: 2, borderRadius: 1 },
+        { label: "Unit value ($/MT)", type: "line", data: g.months.map(m => m.unitValueUsdMt), borderColor: "#dc2626", backgroundColor: "#dc2626", borderWidth: 1.6, pointRadius: 0, yAxisID: "y1", order: 1, spanGaps: true },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 10, boxHeight: 10, font: { size: 10.5 }, padding: 12 } },
+        tooltip: {
+          callbacks: {
+            label: (ctx) => {
+              const m = g.months[ctx.dataIndex];
+              if (ctx.datasetIndex === 0) return `Volume: ${fmt(m.volumeMt)} MT`;
+              return `Unit value: ${m.unitValueUsdMt ? "$" + fmt(m.unitValueUsdMt) + "/MT" : "— (no USD value)"}`;
+            },
+          },
+        },
+      },
+      scales: {
+        x: { ticks: { maxTicksLimit: 14, autoSkip: true, font: { size: 10 } }, grid: { display: false } },
+        y: { position: "left", title: { display: true, text: "Volume (MT)" }, grid: { color: "#e5eaf1" } },
+        y1: { position: "right", title: { display: true, text: "Unit value ($/MT)" }, grid: { drawOnChartArea: false } },
+      },
+    },
+  };
+}
+
+const MONTH_LABELS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function seasonalityHeatmap(groups) {
+  const rows = groups.filter(g => g.seasonality).map(g => {
+    const cells = MONTH_LABELS.map((_, i) => {
+      const idx = g.seasonality[i + 1];
+      if (idx == null) return '<td class="hm-cell"></td>';
+      const dev = idx - 100;
+      const alpha = Math.min(0.8, 0.15 + Math.abs(dev) / 60).toFixed(2);
+      const color = dev > 0 ? `rgba(220,38,38,${alpha})` : `rgba(22,163,74,${alpha})`;
+      return `<td class="hm-cell" style="background:${color}" title="${g.name} · ${MONTH_LABELS[i]} · index ${idx}">${Math.round(idx)}</td>`;
+    }).join("");
+    return `<tr><td class="hm-row">${g.name}</td>${cells}</tr>`;
+  }).join("");
+  return `<div class="heatmap-wrap"><table class="heatmap"><thead><tr><th></th>${MONTH_LABELS.map(m => `<th>${m}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
 /* ================= Command Center ================= */
@@ -152,7 +415,18 @@ function soWhat(ms) {
 /* ================= Material Intelligence ================= */
 function renderMaterial() {
   const ms = [...filtered()].sort((a, b) => (a.name < b.name ? -1 : 1));
+  const hasMomentum = ms.some(m => (state.momentumPeriod === "mom" ? m.movement.mom : m.movement.wow) != null);
   document.getElementById("view-material").innerHTML = roleBanner() + `
+    <div class="panel">
+      <h2>Price momentum ranking</h2>
+      <p class="sub">Which materials are moving most right now — DERIVED (recomputed) from the benchmark snapshot. Top 15 by magnitude, sorted risers → fallers.</p>
+      <div class="chart-toggle">
+        <span class="chip ${state.momentumPeriod === "wow" ? "active" : ""}" data-mom="wow">WoW (7-day)</span>
+        <span class="chip ${state.momentumPeriod === "mom" ? "active" : ""}" data-mom="mom">MoM (30-day)</span>
+      </div>
+      ${hasMomentum ? `<div class="chart-box"><canvas id="chart-momentum"></canvas></div>` : `<div class="state-unavailable">No momentum data for the current filter selection.</div>`}
+      <div class="chart-meta">Data type: DERIVED · Source: ${state.source === "All" ? "Fastmarkets snapshot 2026-09-02" : state.source} · as of ${fmtDate(DATA.materials.asOfDate)}</div>
+    </div>
     <div class="panel">
       <table><thead><tr>
         <th>Material</th><th>Category</th><th>Source</th><th class="num">Current $/MT</th>
@@ -173,6 +447,8 @@ function renderMaterial() {
       </tbody></table>
     </div>`;
   document.getElementById("view-material").querySelectorAll("tbody tr").forEach(tr => tr.onclick = () => openMaterial(tr.dataset.id));
+  document.querySelectorAll("#view-material .chart-toggle .chip").forEach(c => c.onclick = () => { state.momentumPeriod = c.dataset.mom; render(); });
+  if (hasMomentum) mountChart("momentum", momentumChart(ms));
 }
 function riskBadge(b) { return b === "Critical" || b === "High" ? "b-red" : b === "Moderate" ? "b-amber" : "b-green"; }
 
@@ -189,6 +465,9 @@ function openMaterial(id) {
         <h3>Benchmark &amp; movement</h3>
         ${Object.entries(m.benchmark).map(([k, v]) => `<div class="kv"><span class="k">${k}</span><span>${v != null ? "$" + fmt(v) : "—"}</span></div>`).join("")}
         ${Object.entries(m.movement).map(([k, v]) => `<div class="kv"><span class="k">${k}</span><span>${pct0(v)}</span></div>`).join("")}
+        ${m.opportunity && m.opportunity.status === "OK" ? `
+          <div class="kv"><span class="k">Position vs 2025 avg</span><span>${pct0(m.opportunity.positionVs2025)}</span></div>
+          <div class="kv"><span class="k">Opportunity quadrant</span><span>${m.opportunity.quadrant}</span></div>` : ""}
       </div>
       <div>
         <h3>Origin &amp; supply</h3>
@@ -212,8 +491,13 @@ function openMaterial(id) {
       ? `<div class="kv"><span class="k">Origin gap</span><span>$${fmt(sv.gapUsdMt)}/MT × ${fmt(sv.volumeMt)} MT</span></div>
          <div class="kv"><span class="k">Potential saving</span><span><strong>$${fmt(sv.potentialSavingUsd)}</strong></span></div>`
       : `<div class="state-unavailable">${sv.reason}</div>`}
+    ${m.priceHistory ? `
+    <h3 style="margin-top:14px;">Price history <span class="badge b-blue">DERIVED</span></h3>
+    <div class="chart-box" style="height:220px;"><canvas id="chart-modal-history"></canvas></div>
+    <p style="font-size:11px;color:var(--ink-3,var(--theme-muted));margin-top:4px;">${m.priceHistory.points} snapshots (${m.priceHistory.start} → ${m.priceHistory.end}) · total ${pct0(m.priceHistory.changePct)} · last ${pct0(m.priceHistory.lastChangePct)}${m.priceHistory.returnVolPct != null ? " · return vol " + m.priceHistory.returnVolPct + "%" : ""} · ${m.priceHistory.frequency}</p>` : ""}
   `;
   document.getElementById("modal").classList.add("show");
+  if (m.priceHistory) mountChart("modal-history", priceHistoryChart(m));
 }
 
 /* ================= Origin & Supply ================= */
@@ -268,16 +552,26 @@ function renderSignals() {
         ${sg.predictions.map(p => `<div class="kv"><span class="k">${p.signal}</span><span>${p.magnitude} · ${p.confidence}</span></div>`).join("")}
       </div>
     </div>
-    <div class="panel"><h2>Core price trajectory (6-week)</h2>
+    <div class="panel"><h2>Core price trajectory (6 snapshots · Jun–Aug 2026)</h2>
+      <p class="sub">Indexed to 100 = first snapshot (absolute levels differ ~40× across materials). Source: feed-intelligence MCP.</p>
+      <div class="chart-box"><canvas id="chart-trajectory"></canvas></div>
       <table><thead><tr><th>Material</th><th class="num">W1</th><th class="num">W2</th><th class="num">W3</th><th class="num">W4</th><th class="num">W5</th><th class="num">W6</th><th>Verdict</th></tr></thead><tbody>
       ${sg.trajectory.map(t => `<tr><td><strong>${t.material}</strong></td>${t.values.map(v => `<td class="num">${v}</td>`).join("")}<td>${t.verdict}</td></tr>`).join("")}
       </tbody></table></div>`;
+  mountChart("trajectory", trajectoryChart(sg));
 }
 
 /* ================= Procurement Intelligence ================= */
 function renderProcurement() {
   const ms = filtered();
+  const oppCount = ms.filter(m => m.opportunity && m.opportunity.status === "OK").length;
   document.getElementById("view-procurement").innerHTML = roleBanner() + `
+    <div class="panel">
+      <h2>Procurement opportunity matrix</h2>
+      <p class="sub">Where Procurement should look first — analytical interpretation, NOT a buy/sell instruction. X = price vs 2025 average (right = expensive) · Y = WoW change (up = rising) · bubble = import volume.</p>
+      ${oppCount ? `<div class="chart-box tall"><canvas id="chart-opportunity"></canvas></div>` : `<div class="state-unavailable">Insufficient data for the current filter — needs current price, 2025 average and week-over-week for each material.</div>`}
+      <div class="chart-meta">Data type: DERIVED · position = (current − avg2025) / avg2025 · momentum = WoW (7-day) · as of ${fmtDate(DATA.materials.asOfDate)}</div>
+    </div>
     <div class="panel"><h2>Benchmark vs landed cost vs savings</h2>
     <p class="sub">Landed cost = actual NBR import (CIF) unit value. Savings = (landed − best origin) × volume (ESTIMATE).</p>
     <table><thead><tr><th>Material</th><th class="num">Benchmark $/MT</th><th class="num">Landed $/MT</th><th class="num">Premium vs best</th><th class="num">Potential saving</th></tr></thead><tbody>
@@ -288,6 +582,7 @@ function renderProcurement() {
       <td class="num ${m.procurement.premiumVsBest > 0 ? "pos" : "neg"}">${pct0(m.procurement.premiumVsBest)}</td>
       <td class="num">${m.savings.potentialSavingUsd ? "$" + fmt(m.savings.potentialSavingUsd) : "—"}</td></tr>`).join("")}
     </tbody></table></div>`;
+  if (oppCount) mountChart("opportunity", opportunityChart(ms));
 }
 
 /* ================= Import Intelligence ================= */
@@ -309,6 +604,47 @@ function renderImport() {
       <td class="num">${ii.concentrationPct != null ? ii.concentrationPct + "%" : "—"}</td>
       <td>${ii.topOrigin || "—"}</td></tr>`; }).join("")}
     </tbody></table></div>`;
+}
+
+/* ================= Import Trends (multi-year) ================= */
+function renderImportTrends() {
+  const groups = (DATA["import-trends"]?.groups || []);
+  if (!groups.length) {
+    document.getElementById("view-import-trends").innerHTML = roleBanner() + `<div class="state-unavailable">Import-trend data unavailable (missing Master_Import_Data files).</div>`;
+    return;
+  }
+  if (!groups.some(g => g.hs === state.importHs)) state.importHs = groups[0].hs;
+  const g = groups.find(x => x.hs === state.importHs);
+  const yoy = g.yoy;
+  const yoyLine = yoy ? `YoY ${yoy.latestYear} vs ${yoy.priorYear}: volume ${pct0(yoy.volumeYoYPct)} · value ${pct0(yoy.valueYoYPct)} (complete-year comparison)` : "YoY — insufficient complete years";
+  document.getElementById("view-import-trends").innerHTML = roleBanner() + `
+    <div class="panel">
+      <h2>Multi-year import trend — ${g.name}</h2>
+      <p class="sub">Bangladesh customs import records (2014–2025), deduplicated by Bill of Entry. Unit value = USD invoice value ÷ quantity MT (source "Price In MT" column not trusted).</p>
+      <div class="chart-toggle">
+        <span class="mono" style="font-size:11px;color:var(--ink-3,var(--theme-muted));align-self:center;">Material:</span>
+        <select class="chart-select" id="importTrendSelect">${groups.map(x => `<option value="${x.hs}" ${x.hs === g.hs ? "selected" : ""}>${x.name}</option>`).join("")}</select>
+      </div>
+      <div class="chart-box tall"><canvas id="chart-import-trend"></canvas></div>
+      <div class="chart-meta">${g.records.toLocaleString()} import records · total ${fmt(g.totalVolumeMt)} MT · avg unit value $${fmt(g.avgUnitValueUsdMt)}/MT · ${yoyLine}</div>
+      <div class="grid-2" style="margin-top:14px;">
+        <div>
+          <h3 style="font-size:12px;margin-bottom:6px;">Top origins (by volume)</h3>
+          ${g.origins.map(o => `<div class="kv"><span class="k">${o.origin}</span><span>${fmt(o.volumeMt)} MT (${o.sharePct}%)</span></div>`).join("") || "<p class='sub'>No origin data.</p>"}
+        </div>
+        <div>
+          <h3 style="font-size:12px;margin-bottom:6px;">Latest 12 months (unit value $/MT)</h3>
+          ${g.months.slice(-12).map(m => `<div class="kv"><span class="k">${m.ym}</span><span>${m.unitValueUsdMt ? "$" + fmt(m.unitValueUsdMt) : "—"}</span></div>`).join("")}
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <h2>Import seasonality (month × material)</h2>
+      <p class="sub">Seasonal index = month average ÷ long-term average × 100. Green = below normal, red = above normal. Only materials with ≥24 months of data are shown.</p>
+      ${seasonalityHeatmap(groups)}
+    </div>`;
+  document.getElementById("importTrendSelect").addEventListener("change", e => { state.importHs = e.target.value; render(); });
+  mountChart("import-trend", importTrendChart(g));
 }
 
 /* ================= Forecast & Scenario ================= */

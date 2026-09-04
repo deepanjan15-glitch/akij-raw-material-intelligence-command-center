@@ -1,6 +1,6 @@
 {
  "asOfDate": "2026-09-02",
- "generatedAt": "2026-09-03T22:24:22.354586+00:00",
+ "generatedAt": "2026-09-04T08:44:21.951150+00:00",
  "analyst": "Dr. Deepanjan Bhattacharya",
  "materialsTracked": 87,
  "materials": [
@@ -26,6 +26,39 @@
     "mom": 0.0588,
     "yoy": 0.0,
     "ytd": -0.0435
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.0137,
+    "momentumWow": 0.1572,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     209.0,
+     222.0,
+     200.57,
+     200.57,
+     209.66,
+     219.0,
+     242.62
+    ],
+    "changePct": 0.1609,
+    "lastChangePct": 0.1079,
+    "returnVolPct": 6.4,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -159,15 +192,41 @@
     "yoy": -0.1521,
     "ytd": -0.0607
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.4196,
+    "momentumWow": 0.7112,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     141.78,
+     212.25,
+     242.62
+    ],
+    "changePct": 0.7112,
+    "lastChangePct": 0.1431,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
-    "count": 4,
+    "count": 5,
     "min": -26.38,
-    "max": 51.97,
-    "mean": 17.22,
-    "std": 28.36,
-    "cv": 1.6465,
-    "spreadPct": -297.01,
+    "max": 259.1,
+    "mean": 65.6,
+    "std": 100.02,
+    "cv": 1.5247,
+    "spreadPct": -1082.29,
     "countries": [
+     "Bulgaria",
      "United States",
      "Brazil",
      "Ukraine",
@@ -267,7 +326,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Diversify Source",
-    "premiumVsBest": -2.0448
+    "premiumVsBest": -0.8936
    }
   },
   {
@@ -292,6 +351,31 @@
     "mom": 0.0571,
     "yoy": -0.1523,
     "ytd": -0.0614
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1538,
+    "momentumWow": 0.2612,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     224.09,
+     223.25,
+     282.63
+    ],
+    "changePct": 0.2612,
+    "lastChangePct": 0.266,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 6,
@@ -429,6 +513,31 @@
     "yoy": -0.1514,
     "ytd": -0.0601
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.4891,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     166.04,
+     166.04,
+     166.04
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -551,7 +660,43 @@
     "yoy": -0.1529,
     "ytd": -0.0605
    },
-   "originStats": null,
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.3797,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     209.66,
+     209.66,
+     209.66
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "originStats": {
+    "count": 1,
+    "min": 212.31,
+    "max": 212.31,
+    "mean": 212.31,
+    "std": 0.0,
+    "cv": 0.0,
+    "spreadPct": 0.0,
+    "countries": [
+     "Brazil"
+    ]
+   },
    "dataQuality": {
     "score": 69.0,
     "completeness": 100.0,
@@ -571,13 +716,13 @@
     }
    },
    "risk": {
-    "composite": 19.9,
-    "band": "Low",
+    "composite": 31.1,
+    "band": "Moderate",
     "dimensions": {
      "price": 90.7,
      "momentum": 0,
      "forecast": 0,
-     "originConcentration": 0,
+     "originConcentration": 75,
      "supplierConcentration": 0,
      "importDependency": 0,
      "procurementPremium": 0,
@@ -587,7 +732,7 @@
    "landedCost": {
     "status": "PARTIAL",
     "components": {
-     "originPrice": null,
+     "originPrice": 212.31,
      "freight": null,
      "insurance": null,
      "dutyTax": null,
@@ -645,7 +790,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Hold",
-    "premiumVsBest": null
+    "premiumVsBest": 0.0
    }
   },
   {
@@ -670,6 +815,31 @@
     "mom": -0.0411,
     "yoy": -0.1524,
     "ytd": -0.0607
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.3333,
+    "momentumWow": -0.0556,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     216.0,
+     216.0,
+     204.0
+    ],
+    "changePct": -0.0556,
+    "lastChangePct": -0.0556,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -802,6 +972,31 @@
     "yoy": -0.1519,
     "ytd": -0.0603
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.6721,
+    "momentumWow": -0.3532,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     402.0,
+     148.81,
+     260.0
+    ],
+    "changePct": -0.3532,
+    "lastChangePct": 0.7472,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 228.95,
@@ -933,6 +1128,31 @@
     "yoy": 0.0037,
     "ytd": -0.0393
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0073,
+    "momentumWow": 0.1603,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     237.0,
+     148.81,
+     275.0
+    ],
+    "changePct": 0.1603,
+    "lastChangePct": 0.848,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -1054,6 +1274,31 @@
     "mom": 0.081,
     "yoy": -0.1521,
     "ytd": -0.0607
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1026,
+    "momentumWow": 0.0669,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     432.0,
+     416.6,
+     460.89
+    ],
+    "changePct": 0.0669,
+    "lastChangePct": 0.1063,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 3,
@@ -1198,6 +1443,29 @@
     "yoy": 0.005,
     "ytd": 0.0397
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1536,
+    "momentumWow": 0.2505,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     359.0,
+     461.45
+    ],
+    "changePct": 0.2854,
+    "lastChangePct": 0.2854,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 3,
     "min": 17.19,
@@ -1331,6 +1599,29 @@
     "yoy": 0.0326,
     "ytd": -0.0073
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1068,
+    "momentumWow": 0.0755,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     427.0,
+     456.0
+    ],
+    "changePct": 0.0679,
+    "lastChangePct": 0.0679,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 424.35,
@@ -1462,6 +1753,29 @@
     "yoy": -0.1521,
     "ytd": -0.0607
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1129,
+    "momentumWow": 0.1522,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     317.1,
+     370.79
+    ],
+    "changePct": 0.1693,
+    "lastChangePct": 0.1693,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 23.93,
@@ -1592,6 +1906,31 @@
     "mom": 0.088,
     "yoy": -0.1523,
     "ytd": -0.0614
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.2103,
+    "momentumWow": 0.2624,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     320.22,
+     359.25,
+     404.25
+    ],
+    "changePct": 0.2624,
+    "lastChangePct": 0.1253,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 2,
@@ -1725,6 +2064,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": null,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     364.25,
+     406.75
+    ],
+    "changePct": 0.1167,
+    "lastChangePct": 0.1167,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 20.43,
@@ -1852,6 +2214,31 @@
     "yoy": -0.1514,
     "ytd": -0.0601
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0721,
+    "momentumWow": 0.0,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     348.44,
+     348.44,
+     348.44
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -1973,6 +2360,31 @@
     "mom": -0.1094,
     "yoy": -0.1529,
     "ytd": -0.0605
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1331,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     293.0,
+     293.0,
+     293.0
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -2096,6 +2508,31 @@
     "yoy": -0.1524,
     "ytd": -0.0607
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 1.5082,
+    "momentumWow": 0.0,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     767.5,
+     767.5,
+     767.5
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -2217,6 +2654,31 @@
     "mom": -0.4575,
     "yoy": -0.1519,
     "ytd": -0.0603
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.4718,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     418.84,
+     418.84,
+     418.84
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -2340,6 +2802,31 @@
     "yoy": -0.1517,
     "ytd": -0.0602
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0326,
+    "momentumWow": 0.0,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     352.13,
+     352.13,
+     352.13
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -2461,6 +2948,31 @@
     "mom": 0.0699,
     "yoy": -0.1515,
     "ytd": -0.0637
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1918,
+    "momentumWow": 0.1558,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     537.25,
+     544.25,
+     620.94
+    ],
+    "changePct": 0.1558,
+    "lastChangePct": 0.1409,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 3,
@@ -2595,6 +3107,31 @@
     "yoy": -0.1519,
     "ytd": -0.0603
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1602,
+    "momentumWow": 0.1365,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     478.75,
+     486.5,
+     544.12
+    ],
+    "changePct": 0.1365,
+    "lastChangePct": 0.1184,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 2,
     "min": 40.05,
@@ -2726,6 +3263,31 @@
     "mom": 0.072,
     "yoy": 0.0,
     "ytd": -0.029
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.105,
+    "momentumWow": 0.1592,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     404.23,
+     478.0,
+     533.7
+    ],
+    "changePct": 0.3203,
+    "lastChangePct": 0.1165,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 3,
@@ -2860,11 +3422,36 @@
     "yoy": -0.1518,
     "ytd": -0.0611
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0258,
+    "momentumWow": 0.0,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     458.53,
+     458.53,
+     458.53
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
-    "min": 154.24,
-    "max": 154.24,
-    "mean": 154.24,
+    "min": 465.29,
+    "max": 465.29,
+    "mean": 465.29,
     "std": 0.0,
     "cv": 0.0,
     "spreadPct": 0.0,
@@ -2907,7 +3494,7 @@
    "landedCost": {
     "status": "PARTIAL",
     "components": {
-     "originPrice": 154.24,
+     "originPrice": 465.29,
      "freight": null,
      "insurance": null,
      "dutyTax": null,
@@ -2990,6 +3577,31 @@
     "mom": 0.0472,
     "yoy": -0.1524,
     "ytd": -0.0596
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0191,
+    "momentumWow": 0.0,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     533.0,
+     533.0,
+     533.0
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -3112,6 +3724,29 @@
     "mom": 0.012,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.02619047619047619,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1270.0,
+     1293.0
+    ],
+    "changePct": 0.0181,
+    "lastChangePct": 0.0181,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -3241,18 +3876,43 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.035009634897085806,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1188.5,
+     1213.88
+    ],
+    "changePct": 0.0214,
+    "lastChangePct": 0.0214,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
-    "count": 3,
+    "count": 5,
     "min": -15.75,
-    "max": 49.6,
-    "mean": 6.15,
-    "std": 30.73,
-    "cv": 4.995,
-    "spreadPct": -414.95,
+    "max": 1416.4,
+    "mean": 567.91,
+    "std": 688.43,
+    "cv": 1.2122,
+    "spreadPct": -9093.03,
     "countries": [
      "Argentina",
      "Brazil",
-     "United States"
+     "United States",
+     "Netherlands",
+     "Germany"
     ]
    },
    "dataQuality": {
@@ -3370,6 +4030,29 @@
     "mom": 0.0238,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": -0.013311990686845106,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1718.28,
+     1695.13
+    ],
+    "changePct": -0.0135,
+    "lastChangePct": -0.0135,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -3499,6 +4182,39 @@
     "yoy": -0.0752,
     "ytd": -0.2769
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.6482,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1402.0,
+     756.0,
+     1402.0,
+     1402.0,
+     450.0,
+     450.0,
+     450.0
+    ],
+    "changePct": -0.679,
+    "lastChangePct": 0.0,
+    "returnVolPct": 55.36,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -3620,6 +4336,39 @@
     "mom": 0.1015,
     "yoy": -0.2081,
     "ytd": -0.0202
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.3344,
+    "momentumWow": -0.4005,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     286.0,
+     247.0,
+     246.71,
+     246.71,
+     262.0,
+     262.0,
+     157.08
+    ],
+    "changePct": -0.4508,
+    "lastChangePct": -0.4005,
+    "returnVolPct": 19.45,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -3789,6 +4538,39 @@
     "yoy": -0.1246,
     "ytd": 0.1149
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.2266,
+    "momentumWow": 0.2679,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     288.0,
+     162.0,
+     178.7,
+     178.7,
+     154.32,
+     154.32,
+     195.66
+    ],
+    "changePct": -0.3206,
+    "lastChangePct": 0.2679,
+    "returnVolPct": 25.61,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 154.32,
@@ -3936,6 +4718,39 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.9824,
+    "momentumWow": 0.8333,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     2459.0,
+     2459.0,
+     2459.0,
+     2459.0,
+     2700.0,
+     2700.0,
+     4950.0
+    ],
+    "changePct": 1.013,
+    "lastChangePct": 0.8333,
+    "returnVolPct": 22.16,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 59.0,
@@ -4054,6 +4869,29 @@
     "mom": 0.0267,
     "yoy": 0.079,
     "ytd": 0.3182
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.4917,
+    "momentumWow": -0.2077,
+    "quadrant": "Monitor / Potential Waiting Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1121.98,
+     1120.3
+    ],
+    "changePct": -0.0015,
+    "lastChangePct": -0.0015,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -4174,6 +5012,29 @@
     "mom": 0.0578,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": -0.06302499999999994,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     807.6,
+     749.58
+    ],
+    "changePct": -0.0718,
+    "lastChangePct": -0.0718,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -4303,6 +5164,39 @@
     "mom": -0.0065,
     "yoy": -0.2234,
     "ytd": -0.163
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.684,
+    "momentumWow": 0.1268,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     219.0,
+     139.0,
+     138.85,
+     138.85,
+     126.77,
+     126.77,
+     142.84
+    ],
+    "changePct": -0.3478,
+    "lastChangePct": 0.1268,
+    "returnVolPct": 18.2,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -4439,6 +5333,13 @@
     "yoy": -0.133,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": null,
+    "quadrant": null
+   },
+   "priceHistory": null,
    "originStats": null,
    "dataQuality": {
     "score": 29.0,
@@ -4557,6 +5458,29 @@
     "mom": 0.1108,
     "yoy": 0.0472,
     "ytd": -0.2807
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1759,
+    "momentumWow": 0.1161,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     258.6,
+     292.55
+    ],
+    "changePct": 0.1313,
+    "lastChangePct": 0.1313,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -4689,6 +5613,29 @@
     "yoy": 0.0051,
     "ytd": -0.0172
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1681,
+    "momentumWow": -0.1581,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     507.0,
+     490.0
+    ],
+    "changePct": -0.0335,
+    "lastChangePct": -0.0335,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 490.0,
@@ -4820,16 +5767,40 @@
     "yoy": -0.0071,
     "ytd": -0.0326
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0601,
+    "momentumWow": 0.0415,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     596.25,
+     595.75
+    ],
+    "changePct": -0.0008,
+    "lastChangePct": -0.0008,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
-    "count": 1,
+    "count": 2,
     "min": 580.43,
-    "max": 580.43,
-    "mean": 580.43,
-    "std": 0.0,
-    "cv": 0.0,
-    "spreadPct": 0.0,
+    "max": 1425.06,
+    "mean": 1002.74,
+    "std": 422.31,
+    "cv": 0.4212,
+    "spreadPct": 145.52,
     "countries": [
-     "Bulgaria"
+     "Bulgaria",
+     "Netherlands"
     ]
    },
    "dataQuality": {
@@ -4851,13 +5822,13 @@
     }
    },
    "risk": {
-    "composite": 16.8,
+    "composite": 11.5,
     "band": "Low",
     "dimensions": {
      "price": 6.6,
      "momentum": 16.6,
      "forecast": 0,
-     "originConcentration": 75,
+     "originConcentration": 40,
      "supplierConcentration": 0,
      "importDependency": 0,
      "procurementPremium": 0,
@@ -4951,15 +5922,39 @@
     "yoy": 0.005,
     "ytd": 0.0006
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0105,
+    "momentumWow": -0.043,
+    "quadrant": "Monitor / Potential Waiting Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1828.51,
+     1810.88
+    ],
+    "changePct": -0.0096,
+    "lastChangePct": -0.0096,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
-    "count": 1,
+    "count": 2,
     "min": 253.53,
-    "max": 253.53,
-    "mean": 253.53,
-    "std": 0.0,
-    "cv": 0.0,
-    "spreadPct": 0.0,
+    "max": 1425.06,
+    "mean": 839.3,
+    "std": 585.76,
+    "cv": 0.6979,
+    "spreadPct": 462.08,
     "countries": [
+     "Netherlands",
      "United States"
     ]
    },
@@ -4982,13 +5977,13 @@
     }
    },
    "risk": {
-    "composite": 16.3,
+    "composite": 11.0,
     "band": "Low",
     "dimensions": {
      "price": 3.6,
      "momentum": 17.2,
      "forecast": 0,
-     "originConcentration": 75,
+     "originConcentration": 40,
      "supplierConcentration": 0,
      "importDependency": 0,
      "procurementPremium": 0,
@@ -5081,6 +6076,29 @@
     "mom": -0.0251,
     "yoy": -0.018,
     "ytd": -0.0325
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0046,
+    "momentumWow": -0.024,
+    "quadrant": "Monitor / Potential Waiting Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     269.29,
+     274.26
+    ],
+    "changePct": 0.0185,
+    "lastChangePct": 0.0185,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -5201,6 +6219,31 @@
     "mom": -0.0115,
     "yoy": -0.0282,
     "ytd": -0.0463
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.0688,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     257.02,
+     257.02,
+     257.02
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -5324,6 +6367,31 @@
     "yoy": -0.0284,
     "ytd": -0.0466
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.0255,
+    "momentumWow": 0.0191,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     262.0,
+     262.0,
+     267.0
+    ],
+    "changePct": 0.0191,
+    "lastChangePct": 0.0191,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -5445,6 +6513,31 @@
     "mom": -0.0278,
     "yoy": -0.0328,
     "ytd": -0.0498
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1843,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     192.5,
+     192.5,
+     192.5
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -5568,6 +6661,31 @@
     "yoy": -0.0324,
     "ytd": -0.0492
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.182,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     195.5,
+     195.5,
+     195.5
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -5689,6 +6807,31 @@
     "mom": -0.0223,
     "yoy": -0.0323,
     "ytd": -0.049
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1771,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     197.5,
+     197.5,
+     197.5
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -5812,6 +6955,31 @@
     "yoy": -0.0319,
     "ytd": -0.0484
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.005,
+    "momentumWow": 0.212,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     199.5,
+     241.79,
+     241.79
+    ],
+    "changePct": 0.212,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -5933,6 +7101,31 @@
     "mom": -0.0253,
     "yoy": -0.0341,
     "ytd": -0.0498
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1706,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     211.5,
+     211.5,
+     211.5
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -6056,14 +7249,39 @@
     "yoy": -0.0317,
     "ytd": -0.0482
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.0098,
+    "momentumWow": 0.1135,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     217.0,
+     190.0,
+     241.62
+    ],
+    "changePct": 0.1135,
+    "lastChangePct": 0.2717,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 2,
-    "min": 190.25,
-    "max": 246.92,
-    "mean": 218.58,
-    "std": 28.33,
-    "cv": 0.1296,
-    "spreadPct": 29.79,
+    "min": -26.91,
+    "max": 190.25,
+    "mean": 81.67,
+    "std": 108.58,
+    "cv": 1.3295,
+    "spreadPct": -806.99,
     "countries": [
      "Romania",
      "Ukraine"
@@ -6104,7 +7322,7 @@
    "landedCost": {
     "status": "PARTIAL",
     "components": {
-     "originPrice": 190.25,
+     "originPrice": -26.91,
      "freight": null,
      "insurance": null,
      "dutyTax": null,
@@ -6187,6 +7405,29 @@
     "mom": 0.0117,
     "yoy": 0.0198,
     "ytd": 0.0133
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0389,
+    "momentumWow": 0.0269,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     268.0,
+     267.0
+    ],
+    "changePct": -0.0037,
+    "lastChangePct": -0.0037,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -6310,6 +7551,29 @@
     "yoy": -0.0078,
     "ytd": 0.0321
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0813,
+    "momentumWow": 0.0208,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     288.25,
+     273.58
+    ],
+    "changePct": -0.0509,
+    "lastChangePct": -0.0509,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -6431,6 +7695,29 @@
     "mom": 0.0881,
     "yoy": -0.0113,
     "ytd": -0.0394
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.249,
+    "momentumWow": 0.2855,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     269.25,
+     327.25
+    ],
+    "changePct": 0.2154,
+    "lastChangePct": 0.2154,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -6554,6 +7841,29 @@
     "yoy": 0.0198,
     "ytd": 6.7046
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1996,
+    "momentumWow": 0.1649,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     203.0,
+     247.12
+    ],
+    "changePct": 0.2173,
+    "lastChangePct": 0.2173,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -6675,6 +7985,29 @@
     "mom": 0.0634,
     "yoy": -0.0275,
     "ytd": 0.1059
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.2573,
+    "momentumWow": 0.2467,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     218.0,
+     266.54
+    ],
+    "changePct": 0.2227,
+    "lastChangePct": 0.2227,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -6798,6 +8131,29 @@
     "yoy": 0.0155,
     "ytd": 0.0893
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0157,
+    "momentumWow": -0.0639,
+    "quadrant": "Monitor / Potential Waiting Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     292.25,
+     266.12
+    ],
+    "changePct": -0.0894,
+    "lastChangePct": -0.0894,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -6919,6 +8275,29 @@
     "mom": 0.0089,
     "yoy": -0.0153,
     "ytd": 0.0628
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0278,
+    "momentumWow": -0.0471,
+    "quadrant": "Monitor / Potential Waiting Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     280.0,
+     265.17
+    ],
+    "changePct": -0.053,
+    "lastChangePct": -0.053,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -7042,6 +8421,29 @@
     "yoy": 0.0243,
     "ytd": 0.0261
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1503,
+    "momentumWow": 0.0924,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     286.0,
+     304.0
+    ],
+    "changePct": 0.0629,
+    "lastChangePct": 0.0629,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -7163,6 +8565,29 @@
     "mom": 0.0,
     "yoy": 0.0189,
     "ytd": 0.0085
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0185,
+    "momentumWow": 0.0138,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     220.0,
+     220.0
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -7286,6 +8711,29 @@
     "yoy": 0.0084,
     "ytd": 0.0497
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1067,
+    "momentumWow": 0.0301,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     266.0,
+     264.5
+    ],
+    "changePct": -0.0056,
+    "lastChangePct": -0.0056,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -7407,6 +8855,29 @@
     "mom": 0.0731,
     "yoy": 0.0195,
     "ytd": -0.0309
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.021,
+    "momentumWow": 0.0249,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     273.0,
+     267.5
+    ],
+    "changePct": -0.0201,
+    "lastChangePct": -0.0201,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -7530,6 +9001,29 @@
     "yoy": 0.0166,
     "ytd": -0.0595
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.0612,
+    "momentumWow": 0.0,
+    "quadrant": "Potential Early Procurement Opportunity"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     230.0,
+     230.0
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -7652,6 +9146,29 @@
     "yoy": 0.0259,
     "ytd": -0.0003
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0042,
+    "momentumWow": 0.0042,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     239.0,
+     239.0
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -7773,6 +9290,29 @@
     "mom": 0.0999,
     "yoy": 0.0168,
     "ytd": 0.0176
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.2056,
+    "momentumWow": 0.0726,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     272.75,
+     291.75
+    ],
+    "changePct": 0.0697,
+    "lastChangePct": 0.0697,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -7905,6 +9445,29 @@
     "yoy": 0.0,
     "ytd": -0.0233
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.1383,
+    "momentumWow": 0.1636,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     135.03,
+     157.08
+    ],
+    "changePct": 0.1633,
+    "lastChangePct": 0.1633,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 127.03,
@@ -8036,14 +9599,39 @@
     "yoy": 0.0086,
     "ytd": -0.0573
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0925,
+    "momentumWow": 0.2847,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     199.0,
+     193.0,
+     255.65
+    ],
+    "changePct": 0.2847,
+    "lastChangePct": 0.3246,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 6,
-    "min": 190.0,
+    "min": -30.48,
     "max": 266.2,
-    "mean": 226.8,
-    "std": 28.35,
-    "cv": 0.125,
-    "spreadPct": 40.11,
+    "mean": 137.82,
+    "std": 116.27,
+    "cv": 0.8436,
+    "spreadPct": -973.4,
     "countries": [
      "Argentina",
      "Ukraine",
@@ -8088,7 +9676,7 @@
    "landedCost": {
     "status": "PARTIAL",
     "components": {
-     "originPrice": 190.0,
+     "originPrice": -30.48,
      "freight": null,
      "insurance": null,
      "dutyTax": null,
@@ -8171,6 +9759,31 @@
     "mom": -0.0093,
     "yoy": -0.0052,
     "ytd": -0.0174
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.0787,
+    "momentumWow": -0.017,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1940.07,
+     1918.02,
+     1907.0
+    ],
+    "changePct": -0.017,
+    "lastChangePct": -0.0057,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -8302,6 +9915,35 @@
     "mom": 0.0187,
     "yoy": 0.0261,
     "ytd": 0.0235
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0709,
+    "momentumWow": 0.1545,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 5,
+    "start": "2026-07-13",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     524.52,
+     524.52,
+     473.99,
+     507.06,
+     547.22
+    ],
+    "changePct": 0.0433,
+    "lastChangePct": 0.0792,
+    "returnVolPct": 7.1,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": {
     "count": 1,
@@ -8456,6 +10098,35 @@
     "yoy": -0.0142,
     "ytd": 0.057
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.4814,
+    "momentumWow": -0.099,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 5,
+    "start": "2026-07-13",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     448.34,
+     448.34,
+     240.0,
+     240.0,
+     216.25
+    ],
+    "changePct": -0.5177,
+    "lastChangePct": -0.099,
+    "returnVolPct": 25.91,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 4,
     "min": 175.0,
@@ -8590,6 +10261,31 @@
     "yoy": -0.0142,
     "ytd": 0.057
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 7.7233,
+    "momentumWow": 0.0,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 3,
+    "start": "2026-08-02",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     3637.63,
+     3637.63,
+     3637.63
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": {
     "count": 1,
     "min": 3637.63,
@@ -8721,6 +10417,29 @@
     "yoy": null,
     "ytd": -0.2311
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1897,
+    "momentumWow": -0.1752,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1401.63,
+     1154.67
+    ],
+    "changePct": -0.1762,
+    "lastChangePct": -0.1762,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 52.0,
@@ -8842,6 +10561,39 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": -0.3862042088854248,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1190.0,
+     1190.0,
+     1190.0,
+     1190.0,
+     1200.0,
+     1307.85,
+     787.5
+    ],
+    "changePct": -0.3382,
+    "lastChangePct": -0.3979,
+    "returnVolPct": 19.85,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 32.0,
@@ -8960,6 +10712,39 @@
     "mom": -0.3364,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": -0.3862042088854248,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1190.0,
+     1190.0,
+     1190.0,
+     1190.0,
+     1200.0,
+     1307.85,
+     787.5
+    ],
+    "changePct": -0.3382,
+    "lastChangePct": -0.3979,
+    "returnVolPct": 19.85,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -9090,6 +10875,29 @@
     "yoy": null,
     "ytd": -0.2311
    },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": -0.1897,
+    "momentumWow": -0.1752,
+    "quadrant": "Potential Value Zone"
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1401.63,
+     1154.67
+    ],
+    "changePct": -0.1762,
+    "lastChangePct": -0.1762,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 64.0,
@@ -9208,6 +11016,29 @@
     "mom": 0.1445,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": -0.05640602355289813,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1041.91,
+     983.14
+    ],
+    "changePct": -0.0564,
+    "lastChangePct": -0.0564,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -9338,6 +11169,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.005873111838895559,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     4303.36,
+     4309.09
+    ],
+    "changePct": 0.0013,
+    "lastChangePct": 0.0013,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 44.0,
@@ -9467,6 +11321,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.5550204641815553,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     2448.18,
+     3806.97
+    ],
+    "changePct": 0.555,
+    "lastChangePct": 0.555,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 44.0,
@@ -9595,6 +11472,29 @@
     "mom": 0.8298,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.1995496129486277,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     3049.18,
+     3409.12
+    ],
+    "changePct": 0.118,
+    "lastChangePct": 0.118,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -9737,6 +11637,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": -0.3841097910921439,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     5822.14,
+     3524.21
+    ],
+    "changePct": -0.3947,
+    "lastChangePct": -0.3947,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 44.0,
@@ -9859,6 +11782,29 @@
     "mom": 0.2433,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.14727378533525332,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1927.72,
+     2326.35
+    ],
+    "changePct": 0.2068,
+    "lastChangePct": 0.2068,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -10067,6 +12013,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.005830521321487658,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     1380.09,
+     1380.09
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 32.0,
@@ -10186,6 +12155,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.0,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     920.67,
+     920.67
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 27.0,
@@ -10303,6 +12295,29 @@
     "mom": 0.0864,
     "yoy": null,
     "ytd": null
+   },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.03391136801541426,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     670.75,
+     670.75
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -10423,6 +12438,29 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": 0.0,
+    "quadrant": null
+   },
+   "priceHistory": {
+    "points": 2,
+    "start": "2026-08-24",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     750.0,
+     750.0
+    ],
+    "changePct": 0.0,
+    "lastChangePct": 0.0,
+    "returnVolPct": null,
+    "frequency": "irregular snapshots (9–22 day gaps)"
+   },
    "originStats": null,
    "dataQuality": {
     "score": 27.0,
@@ -10541,6 +12579,13 @@
     "yoy": -0.1286,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": -0.15470332850940663,
+    "momentumWow": null,
+    "quadrant": null
+   },
+   "priceHistory": null,
    "originStats": null,
    "dataQuality": {
     "score": 42.0,
@@ -10660,6 +12705,39 @@
     "mom": 0.052,
     "yoy": -0.3942,
     "ytd": -0.1455
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 1.7402,
+    "momentumWow": 3.3039,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     545.0,
+     545.0,
+     545.0,
+     545.0,
+     545.0,
+     2290.95,
+     2345.63
+    ],
+    "changePct": 3.3039,
+    "lastChangePct": 0.0239,
+    "returnVolPct": 53.35,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -10782,6 +12860,39 @@
     "mom": -0.0035,
     "yoy": 0.0,
     "ytd": -0.1846
+   },
+   "opportunity": {
+    "status": "OK",
+    "positionVs2025": 0.0148,
+    "momentumWow": 0.7686,
+    "quadrant": "Procurement Pressure"
+   },
+   "priceHistory": {
+    "points": 7,
+    "start": "2026-06-17",
+    "end": "2026-09-02",
+    "dates": [
+     "2026-06-17",
+     "2026-07-02",
+     "2026-07-13",
+     "2026-07-22",
+     "2026-08-02",
+     "2026-08-24",
+     "2026-09-02"
+    ],
+    "values": [
+     61.0,
+     61.0,
+     61.0,
+     61.0,
+     35.0,
+     62.94,
+     61.9
+    ],
+    "changePct": 0.0148,
+    "lastChangePct": -0.0165,
+    "returnVolPct": 33.0,
+    "frequency": "irregular snapshots (9–22 day gaps)"
    },
    "originStats": null,
    "dataQuality": {
@@ -10909,6 +13020,13 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": null,
+    "quadrant": null
+   },
+   "priceHistory": null,
    "originStats": null,
    "dataQuality": {
     "score": 34.0,
@@ -11002,6 +13120,13 @@
     "yoy": null,
     "ytd": null
    },
+   "opportunity": {
+    "status": "UNAVAILABLE",
+    "positionVs2025": null,
+    "momentumWow": null,
+    "quadrant": null
+   },
+   "priceHistory": null,
    "originStats": null,
    "dataQuality": {
     "score": 34.0,

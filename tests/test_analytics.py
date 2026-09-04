@@ -178,3 +178,134 @@ def test_feed_cost_estimate():
     fc = compute_feed_cost({"status": "OK", "index": 110.0}, 8.32)
     assert fc["status"] == "ESTIMATE"
     assert abs(fc["totalFeedCostPressurePct"] - (10.0 + 8.32)) < 1e-9
+
+
+# ---------- opportunity matrix ----------
+def test_position_known():
+    from engine.core.analytics import compute_position
+    assert compute_position({"current": 115, "avg2025": 100}) == 0.15
+    assert compute_position({"current": 100, "avg2025": None}) is None
+    assert compute_position({"current": None, "avg2025": 100}) is None
+    assert compute_position({"current": 100, "avg2025": 0}) is None  # guarded zero base
+
+
+def test_opportunity_quadrants():
+    from engine.core.analytics import compute_opportunity
+    base = {"avg2025": 100}
+    # low price + rising -> early opportunity
+    o = compute_opportunity({"current": 90, "avg2025": 100}, {"wow": 0.05})
+    assert o["status"] == "OK" and o["quadrant"] == "Potential Early Procurement Opportunity"
+    # high price + rising -> pressure
+    o = compute_opportunity({"current": 110, "avg2025": 100}, {"wow": 0.05})
+    assert o["quadrant"] == "Procurement Pressure"
+    # high price + declining -> monitor / waiting
+    o = compute_opportunity({"current": 110, "avg2025": 100}, {"wow": -0.05})
+    assert o["quadrant"] == "Monitor / Potential Waiting Zone"
+    # low price + declining -> value zone
+    o = compute_opportunity({"current": 90, "avg2025": 100}, {"wow": -0.05})
+    assert o["quadrant"] == "Potential Value Zone"
+
+
+def test_opportunity_unavailable():
+    from engine.core.analytics import compute_opportunity
+    # no base price -> position unknown
+    o = compute_opportunity({"current": 100}, {"wow": 0.05})
+    assert o["status"] == "UNAVAILABLE" and o["quadrant"] is None
+    # no week-over-week -> momentum unknown
+    o = compute_opportunity({"current": 100, "avg2025": 100}, {})
+    assert o["status"] == "UNAVAILABLE" and o["quadrant"] is None
+
+
+# ---------- price history ----------
+def test_price_history_basic():
+    from engine.core.analytics import compute_price_history
+    s = [("2026-06-17", 200.0), ("2026-07-02", 220.0), ("2026-08-02", 209.0)]
+    h = compute_price_history(s)
+    assert h["points"] == 3
+    assert h["start"] == "2026-06-17" and h["end"] == "2026-08-02"
+    assert abs(h["changePct"] - (209 - 200) / 200) < 1e-9
+    assert abs(h["lastChangePct"] - (209 - 220) / 220) < 1e-9
+    assert h["returnVolPct"] is None  # n<5 -> no volatility (honest, not fabricated)
+
+
+def test_price_history_volatility():
+    from engine.core.analytics import compute_price_history
+    s = [("d1", 100.0), ("d2", 110.0), ("d3", 99.0), ("d4", 108.9), ("d5", 119.79)]
+    h = compute_price_history(s)
+    assert h["points"] == 5
+    assert h["returnVolPct"] is not None and h["returnVolPct"] >= 0
+
+
+def test_price_history_insufficient():
+    from engine.core.analytics import compute_price_history
+    assert compute_price_history([]) is None
+    assert compute_price_history([("d1", 100.0)]) is None
+
+
+# ---------- FX conversion (documented Live FX rates) ----------
+def test_fx_conversion():
+    from engine.ingest.fastmarkets import _to_usd_mt
+    assert _to_usd_mt("AG-X", "Corn CIF $/mt", 100.0, "USD", "mt") == 100.0
+    assert abs(_to_usd_mt("AG-X", "Corn €/mt", 100.0, "EUR", "mt") - 117.0) < 1e-9
+    assert abs(_to_usd_mt("AG-X", "real/tonne", 100.0, "BRL", "mt") - 18.1) < 1e-9
+    assert abs(_to_usd_mt("AG-X", "real/60kg", 100.0, "BRL", "60kg") - (100 * 0.181 * 1000 / 60)) < 1e-9
+    assert abs(_to_usd_mt("AG-X", "rupiah/kg", 1000.0, "IDR", "kg") - (1000 * 0.000061 * 1000)) < 1e-9
+    assert abs(_to_usd_mt("AG-X", "ringgit", 100.0, "MYR", "mt") - 23.6) < 1e-9
+    assert abs(_to_usd_mt("AG-X", "hryvnia", 100.0, "UAH", "mt") - 2.4) < 1e-9
+
+
+# ---------- import trends (seasonality + YoY) ----------
+def test_seasonality_insufficient():
+    from engine.core.analytics import compute_seasonality_index
+    # 23 months -> below the 24-month threshold -> None
+    months = [{"ym": f"2020-{m:02d}", "volumeMt": 100.0} for m in range(1, 12)] + \
+             [{"ym": f"2021-{m:02d}", "volumeMt": 100.0} for m in range(1, 13)]
+    assert compute_seasonality_index(months) is None
+
+
+def test_seasonality_flat():
+    from engine.core.analytics import compute_seasonality_index
+    # constant volume every month over 2 years -> index 100 everywhere
+    months = []
+    for y in (2020, 2021):
+        for m in range(1, 13):
+            months.append({"ym": f"{y}-{m:02d}", "volumeMt": 100.0})
+    idx = compute_seasonality_index(months)
+    assert idx is not None and len(idx) == 12
+    assert all(abs(v - 100.0) < 0.5 for v in idx.values())
+
+
+def test_seasonality_peak():
+    from engine.core.analytics import compute_seasonality_index
+    # December has 2x the volume of other months -> its index should be higher
+    months = []
+    for y in (2020, 2021):
+        for m in range(1, 13):
+            months.append({"ym": f"{y}-{m:02d}", "volumeMt": 200.0 if m == 12 else 100.0})
+    idx = compute_seasonality_index(months)
+    assert idx[12] > 100 and all(idx[m] < 100 for m in range(1, 12))
+
+
+def test_yoy_complete_years():
+    from engine.core.analytics import compute_yoy
+    months = []
+    for m in range(1, 13):
+        months.append({"ym": f"2023-{m:02d}", "volumeMt": 100.0, "valueUsd": 1000.0})
+    for m in range(1, 13):
+        months.append({"ym": f"2024-{m:02d}", "volumeMt": 120.0, "valueUsd": 1200.0})
+    # partial 2025 (not complete) must be excluded from YoY
+    for m in range(1, 6):
+        months.append({"ym": f"2025-{m:02d}", "volumeMt": 200.0, "valueUsd": 2000.0})
+    yoy = compute_yoy(months)
+    assert yoy["latestYear"] == 2024 and yoy["priorYear"] == 2023
+    assert abs(yoy["volumeYoYPct"] - 0.20) < 1e-9
+    assert abs(yoy["valueYoYPct"] - 0.20) < 1e-9
+
+
+def test_yoy_insufficient():
+    from engine.core.analytics import compute_yoy
+    months = [{"ym": f"2024-{m:02d}", "volumeMt": 100.0} for m in range(1, 8)]
+    assert compute_yoy(months) is None
+
+
+
