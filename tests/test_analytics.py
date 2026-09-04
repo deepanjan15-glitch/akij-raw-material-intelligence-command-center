@@ -309,3 +309,46 @@ def test_yoy_insufficient():
 
 
 
+
+
+# ---------- sourcing gap / country normalisation ----------
+def test_sourcing_gap():
+    from engine.core.analytics import compute_sourcing_gap
+    b = {"cheapestCountry1": "Ukraine", "price1": 216.0, "cheapestCountry2": "Argentina", "price2": 229.75,
+         "cheapestCountry3": "Brazil", "price3": 241.5, "bestBuyCountry": "Ukraine", "akijSourcingCountry": "Brazil"}
+    g = compute_sourcing_gap(b)
+    assert g["bestBuyPrice"] == 216.0
+    assert g["akijQuotedPrice"] == 241.5
+    assert g["costGapUsdMt"] == 25.5
+    assert abs(g["costGapPct"] - 0.1181) < 1e-4
+
+
+def test_sourcing_gap_no_match():
+    from engine.core.analytics import compute_sourcing_gap
+    b = {"cheapestCountry1": "Ukraine", "price1": 216.0, "akijSourcingCountry": "Morocco"}
+    g = compute_sourcing_gap(b)
+    assert g["akijQuotedPrice"] is None
+    assert g["costGapUsdMt"] is None
+
+
+def test_sourcing_gap_no_price():
+    from engine.core.analytics import compute_sourcing_gap
+    assert compute_sourcing_gap({}) is None
+
+
+def test_normalize_country():
+    from engine.core.analytics import normalize_country
+    assert normalize_country("USA") == "United States"
+    assert normalize_country("United States of America") == "United States"
+    assert normalize_country("United States (USA)") == "United States"
+    assert normalize_country("RUssia") == "Russia"
+    assert normalize_country("Brazil") == "Brazil"
+    assert normalize_country(None) is None
+
+
+def test_clean_signal():
+    from engine.core.analytics import clean_signal
+    assert clean_signal("🔴 HIGH COST") == "HIGH COST"
+    assert clean_signal("✅ OPTIMAL") == "OPTIMAL"
+    assert clean_signal("-") is None
+    assert clean_signal(None) is None

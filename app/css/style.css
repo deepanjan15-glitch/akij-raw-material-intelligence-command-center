@@ -292,3 +292,33 @@ tbody tr:hover { background: var(--theme-bg-tint); }
 .heatmap .hm-row { text-align: left; font-weight: 600; white-space: nowrap; background: none !important; font-size: 11.5px; color: var(--theme-text-2); }
 .heatmap .hm-cell { min-width: 40px; }
 .heatmap .hm-cell:empty { background: transparent !important; }
+
+/* --------------------------------------------------------------------------
+   12. EXECUTIVE SUMMARY (health gauge + metric cards)
+   -------------------------------------------------------------------------- */
+.exec-summary-head { display: flex; gap: 22px; align-items: center; flex-wrap: wrap; }
+.health-gauge {
+  width: 122px; height: 122px; border-radius: 50%; flex-shrink: 0;
+  background: conic-gradient(var(--tone) var(--deg), #e5eaf1 0deg);
+  display: flex; align-items: center; justify-content: center;
+}
+.health-gauge-inner {
+  width: 90px; height: 90px; border-radius: 50%; background: var(--theme-surface);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.health-score { font-size: 32px; font-weight: 800; line-height: 1; color: var(--theme-text); font-variant-numeric: tabular-nums; }
+.health-max { font-size: 12px; color: var(--theme-muted); }
+.health-text h2 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
+.health-label { font-weight: 800; font-size: 14px; }
+.summary-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 13px; margin-top: 15px; }
+.summary-card {
+  background: var(--theme-surface); border: 1px solid var(--theme-border);
+  border-radius: var(--radius); padding: 14px 16px; border-left: 3px solid var(--theme-primary); box-shadow: var(--shadow-sm);
+}
+.summary-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: .05em; color: var(--theme-muted); font-weight: 700; }
+.summary-value { font-size: 18px; font-weight: 800; margin: 6px 0 2px; }
+.summary-value.success { color: #16a34a; }
+.summary-value.danger { color: #dc2626; }
+.summary-value.warning { color: #b45309; }
+.summary-value.info { color: #2563eb; }
+.summary-sub { font-size: 11px; color: var(--theme-muted); }

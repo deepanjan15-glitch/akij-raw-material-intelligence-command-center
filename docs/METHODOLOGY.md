@@ -70,6 +70,16 @@ Missing components → status **PARTIAL** with `missingComponents[]`; never trea
 - **Seasonal index** = (calendar-month average) / (long-term monthly average) × 100, computed only when a
   group has ≥24 monthly observations. 100 = normal; >100 = historically above normal.
 
+## Executive summary & sourcing gap — additive
+- **Market Health Score** (0–100) = 0.35·(OPTIMAL signal share) + 0.30·(1 − High-Cost/Review share) +
+  0.20·momentum + 0.15·(1 − single-origin share), where momentum = clamp(50 − avgWoW×250, 0, 100).
+  Bands: ≥75 Excellent · ≥55 Healthy · ≥35 Caution · else Elevated Risk. DERIVED, not a forecast.
+- **Sourcing gap** = Akij sourcing-country quoted price (matched against the master cheapest-origin rows) vs
+  the #1 cheapest ("Best Buy") origin: `costGapUsdMt = akijQuotedPrice − bestBuyPrice`, `costGapPct = gap/bestBuy`.
+- **Price trend (selected materials)** = linear interpolation of the tracked anchor points
+  (avg2024 → avg2025 → sixMo → lastMonth → lastWeek → current) onto a monthly grid, shown over 12/6/3 months.
+  Labelled **DERIVED interpolation** — NOT observed monthly prices.
+
 ## Known limitations (honest)
 - Time series is 7 **irregular** snapshots over ~11 weeks (not a daily/weekly series) → forecasting, scenarios,
   feed-cost impact remain UNAVAILABLE; trend/volatility are coarse and low-confidence.

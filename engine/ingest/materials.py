@@ -124,7 +124,9 @@ def ingest_benchmarks() -> dict:
             "price2": _num(ws.cell(row=r, column=23).value),
             "cheapestCountry3": _txt(ws.cell(row=r, column=24).value),
             "price3": _num(ws.cell(row=r, column=25).value),
+            "bestBuyCountry": _txt(ws.cell(row=r, column=26).value),
             "akijSourcingCountry": _txt(ws.cell(row=r, column=27).value),
+            "riskSignal": _txt(ws.cell(row=r, column=28).value),
             "procurementAction": _txt(ws.cell(row=r, column=29).value),
         }
     return out

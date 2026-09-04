@@ -1,6 +1,6 @@
 {
  "asOfDate": "2026-09-02",
- "generatedAt": "2026-09-04T08:44:21.951150+00:00",
+ "generatedAt": "2026-09-04T09:15:45.942316+00:00",
  "analyst": "Dr. Deepanjan Bhattacharya",
  "materialsTracked": 87,
  "materials": [
@@ -59,6 +59,14 @@
     "lastChangePct": 0.1079,
     "returnVolPct": 6.4,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 241.5,
+    "bestBuyCountry": "Ukraine",
+    "bestBuyPrice": 216.0,
+    "costGapUsdMt": 25.5,
+    "costGapPct": 0.1181
    },
    "originStats": null,
    "dataQuality": {
@@ -166,6 +174,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": null
    }
   },
@@ -216,6 +225,14 @@
     "lastChangePct": 0.1431,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 241.5,
+    "bestBuyCountry": "Ukraine",
+    "bestBuyPrice": 216.0,
+    "costGapUsdMt": 25.5,
+    "costGapPct": 0.1181
    },
    "originStats": {
     "count": 5,
@@ -326,6 +343,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": -0.8936
    }
   },
@@ -376,6 +394,14 @@
     "lastChangePct": 0.266,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 249.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 6,
@@ -487,6 +513,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -537,6 +564,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 166.04,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -634,6 +669,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -684,6 +720,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 209.66,
+    "bestBuyCountry": "Brazil",
+    "bestBuyPrice": 209.66,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": {
     "count": 1,
@@ -790,6 +834,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Hold",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": 0.0
    }
   },
@@ -840,6 +885,14 @@
     "lastChangePct": -0.0556,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Ukraine",
+    "bestBuyPrice": 204.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -946,6 +999,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -996,6 +1050,14 @@
     "lastChangePct": 0.7472,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 260.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -1102,6 +1164,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -1152,6 +1215,14 @@
     "lastChangePct": 0.848,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 275.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -1249,6 +1320,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -1299,6 +1371,14 @@
     "lastChangePct": 0.1063,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 456.0,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 401.25,
+    "costGapUsdMt": 54.75,
+    "costGapPct": 0.1364
    },
    "originStats": {
     "count": 3,
@@ -1417,6 +1497,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": null
    }
   },
@@ -1465,6 +1546,14 @@
     "lastChangePct": 0.2854,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 483.0,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 401.25,
+    "costGapUsdMt": 81.75,
+    "costGapPct": 0.2037
    },
    "originStats": {
     "count": 3,
@@ -1573,6 +1662,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": 0.0
    }
   },
@@ -1621,6 +1711,14 @@
     "lastChangePct": 0.0679,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 456.0,
+    "bestBuyCountry": "Brazil",
+    "bestBuyPrice": 456.0,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": {
     "count": 1,
@@ -1727,6 +1825,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Strong Buy",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": 0.0
    }
   },
@@ -1775,6 +1874,14 @@
     "lastChangePct": 0.1693,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 342.4,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -1881,6 +1988,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -1931,6 +2039,14 @@
     "lastChangePct": 0.1253,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 406.75,
+    "bestBuyCountry": "Argentina",
+    "bestBuyPrice": 398.25,
+    "costGapUsdMt": 8.5,
+    "costGapPct": 0.0213
    },
    "originStats": {
     "count": 2,
@@ -2038,6 +2154,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Buy",
+    "riskSignal": "ACCEPTABLE",
     "premiumVsBest": null
    }
   },
@@ -2086,6 +2203,14 @@
     "lastChangePct": 0.1167,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 406.75,
+    "bestBuyCountry": "Brazil",
+    "bestBuyPrice": 406.75,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": {
     "count": 1,
@@ -2188,6 +2313,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Hold",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": 0.0
    }
   },
@@ -2238,6 +2364,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 348.44,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -2335,6 +2469,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -2385,6 +2520,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 293.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -2482,6 +2625,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -2532,6 +2676,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "India",
+    "bestBuyPrice": 767.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -2629,6 +2781,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -2679,6 +2832,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 418.84,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -2776,6 +2937,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -2826,6 +2988,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 352.13,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -2923,6 +3093,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -2973,6 +3144,14 @@
     "lastChangePct": 0.1409,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 589.5,
+    "bestBuyCountry": "Brazil",
+    "bestBuyPrice": 589.5,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": {
     "count": 3,
@@ -3081,6 +3260,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Strong Buy",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": -0.3595
    }
   },
@@ -3131,6 +3311,14 @@
     "lastChangePct": 0.1184,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 521.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 2,
@@ -3238,6 +3426,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -3288,6 +3477,14 @@
     "lastChangePct": 0.1165,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 535.75,
+    "bestBuyCountry": "Argentina",
+    "bestBuyPrice": 512.0,
+    "costGapUsdMt": 23.75,
+    "costGapPct": 0.0464
    },
    "originStats": {
     "count": 3,
@@ -3396,6 +3593,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Monitor",
+    "riskSignal": "MONITOR",
     "premiumVsBest": 0.0
    }
   },
@@ -3446,6 +3644,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 458.53,
+    "bestBuyCountry": "Brazil",
+    "bestBuyPrice": 458.53,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": {
     "count": 1,
@@ -3552,6 +3758,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Hold",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": 0.0
    }
   },
@@ -3602,6 +3809,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 533.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -3699,6 +3914,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -3747,6 +3963,14 @@
     "lastChangePct": 0.0181,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "India",
+    "bestBuyPrice": 1293.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -3850,6 +4074,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -3898,6 +4123,14 @@
     "lastChangePct": 0.0214,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 1217.75,
+    "bestBuyCountry": "Argentina",
+    "bestBuyPrice": 1210.0,
+    "costGapUsdMt": 7.75,
+    "costGapPct": 0.0064
    },
    "originStats": {
     "count": 5,
@@ -4005,6 +4238,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Buy",
+    "riskSignal": "ACCEPTABLE",
     "premiumVsBest": -0.0222
    }
   },
@@ -4053,6 +4287,14 @@
     "lastChangePct": -0.0135,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 1695.13,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -4156,6 +4398,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -4214,6 +4457,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": 55.36,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": 520.0,
+    "bestBuyCountry": "India",
+    "bestBuyPrice": 450.0,
+    "costGapUsdMt": 70.0,
+    "costGapPct": 0.1556
    },
    "originStats": null,
    "dataQuality": {
@@ -4311,6 +4562,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": null
    }
   },
@@ -4369,6 +4621,14 @@
     "lastChangePct": -0.4005,
     "returnVolPct": 19.45,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Nigeria",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 140.54,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -4512,6 +4772,7 @@
    "procurement": {
     "akijSourcingCountry": "Nigeria",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -4570,6 +4831,14 @@
     "lastChangePct": 0.2679,
     "returnVolPct": 25.61,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Nigeria",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 181.88,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -4692,6 +4961,7 @@
    "procurement": {
     "akijSourcingCountry": "Nigeria",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -4750,6 +5020,14 @@
     "lastChangePct": 0.8333,
     "returnVolPct": 22.16,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Malaysia",
+    "bestBuyPrice": 4950.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -4844,6 +5122,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -4892,6 +5171,14 @@
     "lastChangePct": -0.0015,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 1120.3,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 1120.3,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": null,
    "dataQuality": {
@@ -4987,6 +5274,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Monitor",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -5035,6 +5323,14 @@
     "lastChangePct": -0.0718,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 791.51,
+    "bestBuyCountry": "Japan",
+    "bestBuyPrice": 540.0,
+    "costGapUsdMt": 251.51,
+    "costGapPct": 0.4658
    },
    "originStats": null,
    "dataQuality": {
@@ -5139,6 +5435,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Review Supplier",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": null
    }
   },
@@ -5197,6 +5494,14 @@
     "lastChangePct": 0.1268,
     "returnVolPct": 18.2,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 126.77,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -5307,6 +5612,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -5340,6 +5646,14 @@
     "quadrant": null
    },
    "priceHistory": null,
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 1584.0,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 1584.0,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
+   },
    "originStats": null,
    "dataQuality": {
     "score": 29.0,
@@ -5433,6 +5747,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Hold",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -5481,6 +5796,14 @@
     "lastChangePct": 0.1313,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Netherlands/Belgium (Arag Region)",
+    "bestBuyPrice": 292.55,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -5587,6 +5910,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -5635,6 +5959,14 @@
     "lastChangePct": -0.0335,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Romania",
+    "bestBuyPrice": 490.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -5741,6 +6073,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -5789,6 +6122,14 @@
     "lastChangePct": -0.0008,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Bulgaria",
+    "bestBuyPrice": 595.75,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 2,
@@ -5896,6 +6237,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -5944,6 +6286,14 @@
     "lastChangePct": -0.0096,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 1810.88,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 2,
@@ -6051,6 +6401,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -6099,6 +6450,14 @@
     "lastChangePct": 0.0185,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": 274.26,
+    "bestBuyCountry": "India",
+    "bestBuyPrice": 274.26,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": null,
    "dataQuality": {
@@ -6194,6 +6553,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Monitor",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -6245,6 +6605,7 @@
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
    },
+   "sourcingGap": null,
    "originStats": null,
    "dataQuality": {
     "score": 57.0,
@@ -6341,6 +6702,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -6391,6 +6753,14 @@
     "lastChangePct": 0.0191,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 267.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -6488,6 +6858,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -6538,6 +6909,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 192.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -6635,6 +7014,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -6685,6 +7065,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 195.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -6782,6 +7170,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -6832,6 +7221,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 197.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -6929,6 +7326,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -6979,6 +7377,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Nigeria",
+    "bestBuyPrice": 180.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -7076,6 +7482,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -7126,6 +7533,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 211.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -7223,6 +7638,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -7273,6 +7689,14 @@
     "lastChangePct": 0.2717,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "India",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Ukraine",
+    "bestBuyPrice": 192.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 2,
@@ -7380,6 +7804,7 @@
    "procurement": {
     "akijSourcingCountry": "India",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -7428,6 +7853,14 @@
     "lastChangePct": -0.0037,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 267.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -7525,6 +7958,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -7573,6 +8007,14 @@
     "lastChangePct": -0.0509,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 192.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -7670,6 +8112,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -7718,6 +8161,14 @@
     "lastChangePct": 0.2154,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "France",
+    "bestBuyPrice": 294.75,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -7815,6 +8266,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -7863,6 +8315,14 @@
     "lastChangePct": 0.2173,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": 208.0,
+    "bestBuyCountry": "Ukraine",
+    "bestBuyPrice": 208.0,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": null,
    "dataQuality": {
@@ -7960,6 +8420,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Strong Buy",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -8008,6 +8469,14 @@
     "lastChangePct": 0.2227,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 197.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8105,6 +8574,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -8153,6 +8623,14 @@
     "lastChangePct": -0.0894,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 199.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8250,6 +8728,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -8298,6 +8777,14 @@
     "lastChangePct": -0.053,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 211.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8395,6 +8882,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -8443,6 +8931,14 @@
     "lastChangePct": 0.0629,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Australia",
+    "bestBuyPrice": 304.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8540,6 +9036,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -8588,6 +9085,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Turkey",
+    "bestBuyPrice": 220.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8685,6 +9190,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -8733,6 +9239,14 @@
     "lastChangePct": -0.0056,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Turkey",
+    "bestBuyPrice": 223.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8830,6 +9344,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -8878,6 +9393,14 @@
     "lastChangePct": -0.0201,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Turkey",
+    "bestBuyPrice": 225.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -8975,6 +9498,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -9023,6 +9547,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Turkey",
+    "bestBuyPrice": 230.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -9120,6 +9652,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -9168,6 +9701,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Turkey",
+    "bestBuyPrice": 239.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -9265,6 +9806,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -9313,6 +9855,14 @@
     "lastChangePct": 0.0697,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Spain",
+    "bestBuyPrice": 291.75,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -9419,6 +9969,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -9467,6 +10018,14 @@
     "lastChangePct": 0.1633,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Ukraine",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 140.54,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -9573,6 +10132,7 @@
    "procurement": {
     "akijSourcingCountry": "Ukraine",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -9623,6 +10183,14 @@
     "lastChangePct": 0.3246,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Russia",
+    "bestBuyPrice": 191.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 6,
@@ -9734,6 +10302,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -9784,6 +10353,14 @@
     "lastChangePct": -0.0057,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "United States of America",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 1907.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -9890,6 +10467,7 @@
    "procurement": {
     "akijSourcingCountry": "United States of America",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -9944,6 +10522,14 @@
     "lastChangePct": 0.0792,
     "returnVolPct": 7.1,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Brazil",
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "United States",
+    "bestBuyPrice": 518.09,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -10072,6 +10658,7 @@
    "procurement": {
     "akijSourcingCountry": "Brazil",
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -10126,6 +10713,14 @@
     "lastChangePct": -0.099,
     "returnVolPct": 25.91,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Ukraine",
+    "bestBuyPrice": 175.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 4,
@@ -10235,6 +10830,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -10285,6 +10881,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Argentina",
+    "bestBuyPrice": 3637.63,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": {
     "count": 1,
@@ -10391,6 +10995,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -10439,6 +11044,14 @@
     "lastChangePct": -0.1762,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 1154.67,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 1154.67,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": null,
    "dataQuality": {
@@ -10535,6 +11148,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Monitor",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -10593,6 +11207,14 @@
     "lastChangePct": -0.3979,
     "returnVolPct": 19.85,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 787.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -10687,6 +11309,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -10745,6 +11368,14 @@
     "lastChangePct": -0.3979,
     "returnVolPct": 19.85,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 787.5,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -10849,6 +11480,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -10897,6 +11529,14 @@
     "lastChangePct": -0.1762,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 1154.67,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 1154.67,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": null,
    "dataQuality": {
@@ -10991,6 +11631,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Monitor",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -11039,6 +11680,14 @@
     "lastChangePct": -0.0564,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Belgium",
+    "bestBuyPrice": 925.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -11143,6 +11792,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -11191,6 +11841,14 @@
     "lastChangePct": 0.0013,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 4102.21,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -11295,6 +11953,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -11343,6 +12002,14 @@
     "lastChangePct": 0.555,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 2733.9,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -11447,6 +12114,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -11495,6 +12163,14 @@
     "lastChangePct": 0.118,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Sri Lanka",
+    "bestBuyPrice": 2727.27,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -11611,6 +12287,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -11659,6 +12336,14 @@
     "lastChangePct": -0.3947,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 1195.26,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -11757,6 +12442,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -11805,6 +12491,14 @@
     "lastChangePct": 0.2068,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "South Korea",
+    "bestBuyPrice": 492.1,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -11987,6 +12681,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -12035,6 +12730,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Indonesia",
+    "bestBuyPrice": 1086.09,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -12129,6 +12832,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -12177,6 +12881,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 692.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -12270,6 +12982,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -12318,6 +13031,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Pakistan",
+    "bestBuyPrice": 370.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -12412,6 +13133,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -12460,6 +13182,14 @@
     "lastChangePct": 0.0,
     "returnVolPct": null,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Mexico",
+    "bestBuyPrice": 750.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
    },
    "originStats": null,
    "dataQuality": {
@@ -12553,6 +13283,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Monitor",
+    "riskSignal": null,
     "premiumVsBest": null
    }
   },
@@ -12586,6 +13317,14 @@
     "quadrant": null
    },
    "priceHistory": null,
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 1109.82,
+    "bestBuyCountry": "India",
+    "bestBuyPrice": 660.0,
+    "costGapUsdMt": 449.82,
+    "costGapPct": 0.6815
+   },
    "originStats": null,
    "dataQuality": {
     "score": 42.0,
@@ -12680,6 +13419,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": null
    }
   },
@@ -12738,6 +13478,14 @@
     "lastChangePct": 0.0239,
     "returnVolPct": 53.35,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "China",
+    "akijQuotedPrice": 2225.48,
+    "bestBuyCountry": "Belgium",
+    "bestBuyPrice": 925.0,
+    "costGapUsdMt": 1300.48,
+    "costGapPct": 1.4059
    },
    "originStats": null,
    "dataQuality": {
@@ -12835,6 +13583,7 @@
    "procurement": {
     "akijSourcingCountry": "China",
     "procurementAction": "Diversify Source",
+    "riskSignal": "HIGH COST",
     "premiumVsBest": null
    }
   },
@@ -12893,6 +13642,14 @@
     "lastChangePct": -0.0165,
     "returnVolPct": 33.0,
     "frequency": "irregular snapshots (9–22 day gaps)"
+   },
+   "sourcingGap": {
+    "akijSourcingCountry": "Egypt",
+    "akijQuotedPrice": 61.71,
+    "bestBuyCountry": "Egypt",
+    "bestBuyPrice": 61.71,
+    "costGapUsdMt": 0.0,
+    "costGapPct": 0.0
    },
    "originStats": null,
    "dataQuality": {
@@ -12994,6 +13751,7 @@
    "procurement": {
     "akijSourcingCountry": "Egypt",
     "procurementAction": "Strong Buy",
+    "riskSignal": "OPTIMAL",
     "premiumVsBest": null
    }
   },
@@ -13027,6 +13785,14 @@
     "quadrant": null
    },
    "priceHistory": null,
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "Vietnam",
+    "bestBuyPrice": 253.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
+   },
    "originStats": null,
    "dataQuality": {
     "score": 34.0,
@@ -13094,6 +13860,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   },
@@ -13127,6 +13894,14 @@
     "quadrant": null
    },
    "priceHistory": null,
+   "sourcingGap": {
+    "akijSourcingCountry": null,
+    "akijQuotedPrice": null,
+    "bestBuyCountry": "China",
+    "bestBuyPrice": 3300.0,
+    "costGapUsdMt": null,
+    "costGapPct": null
+   },
    "originStats": null,
    "dataQuality": {
     "score": 34.0,
@@ -13194,6 +13969,7 @@
    "procurement": {
     "akijSourcingCountry": null,
     "procurementAction": "Review Supplier",
+    "riskSignal": "REVIEW",
     "premiumVsBest": null
    }
   }

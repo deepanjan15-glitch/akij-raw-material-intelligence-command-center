@@ -2,7 +2,7 @@
 // Presentation layer (thin). Analytics are precomputed by engine/run.py; signals from feed-intelligence MCP.
 
 let DATA = {};
-let state = { view: "command", role: "ceo", category: "All", source: "All", search: "", momentumPeriod: "wow", importHs: "10059090" };
+let state = { view: "command", role: "ceo", category: "All", source: "All", search: "", momentumPeriod: "wow", importHs: "10059090", trendRange: 12 };
 
 const ROLE_TITLES = {
   ceo: "Situation → Risk → Opportunity → Action",
@@ -12,7 +12,7 @@ const ROLE_TITLES = {
 };
 
 const VIEW_TITLES = {
-  command: "Command Center", material: "Material Intelligence", origin: "Origin & Supply",
+  command: "Command Center", executive: "Executive Summary", material: "Material Intelligence", origin: "Origin & Supply",
   supplier: "Supplier Intelligence", procurement: "Procurement Intelligence",
   signals: "Market Signals", import: "Import Intelligence", "import-trends": "Import Trends",
   forecast: "Forecast & Scenario", feedcost: "Feed Cost Impact", alerts: "Alert Center",
@@ -21,13 +21,13 @@ const VIEW_TITLES = {
 
 // section color family per view (maps to [data-section] token overrides in style.css)
 const SECTION = {
-  command: "command", material: "material", origin: "origin", supplier: "supplier",
+  command: "command", executive: "command", material: "material", origin: "origin", supplier: "supplier",
   procurement: "procurement", signals: "signals", import: "import", "import-trends": "import",
   forecast: "forecast", feedcost: "feedcost", alerts: "alerts", quality: "quality", methodology: "methodology", settings: "settings",
 };
 
 async function load() {
-  const files = ["materials", "market-index", "meta", "sources", "suppliers", "feed-cost", "scenario", "market-signals", "import-trends"];
+  const files = ["materials", "market-index", "meta", "sources", "suppliers", "feed-cost", "scenario", "market-signals", "import-trends", "origins"];
   const vals = await Promise.all(files.map(f => fetch(`data/${f}.json`).then(r => r.json())));
   DATA = Object.fromEntries(files.map((f, i) => [f, vals[i]]));
   document.getElementById("asOf").textContent = fmtDate(DATA.materials.asOfDate);
@@ -74,7 +74,7 @@ function render() {
   document.querySelectorAll(".nav-item").forEach(n => n.classList.toggle("active", n.dataset.view === state.view));
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById("view-" + state.view).classList.add("active");
-  ({ command: renderCommand, material: renderMaterial, origin: renderOrigin, supplier: renderSupplier,
+  ({ command: renderCommand, executive: renderExecutive, material: renderMaterial, origin: renderOrigin, supplier: renderSupplier,
      procurement: renderProcurement, signals: renderSignals, import: renderImport, "import-trends": renderImportTrends,
      forecast: renderForecast, feedcost: renderFeedCost, alerts: renderAlerts, quality: renderQuality, methodology: renderMethodology,
      settings: renderSettings }[state.view])();
@@ -348,6 +348,135 @@ function seasonalityHeatmap(groups) {
   return `<div class="heatmap-wrap"><table class="heatmap"><thead><tr><th></th>${MONTH_LABELS.map(m => `<th>${m}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
+/* ---- Executive Summary ---- */
+function marketHealth(ms) {
+  const total = ms.length;
+  if (!total) return { score: 0, label: "No Data", tone: "neutral" };
+  const optimal = ms.filter(m => m.procurement?.riskSignal === "OPTIMAL").length / total;
+  const riskShare = ms.filter(m => m.procurement?.riskSignal === "HIGH COST" || m.procurement?.riskSignal === "REVIEW").length / total;
+  const wowVals = ms.map(m => m.movement?.wow).filter(v => v != null);
+  const avgWow = wowVals.length ? wowVals.reduce((a, b) => a + b, 0) / wowVals.length : 0;
+  const single = ms.filter(m => !m.originStats || m.originStats.count === 1).length / total;
+  const momentum = Math.max(0, Math.min(100, 50 - avgWow * 250));
+  const score = Math.round(optimal * 100 * 0.35 + (1 - riskShare) * 100 * 0.30 + momentum * 0.20 + (1 - single) * 100 * 0.15);
+  const clamped = Math.max(0, Math.min(100, score));
+  let label, tone;
+  if (clamped >= 75) { label = "Excellent"; tone = "success"; }
+  else if (clamped >= 55) { label = "Healthy"; tone = "success"; }
+  else if (clamped >= 35) { label = "Caution"; tone = "warning"; }
+  else { label = "Elevated Risk"; tone = "danger"; }
+  return { score: clamped, label, tone };
+}
+
+function computeWatchlist(ms) {
+  return ms.map(m => {
+    let reason = null, weight = 0;
+    const sig = m.procurement?.riskSignal;
+    if (sig === "HIGH COST" || sig === "REVIEW") { reason = "High sourcing cost risk"; weight += 3; }
+    const wow = m.movement?.wow;
+    if (wow != null && Math.abs(wow) >= 0.15) { reason = reason || `Sharp ${wow > 0 ? "increase" : "decline"} this week`; weight += 2; }
+    if (!m.originStats || m.originStats.count === 1) { weight += 0.5; }
+    return { m, reason, weight };
+  }).filter(x => x.reason).sort((a, b) => b.weight - a.weight).slice(0, 5);
+}
+
+const TREND_ANCHORS = [["avg2024", "2024-07-01"], ["avg2025", "2025-07-01"], ["sixMo", "2026-03-01"], ["lastMonth", "2026-08-01"], ["lastWeek", "2026-08-26"], ["current", "2026-09-02"]];
+const TREND_MONTHS = [];
+{
+  const s = new Date("2024-07-01"), e = new Date("2026-09-01");
+  for (let t = new Date(s); t <= e; t.setMonth(t.getMonth() + 1)) TREND_MONTHS.push(t.toISOString().slice(0, 7));
+}
+function trendSeries(m) {
+  const anchors = TREND_ANCHORS.map(([k, d]) => ({ d: new Date(d).getTime(), v: m.benchmark[k] })).filter(a => a.v != null).sort((a, b) => a.d - b.d);
+  if (anchors.length < 2) return null;
+  return TREND_MONTHS.map(label => {
+    const ts = new Date(label + "-01").getTime();
+    let v = null;
+    for (let i = 0; i < anchors.length - 1; i++) {
+      const a = anchors[i], b = anchors[i + 1];
+      if (ts >= a.d && ts <= b.d) { v = a.v + (b.v - a.v) * ((ts - a.d) / (b.d - a.d)); break; }
+    }
+    if (v == null) v = ts < anchors[0].d ? anchors[0].v : anchors[anchors.length - 1].v;
+    return { label, v: v != null ? Math.round(v) : null };
+  });
+}
+function priceTrendChart(ms) {
+  const range = state.trendRange;
+  const picked = [...ms].sort((a, b) => (b.importIntelligence?.valueUsd || 0) - (a.importIntelligence?.valueUsd || 0))
+    .filter(m => trendSeries(m)).slice(0, 6);
+  const labels = TREND_MONTHS.slice(-range);
+  const datasets = picked.map((m, i) => ({
+    label: m.name,
+    data: trendSeries(m).slice(-range).map(x => x.v),
+    borderColor: LINE_PALETTE[i % LINE_PALETTE.length],
+    backgroundColor: LINE_PALETTE[i % LINE_PALETTE.length],
+    borderWidth: 2, pointRadius: 0, pointHoverRadius: 4, tension: 0.3, spanGaps: true,
+  }));
+  return {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 10, boxHeight: 10, font: { size: 10 }, padding: 10 } },
+        tooltip: { callbacks: { label: (t) => ` ${t.dataset.label}: ${t.parsed.y != null ? "$" + fmt(t.parsed.y) + "/MT" : "—"}` } },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 10 } } },
+        y: { grid: { color: "#e5eaf1" }, ticks: { callback: (v) => "$" + v } },
+      },
+    },
+  };
+}
+function riskDonutChart(ms) {
+  const order = [["HIGH COST", "#dc2626"], ["REVIEW", "#94a3b8"], ["MONITOR", "#f59e0b"], ["ACCEPTABLE", "#2563eb"], ["OPTIMAL", "#16a34a"]];
+  const counts = {};
+  ms.forEach(m => { const s = m.procurement?.riskSignal || "(unclassified)"; counts[s] = (counts[s] || 0) + 1; });
+  const labels = [...order.map(o => o[0]), "(unclassified)"];
+  const colors = [...order.map(o => o[1]), "#cbd5e1"];
+  return {
+    type: "doughnut",
+    data: { labels, datasets: [{ data: labels.map(l => counts[l] || 0), backgroundColor: colors, borderWidth: 2, borderColor: "#fff", hoverOffset: 6 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: "66%",
+      plugins: { legend: { position: "bottom", labels: { boxWidth: 8, boxHeight: 8, usePointStyle: true, padding: 10, font: { size: 10.5 } } } },
+    },
+  };
+}
+function sourcingGapChart(ms) {
+  const list = ms.filter(m => m.sourcingGap && m.sourcingGap.akijQuotedPrice != null);
+  return {
+    type: "bar",
+    data: {
+      labels: list.map(m => m.name),
+      datasets: [
+        { label: "Akij Sourcing Price", data: list.map(m => m.sourcingGap.akijQuotedPrice), backgroundColor: "#0f766e", borderRadius: 4, maxBarThickness: 18 },
+        { label: "Best Buy Price", data: list.map(m => m.sourcingGap.bestBuyPrice), backgroundColor: "#14b8a6", borderRadius: 4, maxBarThickness: 18 },
+      ],
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { position: "bottom", labels: { boxWidth: 8, boxHeight: 8, usePointStyle: true, font: { size: 10.5 }, padding: 10 } },
+        tooltip: {
+          callbacks: {
+            label: (t) => ` ${t.dataset.label}: $${fmt(t.parsed.y)}/MT`,
+            afterBody: (items) => {
+              const i = items[0].dataIndex, g = list[i].sourcingGap;
+              return g.costGapUsdMt != null ? [`Cost gap: +$${fmt(g.costGapUsdMt)}/MT (${pct0(g.costGapPct)})`] : [];
+            },
+          },
+        },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { maxRotation: 45, minRotation: 45, font: { size: 9.5 } } },
+        y: { grid: { color: "#e5eaf1" }, ticks: { callback: (v) => "$" + v } },
+      },
+    },
+  };
+}
+
 /* ================= Command Center ================= */
 function renderCommand() {
   const ms = filtered();
@@ -371,7 +500,6 @@ function renderCommand() {
     ["Financial Exposure", "$" + fmt(importValue), "tracked import value", "b-blue"],
     ["Forecast Direction", forecastDir(ms), "SAMPLE (low confidence)", "b-purple"],
     ["Data Quality", avgDQ != null ? avgDQ.toFixed(0) + "/100" : "—", `${dqIssues} issues`, avgDQ > 70 ? "b-green" : "b-amber"],
-    ["Data Freshness", fmtDate(DATA.materials.asOfDate), "as-of date", "b-green"],
   ];
 
   const el = document.getElementById("view-command");
@@ -397,10 +525,59 @@ function renderCommand() {
     </div>`;
 }
 
+/* ================= Executive Summary ================= */
+function renderExecutive() {
+  const ms = filtered();
+  const health = marketHealth(ms);
+  const toneColor = health.tone === "success" ? "#16a34a" : health.tone === "warning" ? "#b45309" : health.tone === "danger" ? "#dc2626" : "#94a3b8";
+  const bestOpp = [...ms].filter(m => m.movement?.wow != null).sort((a, b) => a.movement.wow - b.movement.wow)[0];
+  const biggestRisk = [...ms].filter(m => m.risk?.composite != null).sort((a, b) => b.risk.composite - a.risk.composite)[0];
+  const priceAlert = [...ms].filter(m => m.movement?.wow != null).sort((a, b) => Math.abs(b.movement.wow) - Math.abs(a.movement.wow))[0];
+  const actions = {};
+  ms.forEach(m => { const a = m.procurement?.procurementAction; if (a) actions[a] = (actions[a] || 0) + 1; });
+  const topAction = Object.entries(actions).sort((a, b) => b[1] - a[1])[0];
+  const watchlist = computeWatchlist(ms);
+  const origins = (DATA.origins?.countries || []).filter(c => c.country);
+  const bestOrigin = origins.slice().sort((a, b) => b.rank1Count - a.rank1Count)[0];
+  const worstOrigin = origins.filter(c => c.avgQuotedPrice).sort((a, b) => b.avgQuotedPrice - a.avgQuotedPrice)[0];
+
+  const cards = [
+    ["Market Health", `${health.score}/100`, health.label, health.tone],
+    ["Biggest Opportunity", bestOpp ? bestOpp.name : "—", bestOpp ? `${pct0(bestOpp.movement.wow)} WoW` : "—", "success"],
+    ["Biggest Risk", biggestRisk ? biggestRisk.name : "—", biggestRisk ? `${biggestRisk.risk.band} · ${biggestRisk.procurement?.riskSignal || ""}`.trim() : "—", "danger"],
+    ["Best Origin", bestOrigin ? bestOrigin.country : "—", bestOrigin ? `#1 in ${bestOrigin.rank1Count} material(s)` : "—", "info"],
+    ["Worst Origin", worstOrigin ? worstOrigin.country : "—", worstOrigin ? `$${fmt(worstOrigin.avgQuotedPrice)}/MT avg` : "—", "warning"],
+    ["Price Alert", priceAlert ? priceAlert.name : "—", priceAlert ? `${pct0(priceAlert.movement.wow)} movement` : "—", "danger"],
+    ["Procurement Action", topAction ? topAction[0] : "—", topAction ? "Most common this cycle" : "—", "info"],
+    ["Watchlist", `${watchlist.length} material(s)`, watchlist[0] ? watchlist[0].m.name : "All clear", "warning"],
+  ];
+
+  const el = document.getElementById("view-executive");
+  el.innerHTML = roleBanner() + `
+    <div class="panel">
+      <div class="exec-summary-head">
+        <div class="health-gauge" style="--deg:${(health.score / 100) * 360}deg; --tone:${toneColor};">
+          <div class="health-gauge-inner"><span class="health-score">${health.score}</span><span class="health-max">/100</span></div>
+        </div>
+        <div class="health-text">
+          <h2>Market Health Score</h2>
+          <span class="health-label" style="color:${toneColor};">${health.label}</span>
+          <p class="sub">Composite of sourcing signal mix, cost risk share, price momentum and origin dependency across ${ms.length} tracked material(s).</p>
+        </div>
+      </div>
+    </div>
+    <div class="summary-grid">${cards.map(c => `
+      <div class="summary-card">
+        <div class="summary-label">${c[0]}</div>
+        <div class="summary-value ${c[3]}">${c[1]}</div>
+        <div class="summary-sub">${c[2]}</div>
+      </div>`).join("")}
+    </div>`;
+}
+
 function forecastDir(ms) {
   const dirs = ms.filter(m => m.forecast.direction).map(m => m.forecast.direction);
-  if (!dirs.length) return "—";
-  const up = dirs.filter(d => d === "up").length, down = dirs.filter(d => d === "down").length;
+  if (!dirs.length) return "—";  const up = dirs.filter(d => d === "up").length, down = dirs.filter(d => d === "down").length;
   if (up === down) return "Mixed";
   return up > down ? `Up (${up} of ${dirs.length})` : `Down (${down} of ${dirs.length})`;
 }
@@ -428,6 +605,28 @@ function renderMaterial() {
       <div class="chart-meta">Data type: DERIVED · Source: ${state.source === "All" ? "Fastmarkets snapshot 2026-09-02" : state.source} · as of ${fmtDate(DATA.materials.asOfDate)}</div>
     </div>
     <div class="panel">
+      <h2>Price trend — selected materials</h2>
+      <p class="sub">Monthly trend interpolated across tracked anchor points (avg2024 → current) — DERIVED interpolation, not observed. Top 6 by import value.</p>
+      <div class="chart-toggle">
+        <span class="chip ${state.trendRange === 12 ? "active" : ""}" data-range="12">12M</span>
+        <span class="chip ${state.trendRange === 6 ? "active" : ""}" data-range="6">6M</span>
+        <span class="chip ${state.trendRange === 3 ? "active" : ""}" data-range="3">3M</span>
+      </div>
+      <div class="chart-box"><canvas id="chart-price-trend"></canvas></div>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h2>Risk distribution</h2>
+        <p class="sub">Sourcing risk signal mix across materials in view.</p>
+        <div class="chart-box"><canvas id="chart-risk-donut"></canvas></div>
+      </div>
+      <div class="panel">
+        <h2>Akij sourcing vs. best buy</h2>
+        <p class="sub">Cost gap versus best available origin (USD/MT) — where Akij's sourcing country has a quoted price.</p>
+        <div class="chart-box tall"><canvas id="chart-sourcing-gap"></canvas></div>
+      </div>
+    </div>
+    <div class="panel">
       <table><thead><tr>
         <th>Material</th><th>Category</th><th>Source</th><th class="num">Current $/MT</th>
         <th class="num">WoW%</th><th class="num">Forecast</th><th class="num">Landed $/MT</th>
@@ -447,8 +646,12 @@ function renderMaterial() {
       </tbody></table>
     </div>`;
   document.getElementById("view-material").querySelectorAll("tbody tr").forEach(tr => tr.onclick = () => openMaterial(tr.dataset.id));
-  document.querySelectorAll("#view-material .chart-toggle .chip").forEach(c => c.onclick = () => { state.momentumPeriod = c.dataset.mom; render(); });
+  document.querySelectorAll("#view-material .chart-toggle .chip[data-mom]").forEach(c => c.onclick = () => { state.momentumPeriod = c.dataset.mom; render(); });
+  document.querySelectorAll("#view-material .chart-toggle .chip[data-range]").forEach(c => c.onclick = () => { state.trendRange = +c.dataset.range; render(); });
   if (hasMomentum) mountChart("momentum", momentumChart(ms));
+  mountChart("price-trend", priceTrendChart(ms));
+  mountChart("risk-donut", riskDonutChart(ms));
+  mountChart("sourcing-gap", sourcingGapChart(ms));
 }
 function riskBadge(b) { return b === "Critical" || b === "High" ? "b-red" : b === "Moderate" ? "b-amber" : "b-green"; }
 

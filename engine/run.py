@@ -17,6 +17,7 @@ from .core.analytics import (
     compute_landed_cost, compute_savings, compute_import_intelligence,
     compute_forecast, compute_feed_cost, compute_scenario, compute_opportunity,
     compute_price_history, compute_seasonality_index, compute_yoy,
+    compute_sourcing_gap, normalize_country, clean_signal,
 )
 
 APP_DATA = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "app", "data")
@@ -122,6 +123,7 @@ def main():
             "movement": {k: (round(v, 4) if v is not None else None) for k, v in mov.items()},
             "opportunity": compute_opportunity(b, mov),
             "priceHistory": compute_price_history(history.get(m.name.strip().upper())),
+            "sourcingGap": compute_sourcing_gap(b),
             "originStats": origin,
             "dataQuality": dq,
             "evidenceConfidence": conf,
@@ -133,6 +135,7 @@ def main():
             "procurement": {
                 "akijSourcingCountry": b.get("akijSourcingCountry"),
                 "procurementAction": b.get("procurementAction"),
+                "riskSignal": clean_signal(b.get("riskSignal")),
                 "premiumVsBest": round(premium, 4) if premium is not None else None,
             },
         })
@@ -145,6 +148,27 @@ def main():
     for g in import_trends:
         g["seasonality"] = compute_seasonality_index(g["months"])
         g["yoy"] = compute_yoy(g["months"])
+
+    # origin summary (Best/Worst Origin for the executive summary)
+    country_prices = defaultdict(list)
+    country_rank1 = defaultdict(int)
+    for m in materials:
+        bb = normalize_country(benchmarks.get(m.name, {}).get("bestBuyCountry"))
+        if bb:
+            country_rank1[bb] += 1
+    for o in obs:
+        if o.valueUsdMt is not None and o.countryName:
+            country_prices[normalize_country(o.countryName)].append(o.valueUsdMt)
+    origins_summary = []
+    for c, prices in country_prices.items():
+        avg = sum(prices) / len(prices) if prices else None
+        origins_summary.append({
+            "country": c,
+            "avgQuotedPrice": round(avg, 2) if avg else None,
+            "quotes": len(prices),
+            "rank1Count": country_rank1.get(c, 0),
+        })
+    origins_summary.sort(key=lambda c: -(c["rank1Count"] or 0))
 
     # supplier intelligence (top by volume + by country)
     supplier_by_country = defaultdict(lambda: {"volumeMt": 0.0, "valueUsd": 0.0, "suppliers": 0})
@@ -166,6 +190,7 @@ def main():
                             "byCountry": [{"country": c, **v} for c, v in
                                           sorted(supplier_by_country.items(), key=lambda kv: kv[1]["volumeMt"], reverse=True)]})
     dump("sources.json", {"sources": sources})
+    dump("origins.json", {"asOfDate": AS_OF, "countries": origins_summary})
     dump("observations.json", {"count": len(obs), "observations": [asdict(o) for o in obs]})
     dump("imports.json", {"count": len(imps), "imports": [asdict(im) for im in imps]})
     dump("import-trends.json", {

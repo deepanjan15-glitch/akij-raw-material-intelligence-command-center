@@ -24,9 +24,17 @@ risk       { composite, band, dimensions{price,momentum,forecast,originConcentra
              supplierConcentration,importDependency,procurementPremium,dataUncertainty} }
 landedCost { status, components{}, missingComponents[], importUnitValueUsdMt, note }
 savings    { status, reason }               # UNAVAILABLE (no Akij prices)
+sourcingGap{ akijSourcingCountry, akijQuotedPrice, bestBuyCountry, bestBuyPrice, costGapUsdMt, costGapPct }
+                                            # DERIVED from master cheapest-origin + Akij sourcing country
 importIntelligence { volumeMt, valueUsd, unitValueUsdMt, originCount, origins[], topOrigin, concentrationPct }
-procurement { akijSourcingCountry, procurementAction, premiumVsBest }
+procurement { akijSourcingCountry, procurementAction, riskSignal, premiumVsBest }
 ```
+
+## `app/data/origins.json`
+```
+countries[] { country, avgQuotedPrice, quotes, rank1Count }
+```
+Per-country aggregation of Fastmarkets origin quotes (avg USD/MT) and #1-cheapest ("Best Buy") counts.
 
 ## `app/data/meta.json`
 `dataHonesty.notes[]` — the explicit list of UNAVAILABLE / PARTIAL inputs and unmapped-record counts.

@@ -1,6 +1,7 @@
 """Analytics + intelligence engine (data honesty enforced: no fabrication)."""
 from __future__ import annotations
 import math
+import re
 from collections import defaultdict
 from datetime import date
 
@@ -514,4 +515,59 @@ def compute_scenario(index: dict, inflation_pct: float) -> dict:
         "baseIndex": base,
         "note": "Category weights are indicative (no formulation/spend weights). Freight impact is excluded (no freight data).",
         "sensitivities": sensitivities,
+    }
+
+
+# ===========================================================================
+# Executive-summary helpers (sourcing gap + country normalisation)
+# ===========================================================================
+
+def normalize_country(name):
+    """Normalize common country-name variants for origin aggregation."""
+    if not name:
+        return None
+    n = str(name).strip()
+    u = n.upper()
+    if u in ("USA", "US", "U.S.", "U.S.A", "UNITED STATES (USA)", "UNITED STATES OF AMERICA"):
+        return "United States"
+    if "UNITED STATES" in u:
+        return "United States"
+    if u == "RUSSIA":
+        return "Russia"
+    return n.title()
+
+
+def clean_signal(s):
+    """Strip leading emoji/symbols from a risk-signal cell (e.g. '🔴 HIGH COST' -> 'HIGH COST')."""
+    if not s:
+        return None
+    t = re.sub(r"^[^\w\s]+", "", str(s).strip()).strip()
+    return t if t and t != "-" else None
+
+
+def compute_sourcing_gap(bench: dict) -> dict | None:
+    """Akij sourcing price vs best-buy (cheapest) origin, from the master benchmark.
+
+    bestBuyPrice = price1 (cheapest quoted origin). akijQuotedPrice = the quoted
+    price of whichever cheapest-origin row matches Akij's sourcing country.
+    """
+    best = bench.get("price1")
+    if best is None:
+        return None
+    akij_country = (bench.get("akijSourcingCountry") or "").strip().lower()
+    akij_price = None
+    for ci, pi in (("cheapestCountry1", "price1"), ("cheapestCountry2", "price2"), ("cheapestCountry3", "price3")):
+        c = (bench.get(ci) or "").strip().lower()
+        if akij_country and c and c == akij_country:
+            akij_price = bench.get(pi)
+            break
+    gap = round(akij_price - best, 2) if (akij_price is not None and best is not None) else None
+    gap_pct = round((akij_price - best) / best, 4) if (akij_price is not None and best) else None
+    return {
+        "akijSourcingCountry": bench.get("akijSourcingCountry"),
+        "akijQuotedPrice": round(akij_price, 2) if akij_price is not None else None,
+        "bestBuyCountry": normalize_country(bench.get("bestBuyCountry")),
+        "bestBuyPrice": round(best, 2),
+        "costGapUsdMt": gap,
+        "costGapPct": gap_pct,
     }

@@ -1,0 +1,149 @@
+{
+ "asOfDate": "2026-09-02",
+ "countries": [
+  {
+   "country": "United States",
+   "avgQuotedPrice": 600.18,
+   "quotes": 170,
+   "rank1Count": 23
+  },
+  {
+   "country": "China",
+   "avgQuotedPrice": 454.86,
+   "quotes": 10,
+   "rank1Count": 11
+  },
+  {
+   "country": "Russia",
+   "avgQuotedPrice": 280.06,
+   "quotes": 17,
+   "rank1Count": 9
+  },
+  {
+   "country": "Ukraine",
+   "avgQuotedPrice": 310.57,
+   "quotes": 22,
+   "rank1Count": 6
+  },
+  {
+   "country": "Brazil",
+   "avgQuotedPrice": 345.62,
+   "quotes": 50,
+   "rank1Count": 5
+  },
+  {
+   "country": "Turkey",
+   "avgQuotedPrice": 405.59,
+   "quotes": 14,
+   "rank1Count": 5
+  },
+  {
+   "country": "India",
+   "avgQuotedPrice": 1315.24,
+   "quotes": 8,
+   "rank1Count": 5
+  },
+  {
+   "country": "Argentina",
+   "avgQuotedPrice": 599.75,
+   "quotes": 30,
+   "rank1Count": 4
+  },
+  {
+   "country": "Japan",
+   "avgQuotedPrice": 190.59,
+   "quotes": 4,
+   "rank1Count": 1
+  },
+  {
+   "country": "Bulgaria",
+   "avgQuotedPrice": 408.23,
+   "quotes": 8,
+   "rank1Count": 1
+  },
+  {
+   "country": "Vietnam",
+   "avgQuotedPrice": 174.09,
+   "quotes": 4,
+   "rank1Count": 1
+  },
+  {
+   "country": "South Korea",
+   "avgQuotedPrice": 274.31,
+   "quotes": 6,
+   "rank1Count": 1
+  },
+  {
+   "country": "Romania",
+   "avgQuotedPrice": 351.7,
+   "quotes": 14,
+   "rank1Count": 1
+  },
+  {
+   "country": "Australia",
+   "avgQuotedPrice": 289.27,
+   "quotes": 6,
+   "rank1Count": 1
+  },
+  {
+   "country": "France",
+   "avgQuotedPrice": 133.97,
+   "quotes": 8,
+   "rank1Count": 1
+  },
+  {
+   "country": "Egypt",
+   "avgQuotedPrice": 289.56,
+   "quotes": 4,
+   "rank1Count": 1
+  },
+  {
+   "country": "Spain",
+   "avgQuotedPrice": 278.5,
+   "quotes": 2,
+   "rank1Count": 1
+  },
+  {
+   "country": "Indonesia",
+   "avgQuotedPrice": 1525.15,
+   "quotes": 20,
+   "rank1Count": 1
+  },
+  {
+   "country": "Malaysia",
+   "avgQuotedPrice": 1244.99,
+   "quotes": 24,
+   "rank1Count": 1
+  },
+  {
+   "country": "Netherlands",
+   "avgQuotedPrice": 1254.59,
+   "quotes": 16,
+   "rank1Count": 0
+  },
+  {
+   "country": "Germany",
+   "avgQuotedPrice": 316.65,
+   "quotes": 14,
+   "rank1Count": 0
+  },
+  {
+   "country": "Canada",
+   "avgQuotedPrice": 233.93,
+   "quotes": 8,
+   "rank1Count": 0
+  },
+  {
+   "country": "Baltic",
+   "avgQuotedPrice": 141.45,
+   "quotes": 4,
+   "rank1Count": 0
+  },
+  {
+   "country": "Poland",
+   "avgQuotedPrice": 141.71,
+   "quotes": 4,
+   "rank1Count": 0
+  }
+ ]
+}

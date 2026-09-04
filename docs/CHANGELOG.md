@@ -68,3 +68,15 @@
   value, and a month × material **seasonality heatmap** (seasonal index, ≥24 months only).
 - Unit value = USD invoice value ÷ quantity MT; the source "Price In MT" column is NOT trusted (outliers).
 - QA extended to 30 tests (seasonality index + YoY).
+
+## [0.7.0] — 2026-09-04 — Executive Summary + Material Intelligence charts (additive)
+- New **Executive Summary** view (Command → Executive Summary): Market Health Score gauge (composite of
+  sourcing signal mix, cost risk share, price momentum, origin dependency) + 8 metric cards (Biggest
+  Opportunity, Biggest Risk, Best/Worst Origin, Price Alert, Procurement Action, Watchlist).
+- Surfaced `sourcingGap` (Akij sourcing price vs best-buy origin, USD/MT gap) and `riskSignal` (cleaned
+  sourcing risk signal) per material; new `origins.json` (per-country #1-cheapest count + avg quoted price).
+- Material Intelligence gained three charts: **Price trend — selected materials** (12M/6M/3M interpolated
+  across anchor points), **Risk distribution** (sourcing risk signal mix donut) and **Akij sourcing vs best
+  buy** (cost-gap bar).
+- Removed the "Data Freshness" KPI card from the Command Center.
+- QA extended to 35 tests (sourcing gap + country normalisation + signal cleaning).
